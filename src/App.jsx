@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import * as XLSX from "xlsx"
-import { useStore } from "./store"         // ✅ Zustand store
+import { useStore } from "./store"
 import Dashboard from "./pages/Dashboard.jsx"
 import Clients from "./pages/Clients.jsx"
 import Partners from "./pages/Partners.jsx"
@@ -10,12 +10,12 @@ import Followups from "./pages/Followups.jsx"
 import { buildICS } from "./ics"
 
 function App() {
-  const { data, setData } = useStore()     // ✅ Correct Zustand usage
+  const { data, setData } = useStore()
   const [tab, setTab] = useState("dashboard")
 
-useEffect(() => {
-  console.log("Loaded data:", data)
-}, [data])
+  useEffect(() => {
+    console.log("Loaded data:", data)
+  }, [data])
 
   // === Load shared data.json on start ===
   useEffect(() => {
@@ -40,7 +40,6 @@ useEffect(() => {
 
       const shaData = await shaResponse.json()
       const sha = shaData.sha || null
-
       const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))))
 
       const result = await fetch(
@@ -48,7 +47,7 @@ useEffect(() => {
         {
           method: "PUT",
           headers: {
-            Authorization: `token ${token}`,
+            Authorization: `Bearer ${token}`,
             "Content-Type": "application/json"
           },
           body: JSON.stringify({
@@ -74,9 +73,6 @@ useEffect(() => {
   // === Sidebar navigation ===
   useEffect(() => {
     const ids = ["dashboard", "clients", "partners", "products", "projects", "followups"]
-    const sidebar = document.querySelector(".sidebar")
-    const hamburger = document.getElementById("hamburger")
-
     ids.forEach((id) => {
       const el = document.getElementById(`tab-${id}`)
       if (el) {
@@ -84,35 +80,15 @@ useEffect(() => {
           setTab(id)
           document.querySelectorAll(".sidebar button").forEach((b) => b.classList.remove("active"))
           el.classList.add("active")
-          if (window.innerWidth <= 768 && sidebar && hamburger) {
-            sidebar.classList.remove("open")
-            hamburger.textContent = "☰"
-          }
         }
       }
     })
-
-    if (hamburger && sidebar) {
-      hamburger.onclick = () => {
-        sidebar.classList.toggle("open")
-        hamburger.textContent = sidebar.classList.contains("open") ? "✖" : "☰"
-      }
-    }
   }, [])
-
-  // === Generate safe UUID ===
-  const genId = (prefix = "") =>
-    (typeof crypto !== "undefined" && crypto.randomUUID
-      ? prefix + crypto.randomUUID()
-      : prefix + "id-" + Date.now() + "-" + Math.floor(Math.random() * 1000000)
-    ).toString()
 
   // ==== IMPORT / EXPORT ====
   useEffect(() => {
     const importBtn = document.getElementById("btn-import")
     const exportBtn = document.getElementById("btn-export")
-    const icsBtn = document.getElementById("btn-ics")
-    const resetBtn = document.getElementById("btn-reset")
 
     if (importBtn) {
       importBtn.onclick = () => {
@@ -128,14 +104,13 @@ useEffect(() => {
 
           const rawClients = toJSON(wb.Sheets["Clients"])
           const clients = []
-
           rawClients.forEach((r) => {
             const clientName = (r["Client Name"] || "").trim()
             if (!clientName) return
             let client = clients.find((c) => c.name.toLowerCase() === clientName.toLowerCase())
             if (!client) {
               client = {
-                id: String(r["Client ID"] || genId("client-")),
+                id: String(r["Client ID"] || crypto.randomUUID()),
                 name: clientName,
                 country: r["Country"] || "",
                 contacts: []
@@ -161,14 +136,13 @@ useEffect(() => {
 
           const rawPartners = toJSON(wb.Sheets["Partners"])
           const partners = []
-
           rawPartners.forEach((r) => {
             const partnerName = (r["Partner Name"] || "").trim()
             if (!partnerName) return
             let partner = partners.find((p) => p.name.toLowerCase() === partnerName.toLowerCase())
             if (!partner) {
               partner = {
-                id: String(r["Partner ID"] || genId("partner-")),
+                id: String(r["Partner ID"] || crypto.randomUUID()),
                 name: partnerName,
                 contacts: []
               }
@@ -202,14 +176,12 @@ useEffect(() => {
               group = { partner, items: [] }
               groupedProducts.push(group)
             }
-            if (!group.items.includes(product)) {
-              group.items.push(product)
-            }
+            if (!group.items.includes(product)) group.items.push(product)
           })
           const products = groupedProducts.length ? groupedProducts : []
 
           const projects = toJSON(wb.Sheets["Projects"]).map((r) => ({
-            id: String(r["Project ID"] || genId("project-")),
+            id: String(r["Project ID"] || crypto.randomUUID()),
             name: r["Project Name"] || "",
             clientId: r["Client ID"] ? String(r["Client ID"]) : null,
             partnerId: r["Partner ID"] ? String(r["Partner ID"]) : null,
@@ -219,7 +191,7 @@ useEffect(() => {
           }))
 
           const followups = toJSON(wb.Sheets["Follow-ups"]).map((r) => ({
-            id: String(r["Follow-Up ID"] || genId("followup-")),
+            id: String(r["Follow-Up ID"] || crypto.randomUUID()),
             clientId: r["Client ID"] ? String(r["Client ID"]) : null,
             projectId: r["Project ID"] ? String(r["Project ID"]) : null,
             partnerId: r["Partner ID"] ? String(r["Partner ID"]) : null,
@@ -229,7 +201,7 @@ useEffect(() => {
           }))
 
           const projectComments = (toJSON(wb.Sheets["Project Comments"]) || []).map((r) => ({
-            id: String(r["Comment ID"] || genId("comment-")),
+            id: String(r["Comment ID"] || crypto.randomUUID()),
             projectId: r["Project ID"] ? String(r["Project ID"]) : null,
             type: r["Type"] || "note",
             text: r["Comment"] || "",
@@ -252,7 +224,6 @@ useEffect(() => {
     if (exportBtn) {
       exportBtn.onclick = () => {
         const wb = XLSX.utils.book_new()
-
         const clientsFlat = data.clients.flatMap((c) =>
           c.contacts.length > 0
             ? c.contacts.map((ct) => ({
@@ -274,7 +245,6 @@ useEffect(() => {
                 }
               ]
         )
-
         XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(clientsFlat), "Clients")
         XLSX.writeFile(wb, "crm_data.xlsx")
       }
@@ -283,19 +253,31 @@ useEffect(() => {
 
   return (
     <div>
-      <header
+      {/* Fixed button positioned in top black header area */}
+      <div
         style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "10px 20px",
-          background: "#222",
-          color: "white"
+          position: "absolute",
+          top: "12px",
+          right: "20px",
+          zIndex: 5000
         }}
       >
-        <h1>Extrusion CRM</h1>
-        <button onClick={saveDataToGitHub}>💾 Save to Cloud</button>
-      </header>
+        <button
+          onClick={saveDataToGitHub}
+          style={{
+            backgroundColor: "#FF7F00",
+            color: "white",
+            border: "none",
+            padding: "8px 14px",
+            borderRadius: "8px",
+            cursor: "pointer",
+            fontWeight: 600,
+            boxShadow: "0 2px 6px rgba(0,0,0,0.25)"
+          }}
+        >
+          💾 Save to Cloud
+        </button>
+      </div>
 
       {tab === "dashboard" && <Dashboard data={data} />}
       {tab === "clients" && <Clients data={data} setData={setData} />}
