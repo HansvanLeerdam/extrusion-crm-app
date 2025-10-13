@@ -1,0 +1,3064 @@
+{
+  "clients": [
+    {
+      "id": "167",
+      "name": "Alas Iberia S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "David  Seoane",
+          "email": "d.seoane@alasiberia.com",
+          "phone": "",
+          "id": "contact-a4a60d2d-3408-44f6-8e0a-7bbc3a7ac010"
+        },
+        {
+          "contact": "Pablo Bouzas",
+          "email": "p.bouzas@alasiberia.com",
+          "phone": "",
+          "id": "contact-733f3c69-c09c-44dd-8808-6edab7c021a9"
+        },
+        {
+          "contact": "Sergio Zapico",
+          "email": "extrusion@alasiberia.com",
+          "phone": "",
+          "id": "contact-97abba67-d04a-4a3b-b71f-8d779718a4d9"
+        },
+        {
+          "contact": "Ricardo Martinez",
+          "email": "r.martinez@alasiberia.com",
+          "phone": "",
+          "id": "contact-8a41ca6d-0b63-4c87-8c52-6b58abb4b24e"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Alcomet AD",
+      "country": "Bulgaria",
+      "contacts": [
+        {
+          "contact": "Huseyin Ince",
+          "email": "huseyin.ince@alcomet.eu",
+          "phone": "+35 989 6666010",
+          "id": "contact-399f7c2e-8057-42f6-ab98-9f800ff9e15f"
+        },
+        {
+          "contact": "Ivan Ivanov",
+          "email": "ivan.ivanov@alcomet.eu",
+          "phone": "+35 989 6666077",
+          "id": "contact-b843a538-ea6d-43b5-b82c-fdb96fbc5151"
+        },
+        {
+          "contact": "Diyana Kishisheva",
+          "email": "diyana.kishisheva@alcomet.eu",
+          "phone": "+35 954 858 859",
+          "id": "contact-9fa23783-05e4-4d39-91d7-c58fb225e428"
+        },
+        {
+          "contact": "George Apostolov",
+          "email": "george.apostolov@alcomet.eu",
+          "phone": "",
+          "id": "contact-489dd157-8cda-4621-96cb-24a49ff147e5"
+        },
+        {
+          "contact": "Mariya Kalinova",
+          "email": "mariya.kalinova@alcomet.eu",
+          "phone": "+35 954 858 752",
+          "id": "contact-aaf96602-220f-4af9-85c1-25730432655d"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Aliplast Aluminium Extrusion",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Eric Puttemans",
+          "email": "eric.puttemans@aliplast.com",
+          "phone": "",
+          "id": "contact-44944015-4f46-4e6e-b708-f029f63d11a1"
+        },
+        {
+          "contact": "Christoph de Pauw",
+          "email": "christoph.de.pauw@aliplast.com",
+          "phone": "",
+          "id": "contact-4234b2dd-8470-4d78-957e-66fb027d62b3"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "name": "Aliplast Extrusion Sp. Z O.O.",
+      "country": "Poland",
+      "contacts": [
+        {
+          "contact": "Grzegorz Wojciechowski",
+          "email": "grzegorz.wojciechowski@aliplast.pl",
+          "phone": "",
+          "id": "contact-bb0cc95f-2d9d-4609-9faa-fd513a772c7c"
+        }
+      ]
+    },
+    {
+      "id": "195",
+      "name": "Alu Solutions Group (Extol)",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Juan Manuel Aparicio Perez",
+          "email": "juan-manuel.aparicio@alusolutionsgroup.com",
+          "phone": "+34 925 23 44 66",
+          "id": "contact-c100d219-b63d-49e5-b8d2-b0fa8a2b7e57"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Alucansa S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Nacho Lopez",
+          "email": "nacholopeztanoira@gmail.com",
+          "phone": "",
+          "id": "contact-e533eac1-c727-4d18-917a-7a4d2e4c6b50"
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "name": "Alucofer Internacional S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": "+34 967 38 82 67",
+          "id": "contact-040d87d2-5249-49a3-a51c-91e864f41f86"
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "name": "Alueuropa S.A. Arrubal",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Ariel Ochoa",
+          "email": "calidadnorte@alueuropa.com",
+          "phone": "",
+          "id": "contact-8c74418c-0cee-470d-aa18-4a902ddaa06f"
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "name": "Alueuropa S.A. Ciempozuelos",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Hermógenes Palacio",
+          "email": "hpalacio@alueuropa.com",
+          "phone": "",
+          "id": "contact-9a14d797-973f-40da-93cf-58eefeba29f2"
+        },
+        {
+          "contact": "Clemente Sainz",
+          "email": "clementesainz@alueuropa.com",
+          "phone": "",
+          "id": "contact-c75435ee-1d89-47b3-a4e1-e352f4eea3ab"
+        },
+        {
+          "contact": "José Ignacio Pérez",
+          "email": "matriceria@alueuropa.com",
+          "phone": "",
+          "id": "contact-70db4e10-d2d2-4b17-a12e-43a1c052aacf"
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "name": "Alueuropa S.A. Dos Hermanas",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Javier Barbero",
+          "email": "jbarbero@alueuropa.com",
+          "phone": "",
+          "id": "contact-27662f6b-7baf-41ca-a208-f42d0d3f2dd7"
+        },
+        {
+          "contact": "Juan Carlos Vélez",
+          "email": "matriceriasv@alueuropa.com",
+          "phone": "",
+          "id": "contact-dee21142-8fe3-482a-b278-96cd9c2d81fb"
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "name": "Alueuropa S.A. El Espinar",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Ángel Lorenzo",
+          "email": "matriceriase@alueuropa.com",
+          "phone": "",
+          "id": "contact-33221fdc-b673-4c76-8d53-d21594c6cbb1"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Alumero Finex Extrusions B.V.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Jeroen van Bussel",
+          "email": "j.vanbussel@alumero.nl",
+          "phone": "+31 614367164",
+          "id": "contact-a4b311eb-ff8e-4015-b373-6c4963c8da0a"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "Alumil",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "Giannis (John) Theodoridis",
+          "email": "i.theodoridis@alumil.com",
+          "phone": "+30 2341079323",
+          "id": "contact-41cb4cdd-34bc-4082-938e-7c7f382278d1"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Aluminco",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "Kostas Chatzipanigiris",
+          "email": "k.chatzipanigiris@aluminco.com",
+          "phone": "+30 2262 047000",
+          "id": "contact-399831d8-6e63-40df-8104-b58993f0caa9"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Aluminera Extrusion S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Maria Blanco",
+          "email": "mblanco@alumineraextrusion.com",
+          "phone": "",
+          "id": "contact-226ec865-9854-42ce-aa46-1446a310520d"
+        },
+        {
+          "contact": "Pedro Jimenez",
+          "email": "pjimenez@alumineraextrusion.com",
+          "phone": "",
+          "id": "contact-6a8c830f-a541-4e63-aa5e-3af8e7a1ce45"
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "name": "Aluminium Laufen",
+      "country": "Switzerland",
+      "contacts": [
+        {
+          "contact": "Sammie van Rens",
+          "email": "sammie.vanrens@aluminium-laufen.com",
+          "phone": "+41 61 775 22 28",
+          "id": "contact-a838b87f-12c2-4745-b56b-8779c03f8b20"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Aluminium Products Company (ALUPCO)",
+      "country": "Saudi Arabia",
+      "contacts": [
+        {
+          "contact": "Abdul Aziz AlGhamdi",
+          "email": "a.aziz@alupco.com",
+          "phone": "+96 655 414 1508",
+          "id": "contact-c7fccf8a-33a3-427e-aa21-093d24b5aa1f"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Aluval S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Enrique Sola",
+          "email": "enrique@aluval.es",
+          "phone": "+34 671 075 378",
+          "id": "contact-ad6b938c-d417-4577-9c3c-8676f22fd58b"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Anicolor S.A.",
+      "country": "Portugal",
+      "contacts": [
+        {
+          "contact": "Rodolfo Carvalho",
+          "email": "rodolfo@anicolor.pt",
+          "phone": "+35 1234729420",
+          "id": "contact-936fa1bd-ac20-4830-abfc-05d5417a7954"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "name": "apt Extrusions",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Roger Palmen",
+          "email": "Roger.Palmen@apt-alu-products.com",
+          "phone": "",
+          "id": "contact-6b9c6d86-154b-4fc9-a947-a013dfac9529"
+        },
+        {
+          "contact": "Michel Minten",
+          "email": "Michel.Minten@apt-alu-products.com",
+          "phone": "",
+          "id": "contact-47e642cc-43a3-415c-9872-a3589ec21d93"
+        }
+      ]
+    },
+    {
+      "id": "1760171460925",
+      "name": "ASAŞ Alüminyum",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "Semih Battal",
+          "email": "semih.battal@asastr.com",
+          "phone": "+90 264 462 47 92",
+          "id": "contact-5af2e532-085e-42ab-b07b-8d8d3e42b7d3"
+        },
+        {
+          "contact": "Piotr Kuca",
+          "email": "piotr.kuca@asastr.com",
+          "phone": "",
+          "id": "contact-3f6ebb45-74d5-4202-be9c-ec9b1e6f4abc"
+        },
+        {
+          "contact": "Ramazan Erman",
+          "email": "ramazan.erman@asastr.com",
+          "phone": "",
+          "id": "contact-c3e55c31-982a-4a0c-ba20-b314789a4c9b"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Asital Alüminyum San. ve Tic. A.Ş.",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "Adnan Demirci",
+          "email": "",
+          "phone": "+90 546 450 34 53",
+          "id": "contact-aee1a34e-e533-4fbe-920e-cb90dccf9813"
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "name": "Av Alumitran S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "José Gomez",
+          "email": "josegomez@avalumitran.com",
+          "phone": "",
+          "id": "contact-16f4c2b4-a385-47a9-841d-828c7e62da82"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Avanzate Technology S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Juan López",
+          "email": " juan.lopez@avanzate.es",
+          "phone": "+34 653 912 224",
+          "id": "contact-2505ab9a-0969-4140-88f1-6451add45769"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Benkam Aluminium LLC",
+      "country": "Uzbekistan",
+      "contacts": [
+        {
+          "contact": "Shahrizod Hosilov",
+          "email": "shahrizod.hosilov@akfagroup.com",
+          "phone": " +99 890 501 34 62",
+          "id": "contact-319a835a-9a74-4573-b778-3319f8b576c7"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Boal De Lier B.V.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Robert Draisma",
+          "email": "r.draisma@boalgroup.com",
+          "phone": "",
+          "id": "contact-2a5525cc-8831-4f79-a094-b28dece2c0ea"
+        },
+        {
+          "contact": "Peter Koenen",
+          "email": "p.koenis@boalgroup.com",
+          "phone": "",
+          "id": "contact-cc8c916f-43ce-4b65-8dc5-1a940741b4ce"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Boal UK Ltd.",
+      "country": "United Kingdom",
+      "contacts": [
+        {
+          "contact": "Jason Cook",
+          "email": "j.cook@boalgroup.com",
+          "phone": "+44 7398 810613",
+          "id": "contact-d2dd6204-62bc-4976-a7ee-c9dfe641efa0"
+        },
+        {
+          "contact": "Glen Suffolk",
+          "email": "g.suffolk@boalgroup.com",
+          "phone": "",
+          "id": "contact-7a185503-bf94-4ae4-afbd-878814a3b68f"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Canex Aluminum",
+      "country": "Egypt",
+      "contacts": [
+        {
+          "contact": "Mohammed Alsawaf",
+          "email": "malsawaf@canexalu.com",
+          "phone": "+20 102 7778092",
+          "id": "contact-196acf50-e7f8-4c9a-baeb-0b3ff44fe8f0"
+        },
+        {
+          "contact": "Mutassem Daaboul",
+          "email": "mdaaboul@canexalu.com",
+          "phone": "+20 102 7778077",
+          "id": "contact-e82891e3-92a6-42ce-bd5e-424d873d30ef"
+        }
+      ]
+    },
+    {
+      "id": "1760261015294",
+      "name": "Compes Spa",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "Guido Mazzolari",
+          "email": "guido.mazzolari@compes.com",
+          "phone": "+39 339 3233994",
+          "id": "contact-d2d03775-76ec-412f-8f63-90d5d44ee4b6"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "Cosmos Profil",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": "+30 241 056 7567",
+          "id": "contact-91821c6d-85d0-4604-b1c1-b7b2ce755c1e"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Delemar Aluminium S.A.",
+      "country": "Egypt",
+      "contacts": [
+        {
+          "contact": "Justin Gamage",
+          "email": "justin.gamage@delemaralu.com",
+          "phone": "+21 2 6 64 26 66 97",
+          "id": "contact-57ab2b64-4951-42a3-a71f-092b9e0e8369"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Denting Flight Cases S.L.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Dennis Lieftink",
+          "email": "dennis@denting.nl",
+          "phone": "+31 6 53 56 55 24",
+          "id": "contact-2c07e291-c51a-40c2-b90e-f37a414da28b"
+        }
+      ]
+    },
+    {
+      "id": "1760261175899",
+      "name": "Dogus",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "Maryam Jafarli",
+          "email": "maryam@dogus-kalip.com.tr",
+          "phone": "+90 216 396 13 54",
+          "id": "contact-ec401ee7-775c-419e-8851-834a587d7955"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Ege Endüstri ve Ticaret A.Ş.",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "Mehmet Fatih Topak",
+          "email": " info@egeendustri.net",
+          "phone": "+90 5326359297",
+          "id": "contact-844825d0-7273-447d-af98-666e76fe3b53"
+        },
+        {
+          "contact": "Emre Eren",
+          "email": "emre@egeendustri.net",
+          "phone": "+90 552 214 66 21",
+          "id": "contact-10477aa5-3c59-4302-8054-7fb4f374f247"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Egyptalum",
+      "country": "Egypt",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "ahmed.egyptalum@gmail.com",
+          "phone": "",
+          "id": "contact-4591fda8-e5f7-4c62-962d-f0f59c804971"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "El Gammal Group",
+      "country": "Egypt",
+      "contacts": [
+        {
+          "contact": "Mazen El Gammal",
+          "email": " mazen@elgammal-eg.com",
+          "phone": "+20 2 2310 1290",
+          "id": "contact-87174d8d-c44d-42ca-835c-2b9a2c94f83d"
+        },
+        {
+          "contact": "Hanaa A. Mokhtar",
+          "email": "alu@elgammal-eg.com",
+          "phone": "+20 100 255 1361",
+          "id": "contact-7a02f778-d176-443d-ad6b-c6e30b67640c"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Elvial",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": "+30 2341039500",
+          "id": "contact-e6ce72a1-60ec-491f-967a-3b40a26d10ca"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Emax Dilsen-Stokkum Nv",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Jos Lamerigts",
+          "email": "jos.lamerigts@e-max.eu",
+          "phone": "",
+          "id": "contact-7f3dce1c-96cb-4fb2-b8ed-2a1c7cc28750"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Emax Group NV",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "David Schaekers",
+          "email": "david.schaekers@e-max.eu",
+          "phone": "+32 495 15 57 22",
+          "id": "contact-72d1a355-8cea-49f7-8a45-4f28e13e615e"
+        },
+        {
+          "contact": "Johan van Putten",
+          "email": "johan.vanputten@e-max.eu",
+          "phone": "+31 6 15 66 82 57",
+          "id": "contact-8bcaf754-1df9-4201-8b92-980a5b43e2ad"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Emax Gullegem Nv",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Dave Debosschere",
+          "email": "Dave.Debosschere@e-max.eu",
+          "phone": "",
+          "id": "contact-b080b1a4-efcb-48a8-9c76-3110153af7eb"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Emax Moorsele Nv",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Dave Debosschere",
+          "email": "Dave.Debosschere@e-max.eu",
+          "phone": "",
+          "id": "contact-ff64bb3d-cdf9-474a-859a-fc9d83050681"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "name": "Etem",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "John Papadimitriou",
+          "email": "jpapa@etem.com",
+          "phone": "+30 210 489 8605",
+          "id": "contact-3228e835-ee95-42ad-a506-28ba88527fa3"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Europa Profil Aluminio S.A.",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": "+30 22620 32202",
+          "id": "contact-87f7d54b-153d-4ec0-803e-02b29b81a5b5"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "name": "Exlabesa Extrusion Padrón S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Ramón Vázquez",
+          "email": "ramon.vazquez@exlabesa.com",
+          "phone": "+34 981 803 011",
+          "id": "contact-4f00495c-af90-474b-928b-32b7ca01e104"
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "name": "Extrual - Extruidos Del Aluminio S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Javier Sanjosé",
+          "email": "jsanjose@extrual.com",
+          "phone": "",
+          "id": "contact-e5e7c44a-87ca-4790-ac9d-b8e6d0c105ad"
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "name": "Extrucolor S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Paco Martinez",
+          "email": "",
+          "phone": "+34 968684001",
+          "id": "contact-dc75f9f6-ffa5-4067-b5c6-56f6e0393a47"
+        }
+      ]
+    },
+    {
+      "id": "client-3a2ac487-7436-47b3-ac55-020c641d8eba",
+      "name": "Extrugasa",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Francesco Quinta",
+          "email": "",
+          "phone": "",
+          "id": "contact-cf7a7ae4-f9a4-4153-98e1-43d2d92b6f8c"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Extrusax S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Luis Albert",
+          "email": "mantenimiento@extrusax.com",
+          "phone": "+34 600 49 17 40",
+          "id": "contact-bde97067-77ff-4b1f-862d-591ca27b483b"
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "name": "Extrusion De Sax S.L. (Murcia)",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Jordi Gomez",
+          "email": "jgomez@extrusax.com",
+          "phone": "",
+          "id": "contact-44f1d2f2-4430-457f-b3f6-64635c02999b"
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "name": "Extrusion De Sax S.L. (Sax)",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Jordi Gomez",
+          "email": "jgomez@extrusax.com",
+          "phone": "",
+          "id": "contact-d5b76bb5-2e66-4544-9a5a-e617d4b683b7"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Extrusiones De Toledo France",
+      "country": "France",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": "+33 251 85 00 33",
+          "id": "contact-bc1f9f2e-7741-4dd6-8d5c-d1e32ea15149"
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "name": "Extrusiones Metalicas Europea S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": "+34 983 511 000",
+          "id": "contact-864e052b-1254-47b1-83a7-c37f2056bd2d"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Flandria Aluminium S.A.",
+      "country": "France",
+      "contacts": [
+        {
+          "contact": "Vincent Givry",
+          "email": "vgivry@flandria.com",
+          "phone": "",
+          "id": "contact-c097ba0d-41de-4f9a-b94f-b5493afc9032"
+        }
+      ]
+    },
+    {
+      "id": "1760261107998",
+      "name": "Forexdie",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "Naile Cufalci",
+          "email": "naile@forexdie.com",
+          "phone": "+90 507 559 02 06",
+          "id": "contact-f5b60a02-41c1-4430-a104-9cdfb7ada613"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Freelance",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Agust",
+          "email": "tendexal@gmail.com",
+          "phone": "+34 616 945 792",
+          "id": "contact-4fd7ac3c-1adf-4015-adc3-a35df66b69e5"
+        },
+        {
+          "contact": "Nacho Lopez",
+          "email": "nacholopeztanoira@gmail.com",
+          "phone": "+34 664 511 676",
+          "id": "contact-499bd3f7-dca9-49aa-9d0f-efb3326b2982"
+        },
+        {
+          "contact": "Pedro Pratdesaba",
+          "email": "",
+          "phone": "+34 663 834 661",
+          "id": "contact-1715f36f-56dc-497b-801e-165df4b70606"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Galimetal S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Alvaro",
+          "email": "",
+          "phone": "+34 616 904 730",
+          "id": "contact-dafaa2da-914e-4799-8622-d23a39064576"
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "name": "Galisur",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Jesús López Conde",
+          "email": "jlopez@galisur.es",
+          "phone": "",
+          "id": "contact-2361cfbc-8ab5-4a40-b4f5-b5b1a0b57fd2"
+        }
+      ]
+    },
+    {
+      "id": "224",
+      "name": "Garnalex",
+      "country": "UK",
+      "contacts": [
+        {
+          "contact": "Shona Hartshorn",
+          "email": "Shona.Hartshorn@garnalex.com",
+          "phone": "+44 1332 883960",
+          "id": "contact-a18bad8e-fe4c-41ab-9be8-9ad93240bd46"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Hmt Hoefer Metall Technik",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "Christian Schwarz",
+          "email": "c.schwarz@hmt-alu.de",
+          "phone": "",
+          "id": "contact-419cdfaa-b807-4f5b-9cb7-ca20d5012483"
+        }
+      ]
+    },
+    {
+      "id": "214",
+      "name": "Hydal Aluminium Profiler Vetlanda",
+      "country": "Sweden",
+      "contacts": [
+        {
+          "contact": "Petra Olsson",
+          "email": "petra.olsson@hydal.com",
+          "phone": "+46 383 76 39 40",
+          "id": "contact-6ebfb60e-b70f-4459-9395-da81c38d5a0a"
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "name": "Hydro Extrusion Harderwijk B.V.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Thierry de Vos",
+          "email": "thierry.devos@hydro.com",
+          "phone": "",
+          "id": "contact-bb561249-2db0-4026-8cb9-41cc173b4414"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "name": "Hydro Extrusion Hoogezand B.V.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Mark Pieter Alsem",
+          "email": "mark.pieter.alsem@hydro.com",
+          "phone": "",
+          "id": "contact-758b2208-1399-4cdf-99aa-a86e1bfbd3c7"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Hydro Extrusion Lichtervelde",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Pierre Mulnard",
+          "email": "pierre.mulnard@hydro.com",
+          "phone": "",
+          "id": "contact-9fe22b31-ba0a-4b00-ab9c-cc5b37e408ea"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Hydro Extrusion Raeren",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Perrine Schmid",
+          "email": "perrine.schmid@hydro.com",
+          "phone": "",
+          "id": "contact-d6a791f8-b0e4-4fdc-a26a-4b046957f496"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "name": "Indalsu S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Antonio Fernandez",
+          "email": "antonio.fernandez@indalsu.com",
+          "phone": "",
+          "id": "contact-badb8733-cd6e-4fd4-88e0-e545a240d61b"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "name": "Installux Extrusion Services S.L. - Paret",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Albert Arnal",
+          "email": "Albert.ARNAL@installux-es.com",
+          "phone": "+34 935 602 350",
+          "id": "contact-e71f3c6b-25a3-4111-9074-209c626072a1"
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "name": "Installux Extrusion Services S.L. - Santa Oliva",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Oscar Serra",
+          "email": "Oscar.SERRALOZANO@installux-es.com",
+          "phone": "",
+          "id": "contact-00d5e072-3839-4332-a476-0e1784473e0f"
+        },
+        {
+          "contact": "Pere Marti",
+          "email": "Pere.MARTI@installux-es.com",
+          "phone": "",
+          "id": "contact-e5baf79c-208b-4ded-be97-a17b50cbddf0"
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "name": "Itesal S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "David Gil",
+          "email": "dgil@itesal.es",
+          "phone": "+34 976 16 64 91",
+          "id": "contact-2790526f-984d-4356-b379-9f802f706dcb"
+        }
+      ]
+    },
+    {
+      "id": "225",
+      "name": "Kawneer Uk",
+      "country": "United Kingdom",
+      "contacts": [
+        {
+          "contact": "Paul Draper",
+          "email": "paul.draper@arconic.com",
+          "phone": "+44 1928 502412",
+          "id": "contact-3064ce93-e483-4746-8ccf-b632b44d2200"
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "name": "La Aluminio",
+      "country": "Portugal",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "geral@la-aluminios.com",
+          "phone": "+35 1707 20 30 41",
+          "id": "contact-d56d2173-c7ca-4573-baac-fd9ced86809d"
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "name": "Lacbraga - Termolacado Perfil Alumínio Lda.",
+      "country": "Portugal",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "lacbraga@clix.pt",
+          "phone": "+55 253674889",
+          "id": "contact-40ec2fbe-e2c8-40f0-aebb-3aa9aeed7195"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "LBB Systems GmbH",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "Evgenij Lymar",
+          "email": "evgenij.lymar@lbbsystems.com",
+          "phone": "+41 78 720 4500",
+          "id": "contact-3208eccc-b055-4b18-b2cb-f279a9a86a65"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Leonardo Fix S.L.",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Bart Lips",
+          "email": "Bart.lips@leonardofix.be",
+          "phone": "+32 475917365",
+          "id": "contact-ee66d213-3bb7-49f7-a768-125c0dcf9e26"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Lo Minck B.V.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Arjan Minck",
+          "email": "arjan@lo-minck.nl",
+          "phone": "+31 6 83 67 75 59",
+          "id": "contact-e7bc8a49-2cb4-4bf7-9fa9-fbf71acf5001"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Maimbar S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Simón Barreiro",
+          "email": "maimbargroup@gmail.com",
+          "phone": "+34 654 551 899",
+          "id": "contact-3e830e64-7514-4c2f-a3e9-f9dd59d73928"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Mejo Metall Josten GmbH & Co. KG",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "Stephan Josten",
+          "email": "stephan.josten@mejo.de",
+          "phone": "+49 021199880",
+          "id": "contact-23ff96ec-dcd0-4d17-9084-3b826ce42ccf"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Metadecor B.V.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Nathan van der Toorn",
+          "email": "nthvdtoorn@metadecor.nl",
+          "phone": "+31 6 11 89 61 71",
+          "id": "contact-c65ec87a-a3fa-4abc-952c-f5329b86cc9b"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "name": "Metal Sa",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "Skikou",
+          "email": "metal3@hol.gr ",
+          "phone": "+30 22620 58212",
+          "id": "contact-aac72b42-ca06-4499-90fe-2e68470330e4"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "name": "Metaloumin",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "Galazoulas",
+          "email": "f.b.design@metaloumin.gr",
+          "phone": "+30 21 0246 3630",
+          "id": "contact-72d8ec1b-43a7-4f41-8fb0-23259b1e55f6"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "name": "Mifa Aluminium B.V.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Theo Jansen",
+          "email": "",
+          "phone": "",
+          "id": "contact-ea8096e2-bd04-42cb-b5b9-da5163bc2cfc"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Navarra Extrusión de Aluminio S.A.",
+      "country": "Portugal",
+      "contacts": [
+        {
+          "contact": "Paulo Rodrigues",
+          "email": "paulo.rodrigues@navarraaluminio.com",
+          "phone": "+35 1253 603 520",
+          "id": "contact-c7233c78-7e6e-42e2-b7b0-5030744c988c"
+        }
+      ]
+    },
+    {
+      "id": "1760179183342",
+      "name": "Nedal Aluminium B.V.",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "Karthik Chandra",
+          "email": "karthikchandra@nedal.nl",
+          "phone": "",
+          "id": "contact-de7d6d4d-98ea-4747-8aed-784e0955356b"
+        },
+        {
+          "contact": "Jan-Willem Vos",
+          "email": "Jan-WillemVos@nedal.nl",
+          "phone": "+31 30 29 25 769",
+          "id": "contact-90a5a7f5-e516-4945-92a6-2ba1090d1b8e"
+        },
+        {
+          "contact": "Stefan Gelissen",
+          "email": "stefangelissen@nedal.nl",
+          "phone": "",
+          "id": "contact-cd71d487-b168-4e27-b778-050f864ef99b"
+        },
+        {
+          "contact": "Christiaan van Daalen",
+          "email": "",
+          "phone": "",
+          "id": "contact-843611d9-9098-41bd-873b-52a29302656f"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Nisal Aluminyum San. ve Tic. Ltd. Şti.",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "Ersin Bey",
+          "email": "ersin@nisalaluminyum.com",
+          "phone": "+90 5325453032",
+          "id": "contact-c13c2e6f-5b19-49b7-b43d-9898ed55b675"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Nordalu GmbH",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "Bernd Ehlers",
+          "email": "",
+          "phone": "",
+          "id": "contact-28af6157-5d42-4269-8861-fa8094fea148"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Primalum S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Antonia Mari Garcia Olivares",
+          "email": "antoniamari@primalumcanales.com",
+          "phone": "+34 607 479 764",
+          "id": "contact-fe144083-eac2-45f7-b4e1-7fdbfda74b5e"
+        },
+        {
+          "contact": "Sergio Primalum",
+          "email": "sergio@primalumcanales.com",
+          "phone": "+34 647262453",
+          "id": "contact-1b0ce263-ede4-40de-b1d6-b77e1d5e29cb"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Profalu N.V.",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Stijn Schrooten",
+          "email": "sschrooten@profel.be",
+          "phone": "",
+          "id": "contact-7a924ec0-c57c-4bb5-b7ea-53ad041e6ee5"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Profilco",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": "+30 2262 031753",
+          "id": "contact-d695338a-4182-4145-84fa-04042e7015e5"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "Profils Systemes",
+      "country": "France",
+      "contacts": [
+        {
+          "contact": "Benjamin Saint-Sulpice",
+          "email": "bsaintsulpice@profils-systemes.com",
+          "phone": "",
+          "id": "contact-3040042f-a2ac-4bee-a786-0e00e09b91fd"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Purso Oy",
+      "country": "Finland",
+      "contacts": [
+        {
+          "contact": "Mika-Petteri (Petteri) Laakso",
+          "email": "mika-petteri.laakso@purso.fi",
+          "phone": "",
+          "id": "contact-c0647a58-12c7-4b1b-a1a3-0645814c47f8"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Raesa S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Sagar Fernández",
+          "email": "s.fernandez@raesa.com",
+          "phone": "+34 606 423 400",
+          "id": "contact-a090bfe6-8771-44ee-be6a-bf4dd8c133e0"
+        },
+        {
+          "contact": "Jorge Enrique García León",
+          "email": "j.leon@raesa.com",
+          "phone": "+34 979706060",
+          "id": "contact-77d6392c-e824-4581-a141-f969d2994317"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Reynaers Aluminium NV",
+      "country": "Belgium",
+      "contacts": [
+        {
+          "contact": "Filip Buts",
+          "email": "filip.buts@reynaers.com",
+          "phone": "+32 472515620",
+          "id": "contact-b77acb01-7ea8-4ea8-b512-32bed3d10aea"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Richter Aluminium GmbH",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "Anna Kempf",
+          "email": "a.kempf@richter-aluminium.com",
+          "phone": "",
+          "id": "contact-0011869e-2e11-45f8-b81c-2c157ee257e7"
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "name": "San Antonio S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Juanjo González Turiel",
+          "email": "juanjo@sanantoniosl.es",
+          "phone": "",
+          "id": "contact-2e392df6-8182-42a5-b151-d186c75639d2"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Sanlev S.A.",
+      "country": "Greece",
+      "contacts": [
+        {
+          "contact": "George Karoubas",
+          "email": "gk@sanlev.gr",
+          "phone": "+30 21055782789",
+          "id": "contact-cffacd4f-d4dc-47cb-b2d6-2cb8d5c4129d"
+        }
+      ]
+    },
+    {
+      "id": "226",
+      "name": "Shapes Aluminium",
+      "country": "UK",
+      "contacts": [
+        {
+          "contact": "Alan Burns",
+          "email": "dieshop@alishapes.co.uk",
+          "phone": "+44 1536 262437",
+          "id": "contact-84c3d273-ba8f-469e-98a3-4e21ffebef7b"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Siescom Group S.L.",
+      "country": "Egypt",
+      "contacts": [
+        {
+          "contact": "Ahmed Moaz",
+          "email": "",
+          "phone": "",
+          "id": "contact-ba7b6020-6dc2-4ff8-8d13-a2953774f472"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Sky BM S.A.",
+      "country": "USA",
+      "contacts": [
+        {
+          "contact": "Zak Fardi",
+          "email": "zak@skybm.com",
+          "phone": "+1 214 507 7337",
+          "id": "contact-dfc605f9-05ee-44c4-8146-02e9923b9a48"
+        }
+      ]
+    },
+    {
+      "id": "227",
+      "name": "Smart Systems Ltd.",
+      "country": "United Kingdom",
+      "contacts": [
+        {
+          "contact": "Jonny Davies",
+          "email": "JDavies@smartsystems.co.uk",
+          "phone": "",
+          "id": "contact-7a6a4b5c-f97e-4268-913c-3a13153ccf19"
+        },
+        {
+          "contact": "Cory Davies",
+          "email": "CDavies@smartsystems.co.uk",
+          "phone": "+44 7753 319031",
+          "id": "contact-de7da21b-90ba-4a2c-a310-1b8e4673ba7a"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Sopena Innovations S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Carlos Sanchez",
+          "email": "csanchez@gruposopena.com",
+          "phone": "",
+          "id": "contact-4d8d09e8-592f-4bca-a628-86d32c3dcf42"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Soriano S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Jose Soriano",
+          "email": "info@sorianosolucionestecnicas.com",
+          "phone": "+34 633664113",
+          "id": "contact-b3515371-eee3-47e5-8296-4c132a472b28"
+        },
+        {
+          "contact": "Natalia Soriano",
+          "email": "info@sorianosolucionestecnicas.com",
+          "phone": "+34 670426275",
+          "id": "contact-e1b2d9fa-9683-4cb5-af66-69d35ba8862f"
+        }
+      ]
+    },
+    {
+      "id": "212",
+      "name": "Strugal S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Rubén Ordóñez",
+          "email": "ruben@strugal.com",
+          "phone": "",
+          "id": "contact-bb750560-f942-40be-92e1-7be158119d27"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Tecalum S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Albert Gayola",
+          "email": "agayola@tecalum.com",
+          "phone": "+34 627 516 525",
+          "id": "contact-6ddad50e-654e-4893-bb5f-c6ef5da97e4e"
+        },
+        {
+          "contact": "Alex Barrio",
+          "email": "abarrio@tecalum.com",
+          "phone": "+34 669486290",
+          "id": "contact-bcf7dab6-fee6-476a-9835-f8ea8c194dd1"
+        },
+        {
+          "contact": "Felix Jorba",
+          "email": "fjorba@tecalum.com",
+          "phone": "+34 638 051 281",
+          "id": "contact-176c7ee2-e331-4998-86e1-906be688eb7b"
+        },
+        {
+          "contact": "Albert Gayola",
+          "email": "agayola@tecalum.com",
+          "phone": "",
+          "id": "contact-68cdf0f3-742d-4d28-a5a3-246afc39f91c"
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "name": "Tehnomarket",
+      "country": "Serbia",
+      "contacts": [
+        {
+          "contact": "Dejan Djuric",
+          "email": "extrusion@tehnomarket.com",
+          "phone": "",
+          "id": "contact-e944afb1-4e6f-4c08-b1b3-ce2d8ce0843c"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Unterschütz GmbH & Co. KG",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "Andreas Plug",
+          "email": "AndreasPlug@usmb.de",
+          "phone": "+49 3476 858522",
+          "id": "contact-d2780f7f-f8bb-4e8b-9f33-ab507eba0e91"
+        },
+        {
+          "contact": "Philipp Unterschütz",
+          "email": "philippunterschuetz@usmd.de",
+          "phone": "+49 162 2758235",
+          "id": "contact-d927f506-f7a2-4407-b980-197623aff40f"
+        },
+        {
+          "contact": "Uwe Unterschütz",
+          "email": "uweunterschuetz@usmd.de",
+          "phone": "+49 173 3529766",
+          "id": "contact-53bd4015-e2d5-401f-86fe-8e7c82dfcde9"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "WEFA Aluminiumprofile GmbH",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "Joe Maier",
+          "email": "joe.maier@wefa.com",
+          "phone": "",
+          "id": "contact-da0f1135-0f1c-4395-812e-2e4f496369a1"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Yavuz Alüminyum San. ve Tic. A.Ş.",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "Haliz Yavuz",
+          "email": "",
+          "phone": "+90 5303689161",
+          "id": "contact-8d1b0866-f69b-4685-9b0d-a2f7cf63c648"
+        }
+      ]
+    },
+    {
+      "id": "client-1760381706957",
+      "name": "aaaaaa",
+      "country": "",
+      "contacts": [
+        {
+          "contact": "aaaaaaaaaa",
+          "email": "",
+          "phone": ""
+        }
+      ]
+    }
+  ],
+  "partners": [
+    {
+      "id": "1",
+      "name": "Al Solutions",
+      "contacts": [
+        {
+          "contact": "Hans van Leerdam",
+          "email": "hans@al-solutions.es",
+          "phone": "‪+34 677 243 909"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Avanzate",
+      "contacts": [
+        {
+          "contact": "Juan Lopez",
+          "email": "juan.lopez@avanzate.es",
+          "phone": "+34 653 91 22 24"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "EGE+Endustri",
+      "contacts": [
+        {
+          "contact": "Mehmet Fatih Topak",
+          "email": "info@egeendustri.net",
+          "phone": "+90 532 635 92 97"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Eroga Die",
+      "contacts": [
+        {
+          "contact": "Alan Townsend",
+          "email": "alantownsend@erogadie.com",
+          "phone": "+44 7767 351195"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Extrugasa",
+      "contacts": [
+        {
+          "contact": "José Lorenzo Cabo",
+          "email": "lcabo@extrugasa.com",
+          "phone": "+34 639 346 272 "
+        },
+        {
+          "contact": "Julio Lorenzo Cabo",
+          "email": "pedidos1@extrugasa.com",
+          "phone": "+34 667 121 108"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "LBB Systems",
+      "contacts": [
+        {
+          "contact": "Evgenij Lymar",
+          "email": "evgenij.lymar@lbbsystems.com",
+          "phone": "+41 78 720 4500"
+        }
+      ]
+    },
+    {
+      "id": "partner-5ee78932-7f38-4bde-acec-e34ced41da0a",
+      "name": "Manual.to",
+      "contacts": [
+        {
+          "contact": "Jorim Rademaker",
+          "email": "jorim@manual.to",
+          "phone": "+32 472 292 053"
+        },
+        {
+          "contact": "Kjell Dosseray",
+          "email": "kjell.dosseray@manual.to",
+          "phone": "+32 473 41 40 36"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Pafer",
+      "contacts": [
+        {
+          "contact": "José Maria Ferandez",
+          "email": "jmfernandez@stpafer.com",
+          "phone": "‪+34 691 695 429"
+        },
+        {
+          "contact": "Paola Rico",
+          "email": "prico@stpafer.com",
+          "phone": "‪+34 623 204 642‬"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "PX Automation",
+      "contacts": [
+        {
+          "contact": "Pedro Jimenez",
+          "email": "pedrojimenez@pxautomation.es",
+          "phone": "+34 687 88 99 90"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Saylan Teknik",
+      "contacts": [
+        {
+          "contact": "Mine Saylan",
+          "email": "mine@saylanteknik.com",
+          "phone": "+90 282 502 95 85"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Unterschütz",
+      "contacts": [
+        {
+          "contact": "Uwe Unterschütz",
+          "email": "uweunterschuetz@usmb.de",
+          "phone": "+49 173 3529766"
+        },
+        {
+          "contact": "Philipp Unterschütz",
+          "email": "philippunterschuetz@usmb.de",
+          "phone": ""
+        },
+        {
+          "contact": "Andreas Plug",
+          "email": "andreasplug@usmb.de",
+          "phone": "+49 151 15509545"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "WEFA",
+      "contacts": [
+        {
+          "contact": "Rolf Beckert",
+          "email": "rolf.beckert@wefa.com",
+          "phone": "+49 77 31 9534-51"
+        },
+        {
+          "contact": "Luis Rauscher",
+          "email": "luis.rauscher@wefa.com",
+          "phone": "+49 77 31 9534-312"
+        },
+        {
+          "contact": "Veronica Joaquin",
+          "email": "veronica.joaquin@wefa.com",
+          "phone": "+49 77 31 8390-12"
+        },
+        {
+          "contact": "Joe Maier",
+          "email": "joe.maier@wefa.com",
+          "phone": "+49 173 7024030"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "partner": "Al Solutions",
+      "items": [
+        "Audit",
+        "Consulting",
+        "Product Promotion",
+        "Profiles",
+        "Training"
+      ]
+    },
+    {
+      "partner": "Avanzate",
+      "items": [
+        "Software"
+      ]
+    },
+    {
+      "partner": "EGE+Endustri",
+      "items": [
+        "Ageing Oven",
+        "Air Cooling Installation",
+        "Billet Casting Line",
+        "Billet Oven",
+        "Die Oven",
+        "Extrusion Equipment",
+        "Extrusion Press Line",
+        "Handling Table",
+        "Quench Cooling Installation",
+        "Run-out Table",
+        "Stretcher"
+      ]
+    },
+    {
+      "partner": "Eroga Die",
+      "items": [
+        "Dies"
+      ]
+    },
+    {
+      "partner": "Extrugasa",
+      "items": [
+        "Extrusion"
+      ]
+    },
+    {
+      "partner": "LBB Systems",
+      "items": [
+        "Container Relining",
+        "Die Splitting Machine"
+      ]
+    },
+    {
+      "partner": "Pafer",
+      "items": [
+        "Consumables"
+      ]
+    },
+    {
+      "partner": "PX Automation",
+      "items": [
+        "Press Optimization"
+      ]
+    },
+    {
+      "partner": "Saylan Teknik",
+      "items": [
+        "Die Cleaning Machine"
+      ]
+    },
+    {
+      "partner": "Unterschütz",
+      "items": [
+        "Air Cooling Installation",
+        "Extrusion Equipment",
+        "Extrusion Press Line",
+        "Profile Marker",
+        "Quench Cooling Tunnel",
+        "Safety Door Flap"
+      ]
+    },
+    {
+      "partner": "WEFA",
+      "items": [
+        "CVD Coated Dies"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "New 8-Inch Press Line",
+      "clientId": "7",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-01",
+      "status": "Follow up"
+    },
+    {
+      "id": "2",
+      "name": "Quench Cooling Tunnel",
+      "clientId": "10",
+      "partnerId": "3",
+      "productId": "Quench Cooling Tunnel",
+      "startDate": "2025-02-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "3",
+      "name": "Replacing Die Ovens",
+      "clientId": "2",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-03",
+      "status": "In review"
+    },
+    {
+      "id": "4",
+      "name": "Buying-Installing new Press",
+      "clientId": "2",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-03",
+      "status": "In review"
+    },
+    {
+      "id": "5",
+      "name": "New Billet Oven",
+      "clientId": "10",
+      "partnerId": "3",
+      "productId": "Billet Oven",
+      "startDate": "2025-02-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "6",
+      "name": "Maimbar - Die Oven",
+      "clientId": "188",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-09-16",
+      "status": "In review at Exlabesa 6/10"
+    },
+    {
+      "id": "7",
+      "name": "Reynaers - Alcomet",
+      "clientId": "30",
+      "partnerId": "1",
+      "productId": "Profiles",
+      "startDate": "2025-10-03",
+      "status": "In review"
+    },
+    {
+      "id": "9",
+      "name": "Die Splitter",
+      "clientId": "40",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-01",
+      "status": "In review"
+    },
+    {
+      "id": "10",
+      "name": "Container Relining",
+      "clientId": "40",
+      "partnerId": "8",
+      "productId": "Container Relining",
+      "startDate": "2025-10-08",
+      "status": "In review"
+    },
+    {
+      "id": "11",
+      "name": "Die Splitter",
+      "clientId": "15",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-01",
+      "status": "Follow up"
+    },
+    {
+      "id": "12",
+      "name": "Die Splitter",
+      "clientId": "2",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-01",
+      "status": "In review"
+    },
+    {
+      "id": "13",
+      "name": "L002 Profile 340 wide",
+      "clientId": "25",
+      "partnerId": "11",
+      "productId": "Profiles",
+      "startDate": "2025-10-09",
+      "status": "Follow up"
+    },
+    {
+      "id": "14",
+      "name": "Die Cleaner",
+      "clientId": "2",
+      "partnerId": "9",
+      "productId": "Die Cleaning Machine",
+      "startDate": "2025-10-07",
+      "status": "In review"
+    },
+    {
+      "id": "15",
+      "name": "Training Nedal",
+      "clientId": "26",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-07",
+      "status": ""
+    },
+    {
+      "id": "17",
+      "name": "Audit Benkam",
+      "clientId": "41",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-02",
+      "status": "In process"
+    },
+    {
+      "id": "18",
+      "name": "Audit El-Gammal",
+      "clientId": "13",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-02",
+      "status": "Follow up"
+    },
+    {
+      "id": "19",
+      "name": "Cooling Installation",
+      "clientId": "43",
+      "partnerId": "3",
+      "productId": "Air Cooling Installation",
+      "startDate": "2025-09-11",
+      "status": "Follow up "
+    },
+    {
+      "id": "20",
+      "name": "New 7-Inch press",
+      "clientId": "34",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-09-27",
+      "status": "Searching for funding"
+    },
+    {
+      "id": "22",
+      "name": "Die Oven - Navarra",
+      "clientId": "154",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-09-30",
+      "status": ""
+    },
+    {
+      "id": "23",
+      "name": "Workshop in Wefa",
+      "clientId": "44",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-08",
+      "status": "Follow up"
+    },
+    {
+      "id": "24",
+      "name": "Worskshop",
+      "clientId": "45",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-08",
+      "status": "Send offer"
+    },
+    {
+      "id": "25",
+      "name": "Bart Lips",
+      "clientId": "20",
+      "partnerId": "11",
+      "productId": "Profiles",
+      "startDate": "2025-06-18",
+      "status": "Follow up"
+    },
+    {
+      "id": "26",
+      "name": "Workshop Duitsland",
+      "clientId": "46",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-09-08",
+      "status": "Follow up"
+    },
+    {
+      "id": "27",
+      "name": "Audits Benelux",
+      "clientId": null,
+      "partnerId": "1",
+      "productId": "",
+      "startDate": "2025-10-08",
+      "status": ""
+    },
+    {
+      "id": "28",
+      "name": "APS",
+      "clientId": "154",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-07-23",
+      "status": ""
+    },
+    {
+      "id": "30",
+      "name": "APS Turkey",
+      "clientId": null,
+      "partnerId": "2",
+      "productId": "",
+      "startDate": "2025-09-29",
+      "status": ""
+    },
+    {
+      "id": "31",
+      "name": "Quench Tunnel",
+      "clientId": "47",
+      "partnerId": "3",
+      "productId": "Quench Cooling Tunnel",
+      "startDate": "2025-09-20",
+      "status": ""
+    },
+    {
+      "id": "32",
+      "name": "Billet Casting",
+      "clientId": "47",
+      "partnerId": "3",
+      "productId": "Billet Casting Line",
+      "startDate": "2025-09-20",
+      "status": ""
+    },
+    {
+      "id": "33",
+      "name": "Ageing",
+      "clientId": "10",
+      "partnerId": "3",
+      "productId": "Ageing Oven",
+      "startDate": "2025-02-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "34",
+      "name": "25MN Press Line",
+      "clientId": "49",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-08-29",
+      "status": ""
+    },
+    {
+      "id": "35",
+      "name": "Workshop Landau",
+      "clientId": "14",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-27",
+      "status": "Week 44"
+    },
+    {
+      "id": "36",
+      "name": "Die Splitter Group Offer",
+      "clientId": "50",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-09",
+      "status": ""
+    },
+    {
+      "id": "37",
+      "name": "Koker profielen",
+      "clientId": "25",
+      "partnerId": "11",
+      "productId": "Profiles",
+      "startDate": "2025-10-09",
+      "status": "Follow up"
+    },
+    {
+      "id": "38",
+      "name": "Die Splitter",
+      "clientId": "59",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-10",
+      "status": "In review"
+    },
+    {
+      "id": "39",
+      "name": "Die Splitter",
+      "clientId": "127",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-10",
+      "status": "In review"
+    },
+    {
+      "id": "40",
+      "name": "Exlabesa",
+      "clientId": "51",
+      "partnerId": "10",
+      "productId": "Extrusion Equipment",
+      "startDate": "2025-10-10",
+      "status": "Andreas"
+    },
+    {
+      "id": "41",
+      "name": "8-Inch Press line",
+      "clientId": "26",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-11",
+      "status": ""
+    },
+    {
+      "id": "42",
+      "name": "Die Oven Offer",
+      "clientId": null,
+      "partnerId": "3",
+      "productId": "",
+      "startDate": "2025-10-13",
+      "status": ""
+    },
+    {
+      "id": "43",
+      "name": "Die Oven Offers",
+      "clientId": null,
+      "partnerId": "3",
+      "productId": "",
+      "startDate": "2025-10-11",
+      "status": ""
+    },
+    {
+      "id": "45",
+      "name": "New 7-Inch Press",
+      "clientId": "28",
+      "partnerId": "10",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-07-30",
+      "status": "For 2026 - 2027"
+    },
+    {
+      "id": "5b632f1e-1f0f-42a9-9069-10f023ed4348",
+      "name": "Profile Marker",
+      "clientId": "37",
+      "partnerId": "10",
+      "productId": "Profile Marker",
+      "startDate": "2025-06-18",
+      "status": "On hold"
+    },
+    {
+      "id": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
+      "name": "Safety Door Flap",
+      "clientId": "206",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "startDate": "2025-07-23",
+      "status": "Ongoing"
+    },
+    {
+      "id": "f0e73179-1cfb-4900-996f-8e6c98955543",
+      "name": "Safety Door Flap",
+      "clientId": "154",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "startDate": "2025-09-18",
+      "status": "Ongoing"
+    },
+    {
+      "id": "fd2b103d-cb61-4152-bdd5-cc1a5e0e2186",
+      "name": "Coated dies",
+      "clientId": "10",
+      "partnerId": "7",
+      "productId": "CVD Coated Dies",
+      "startDate": "2025-04-30",
+      "status": "Follow up"
+    },
+    {
+      "id": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
+      "name": "Turkey",
+      "clientId": "1760217942122",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-10-01",
+      "status": "Emre"
+    },
+    {
+      "id": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
+      "name": "VelowUp! profiel",
+      "clientId": "23",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "startDate": "2025-07-05",
+      "status": "Follow up for new order"
+    },
+    {
+      "id": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
+      "name": "New exit and handling table",
+      "clientId": "43",
+      "partnerId": "3",
+      "productId": "Handling Table",
+      "startDate": "2025-09-25",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-94f39e7c-0303-4a26-9d2d-56a8bca716c8",
+      "name": "Process Audit",
+      "clientId": "2",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-03",
+      "status": "Done"
+    },
+    {
+      "id": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
+      "name": "Teams Meeting",
+      "clientId": "40",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2025-10-16",
+      "status": "Meeting 10:00 h"
+    },
+    {
+      "id": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
+      "name": "Follow-up Training",
+      "clientId": "40",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-12",
+      "status": "Try to set date"
+    },
+    {
+      "id": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
+      "name": "Die oven",
+      "clientId": "14",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-09",
+      "status": "In review"
+    },
+    {
+      "id": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
+      "name": "Profile Cooling",
+      "clientId": "206",
+      "partnerId": "3",
+      "productId": "Air Cooling Installation",
+      "startDate": "2025-06-17",
+      "status": "In review"
+    },
+    {
+      "id": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
+      "name": "Profile Cooling",
+      "clientId": "206",
+      "partnerId": "10",
+      "productId": "Air Cooling Installation",
+      "startDate": "2025-09-05",
+      "status": "In review"
+    },
+    {
+      "id": "project-2f889a34-3bdf-4eb2-91fe-6f817ff6e8b9",
+      "name": "New 7-Inch Press",
+      "clientId": "28",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-06-26",
+      "status": "For 2026 - 2027"
+    },
+    {
+      "id": "project-758bd224-85db-4280-bdba-0252d355cd71",
+      "name": "Die Splitter",
+      "clientId": "client-63f9d1cf-097c-49a3-9785-140acd95fc59",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-08",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
+      "name": "Die Splitter",
+      "clientId": "4",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-13",
+      "status": "In review"
+    },
+    {
+      "id": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
+      "name": "Press Equipment",
+      "clientId": "1760179183342",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "startDate": "2025-10-13",
+      "status": "In review"
+    },
+    {
+      "id": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
+      "name": "Safety Flap",
+      "clientId": "217",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "startDate": "2025-10-13",
+      "status": "In review"
+    },
+    {
+      "id": "project-be913dcc-1a54-45d5-b460-5adea61ca172",
+      "name": "Promotion die Oven",
+      "clientId": "9",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Waiting reply"
+    },
+    {
+      "id": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
+      "name": "Promotion die Oven",
+      "clientId": "65",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Waiting reply"
+    },
+    {
+      "id": "project-0f794d56-1843-46a4-858d-2d947ac28263",
+      "name": "Promotion die Oven",
+      "clientId": "59",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Waiting reply"
+    },
+    {
+      "id": "project-15e9ba55-cea3-46d7-91b5-52d8918a8ff8",
+      "name": "Promotion die Oven",
+      "clientId": "127",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Waiting reply"
+    },
+    {
+      "id": "project-4f20167f-b809-4a20-8d5a-b903e94762c6",
+      "name": "Die Splitter",
+      "clientId": "54",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-09",
+      "status": "Not interested at this moment"
+    },
+    {
+      "id": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
+      "name": "Die Oven Promotion",
+      "clientId": "client-6030814e-22d6-452e-8df8-a0dcc12e7230",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Send info"
+    },
+    {
+      "id": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
+      "name": "APS",
+      "clientId": "client-445b5eed-7c14-48d3-a04e-28c59e460f2d",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-10-13",
+      "status": "Promote APS in Turkey"
+    },
+    {
+      "id": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
+      "name": "Maimbar - Die Oven",
+      "clientId": "42",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Offer sent "
+    },
+    {
+      "id": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
+      "name": "Maimbar - Die Oven",
+      "clientId": "client-3a2ac487-7436-47b3-ac55-020c641d8eba",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Offer sent"
+    },
+    {
+      "id": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
+      "name": "Maimbar - Die Oven",
+      "clientId": "202",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Offer sent"
+    },
+    {
+      "id": "project-30484924-6176-48ee-8292-25b325b2799d",
+      "name": "APS",
+      "clientId": "42",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-06-05",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
+      "name": "APS",
+      "clientId": "11",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2024-11-16",
+      "status": "Follow up"
+    }
+  ],
+  "followups": [
+    {
+      "id": "2",
+      "clientId": "7",
+      "projectId": "1",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "nextDate": "2025-10-17",
+      "action": "Contact Robert"
+    },
+    {
+      "id": "3",
+      "clientId": "10",
+      "projectId": "2",
+      "partnerId": "3",
+      "productId": "Quench Cooling Installation",
+      "nextDate": "2025-10-17",
+      "action": "Contact Mutassem"
+    },
+    {
+      "id": "4",
+      "clientId": "10",
+      "projectId": "5",
+      "partnerId": "3",
+      "productId": "Billet Oven",
+      "nextDate": "2025-10-17",
+      "action": "Contact Mutassem"
+    },
+    {
+      "id": "5",
+      "clientId": "2",
+      "projectId": "3",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-17",
+      "action": "Contact Ivan"
+    },
+    {
+      "id": "6",
+      "clientId": "24",
+      "projectId": "6",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-17",
+      "action": "Contact Simón"
+    },
+    {
+      "id": "9",
+      "clientId": "2",
+      "projectId": "9",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-10-17",
+      "action": "Call Ivan"
+    },
+    {
+      "id": "10",
+      "clientId": "15",
+      "projectId": "11",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-10-20",
+      "action": "Follow up"
+    },
+    {
+      "id": "12",
+      "clientId": "25",
+      "projectId": "13",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "nextDate": "2025-10-17",
+      "action": "Follow up offer Nathan"
+    },
+    {
+      "id": "13",
+      "clientId": "2",
+      "projectId": "14",
+      "partnerId": "9",
+      "productId": "Die Cleaning Machine",
+      "nextDate": "2025-10-17",
+      "action": "Contact Ivan"
+    },
+    {
+      "id": "15",
+      "clientId": "25",
+      "projectId": "37",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "nextDate": "2025-10-17",
+      "action": "Follow up offer David"
+    },
+    {
+      "id": "ceec313c-e142-45c6-8ace-a4db9be62841",
+      "clientId": "37",
+      "projectId": "5b632f1e-1f0f-42a9-9069-10f023ed4348",
+      "partnerId": "10",
+      "productId": "Profile Marker",
+      "nextDate": "2025-10-18",
+      "action": "On hold"
+    },
+    {
+      "id": "54726a55-a13f-46c0-b4c8-97810e344ce8",
+      "clientId": "206",
+      "projectId": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "nextDate": "2025-10-18",
+      "action": "Follow up"
+    },
+    {
+      "id": "37fb9e0e-866a-41b0-a1fb-312881dd224c",
+      "clientId": "10",
+      "projectId": "fd2b103d-cb61-4152-bdd5-cc1a5e0e2186",
+      "partnerId": "7",
+      "productId": "CVD Coated Dies",
+      "nextDate": "2025-10-18",
+      "action": "Follow up"
+    },
+    {
+      "id": "db773eda-5204-49b0-afaf-727232ea0dc0",
+      "clientId": "1760217942122",
+      "projectId": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
+      "partnerId": "2",
+      "productId": "",
+      "nextDate": "2025-10-18",
+      "action": "Follow up"
+    },
+    {
+      "id": "cf29c298-86e6-4523-b2d2-3380b300e1cc",
+      "clientId": "23",
+      "projectId": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "nextDate": "2025-10-18",
+      "action": "Follow up"
+    },
+    {
+      "id": "80344f02-890a-4b00-a122-d037018e801d",
+      "clientId": "43",
+      "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
+      "partnerId": "3",
+      "productId": "Handling Table",
+      "nextDate": "2025-10-19",
+      "action": "Follow up"
+    },
+    {
+      "id": "followup-2df7f472-c0ab-48cb-8573-57615a6fc3ac",
+      "clientId": "2",
+      "projectId": "project-94f39e7c-0303-4a26-9d2d-56a8bca716c8",
+      "partnerId": "1",
+      "productId": "Audit",
+      "nextDate": "2025-10-19",
+      "action": "Done"
+    },
+    {
+      "id": "followup-b6e95bfb-c836-447d-b225-3ca70c7e487b",
+      "clientId": "40",
+      "projectId": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-16",
+      "action": "Teams Meeting at 11:00 h"
+    },
+    {
+      "id": "followup-1731c215-0ddb-4b9b-b361-5fffc826dd4b",
+      "clientId": "14",
+      "projectId": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-19",
+      "action": "Follow up"
+    },
+    {
+      "id": "followup-e2d06445-1c2f-4818-87cb-f62c82c83d5f",
+      "clientId": "206",
+      "projectId": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
+      "partnerId": "3",
+      "productId": "Air Cooling Installation",
+      "nextDate": "2025-10-19",
+      "action": "Follow up"
+    },
+    {
+      "id": "followup-513a31a5-53e0-44ec-b0a1-b29343018dc7",
+      "clientId": "206",
+      "projectId": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
+      "partnerId": "10",
+      "productId": "Air Cooling Installation",
+      "nextDate": "2025-10-19",
+      "action": "Follow up"
+    },
+    {
+      "id": "followup-2b5dea2c-1844-4fb3-a2f2-6cea31aa835e",
+      "clientId": "28",
+      "projectId": "project-2f889a34-3bdf-4eb2-91fe-6f817ff6e8b9",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "nextDate": "2025-10-19",
+      "action": "Follow up"
+    },
+    {
+      "id": "followup-652f9f40-9e02-4ce3-a99a-80d94d2f2eb1",
+      "clientId": "client-63f9d1cf-097c-49a3-9785-140acd95fc59",
+      "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-10-20",
+      "action": "Follow up"
+    },
+    {
+      "id": "followup-7cb2a855-f0c2-4300-83ee-35ea1c3ab09f",
+      "clientId": "127",
+      "projectId": "9",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-11-10",
+      "action": "In review for 2026"
+    },
+    {
+      "id": "followup-57a1ebbf-4abd-4168-9afa-1790a0cd8f47",
+      "clientId": "59",
+      "projectId": "9",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-10-15",
+      "action": "Follow up with Christoph"
+    },
+    {
+      "id": "followup-7f1a4262-5bf7-43ac-8a6e-a319c5c213ba",
+      "clientId": "4",
+      "projectId": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-1d3c03ff-9207-4481-bbb8-3f1272fdd7f2",
+      "clientId": "44",
+      "projectId": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
+      "partnerId": "1",
+      "productId": "Sales Agent",
+      "nextDate": "2025-10-14",
+      "action": "Teams meeting at 11:00 h"
+    },
+    {
+      "id": "followup-3813025b-3c40-49b7-8fa5-f3c997c72324",
+      "clientId": "1760179183342",
+      "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-4c815337-2a6c-401b-b871-c1045e750911",
+      "clientId": "217",
+      "projectId": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-edfc2029-b82d-40e9-bd08-e544f986159f",
+      "clientId": "9",
+      "projectId": "project-be913dcc-1a54-45d5-b460-5adea61ca172",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-1fde4034-a835-488c-8956-65c36b37e903",
+      "clientId": "65",
+      "projectId": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-dd0d71f0-61cc-4796-b077-030fd17758d5",
+      "clientId": "59",
+      "projectId": "project-0f794d56-1843-46a4-858d-2d947ac28263",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-2d64a5c8-f123-4aaa-bc30-e1638c32de1e",
+      "clientId": "127",
+      "projectId": "project-15e9ba55-cea3-46d7-91b5-52d8918a8ff8",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-4285751f-4e44-4438-8947-a489dc8c3fd6",
+      "clientId": "client-6030814e-22d6-452e-8df8-a0dcc12e7230",
+      "projectId": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-13",
+      "action": "Send promotion email"
+    },
+    {
+      "id": "followup-da2ed5f7-6395-4530-b8f3-2680b2309ac5",
+      "clientId": "client-445b5eed-7c14-48d3-a04e-28c59e460f2d",
+      "projectId": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2025-10-14",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-8087cd87-3f0c-4b26-9318-8b3eead41b38",
+      "clientId": "42",
+      "projectId": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-c562fdf5-0206-46d1-94fe-e777f66c80fa",
+      "clientId": "client-3a2ac487-7436-47b3-ac55-020c641d8eba",
+      "projectId": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-0fe4e6f2-9598-494c-a3c1-91fc4efb2970",
+      "clientId": "202",
+      "projectId": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-f53fa347-ba90-4770-b9f4-83329b8e20d9",
+      "clientId": "42",
+      "projectId": "project-30484924-6176-48ee-8292-25b325b2799d",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-20654a2b-ab56-462a-9cda-d58caee842d0",
+      "clientId": "11",
+      "projectId": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    }
+  ],
+  "projectComments": [
+    {
+      "id": "3",
+      "projectId": "12",
+      "type": "offer",
+      "text": "I sent Huseyin and Ivan an offer for a new Die Splitting Machine in week 41",
+      "date": "2025-10-11"
+    },
+    {
+      "id": "6",
+      "projectId": "1",
+      "type": "offer",
+      "text": "We sent offer on the 8th of October",
+      "date": "2025-10-11"
+    },
+    {
+      "id": "91199b0e-7943-4139-982d-d55cd5a1dffa",
+      "projectId": "38",
+      "type": "offer",
+      "text": "Offer send to Eric on the 10/10",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-b22ca5a2-7387-416d-ae5e-e29138ebd50c",
+      "projectId": "3",
+      "type": "offer",
+      "text": "Offer has been send by Mehmet - More info been send by me to Ivan",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-f5494dc9-c89e-4238-8e3c-a769684d1f1f",
+      "projectId": "4",
+      "type": "offer",
+      "text": "Mehmet offered Alcomet to buy one (or two) old presses and replace it with a complete new EGE press line",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-4b9baebc-d8a5-4b14-b900-fa0aea1d9cd9",
+      "projectId": "14",
+      "type": "note",
+      "text": "Offer has been send on 07/10",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-9f4d20bc-af56-4a4c-96f3-6fba8737d081",
+      "projectId": "project-94f39e7c-0303-4a26-9d2d-56a8bca716c8",
+      "type": "note",
+      "text": "Audit was succesfully done with a total score of 46%",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-faf012fc-53f0-40fb-afff-3ce2abca3f87",
+      "projectId": "9",
+      "type": "offer",
+      "text": "Offer send to Rodolfo on the 01/10",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-a2545f91-4ca3-48e4-8852-f21c87041e57",
+      "projectId": "10",
+      "type": "offer",
+      "text": "Offer send to Rodolfo on the 10/10",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-167c9295-c9f2-42c7-8057-13f4ec025347",
+      "projectId": "39",
+      "type": "offer",
+      "text": "Offer sent to Michel on the 10/10",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-8c0efa26-9e63-4420-8238-00fb2730f029",
+      "projectId": "17",
+      "type": "visit",
+      "text": "Visit is set for week 46 to perform an audit",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-acaf2a0b-7d42-423f-a13e-700a115aa429",
+      "projectId": "2",
+      "type": "offer",
+      "text": "Offer was send on the 17/02/2025",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-1044c691-c6a1-4596-b40d-743cb41cb060",
+      "projectId": "5",
+      "type": "offer",
+      "text": "Offer for a gas billet oven was send on the 17/02/2025",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-7dacb631-6e68-4b34-ab5a-3db9bf3280cb",
+      "projectId": "33",
+      "type": "offer",
+      "text": "Offer was send on the 17/02/2025",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-6d7622a4-7c9e-47f3-bd28-17bde01782d3",
+      "projectId": "5",
+      "type": "offer",
+      "text": "Offer was send for a partial induction billet oven on the 20/06/2025",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-2a9f8584-564c-487d-ab04-dfe54d93c7e2",
+      "projectId": "fd2b103d-cb61-4152-bdd5-cc1a5e0e2186",
+      "type": "offer",
+      "text": "Wefa sent their offer for coated dies to CANEX",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-a68eb688-2347-4b99-a804-ff5714efed06",
+      "projectId": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
+      "type": "offer",
+      "text": "Mehmet sent an offer to Johan for a 3-chamber single cell die oven in week 41",
+      "date": "2025-10-12"
+    },
+    {
+      "id": "comment-17cf46de-886a-41b7-9ad7-0992c5eddf01",
+      "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
+      "type": "offer",
+      "text": "Offer has been send to Enrique on the 13/10",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-df22ecff-e6ff-48e4-8c08-51a5c105f2b2",
+      "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
+      "type": "email",
+      "text": "Sent an email to Roland on 09/10",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-da8d7eca-86fa-430c-ba0e-7a61c92018a3",
+      "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
+      "type": "email",
+      "text": "Send an email to Lionel on 13/10",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-f028c268-ec2b-4d0d-aac7-c5fa1959ee01",
+      "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
+      "type": "offer",
+      "text": "I have send an offer to Karthik - Maintenance Manager on 13/10",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-ced1abe7-6c9d-44f1-97ee-cfde3ba75214",
+      "projectId": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
+      "type": "email",
+      "text": "I have sent an email to Sammie on 13/10 with information - Andreas in copy",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-7f9b828e-c0d6-4ec1-acba-30619dc43e29",
+      "projectId": "1",
+      "type": "email",
+      "text": "Sent an email on 13/10 asking to visit EGE in Istanbul to see some presses",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-9e7d62c8-f13f-480b-a935-edf39dd447c1",
+      "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
+      "type": "note",
+      "text": "Lionel forwarded the email to Erich and Samuel to evaluate the offer",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-85cb970b-02c6-4641-b4d0-84103a9d1e4e",
+      "projectId": "project-4f20167f-b809-4a20-8d5a-b903e94762c6",
+      "type": "note",
+      "text": "Carlos told me that, for the moment, there is no interest - 13/10/25",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-baa210f6-2f11-4efd-9707-ab991d255b01",
+      "projectId": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
+      "type": "note",
+      "text": "Enrique will forward the info to the management - 13/10/25",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-7ad381d2-cff5-4700-9cf0-5c115e05f9e9",
+      "projectId": "11",
+      "type": "email",
+      "text": "I have send an email to José Leborans and Luis for feedback - 13/10/25",
+      "date": "2025-10-13"
+    },
+    {
+      "id": "comment-f02a5677-172e-40b0-b547-8e16144887ce",
+      "projectId": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
+      "type": "offer",
+      "text": "Offer was send to Claire on the 16/11/2024",
+      "date": "2025-10-13"
+    }
+  ]
+}

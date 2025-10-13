@@ -1,0 +1,746 @@
+/* ========== LAYOUT ========== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: #f0f0f0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 160px;
+  background: #111111;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background: #111111;
+}
+
+/* Shrink font only for tables and form fields inside .main */
+.main table,
+.main input,
+.main select,
+.main textarea,
+.main button {
+  font-size: 0.85rem;
+}
+
+/* ========== SIDEBAR BUTTONS ========== */
+.sidebar button {
+  font-size: 0.95rem;
+  font-weight: normal;
+  color: #f0f0f0;
+  padding: 0.4rem 0.75rem;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.2s, font-size 0.2s;
+}
+
+.sidebar button.active {
+  color: #ffa733;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.sidebar button:hover {
+  color: #ffa733;
+}
+
+/* ========== TOPBAR ========== */
+.topbar {
+  display: flex;
+  align-items: center;
+  background: #0b0b0b;
+  border-bottom: 1px solid #ffa733;
+  height: 60px;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topbar-left img {
+  height: 36px;
+}
+
+.topbar-left h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ========== CARDS ========== */
+.card {
+  background: #0a0a0a;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* ========== SECTION TITLES ========== */
+.section-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  color: #ffa733;
+  font-size: 1.3rem;
+}
+
+.section-title svg {
+  margin-right: 0.5rem;
+}
+
+/* ========== TABLES ========== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  color: #ffa733;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background: #2a2a2a;
+}
+
+tbody tr:hover {
+  background: #333;
+}
+
+table a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+table a:hover {
+  color: #ffa733;
+  text-decoration: underline;
+}
+
+/* ========== TABLE ALIGNMENT ========== */
+.clients-table th,
+.clients-table td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* ========== BUTTONS ========== */
+.main button,
+.btn-icon {
+  background: #ffa733;
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  color: #111;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+/* Only regular buttons get the orange hover background */
+.main button:hover {
+  background: #ffb955;
+}
+
+/* Icon-only buttons: no background on hover (keep the glow/scale) */
+.btn-icon:hover {
+  background: none !important;
+  color: #ffb955;
+  transform: scale(1.1);
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  font-size: 1rem;
+}
+
+/* ========== INPUTS & SELECTS ========== */
+.main input,
+.main select,
+.main textarea {
+  height: 2.2rem;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.main input:focus,
+.main select:focus {
+  border-color: #ffa733;
+  outline: none;
+}
+
+/* ========== STICKY INPUT BAR ========== */
+.sticky-input {
+  position: sticky;
+  top: 0;
+  background: #1e1e1e;
+  padding: 0.5rem 0;
+  z-index: 5;
+  border-bottom: 1px solid #333;
+}
+
+/* ========== FOLLOW-UP LIST ========== */
+.followup-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.followup-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  border-bottom: 1px solid #333;
+}
+
+.followup-list li:last-child {
+  border-bottom: none;
+}
+
+.followup-list li:nth-child(even) {
+  background: #2a2a2a;
+}
+
+.followup-list li span:first-child {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* ========== RESPONSIVE TABLES ========== */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    display: table;
+    width: auto;
+  }
+}
+
+/* ========== HAMBURGER ========== */
+#hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* ========== MOBILE ========== */
+@media (max-width: 768px) {
+  #hamburger {
+    display: block;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 60px;
+    left: -160px;
+    width: 160px;
+    height: calc(100% - 60px);
+    background: #1a1a1a;
+    padding: 1rem;
+    flex-direction: column;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .main {
+    margin-left: 0;
+    padding: 1rem;
+    padding-top: calc(60px + 1rem);
+  }
+
+  .topbar {
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+/* ========== DESKTOP ========== */
+@media (min-width: 769px) {
+  .sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 160px;
+    height: calc(100% - 60px);
+  }
+
+  .main {
+    margin-left: 170px;
+    padding-top: 60px;
+  }
+}
+
+/* ========== GROUP HEADERS (CLIENT NAMES) ========== */
+h3 {
+  color: #ffffff;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* ===== TABLES WITH ACTIONS: FIXES ===== */
+.clients-table,
+.partners-table,
+.products-table,
+.projects-table,
+.followups-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* ❌ REMOVE the old "last-child" lock (it caused comment rows to right-align) */
+/*
+.clients-table th:last-child,
+.clients-table td:last-child,
+.partners-table th:last-child,
+.partners-table td:last-child,
+.products-table th:last-child,
+.products-table td:last-child,
+.projects-table th:last-child,
+.projects-table td:last-child,
+.followups-table th:last-child,
+.followups-table td:last-child {
+  width: 110px;
+  text-align: right;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+}
+*/
+
+/* ✅ NEW: lock and align ONLY the Actions column (add class="actions" in JSX) */
+.table--has-actions th.actions,
+.table--has-actions td.actions {
+  width: 110px;
+  text-align: right;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+}
+
+/* ❌ REMOVE the old "last-child div" rule that pushed comments right */
+/*
+.clients-table td:last-child div,
+.partners-table td:last-child div,
+.products-table td:last-child div,
+.projects-table td:last-child div,
+.followups-table td:last-child div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* --- Sticky input row unified layout --- */
+.sticky-input-row {
+  position: sticky;
+  top: 60px;
+  z-index: 5;
+  background: #1e1e1e;
+  padding: 0.6rem 0.3rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #333;
+  display: grid;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* --- Square button --- */
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  color: #ffa733;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: color 0.2s, transform 0.2s, background 0.2s;
+}
+
+.btn-icon:hover {
+  color: #ffb955;
+  transform: scale(1.1);
+}
+
+/* ===== SIDEBAR SPACING FIX ===== */
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 1rem 0;
+}
+
+.sidebar .import-buttons {
+  margin-top: 1.2rem;
+}
+
+/* ===== Divider and import section spacing ===== */
+.sidebar .import-buttons {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.sidebar .import-buttons button {
+  background: #333;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sidebar .import-buttons button:hover {
+  background: #ffa733;
+  color: #111;
+}
+
+/* ===== Edge-only quirk fix (safe to keep) ===== */
+@supports (-ms-ime-align: auto) or (selector(::-ms-clear)) {
+  .clients-table td,
+  .clients-table input,
+  .clients-table tr {
+    list-style: none !important;
+    list-style-type: none !important;
+    background-image: none !important;
+  }
+
+  .clients-table td::marker,
+  .clients-table input::marker {
+    content: none !important;
+    display: none !important;
+  }
+
+  .clients-table input {
+    display: block !important;
+  }
+}
+
+/* --- Orange separator between Follow-ups and Import Excel --- */
+#btn-import::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ffa733;
+  margin-bottom: 0.8rem;
+}
+
+/* ===== Utilities: guarantee left alignment for comment rows ===== */
+.force-left,
+.force-left * {
+  text-align: left !important;
+}
+
+.comment-line {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .4rem;
+  width: 100%;
+  margin: 0;
+}
+
+/* Right-align ONLY the Actions column and keep a small gap between buttons */
+.table--has-actions th.actions,
+.table--has-actions td.actions {
+  width: 110px;
+  text-align: right;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+}
+
+/* Button row inside Actions cell */
+.table--has-actions td.actions .btn-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.4rem;           /* <-- the small space you were missing */
+}
+
+/* === ALIGN NOTE CONTAINERS WIDTH WITH TABLE CELLS === */
+
+/* 1️⃣ Ensure comment rows use the same sizing as table cells */
+.comment-line {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0.5rem;   /* matches table cell padding */
+  margin-right: 0;
+  background: #1a1a1a;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* 2️⃣ Prevent flex spacing from pushing the delete (×) button too far right */
+.comment-line button,
+.comment-line .btn-icon {
+  flex-shrink: 0;
+  margin-left: 0.4rem;
+}
+
+/* 3️⃣ Keep all comment text neatly left-aligned */
+.comment-line,
+.comment-line * {
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+/* === Minimal X delete button (no visible box, only X) === */
+.comment-line button {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  margin-left: 0.4rem;
+  border: none;
+  border-radius: 3px;
+  background: transparent;        /* same as background */
+  cursor: pointer;
+  flex-shrink: 0;
+  box-sizing: border-box;
+
+  /* hide literal JSX text */
+  color: transparent !important;
+  line-height: 1;
+}
+
+/* Show a single centered X only */
+.comment-line button::after {
+  content: "×";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #ff6666; /* red X */
+  line-height: 1;
+}
+
+/* Hover: brighten X slightly */
+.comment-line button:hover::after {
+  color: #ff2222;
+}
+
+/* =========================================================
+   MOBILE OPTIMIZATIONS (keep desktop unchanged)
+   Target: iPhone 12 and similar (<= 768px)
+   ========================================================= */
+@media (max-width: 768px) {
+  /* 1) Bigger tap targets + tighter typography */
+  html, body {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .card {
+    padding: 0.8rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.35);
+  }
+
+  /* 2) Inputs, selects, buttons feel better on touch */
+  .main input,
+  .main select,
+  .main textarea {
+    height: 2.4rem;
+    font-size: 0.95rem;
+    padding: 0 0.6rem;
+  }
+
+  .main button {
+    height: 2.4rem;
+    padding: 0.45rem 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  .btn-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1.05rem;
+  }
+
+  /* 3) Make the sticky input row fit on one screen:
+        - stack into 2 columns by default
+        - force full-width items
+        - keep the + / 💾 on its own row if needed */
+  .sticky-input-row {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.5rem;
+    padding: 0.6rem 0.4rem;
+  }
+
+  .sticky-input-row > * {
+    min-width: 0;         /* prevent overflow */
+  }
+
+  /* Last button on its own line when space is tight */
+  .sticky-input-row > .btn-icon {
+    grid-column: 1 / -1;
+    justify-self: end;
+  }
+
+  /* 4) Tables: keep text readable and allow smooth horizontal scroll */
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-spacing: 0;
+  }
+
+  thead, tbody, tr {
+    display: table;
+    width: 100%;
+  }
+
+  th, td {
+    white-space: nowrap;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  /* Ensure the Actions column stays narrow and aligned */
+  .table--has-actions th.actions,
+  .table--has-actions td.actions {
+    width: 96px;
+    padding-right: 0.25rem;
+  }
+
+  .table--has-actions td.actions .btn-row {
+    gap: 0.3rem;
+  }
+
+  /* 5) Collapsible headers: larger touch area + clear affordance */
+  /* Works with the button that has aria-expanded on your grouped cards */
+  [aria-expanded] {
+    padding: 0.25rem 0;     /* make the whole row tappable */
+  }
+
+  [aria-expanded] h3 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.45rem 0;
+  }
+
+  /* 6) Filters / small control rows:
+        Compact spacing and wrap to multiple lines if needed */
+  .card > div {
+    row-gap: 0.5rem;
+  }
+
+  /* Inputs/selects inside quick filter bars should stretch when needed */
+  .card input[type="text"],
+  .card select {
+    max-width: 100%;
+  }
+
+  /* 7) Dashboard & Follow-ups cards: slightly tighter spacing inside groups */
+  .followups-table th, .followups-table td {
+    padding: 0.45rem 0.55rem;
+  }
+
+  /* 8) Sidebar on mobile: keep it fully off-canvas when closed */
+  .sidebar {
+    width: 70vw;           /* feels nicer than fixed 160px on phones */
+    left: -70vw;
+  }
+  .sidebar.open {
+    left: 0;
+  }
+
+  /* 9) Avoid layout shift under topbar */
+  .main {
+    padding-top: calc(60px + 0.8rem);
+  }
+
+  /* 10) Long text (emails, actions) don’t blow out the width when wrapped views appear */
+  .clients-table td,
+  .partners-table td,
+  .products-table td,
+  .projects-table td,
+  .followups-table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Optional: extra-tight mode for very small screens (e.g., 360px width) */
+@media (max-width: 400px) {
+  .sticky-input-row {
+    grid-template-columns: 1fr !important; /* stack everything */
+  }
+}
