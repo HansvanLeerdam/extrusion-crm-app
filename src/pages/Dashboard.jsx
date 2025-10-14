@@ -7,7 +7,7 @@ export default function Dashboard({ data }) {
   const [filterPartner, setFilterPartner] = useState("")
 
   const inputStyle = {
-    height: "30px",
+    height: "28px",
     background: "#e9e9e9",
     color: "#111",
     border: "1px solid #ccc",

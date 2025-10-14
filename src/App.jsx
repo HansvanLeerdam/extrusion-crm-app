@@ -252,10 +252,19 @@ export default function App() {
           <img
             src="/logo.png"
             alt="Extrusion CRM"
-            style={{ height: "28px", width: "28px", objectFit: "contain" }}
+            style={{ height: "40px", width: "40px", objectFit: "contain" }}
           />
-          <div>Partners & Projects CRM</div>
-        </div>
+         <div
+  style={{
+    fontSize: "1.2rem",
+    fontWeight: 700,
+    color: "#fff",
+    letterSpacing: "0.4px"
+  }}
+>
+  Partners & Projects <span style={{ color: "#fff" }}>CRM</span>
+</div>
+</div>
 
         <button
           onClick={saveDataToGitHub}
@@ -408,7 +417,7 @@ const toolBtn = {
   border: "1px solid #ccc",
   borderRadius: "8px",
   padding: "0.35rem 0.5rem",
-  height: "32px",
+  height: "28px",
   fontSize: "0.9rem",
   color: "#111",
   width: "100%",

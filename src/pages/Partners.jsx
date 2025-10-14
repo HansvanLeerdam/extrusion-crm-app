@@ -27,7 +27,7 @@ export default function Partners({ data, setData }) {
     border: "1px solid #ccc",
     borderRadius: "8px",
     padding: "0.35rem 0.5rem",
-    height: "30px",
+    height: "28px",
     fontSize: "0.9rem",
     color: "#111",
     width: "100%",
