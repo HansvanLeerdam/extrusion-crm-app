@@ -38,7 +38,7 @@ export default function Projects({ data, setData }) {
     border: "1px solid #ccc",
     borderRadius: "8px",
     padding: "0.35rem 0.5rem",
-    height: "30px",
+    height: "28px",
     fontSize: "0.9rem",
     color: "#111",
     width: "100%",
@@ -223,38 +223,324 @@ export default function Projects({ data, setData }) {
     <div className="card" style={{ textAlign: "left" }}>
       <SectionTitle icon={FolderKanban} title="Projects" />
 
-      {/* Input row */}
+      {/* === FILTERS === */}
+      <div
+        style={{
+          display: "flex",
+          gap: "0.5rem",
+          marginBottom: "1rem",
+          alignItems: "center"
+        }}
+      >
+        <select
+          value={filterClient}
+          onChange={(e) => setFilterClient(e.target.value)}
+          style={{ ...inputStyle, width: "160px" }}
+        >
+          <option value="">All Clients</option>
+          {groupedBase.map((g) => (
+            <option key={g.id} value={g.id}>
+              {g.client}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={filterPartner}
+          onChange={(e) => setFilterPartner(e.target.value)}
+          style={{ ...inputStyle, width: "160px" }}
+        >
+          <option value="">All Partners</option>
+          {(data.partners || []).map((p) => (
+            <option key={p.id} value={p.id}>
+              {p.name}
+            </option>
+          ))}
+        </select>
+
+        {(filterClient || filterPartner) && (
+          <button
+            className="btn-icon"
+            onClick={() => {
+              setFilterClient("")
+              setFilterPartner("")
+            }}
+            title="Clear filters"
+          >
+            ✖
+          </button>
+        )}
+      </div>
+
+      {/* === ADD / EDIT ROW === */}
       <div
         className="sticky-input-row"
         style={{
           display: "grid",
           width: "100%",
-          boxSizing: "border-box",
-          gridTemplateColumns: "repeat(6, 1fr) 36px",
+          gridTemplateColumns: "15% 15% 15% 15% 15% 15% 36px",
           gap: "0.5rem",
           background: "#222",
           border: "1px solid #333",
           borderRadius: "6px",
-          padding: "0.4rem",
-          marginBottom: "0.8rem"
+          padding: "0.4rem"
         }}
       >
-        <input placeholder="Project" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
-        <select value={form.clientId} onChange={(e) => setForm({ ...form, clientId: e.target.value })} style={inputStyle}>
+        <input
+          value={form.name}
+          onChange={(e) => setForm({ ...form, name: e.target.value })}
+          placeholder="Project"
+          style={inputStyle}
+        />
+        <select
+          value={form.clientId}
+          onChange={(e) => setForm({ ...form, clientId: e.target.value })}
+          style={inputStyle}
+        >
           <option value="">Client</option>
-          {allClients.map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}
+          {allClients.map((c) => (
+            <option key={c.id} value={c.id}>
+              {c.name}
+            </option>
+          ))}
         </select>
-        <select value={form.partnerId} onChange={(e) => setForm({ ...form, partnerId: e.target.value, productId: "" })} style={inputStyle}>
+        <select
+          value={form.partnerId}
+          onChange={(e) =>
+            setForm({ ...form, partnerId: e.target.value, productId: "" })
+          }
+          style={inputStyle}
+        >
           <option value="">Partner</option>
-          {(data.partners || []).map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
+          {(data.partners || []).map((p) => (
+            <option key={p.id} value={p.id}>
+              {p.name}
+            </option>
+          ))}
         </select>
-        <select value={form.productId} onChange={(e) => setForm({ ...form, productId: e.target.value })} style={inputStyle}>
+        <select
+          value={form.productId}
+          onChange={(e) => setForm({ ...form, productId: e.target.value })}
+          style={inputStyle}
+        >
           <option value="">Product</option>
-          {displayedProducts.map((it, idx) => <option key={idx} value={it}>{it}</option>)}
+          {displayedProducts.map((it, idx) => (
+            <option key={idx} value={it}>
+              {it}
+            </option>
+          ))}
         </select>
-        <input type="date" value={form.startDate} onChange={(e) => setForm({ ...form, startDate: e.target.value })} style={inputStyle} />
-        <input placeholder="Status" value={form.status} onChange={(e) => setForm({ ...form, status: e.target.value })} style={inputStyle} />
-        <button className="btn-icon" onClick={addOrUpdate} title="Save project">{editing ? <Save size={ICON_SIZE} /> : "+"}</button>
+        <input
+          type="date"
+          value={form.startDate}
+          onChange={(e) => setForm({ ...form, startDate: e.target.value })}
+          style={inputStyle}
+        />
+        <input
+          value={form.status}
+          onChange={(e) => setForm({ ...form, status: e.target.value })}
+          placeholder="Status"
+          style={inputStyle}
+        />
+        <button className="btn-icon" onClick={addOrUpdate} title="Save project">
+          {editing ? <Save size={ICON_SIZE} /> : "+"}
+        </button>
+      </div>
+
+      {/* === TABLE === */}
+      <div style={{ width: "100%", overflowX: "auto" }}>
+        {grouped.map((g) => (
+          <div
+            key={g.client}
+            style={{
+              background: "#141414",
+              borderRadius: "10px",
+              padding: "0.8rem 1rem",
+              marginBottom: "1rem",
+              boxShadow: "0 0 6px rgba(0,0,0,0.4)"
+            }}
+          >
+            <h3
+              style={{
+                marginBottom: "1rem",
+                color: "#fff",
+                fontSize: "1.1rem",
+                borderBottom: "1px solid #333",
+                paddingBottom: "0.5rem"
+              }}
+            >
+              {g.client}
+            </h3>
+
+            {/* TABLE CONTENT */}
+            <table
+              className="projects-table table--has-actions"
+              style={{ width: "100%", borderSpacing: 0 }}
+            >
+              <thead>
+                <tr style={{ background: "#1f1f1f" }}>
+                  <th style={{ width: "25%" }}>Project</th>
+                  <th style={{ width: "20%" }}>Partner</th>
+                  <th style={{ width: "20%" }}>Product</th>
+                  <th style={{ width: "15%" }}>Start</th>
+                  <th style={{ width: "15%" }}>Status</th>
+                  <th style={{ width: "100px", textAlign: "right" }}>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                {g.projects.map((p, idx) => {
+                  const comments = getComments(p.id)
+                  const isActive = activeProject === p.id
+                  const rowBg = idx % 2 === 0 ? "#1a1a1a" : "#111"
+                  return (
+                    <React.Fragment key={String(p.id)}>
+                      <tr style={{ background: rowBg }}>
+                        <td>{p.name}</td>
+                        <td>{getPartnerName(p.partnerId)}</td>
+                        <td>{getProductName(p.productId)}</td>
+                        <td>{p.startDate}</td>
+                        <td>{p.status}</td>
+                        <td className="actions" style={{ textAlign: "right" }}>
+                          <div
+                            style={{
+                              display: "inline-flex",
+                              gap: 6,
+                              justifyContent: "flex-end"
+                            }}
+                          >
+                            <button
+                              title="Modify"
+                              style={BTN_STYLE}
+                              onClick={() => editProject(p)}
+                            >
+                              <Pencil size={ICON_SIZE} />
+                            </button>
+                            <button
+                              title="Delete"
+                              style={BTN_STYLE}
+                              onClick={() => deleteProject(p.id)}
+                            >
+                              <Trash2 size={ICON_SIZE} />
+                            </button>
+                            <button
+                              title="Add comment"
+                              style={BTN_STYLE}
+                              onClick={() =>
+                                setActiveProject(isActive ? null : p.id)
+                              }
+                            >
+                              <MessageSquare size={ICON_SIZE} />
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+
+                      {(comments.length > 0 || isActive) && (
+                        <tr>
+                          <td
+                            colSpan="6"
+                            style={{
+                              background: "#1a1a1a",
+                              padding: "0.8rem 1rem"
+                            }}
+                          >
+                            {comments.map((c) => (
+                              <div
+                                key={String(c.id)}
+                                style={{
+                                  background: "#1f1f1f",
+                                  borderLeft: "4px solid #ffa733",
+                                  borderRadius: 8,
+                                  padding: "0.5rem 0.7rem",
+                                  marginBottom: "0.4rem",
+                                  fontSize: "0.9rem",
+                                  lineHeight: 1.4,
+                                  display: "flex",
+                                  alignItems: "center"
+                                }}
+                              >
+                                {icons[c.type]}{" "}
+                                <span
+                                  style={{
+                                    fontWeight: 700,
+                                    color: "#ffa733",
+                                    marginRight: "0.4rem"
+                                  }}
+                                >
+                                  {c.type.charAt(0).toUpperCase() +
+                                    c.type.slice(1)}
+                                </span>{" "}
+                                {c.text}
+                                <button
+                                  onClick={() => deleteComment(c.id)}
+                                  title="Delete comment"
+                                  style={{
+                                    marginLeft: "auto",
+                                    border: "none",
+                                    background: "#333",
+                                    color: "#ff6666",
+                                    cursor: "pointer",
+                                    fontSize: ".75rem",
+                                    padding: "0 4px",
+                                    borderRadius: 3
+                                  }}
+                                >
+                                  ×
+                                </button>
+                              </div>
+                            ))}
+
+                            {isActive && (
+                              <div style={{ marginTop: ".6rem" }}>
+                                <select
+                                  value={commentType}
+                                  onChange={(e) =>
+                                    setCommentType(e.target.value)
+                                  }
+                                  style={{
+                                    ...inputStyle,
+                                    width: "auto",
+                                    display: "inline-block",
+                                    marginRight: ".4rem"
+                                  }}
+                                >
+                                  <option value="note">📝 Note</option>
+                                  <option value="call">📞 Call</option>
+                                  <option value="email">✉️ Email</option>
+                                  <option value="offer">💼 Offer</option>
+                                  <option value="visit">🚗 Visit</option>
+                                </select>
+                                <input
+                                  value={newComment}
+                                  onChange={(e) =>
+                                    setNewComment(e.target.value)
+                                  }
+                                  placeholder="Add a comment..."
+                                  style={{
+                                    ...inputStyle,
+                                    width: "60%",
+                                    marginRight: ".4rem"
+                                  }}
+                                />
+                                <button
+                                  title="Save comment"
+                                  style={BTN_STYLE}
+                                  onClick={() => addComment(p.id)}
+                                >
+                                  <Save size={ICON_SIZE} />
+                                </button>
+                              </div>
+                            )}
+                          </td>
+                        </tr>
+                      )}
+                    </React.Fragment>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+        ))}
       </div>
     </div>
   )
