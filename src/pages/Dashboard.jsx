@@ -6,6 +6,18 @@ export default function Dashboard({ data }) {
   const [filterClient, setFilterClient] = useState("")
   const [filterPartner, setFilterPartner] = useState("")
 
+  const inputStyle = {
+    height: "30px",
+    background: "#e9e9e9",
+    color: "#111",
+    border: "1px solid #ccc",
+    borderRadius: "8px",
+    padding: "0 0.4rem",
+    fontSize: "0.9rem",
+    outline: "none",
+    width: "160px"
+  }
+
   // Fast lookup: project id → project
   const projectById = useMemo(() => {
     const map = {}
@@ -21,15 +33,15 @@ export default function Dashboard({ data }) {
     return "#4CAF50"
   }
 
-// Only include clients that appear in follow-ups
-const clientsInFollowups = new Set((data.followups || []).map(f => f.clientId))
-const allClients = (data.clients || [])
-  .filter(c => clientsInFollowups.has(c.id))
-  .sort((a, b) => a.name.localeCompare(b.name))
+  // Only include clients that appear in follow-ups
+  const clientsInFollowups = new Set((data.followups || []).map(f => f.clientId))
+  const allClients = (data.clients || [])
+    .filter(c => clientsInFollowups.has(c.id))
+    .sort((a, b) => a.name.localeCompare(b.name))
 
-const allPartners = [...(data.partners || [])].sort((a, b) =>
-  a.name.localeCompare(b.name)
-)
+  const allPartners = [...(data.partners || [])].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  )
 
   // Apply filters
   const upcoming = [...(data.followups || [])]
@@ -58,7 +70,7 @@ const allPartners = [...(data.partners || [])].sort((a, b) =>
           <select
             value={filterClient}
             onChange={(e) => setFilterClient(e.target.value)}
-            style={{ width: "160px" }}
+            style={inputStyle}
           >
             <option value="">All Clients</option>
             {allClients.map((c) => (
@@ -71,7 +83,7 @@ const allPartners = [...(data.partners || [])].sort((a, b) =>
           <select
             value={filterPartner}
             onChange={(e) => setFilterPartner(e.target.value)}
-            style={{ width: "160px" }}
+            style={inputStyle}
           >
             <option value="">All Partners</option>
             {allPartners.map((p) => (
@@ -89,6 +101,14 @@ const allPartners = [...(data.partners || [])].sort((a, b) =>
                 setFilterPartner("")
               }}
               title="Clear filters"
+              style={{
+                height: "30px",
+                background: "transparent",
+                border: "none",
+                color: "#444",
+                cursor: "pointer",
+                fontSize: "1rem"
+              }}
             >
               ✖
             </button>

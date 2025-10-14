@@ -5,7 +5,7 @@ import SectionTitle from "../components/SectionTitle"
 export default function Products({ data, setData }) {
   const [form, setForm] = useState({ partnerId: "", product: "" })
   const [editing, setEditing] = useState({ partnerId: null, index: null })
-  const [openMap, setOpenMap] = useState({}) // { [partnerKey]: boolean }
+  const [openMap, setOpenMap] = useState({})
 
   const BTN_STYLE = {
     background: "#ffa733",
@@ -20,7 +20,20 @@ export default function Products({ data, setData }) {
     border: "none",
     cursor: "pointer"
   }
+
   const ICON_SIZE = 14
+
+  const inputStyle = {
+    height: "30px",
+    background: "#e9e9e9",
+    color: "#111",
+    border: "1px solid #ccc",
+    borderRadius: "8px",
+    padding: "0 0.4rem",
+    fontSize: "0.9rem",
+    outline: "none",
+    width: "100%"
+  }
 
   const toggleOpen = (key) =>
     setOpenMap((m) => ({ ...m, [key]: m[key] === false ? true : false }))
@@ -46,7 +59,8 @@ export default function Products({ data, setData }) {
   }
 
   const addOrUpdateProduct = () => {
-    if (!form.partnerId || !form.product.trim()) return alert("Partner and Product are required.")
+    if (!form.partnerId || !form.product.trim())
+      return alert("Partner and Product are required.")
 
     const updatedProducts = JSON.parse(JSON.stringify(data.products || []))
     const partnerName =
@@ -104,8 +118,8 @@ export default function Products({ data, setData }) {
     setEditing({ partnerId, index: idx })
   }
 
-  const displayedProducts = mergeDuplicatePartners(data.products || []).sort((a, b) =>
-    (a.partner || "").localeCompare(b.partner || "")
+  const displayedProducts = mergeDuplicatePartners(data.products || []).sort(
+    (a, b) => (a.partner || "").localeCompare(b.partner || "")
   )
 
   return (
@@ -127,6 +141,7 @@ export default function Products({ data, setData }) {
         <select
           value={form.partnerId}
           onChange={(e) => setForm({ ...form, partnerId: e.target.value })}
+          style={inputStyle}
         >
           <option value="">Partner</option>
           {(data.partners || [])
@@ -142,6 +157,7 @@ export default function Products({ data, setData }) {
           value={form.product}
           onChange={(e) => setForm({ ...form, product: e.target.value })}
           placeholder="Product name"
+          style={inputStyle}
         />
 
         <button className="btn-icon" onClick={addOrUpdateProduct} title="Save">

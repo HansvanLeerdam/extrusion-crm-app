@@ -27,7 +27,7 @@ export default function Clients({ data, setData }) {
 
   // unified style
   const inputStyle = {
-    height: "32px",
+    height: "30px",
     background: "#e9e9e9",
     color: "#111",
     border: "1px solid #ccc",

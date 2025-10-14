@@ -28,7 +28,20 @@ export default function Followups({ data, setData }) {
     border: "none",
     cursor: "pointer"
   }
+
   const ICON_SIZE = 14
+
+  const inputStyle = {
+    height: "30px",
+    background: "#e9e9e9",
+    color: "#111",
+    border: "1px solid #ccc",
+    borderRadius: "8px",
+    padding: "0 0.4rem",
+    fontSize: "0.9rem",
+    outline: "none",
+    width: "100%"
+  }
 
   // === CLIENTS IN PROJECTS ===
   const projectClientIds = Array.from(
@@ -81,7 +94,7 @@ export default function Followups({ data, setData }) {
         id:
           typeof crypto !== "undefined" && crypto.randomUUID
             ? "followup-" + crypto.randomUUID()
-            : "followup-" + Date.now() + "-" + Math.floor(Math.random() * 100000),
+            : "followup-" + Date.now(),
         nextDate: form.date,
         clientId: String(form.clientId),
         partnerId: form.partnerId ? String(form.partnerId) : "",
@@ -140,8 +153,10 @@ export default function Followups({ data, setData }) {
   // === FILTER + SORT ===
   const sorted = [...(data.followups || [])]
     .filter((f) => {
-      const okClient = !filterClient || String(f.clientId) === String(filterClient)
-      const okPartner = !filterPartner || String(f.partnerId) === String(filterPartner)
+      const okClient =
+        !filterClient || String(f.clientId) === String(filterClient)
+      const okPartner =
+        !filterPartner || String(f.partnerId) === String(filterPartner)
       return okClient && okPartner
     })
     .sort((a, b) => new Date(a.nextDate) - new Date(b.nextDate))
@@ -169,7 +184,7 @@ export default function Followups({ data, setData }) {
         <select
           value={filterClient}
           onChange={(e) => setFilterClient(e.target.value)}
-          style={{ width: "160px" }}
+          style={{ ...inputStyle, width: "160px" }}
         >
           <option value="">All Clients</option>
           {clientsInProjects.map((c) => (
@@ -182,7 +197,7 @@ export default function Followups({ data, setData }) {
         <select
           value={filterPartner}
           onChange={(e) => setFilterPartner(e.target.value)}
-          style={{ width: "160px" }}
+          style={{ ...inputStyle, width: "160px" }}
         >
           <option value="">All Partners</option>
           {(data.partners || []).map((p) => (
@@ -200,6 +215,14 @@ export default function Followups({ data, setData }) {
               setFilterPartner("")
             }}
             title="Clear filters"
+            style={{
+              height: "30px",
+              background: "transparent",
+              border: "none",
+              color: "#999",
+              cursor: "pointer",
+              fontSize: "1rem"
+            }}
           >
             ✖
           </button>
@@ -221,11 +244,13 @@ export default function Followups({ data, setData }) {
           type="date"
           value={form.date}
           onChange={(e) => setForm({ ...form, date: e.target.value })}
+          style={inputStyle}
         />
 
         <select
           value={form.clientId}
           onChange={(e) => setForm({ ...form, clientId: e.target.value })}
+          style={inputStyle}
         >
           <option value="">Client</option>
           {clientsInProjects.map((c) => (
@@ -240,6 +265,7 @@ export default function Followups({ data, setData }) {
           onChange={(e) =>
             setForm({ ...form, partnerId: e.target.value, productId: "" })
           }
+          style={inputStyle}
         >
           <option value="">Partner</option>
           {(data.partners || []).map((p) => (
@@ -252,6 +278,7 @@ export default function Followups({ data, setData }) {
         <select
           value={form.productId}
           onChange={(e) => setForm({ ...form, productId: e.target.value })}
+          style={inputStyle}
         >
           <option value="">Product</option>
           {displayedProducts.map((p, idx) => (
@@ -264,6 +291,7 @@ export default function Followups({ data, setData }) {
         <select
           value={form.projectId}
           onChange={(e) => setForm({ ...form, projectId: e.target.value })}
+          style={inputStyle}
         >
           <option value="">Project</option>
           {(data.projects || []).map((p) => (
@@ -277,6 +305,7 @@ export default function Followups({ data, setData }) {
           value={form.action}
           onChange={(e) => setForm({ ...form, action: e.target.value })}
           placeholder="Action"
+          style={inputStyle}
         />
 
         <button className="btn-icon" onClick={addOrUpdate} title="Save follow-up">
