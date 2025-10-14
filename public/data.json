@@ -1629,6 +1629,18 @@
           "id": "contact-8d1b0866-f69b-4685-9b0d-a2f7cf63c648"
         }
       ]
+    },
+    {
+      "id": "client-1760478506359",
+      "name": "All Contacts",
+      "country": "",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
     }
   ],
   "partners": [
@@ -2622,7 +2634,7 @@
       "projectId": "13",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-15",
+      "nextDate": "2025-10-22",
       "action": "Follow up offer Nathan"
     },
     {
@@ -2667,15 +2679,6 @@
       "projectId": "fd2b103d-cb61-4152-bdd5-cc1a5e0e2186",
       "partnerId": "7",
       "productId": "CVD Coated Dies",
-      "nextDate": "2025-10-18",
-      "action": "Follow up"
-    },
-    {
-      "id": "db773eda-5204-49b0-afaf-727232ea0dc0",
-      "clientId": "1760217942122",
-      "projectId": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
-      "partnerId": "2",
-      "productId": "",
       "nextDate": "2025-10-18",
       "action": "Follow up"
     },
@@ -2843,7 +2846,7 @@
     },
     {
       "id": "followup-4285751f-4e44-4438-8947-a489dc8c3fd6",
-      "clientId": "client-6030814e-22d6-452e-8df8-a0dcc12e7230",
+      "clientId": "client-1760478506359",
       "projectId": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
       "partnerId": "3",
       "productId": "Die Oven",
@@ -2852,7 +2855,7 @@
     },
     {
       "id": "followup-da2ed5f7-6395-4530-b8f3-2680b2309ac5",
-      "clientId": "client-445b5eed-7c14-48d3-a04e-28c59e460f2d",
+      "clientId": "client-1760425977274",
       "projectId": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
       "partnerId": "2",
       "productId": "Software",
@@ -3119,6 +3122,13 @@
       "type": "offer",
       "text": "Offer was send to Claire on the 16/11/2024",
       "date": "2025-10-13"
+    },
+    {
+      "id": "comment-a78bc396-b10f-4b2d-8560-b564d0a683ac",
+      "projectId": "13",
+      "type": "email",
+      "text": "Nathan gecontacteerd en wacht op antwoord klant - 14/10/25",
+      "date": "2025-10-14"
     }
   ]
 }
