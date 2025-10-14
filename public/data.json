@@ -1593,6 +1593,42 @@
           "id": "contact-8d1b0866-f69b-4685-9b0d-a2f7cf63c648"
         }
       ]
+    },
+    {
+      "id": "client-1760425977274",
+      "name": "Turkish Clients",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
+    },
+    {
+      "id": "client-1760425998931",
+      "name": "Benelux Clients",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
+    },
+    {
+      "id": "client-1760426016447",
+      "name": "Spanish Clients",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
     }
   ],
   "partners": [
@@ -2487,6 +2523,15 @@
       "productId": "Software",
       "startDate": "2024-11-16",
       "status": "Follow up"
+    },
+    {
+      "id": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
+      "name": "APS",
+      "clientId": "client-1760425977274",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-10-15",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -2848,6 +2893,15 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2025-10-20",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-28d820b3-40bf-4eff-ab65-0ffc691abe80",
+      "clientId": "client-1760425977274",
+      "projectId": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2025-10-21",
       "action": "Initial follow-up for new project"
     }
   ],
