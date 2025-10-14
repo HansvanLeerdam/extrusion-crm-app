@@ -2532,6 +2532,15 @@
       "productId": "Software",
       "startDate": "2025-10-15",
       "status": "Follow up"
+    },
+    {
+      "id": "project-38ad1d7f-7aa0-4645-b0ef-515d34d52141",
+      "name": "Spain / Portugal Promoting",
+      "clientId": "client-1760426016447",
+      "partnerId": "7",
+      "productId": "CVD Coated Dies",
+      "startDate": "2025-10-14",
+      "status": "Start-up"
     }
   ],
   "followups": [
@@ -2901,6 +2910,15 @@
       "projectId": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
       "partnerId": "2",
       "productId": "Software",
+      "nextDate": "2025-10-21",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-c38ca536-80dc-42f9-81d3-8ff7da848cc3",
+      "clientId": "client-1760426016447",
+      "projectId": "project-38ad1d7f-7aa0-4645-b0ef-515d34d52141",
+      "partnerId": "7",
+      "productId": "CVD Coated Dies",
       "nextDate": "2025-10-21",
       "action": "Initial follow-up for new project"
     }
