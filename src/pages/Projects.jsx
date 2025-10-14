@@ -113,7 +113,7 @@ export default function Projects({ data, setData }) {
 style={{
   display: "grid",                            // activates the grid
   width: "100%",                              // uses full available space
-  gridTemplateColumns: "15% 15% 15% 15% 15% 15% 36px",
+  gridTemplateColumns: "12% 12% 12% 12% 12% 12% 36px",
   gap: "0.5rem",                              // adds small spacing between inputs
   background: "#222",
   border: "1px solid #333",

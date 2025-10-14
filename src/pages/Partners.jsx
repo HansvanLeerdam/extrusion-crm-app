@@ -115,7 +115,7 @@ export default function Partners({ data, setData }) {
 style={{
   display: "grid",                 // makes grid layout work
   width: "100%",                   // ensures full horizontal use
-  gridTemplateColumns: "15% 15% 15% 15% 36px",
+  gridTemplateColumns: "12% 12% 12% 12% 36px",
   gap: "0.5rem",                   // small spacing between inputs (optional but recommended)
   marginBottom: "0.8rem"
 }}

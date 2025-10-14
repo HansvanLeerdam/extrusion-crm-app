@@ -235,7 +235,7 @@ export default function Followups({ data, setData }) {
 style={{
   display: "grid",                          // enables the grid layout
   width: "100%",                            // ensures full horizontal space is used
-  gridTemplateColumns: "15% 15% 15% 15% 15% 15% 36px",
+  gridTemplateColumns: "12% 12% 12% 12% 12% 12% 36px",
   gap: "0.5rem",                            // adds clean spacing between inputs
   background: "#222",
   border: "1px solid #333",
