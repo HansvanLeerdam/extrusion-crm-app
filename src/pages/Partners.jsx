@@ -113,7 +113,7 @@ export default function Partners({ data, setData }) {
       <div
         className="sticky-input-row"
         style={{
-          gridTemplateColumns: "20% 20% 20% 20% 36px",
+          gridTemplateColumns: "15% 15% 15% 15% 36px",
           marginBottom: "0.8rem"
         }}
       >

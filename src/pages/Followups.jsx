@@ -233,7 +233,7 @@ export default function Followups({ data, setData }) {
       <div
         className="sticky-input-row"
         style={{
-          gridTemplateColumns: "15% 15% 15% 15% 15% 15% 36px",
+          gridTemplateColumns: "12% 12% 12% 12% 12% 12% 36px",
           background: "#222",
           border: "1px solid #333",
           borderRadius: "6px",
