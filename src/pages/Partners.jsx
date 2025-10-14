@@ -1,12 +1,11 @@
 import React, { useState } from "react"
-import { Users, Pencil, Trash2, Save, X } from "lucide-react"
+import { Handshake, Pencil, Trash2, Save } from "lucide-react"
 import SectionTitle from "../components/SectionTitle"
 
 export default function Partners({ data, setData }) {
   const [form, setForm] = useState({ name: "", contact: "", email: "", phone: "" })
-  const [openPartners, setOpenPartners] = useState({})
-  const [editKey, setEditKey] = useState(null)
-  const [editContact, setEditContact] = useState({ contact: "", email: "", phone: "" })
+  const [editing, setEditing] = useState({ partnerId: null, contactIndex: null })
+  const [openMap, setOpenMap] = useState({})
 
   const BTN_STYLE = {
     background: "#ffa733",
@@ -21,285 +20,195 @@ export default function Partners({ data, setData }) {
     border: "none",
     cursor: "pointer"
   }
-
   const ICON_SIZE = 14
 
   const inputStyle = {
-    height: "30px",
-    background: "#e9e9e9",
-    color: "#111",
+    background: "#e6e6e6",
     border: "1px solid #ccc",
     borderRadius: "8px",
-    padding: "0 0.4rem",
+    padding: "0.35rem 0.5rem",
+    height: "30px",
     fontSize: "0.9rem",
+    color: "#111",
+    width: "100%",
     outline: "none",
-    width: "100%"
+    boxSizing: "border-box"
   }
 
-  const addPartner = () => {
+  const toggleOpen = (id) =>
+    setOpenMap((m) => ({ ...m, [id]: m[id] === false ? true : false }))
+
+  const sortedPartners = [...(data.partners || [])].sort((a, b) =>
+    (a.name || "").localeCompare(b.name || "")
+  )
+
+  const addOrUpdate = () => {
     if (!form.name.trim()) return alert("Partner name is required.")
-    const exists = (data.partners || []).some(
-      (p) => p.name.toLowerCase() === form.name.trim().toLowerCase()
-    )
-    if (exists) return alert("Partner already exists.")
+    const updated = [...(data.partners || [])]
+    let partner = updated.find((p) => p.name.trim() === form.name.trim())
 
-    const newPartner = {
-      id: "partner-" + Date.now(),
-      name: form.name.trim(),
-      contacts: [
-        {
-          contact: form.contact || "",
-          email: form.email || "",
-          phone: form.phone || ""
-        }
-      ]
-    }
-    setData({ ...data, partners: [...(data.partners || []), newPartner] })
-    setForm({ name: "", contact: "", email: "", phone: "" })
-  }
-
-  const togglePartner = (id) => {
-    setOpenPartners((prev) => ({ ...prev, [id]: !prev[id] }))
-  }
-
-  const startEdit = (partnerId, idx, ct) => {
-    setOpenPartners((prev) => ({ ...prev, [partnerId]: true }))
-    setEditKey(`${partnerId}-${idx}`)
-    setEditContact({
-      contact: ct?.contact ?? "",
-      email: ct?.email ?? "",
-      phone: ct?.phone ?? ""
-    })
-  }
-
-  const cancelEdit = () => {
-    setEditKey(null)
-    setEditContact({ contact: "", email: "", phone: "" })
-  }
-
-  const saveEdit = (partnerId, idx) => {
-    const updated = (data.partners || []).map((p) => {
-      if (p.id !== partnerId) return p
-      const contacts = [...(p.contacts || [])]
-      contacts[idx] = {
-        contact: (editContact.contact || "").trim(),
-        email: (editContact.email || "").trim(),
-        phone: (editContact.phone || "").trim()
+    if (!partner) {
+      partner = {
+        id:
+          typeof crypto !== "undefined" && crypto.randomUUID
+            ? "partner-" + crypto.randomUUID()
+            : "partner-" + Date.now() + "-" + Math.floor(Math.random() * 100000),
+        name: form.name.trim(),
+        contacts: []
       }
-      return { ...p, contacts }
+      updated.push(partner)
+    }
+
+    if (editing.partnerId !== null) {
+      const pi = updated.findIndex((p) => p.id === editing.partnerId)
+      if (pi !== -1) {
+        updated[pi].contacts[editing.contactIndex] = {
+          contact: form.contact,
+          email: form.email,
+          phone: form.phone
+        }
+      }
+      setEditing({ partnerId: null, contactIndex: null })
+    } else {
+      partner.contacts.push({
+        contact: form.contact,
+        email: form.email,
+        phone: form.phone
+      })
+    }
+
+    setForm({ name: "", contact: "", email: "", phone: "" })
+    setData({
+      ...data,
+      partners: updated.sort((a, b) => (a.name || "").localeCompare(b.name || ""))
     })
-    setData({ ...data, partners: updated })
-    cancelEdit()
   }
 
-  const deleteContact = (partnerId, idx) => {
+  const deleteContact = (partnerId, index) => {
     if (!confirm("Delete this contact?")) return
-    let updated = (data.partners || []).map((p) => {
-      if (p.id !== partnerId) return p
-      const contacts = [...(p.contacts || [])]
-      contacts.splice(idx, 1)
-      return { ...p, contacts }
-    })
-    updated = updated.filter((p) => (p.contacts && p.contacts.length > 0))
+    const updated = (data.partners || []).map((p) =>
+      p.id === partnerId
+        ? { ...p, contacts: (p.contacts || []).filter((_, i) => i !== index) }
+        : p
+    )
     setData({ ...data, partners: updated })
-    cancelEdit()
+  }
+
+  const editContact = (partner, index) => {
+    const ct = (partner.contacts || [])[index]
+    setForm({
+      name: partner.name,
+      contact: ct?.contact || "",
+      email: ct?.email || "",
+      phone: ct?.phone || ""
+    })
+    setEditing({ partnerId: partner.id, contactIndex: index })
   }
 
   return (
-    <div className="card">
-      <SectionTitle icon={Users} title="Partners" />
+    <div className="card" style={{ textAlign: "left" }}>
+      <SectionTitle icon={Handshake} title="Partners" />
 
-      {/* INPUT ROW */}
+      {/* Input row */}
       <div
         className="sticky-input-row"
-style={{
-  display: "grid",                 // makes grid layout work
-  width: "100%",                   // ensures full horizontal use
-  gridTemplateColumns: "12% 12% 12% 12% 36px",
-  gap: "0.5rem",                   // small spacing between inputs (optional but recommended)
-  marginBottom: "0.8rem"
-}}
+        style={{
+          display: "grid",
+          width: "100%",
+          boxSizing: "border-box",
+          gridTemplateColumns: "repeat(4, 1fr) 36px",
+          gap: "0.5rem",
+          background: "#222",
+          border: "1px solid #333",
+          borderRadius: "6px",
+          padding: "0.4rem",
+          marginBottom: "0.8rem"
+        }}
       >
-        <input
-          placeholder="Partner Name"
-          value={form.name}
-          onChange={(e) => setForm({ ...form, name: e.target.value })}
-          style={inputStyle}
-        />
-        <input
-          placeholder="Contact"
-          value={form.contact}
-          onChange={(e) => setForm({ ...form, contact: e.target.value })}
-          style={inputStyle}
-        />
-        <input
-          placeholder="Email"
-          value={form.email}
-          onChange={(e) => setForm({ ...form, email: e.target.value })}
-          style={inputStyle}
-        />
-        <input
-          placeholder="Phone"
-          value={form.phone}
-          onChange={(e) => setForm({ ...form, phone: e.target.value })}
-          style={inputStyle}
-        />
-        <button className="btn-icon" onClick={addPartner}>
-          +
-        </button>
+        <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Partner" style={inputStyle} />
+        <input value={form.contact} onChange={(e) => setForm({ ...form, contact: e.target.value })} placeholder="Contact" style={inputStyle} />
+        <input value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder="Email" style={inputStyle} />
+        <input value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} placeholder="Phone" style={inputStyle} />
+        <button className="btn-icon" onClick={addOrUpdate} title="Save">{editing.partnerId !== null ? <Save size={ICON_SIZE} /> : "+"}</button>
       </div>
 
-      {/* PARTNERS LIST */}
-      {(data.partners || [])
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .map((partner) => {
-          const isOpen = !!openPartners[partner.id]
-          return (
-            <div
-              key={partner.id}
+      {sortedPartners.map((p) => {
+        const contacts = [...(p.contacts || [])].sort((a, b) =>
+          (a.contact || "").localeCompare(b.contact || "")
+        )
+        const isOpen = openMap[p.id] !== false
+        return (
+          <div
+            key={p.id}
+            style={{
+              background: "#141414",
+              borderRadius: "10px",
+              padding: "0.8rem 1rem",
+              marginBottom: "1rem",
+              boxShadow: "0 0 6px rgba(0,0,0,0.4)"
+            }}
+          >
+            <button
+              onClick={() => toggleOpen(p.id)}
               style={{
-                background: "#141414",
-                borderRadius: "10px",
-                padding: "0.8rem 1rem",
-                marginBottom: "1rem",
-                boxShadow: "0 0 6px rgba(0,0,0,0.4)"
+                display: "flex",
+                width: "100%",
+                alignItems: "center",
+                justifyContent: "space-between",
+                background: "transparent",
+                border: "none",
+                color: "#fff",
+                cursor: "pointer",
+                padding: 0,
+                margin: 0
               }}
+              aria-expanded={isOpen}
             >
-              <div
-                onClick={() => togglePartner(partner.id)}
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  cursor: "pointer"
-                }}
-              >
-                <h3 style={{ color: "#fff", fontSize: "1.1rem", margin: 0 }}>
-                  {partner.name}
-                </h3>
-                <span style={{ color: "#aaa" }}>{isOpen ? "▲" : "▼"}</span>
-              </div>
+              <h3 style={{ color: "#fff", fontSize: "1.05rem", borderBottom: "1px solid #333", paddingBottom: "0.5rem", marginBottom: "0.6rem" }}>{p.name}</h3>
+              <span style={{ transform: `rotate(${isOpen ? 90 : 0}deg)`, transition: "transform 0.15s ease", color: "#ccc" }}>▶</span>
+            </button>
 
-              {isOpen && (
-                <table
-                  className="partners-table table--has-actions"
-                  style={{ marginTop: "0.5rem", width: "100%" }}
-                >
-                  <thead>
-                    <tr>
-                      <th>Contact</th>
-                      <th>Email</th>
-                      <th>Phone</th>
-                      <th style={{ width: 98, textAlign: "right" }}>Actions</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {(partner.contacts || []).map((ct, i) => {
-                      const rowKey = `${partner.id}-${i}`
-                      const editing = editKey === rowKey
-
+            {isOpen && (
+              <table className="partners-table table--has-actions" style={{ width: "100%", borderSpacing: 0 }}>
+                <thead>
+                  <tr style={{ background: "#1f1f1f" }}>
+                    <th>Contact</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th style={{ width: 120, textAlign: "right" }}>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {contacts.length > 0 ? (
+                    contacts.map((ct, i) => {
+                      const rowBg = i % 2 === 0 ? "#1a1a1a" : "#111"
                       return (
-                        <tr key={rowKey}>
-                          {editing ? (
-                            <>
-                              <td>
-                                <input
-                                  value={editContact.contact}
-                                  onChange={(e) =>
-                                    setEditContact({
-                                      ...editContact,
-                                      contact: e.target.value
-                                    })
-                                  }
-                                  placeholder="Contact"
-                                  style={inputStyle}
-                                />
-                              </td>
-                              <td>
-                                <input
-                                  value={editContact.email}
-                                  onChange={(e) =>
-                                    setEditContact({
-                                      ...editContact,
-                                      email: e.target.value
-                                    })
-                                  }
-                                  placeholder="Email"
-                                  style={inputStyle}
-                                />
-                              </td>
-                              <td>
-                                <input
-                                  value={editContact.phone}
-                                  onChange={(e) =>
-                                    setEditContact({
-                                      ...editContact,
-                                      phone: e.target.value
-                                    })
-                                  }
-                                  placeholder="Phone"
-                                  style={inputStyle}
-                                />
-                              </td>
-                              <td style={{ textAlign: "right" }}>
-                                <div style={{ display: "inline-flex", gap: 6 }}>
-                                  <button
-                                    title="Save"
-                                    style={BTN_STYLE}
-                                    onClick={() => saveEdit(partner.id, i)}
-                                  >
-                                    <Save size={ICON_SIZE} />
-                                  </button>
-                                  <button
-                                    title="Cancel"
-                                    style={BTN_STYLE}
-                                    onClick={cancelEdit}
-                                  >
-                                    <X size={ICON_SIZE} />
-                                  </button>
-                                </div>
-                              </td>
-                            </>
-                          ) : (
-                            <>
-                              <td>{ct.contact}</td>
-                              <td>{ct.email}</td>
-                              <td>{ct.phone}</td>
-                              <td style={{ textAlign: "right" }}>
-                                <div style={{ display: "inline-flex", gap: 6 }}>
-                                  <button
-                                    title="Modify"
-                                    style={BTN_STYLE}
-                                    onClick={(e) => {
-                                      e.stopPropagation()
-                                      startEdit(partner.id, i, ct)
-                                    }}
-                                  >
-                                    <Pencil size={ICON_SIZE} />
-                                  </button>
-                                  <button
-                                    title="Delete"
-                                    style={BTN_STYLE}
-                                    onClick={(e) => {
-                                      e.stopPropagation()
-                                      deleteContact(partner.id, i)
-                                    }}
-                                  >
-                                    <Trash2 size={ICON_SIZE} />
-                                  </button>
-                                </div>
-                              </td>
-                            </>
-                          )}
+                        <tr key={`${p.id}-${i}`} style={{ background: rowBg }}>
+                          <td>{ct.contact}</td>
+                          <td>{ct.email}</td>
+                          <td>{ct.phone}</td>
+                          <td className="actions" style={{ textAlign: "right" }}>
+                            <div style={{ display: "inline-flex", gap: 6, justifyContent: "flex-end" }}>
+                              <button title="Modify" style={BTN_STYLE} onClick={() => editContact(p, i)}>
+                                <Pencil size={ICON_SIZE} />
+                              </button>
+                              <button title="Delete" style={BTN_STYLE} onClick={() => deleteContact(p.id, i)}>
+                                <Trash2 size={ICON_SIZE} />
+                              </button>
+                            </div>
+                          </td>
                         </tr>
                       )
-                    })}
-                  </tbody>
-                </table>
-              )}
-            </div>
-          )
-        })}
+                    })
+                  ) : (
+                    <tr><td colSpan={4} style={{ textAlign: "center", color: "#888" }}>No contacts yet</td></tr>
+                  )}
+                </tbody>
+              </table>
+            )}
+          </div>
+        )
+      })}
     </div>
   )
 }

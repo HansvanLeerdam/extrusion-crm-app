@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { FolderKanban, Pencil, Trash2, Save } from "lucide-react"
+import { FolderKanban, Pencil, Trash2, Save, MessageSquare } from "lucide-react"
 import SectionTitle from "../components/SectionTitle"
 
 export default function Projects({ data, setData }) {
@@ -11,7 +11,12 @@ export default function Projects({ data, setData }) {
     startDate: "",
     status: ""
   })
-  const [editingId, setEditingId] = useState(null)
+  const [editing, setEditing] = useState(null)
+  const [activeProject, setActiveProject] = useState(null)
+  const [newComment, setNewComment] = useState("")
+  const [commentType, setCommentType] = useState("note")
+  const [filterClient, setFilterClient] = useState("")
+  const [filterPartner, setFilterPartner] = useState("")
 
   const BTN_STYLE = {
     background: "#ffa733",
@@ -26,44 +31,103 @@ export default function Projects({ data, setData }) {
     border: "none",
     cursor: "pointer"
   }
-
   const ICON_SIZE = 14
 
   const inputStyle = {
-    height: "30px",
-    background: "#e9e9e9",
-    color: "#111",
+    background: "#e6e6e6",
     border: "1px solid #ccc",
     borderRadius: "8px",
-    padding: "0 0.4rem",
+    padding: "0.35rem 0.5rem",
+    height: "30px",
     fontSize: "0.9rem",
+    color: "#111",
+    width: "100%",
     outline: "none",
-    width: "100%"
+    boxSizing: "border-box"
   }
 
-  const addOrUpdateProject = () => {
-    if (!form.name.trim() || !form.clientId)
-      return alert("Project name and client are required.")
+  const getPartnerName = (id) =>
+    (data.partners || []).find((p) => String(p.id) === String(id))?.name || ""
 
+  const getProductName = (val) =>
+    typeof val === "string" ? val : String(val ?? "")
+
+  const selectedPartnerId = form.partnerId
+  const selectedPartnerName =
+    (data.partners || []).find((p) => String(p.id) === String(selectedPartnerId))
+      ?.name || ""
+
+  const partnerProducts =
+    ((data.products || []).find(
+      (p) =>
+        String(p.partnerId) === String(selectedPartnerId) ||
+        (p.partner && p.partner === selectedPartnerName)
+    )?.items || [])
+
+  const allProducts = [
+    ...new Set((data.products || []).flatMap((p) => p.items || []))
+  ].sort((a, b) => a.localeCompare(b))
+
+  const displayedProducts =
+    partnerProducts && partnerProducts.length > 0 ? partnerProducts : allProducts
+
+  const allClients = [...(data.clients || [])].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  )
+
+  const clientsMap = new Map(allClients.map((c) => [String(c.id), c]))
+  const clientIdsInProjects = Array.from(
+    new Set(
+      (data.projects || [])
+        .map((p) => String(p.clientId))
+        .filter((id) => clientsMap.has(id))
+    )
+  )
+
+  const clientsInProjects = clientIdsInProjects
+    .map((id) => clientsMap.get(id))
+    .sort((a, b) => a.name.localeCompare(b.name))
+
+  const addOrUpdate = () => {
+    if (!form.name) return
     const updated = [...(data.projects || [])]
 
-    if (editingId) {
-      const i = updated.findIndex((p) => p.id === editingId)
-      if (i !== -1) {
-        updated[i] = { ...updated[i], ...form }
-      }
+    if (editing) {
+      const i = updated.findIndex((p) => String(p.id) === String(editing))
+      if (i !== -1) updated[i] = { ...form, id: editing }
+      setEditing(null)
+      setData({ ...data, projects: updated })
     } else {
-      const newProject = {
+      const newProjectId =
+        typeof crypto !== "undefined" && crypto.randomUUID
+          ? "project-" + crypto.randomUUID()
+          : "project-" + Date.now() + "-" + Math.floor(Math.random() * 100000)
+
+      updated.push({ id: newProjectId, ...form })
+
+      const today = new Date()
+      const nextWeek = new Date(today)
+      nextWeek.setDate(today.getDate() + 7)
+      const newFollowup = {
         id:
           typeof crypto !== "undefined" && crypto.randomUUID
-            ? "project-" + crypto.randomUUID()
-            : "project-" + Date.now(),
-        ...form
+            ? "followup-" + crypto.randomUUID()
+            : "followup-" + Date.now() + "-" + Math.floor(Math.random() * 100000),
+        clientId: form.clientId || null,
+        projectId: newProjectId,
+        partnerId: form.partnerId || null,
+        productId: form.productId || null,
+        nextDate: nextWeek.toISOString().split("T")[0],
+        action: "Initial follow-up for new project"
       }
-      updated.push(newProject)
+
+      setData({
+        ...data,
+        projects: updated,
+        followups: [...(data.followups || []), newFollowup]
+      })
     }
 
-    setData({ ...data, projects: updated })
     setForm({
       name: "",
       clientId: "",
@@ -72,36 +136,88 @@ export default function Projects({ data, setData }) {
       startDate: "",
       status: ""
     })
-    setEditingId(null)
-  }
-
-  const editProject = (id) => {
-    const p = (data.projects || []).find((x) => x.id === id)
-    if (!p) return
-    setForm({ ...p })
-    setEditingId(p.id)
   }
 
   const deleteProject = (id) => {
-    if (!confirm("Delete this project?")) return
-    const updated = (data.projects || []).filter((p) => p.id !== id)
-    setData({ ...data, projects: updated })
-    if (editingId === id) {
-      setEditingId(null)
-      setForm({
-        name: "",
-        clientId: "",
-        partnerId: "",
-        productId: "",
-        startDate: "",
-        status: ""
-      })
-    }
+    setData({
+      ...data,
+      projects: (data.projects || []).filter((p) => String(p.id) !== String(id)),
+      projectComments: (data.projectComments || []).filter(
+        (c) => String(c.projectId) !== String(id)
+      )
+    })
   }
 
-  const sorted = [...(data.projects || [])].sort((a, b) =>
-    (a.name || "").localeCompare(b.name || "")
-  )
+  const editProject = (p) => {
+    setForm(p)
+    setEditing(p.id)
+  }
+
+  const getComments = (projectId) =>
+    (data.projectComments || []).filter(
+      (c) => String(c.projectId) === String(projectId)
+    )
+
+  const addComment = (projectId) => {
+    if (!newComment.trim()) return
+    const newC = {
+      id:
+        typeof crypto !== "undefined" && crypto.randomUUID
+          ? "comment-" + crypto.randomUUID()
+          : "comment-" + Date.now() + "-" + Math.floor(Math.random() * 100000),
+      projectId: String(projectId),
+      type: commentType,
+      text: newComment.trim(),
+      date: new Date().toISOString().split("T")[0]
+    }
+    setData({
+      ...data,
+      projectComments: [...(data.projectComments || []), newC]
+    })
+    setNewComment("")
+    setCommentType("note")
+    setActiveProject(null)
+  }
+
+  const deleteComment = (commentId) => {
+    setData({
+      ...data,
+      projectComments: (data.projectComments || []).filter(
+        (c) => String(c.id) !== String(commentId)
+      )
+    })
+  }
+
+  const groupedBase = clientsInProjects
+    .map((c) => ({
+      client: c.name,
+      id: c.id,
+      projects: (data.projects || []).filter(
+        (p) => String(p.clientId) === String(c.id)
+      )
+    }))
+    .filter((g) => g.projects.length > 0)
+
+  const grouped = groupedBase
+    .map((g) => ({
+      ...g,
+      projects: g.projects.filter((p) => {
+        const okClient =
+          !filterClient || String(p.clientId) === String(filterClient)
+        const okPartner =
+          !filterPartner || String(p.partnerId) === String(filterPartner)
+        return okClient && okPartner
+      })
+    }))
+    .filter((g) => g.projects.length > 0)
+
+  const icons = {
+    call: "📞",
+    email: "✉️",
+    offer: "💼",
+    visit: "🚗",
+    note: "📝"
+  }
 
   return (
     <div className="card" style={{ textAlign: "left" }}>
@@ -110,145 +226,36 @@ export default function Projects({ data, setData }) {
       {/* Input row */}
       <div
         className="sticky-input-row"
-style={{
-  display: "grid",                            // activates the grid
-  width: "100%",                              // uses full available space
-  gridTemplateColumns: "12% 12% 12% 12% 12% 12% 36px",
-  gap: "0.5rem",                              // adds small spacing between inputs
-  background: "#222",
-  border: "1px solid #333",
-  borderRadius: "6px",
-  padding: "0.4rem",
-  marginBottom: "0.8rem"
-}}
+        style={{
+          display: "grid",
+          width: "100%",
+          boxSizing: "border-box",
+          gridTemplateColumns: "repeat(6, 1fr) 36px",
+          gap: "0.5rem",
+          background: "#222",
+          border: "1px solid #333",
+          borderRadius: "6px",
+          padding: "0.4rem",
+          marginBottom: "0.8rem"
+        }}
       >
-        <input
-          placeholder="Project Name"
-          value={form.name}
-          onChange={(e) => setForm({ ...form, name: e.target.value })}
-          style={inputStyle}
-        />
-
-        <select
-          value={form.clientId}
-          onChange={(e) => setForm({ ...form, clientId: e.target.value })}
-          style={inputStyle}
-        >
+        <input placeholder="Project" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
+        <select value={form.clientId} onChange={(e) => setForm({ ...form, clientId: e.target.value })} style={inputStyle}>
           <option value="">Client</option>
-          {(data.clients || [])
-            .sort((a, b) => a.name.localeCompare(b.name))
-            .map((c) => (
-              <option key={c.id} value={c.id}>
-                {c.name}
-              </option>
-            ))}
+          {allClients.map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}
         </select>
-
-        <select
-          value={form.partnerId}
-          onChange={(e) => setForm({ ...form, partnerId: e.target.value })}
-          style={inputStyle}
-        >
+        <select value={form.partnerId} onChange={(e) => setForm({ ...form, partnerId: e.target.value, productId: "" })} style={inputStyle}>
           <option value="">Partner</option>
-          {(data.partners || [])
-            .sort((a, b) => a.name.localeCompare(b.name))
-            .map((p) => (
-              <option key={p.id} value={p.id}>
-                {p.name}
-              </option>
-            ))}
+          {(data.partners || []).map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
         </select>
-
-        <select
-          value={form.productId}
-          onChange={(e) => setForm({ ...form, productId: e.target.value })}
-          style={inputStyle}
-        >
+        <select value={form.productId} onChange={(e) => setForm({ ...form, productId: e.target.value })} style={inputStyle}>
           <option value="">Product</option>
-          {[
-            ...new Set((data.products || []).flatMap((p) => p.items || []))
-          ]
-            .sort((a, b) => a.localeCompare(b))
-            .map((p, i) => (
-              <option key={i} value={p}>
-                {p}
-              </option>
-            ))}
+          {displayedProducts.map((it, idx) => <option key={idx} value={it}>{it}</option>)}
         </select>
-
-        <input
-          type="date"
-          value={form.startDate}
-          onChange={(e) => setForm({ ...form, startDate: e.target.value })}
-          style={inputStyle}
-        />
-
-        <input
-          placeholder="Status"
-          value={form.status}
-          onChange={(e) => setForm({ ...form, status: e.target.value })}
-          style={inputStyle}
-        />
-
-        <button className="btn-icon" onClick={addOrUpdateProject}>
-          {editingId ? <Save size={ICON_SIZE} /> : "+"}
-        </button>
+        <input type="date" value={form.startDate} onChange={(e) => setForm({ ...form, startDate: e.target.value })} style={inputStyle} />
+        <input placeholder="Status" value={form.status} onChange={(e) => setForm({ ...form, status: e.target.value })} style={inputStyle} />
+        <button className="btn-icon" onClick={addOrUpdate} title="Save project">{editing ? <Save size={ICON_SIZE} /> : "+"}</button>
       </div>
-
-      {/* Table */}
-      <table
-        className="projects-table table--has-actions"
-        style={{ width: "100%", borderSpacing: 0 }}
-      >
-        <thead>
-          <tr style={{ background: "#1f1f1f" }}>
-            <th>Name</th>
-            <th>Client</th>
-            <th>Partner</th>
-            <th>Product</th>
-            <th>Start Date</th>
-            <th>Status</th>
-            <th style={{ width: 100, textAlign: "right" }}>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {sorted.map((p, i) => {
-            const rowBg = i % 2 === 0 ? "#1a1a1a" : "#111"
-            const client =
-              (data.clients || []).find((c) => c.id === p.clientId)?.name || ""
-            const partner =
-              (data.partners || []).find((x) => x.id === p.partnerId)?.name || ""
-            return (
-              <tr key={p.id} style={{ background: rowBg }}>
-                <td>{p.name}</td>
-                <td>{client}</td>
-                <td>{partner}</td>
-                <td>{p.productId}</td>
-                <td>{p.startDate}</td>
-                <td>{p.status}</td>
-                <td style={{ textAlign: "right" }}>
-                  <div style={{ display: "inline-flex", gap: 6 }}>
-                    <button
-                      title="Modify"
-                      style={BTN_STYLE}
-                      onClick={() => editProject(p.id)}
-                    >
-                      <Pencil size={ICON_SIZE} />
-                    </button>
-                    <button
-                      title="Delete"
-                      style={BTN_STYLE}
-                      onClick={() => deleteProject(p.id)}
-                    >
-                      <Trash2 size={ICON_SIZE} />
-                    </button>
-                  </div>
-                </td>
-              </tr>
-            )
-          })}
-        </tbody>
-      </table>
     </div>
   )
 }
