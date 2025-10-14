@@ -23,49 +23,25 @@ export default function App() {
   }, [setData])
 
   // === Save manually to GitHub ===
-  const saveDataToGitHub = async () => {
-    const token = import.meta.env.VITE_GITHUB_TOKEN
-    const repoOwner = "HansvanLeerdam"
-    const repoName = "extrusion-crm-app"
-    const filePath = "public/data.json"
-
-    try {
-      const shaResponse = await fetch(
-        `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`,
-        { headers: { Authorization: `token ${token}` } }
-      )
-
-      const shaData = await shaResponse.json()
-      const sha = shaData.sha || null
-      const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))))
-
-      const result = await fetch(
-        `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`,
-        {
-          method: "PUT",
-          headers: {
-            Authorization: `Bearer ${token}`,
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            message: "CRM sync update",
-            content,
-            sha
-          })
-        }
-      )
-
-      if (result.ok) {
-        alert("✅ Data successfully saved to GitHub!")
-      } else {
-        console.error("❌ GitHub save error:", await result.text())
-        alert("❌ Save failed — check console or token.")
-      }
-    } catch (error) {
-      console.error("❌ Error saving to GitHub:", error)
-      alert("❌ Save failed — check console or token.")
+const saveDataToGitHub = async () => {
+  try {
+    const res = await fetch("/.netlify/functions/saveData", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    })
+    if (res.ok) {
+      alert("✅ Data successfully saved to GitHub (via Netlify Function)!")
+    } else {
+      const err = await res.text()
+      console.error("GitHub save error:", err)
+      alert("❌ Save failed — check console.")
     }
+  } catch (e) {
+    console.error("Save error:", e)
+    alert("❌ Save failed — network or function error.")
   }
+}
 
   // === Import / Export to Excel ===
   useEffect(() => {
@@ -323,5 +299,4 @@ export default function App() {
     </div>
   )
 }
-export default App
 
