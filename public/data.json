@@ -2779,15 +2779,6 @@
       "action": "Initial follow-up for new project"
     },
     {
-      "id": "followup-1d3c03ff-9207-4481-bbb8-3f1272fdd7f2",
-      "clientId": "44",
-      "projectId": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
-      "partnerId": "1",
-      "productId": "Sales Agent",
-      "nextDate": "2025-10-14",
-      "action": "Teams meeting at 11:00 h"
-    },
-    {
       "id": "followup-3813025b-3c40-49b7-8fa5-f3c997c72324",
       "clientId": "1760179183342",
       "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
