@@ -55,16 +55,19 @@ export default function App() {
       const wb = XLSX.read(buf, { type: "array" })
       const toJSON = (sh) => (sh ? XLSX.utils.sheet_to_json(sh) : [])
 
+      // Clients (dedupe by name, collect contacts)
       const rawClients = toJSON(wb.Sheets["Clients"])
       const clients = []
       rawClients.forEach((r) => {
-        const name = (r["Client Name"] || "").trim()
-        if (!name) return
-        let client = clients.find((c) => c.name.toLowerCase() === name.toLowerCase())
+        const clientName = (r["Client Name"] || "").trim()
+        if (!clientName) return
+        let client = clients.find(
+          (c) => c.name.toLowerCase() === clientName.toLowerCase()
+        )
         if (!client) {
           client = {
             id: String(r["Client ID"] || crypto.randomUUID()),
-            name,
+            name: clientName,
             country: r["Country"] || "",
             contacts: []
           }
@@ -87,16 +90,19 @@ export default function App() {
         }
       })
 
+      // Partners (dedupe by name, collect contacts)
       const rawPartners = toJSON(wb.Sheets["Partners"])
       const partners = []
       rawPartners.forEach((r) => {
-        const name = (r["Partner Name"] || "").trim()
-        if (!name) return
-        let partner = partners.find((p) => p.name.toLowerCase() === name.toLowerCase())
+        const partnerName = (r["Partner Name"] || "").trim()
+        if (!partnerName) return
+        let partner = partners.find(
+          (p) => p.name.toLowerCase() === partnerName.toLowerCase()
+        )
         if (!partner) {
           partner = {
             id: String(r["Partner ID"] || crypto.randomUUID()),
-            name,
+            name: partnerName,
             contacts: []
           }
           partners.push(partner)
@@ -118,6 +124,7 @@ export default function App() {
         }
       })
 
+      // Products (group by partner)
       const rawProducts = toJSON(wb.Sheets["Products"]) || []
       const groupedProducts = []
       rawProducts.forEach((r) => {
@@ -133,6 +140,7 @@ export default function App() {
       })
       const products = groupedProducts.length ? groupedProducts : []
 
+      // Projects
       const projects = toJSON(wb.Sheets["Projects"]).map((r) => ({
         id: String(r["Project ID"] || crypto.randomUUID()),
         name: r["Project Name"] || "",
@@ -143,6 +151,7 @@ export default function App() {
         status: r["Status"] || ""
       }))
 
+      // Follow-ups
       const followups = toJSON(wb.Sheets["Follow-ups"]).map((r) => ({
         id: String(r["Follow-Up ID"] || crypto.randomUUID()),
         clientId: r["Client ID"] ? String(r["Client ID"]) : null,
@@ -153,13 +162,16 @@ export default function App() {
         action: r["Action"] || ""
       }))
 
-      const projectComments = (toJSON(wb.Sheets["Project Comments"]) || []).map((r) => ({
-        id: String(r["Comment ID"] || crypto.randomUUID()),
-        projectId: r["Project ID"] ? String(r["Project ID"]) : null,
-        type: r["Type"] || "note",
-        text: r["Comment"] || "",
-        date: r["Date"] || new Date().toISOString().split("T")[0]
-      }))
+      // Project Comments
+      const projectComments = (toJSON(wb.Sheets["Project Comments"]) || []).map(
+        (r) => ({
+          id: String(r["Comment ID"] || crypto.randomUUID()),
+          projectId: r["Project ID"] ? String(r["Project ID"]) : null,
+          type: r["Type"] || "note",
+          text: r["Comment"] || "",
+          date: r["Date"] || new Date().toISOString().split("T")[0]
+        })
+      )
 
       setData({
         clients,
@@ -175,8 +187,10 @@ export default function App() {
 
   const exportExcel = () => {
     const wb = XLSX.utils.book_new()
-    const clientsFlat = data.clients.flatMap((c) =>
-      c.contacts.length > 0
+
+    // Example: export clients with their contacts flattened
+    const clientsFlat = (data.clients || []).flatMap((c) =>
+      c.contacts && c.contacts.length
         ? c.contacts.map((ct) => ({
             "Client ID": String(c.id),
             "Client Name": c.name,
@@ -196,7 +210,17 @@ export default function App() {
             }
           ]
     )
-    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(clientsFlat), "Clients")
+
+    XLSX.utils.book_append_sheet(
+      wb,
+      XLSX.utils.json_to_sheet(clientsFlat),
+      "Clients"
+    )
+
+    // You can add more sheets here if desired:
+    // XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(data.partners || []), "Partners")
+    // etc.
+
     XLSX.writeFile(wb, "crm_data.xlsx")
   }
 
@@ -212,160 +236,168 @@ export default function App() {
   }
 
   return (
-    <div className="app-container">
-      {/* === HEADER === */}
-      <div
+    <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
+      {/* === STICKY HEADER === */}
+      <header
         style={{
+          position: "sticky",
+          top: 0,
+          zIndex: 10,
           background: "#111",
-          color: "white",
+          color: "#fff",
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
           padding: "0.6rem 1rem",
-          fontWeight: 600
+          borderBottom: "1px solid #333"
         }}
       >
-        <div>Partners & Projects CRM</div>
-        <div>
-          <button
-            onClick={saveDataToGitHub}
-            title="Save to Cloud"
-            style={{
-              background: "#ffa733",
-              color: "black",
-              borderRadius: "8px",
-              width: 34,
-              height: 34,
-              display: "inline-flex",
-              alignItems: "center",
-              justifyContent: "center",
-              border: "none",
-              cursor: "pointer",
-              transition: "background 0.2s ease, transform 0.1s ease",
-              boxShadow: "0 0 6px rgba(0,0,0,0.3)"
-            }}
-            onMouseEnter={(e) => (e.currentTarget.style.background = "#ffb84d")}
-            onMouseLeave={(e) => (e.currentTarget.style.background = "#ffa733")}
-            onMouseDown={(e) => (e.currentTarget.style.transform = "scale(0.95)")}
-            onMouseUp={(e) => (e.currentTarget.style.transform = "scale(1)")}
-          >
-            <CloudUpload size={16} />
-          </button>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+          <img
+            src="/logo.png"
+            alt="Logo"
+            style={{ height: 28, width: "auto", borderRadius: 4 }}
+          />
+          <h1 style={{ fontSize: "1.2rem", color: "#ffa733", margin: 0 }}>
+            Partners & Projects CRM
+          </h1>
         </div>
-      </div>
+
+        <button
+          onClick={saveDataToGitHub}
+          title="Save to Cloud"
+          style={{
+            background: "#ffa733",
+            color: "black",
+            borderRadius: "8px",
+            width: 34,
+            height: 34,
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            border: "none",
+            cursor: "pointer",
+            transition: "background 0.2s ease, transform 0.1s ease",
+            boxShadow: "0 0 6px rgba(0,0,0,0.3)"
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.background = "#ffb84d")}
+          onMouseLeave={(e) => (e.currentTarget.style.background = "#ffa733")}
+          onMouseDown={(e) => (e.currentTarget.style.transform = "scale(0.95)")}
+          onMouseUp={(e) => (e.currentTarget.style.transform = "scale(1)")}
+        >
+          <CloudUpload size={16} />
+        </button>
+      </header>
 
       {/* === BODY === */}
-      <div style={{ display: "flex", height: "calc(100vh - 48px)" }}>
-        {/* SIDEBAR */}
-        <div
+      <div style={{ display: "flex", flex: 1, minHeight: 0 }}>
+        {/* === SIDEBAR (single, vertical, compact) === */}
+        <aside
           style={{
             width: "200px",
-            background: "#141414",
+            background: "#000",
             color: "#fff",
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
-            padding: "1rem"
+            borderRight: "1px solid #333"
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+          {/* Menu */}
+          <div style={{ padding: "1rem 0.6rem" }}>
             {[
-              { id: "dashboard", label: "Dashboard" },
-              { id: "clients", label: "Clients" },
-              { id: "partners", label: "Partners" },
-              { id: "products", label: "Products" },
-              { id: "projects", label: "Projects" },
-              { id: "followups", label: "Follow-ups" }
-            ].map((t) => (
-              <button
-                key={t.id}
-                onClick={() => setTab(t.id)}
-                style={{
-                  background: tab === t.id ? "#ffa733" : "transparent",
-                  color: tab === t.id ? "black" : "#fff",
-                  border: "none",
-                  borderRadius: "6px",
-                  padding: "8px 12px",
-                  textAlign: "left",
-                  cursor: "pointer",
-                  fontWeight: tab === t.id ? "600" : "400"
-                }}
-              >
-                {t.label}
-              </button>
-            ))}
+              { id: "dashboard", name: "Dashboard" },
+              { id: "clients", name: "Clients" },
+              { id: "partners", name: "Partners" },
+              { id: "products", name: "Products" },
+              { id: "projects", name: "Projects" },
+              { id: "followups", name: "Follow-ups" }
+            ].map((item) => {
+              const isActive = tab === item.id
+              return (
+                <div key={item.id} style={{ marginBottom: "0.35rem" }}>
+                  <button
+                    onClick={() => setTab(item.id)}
+                    style={{
+                      background: "transparent",
+                      border: "none",
+                      color: isActive ? "#ffa733" : "#fff",
+                      fontSize: isActive ? "1.02rem" : "0.95rem",
+                      fontWeight: isActive ? 600 : 400,
+                      width: "100%",
+                      textAlign: "left",
+                      padding: "0.3rem 0.5rem",
+                      cursor: "pointer",
+                      transition: "color 0.15s ease, font-size 0.1s ease"
+                    }}
+                    onMouseEnter={(e) => {
+                      if (!isActive) e.currentTarget.style.color = "#ffa733"
+                    }}
+                    onMouseLeave={(e) => {
+                      if (!isActive) e.currentTarget.style.color = "#fff"
+                    }}
+                  >
+                    {item.name}
+                  </button>
+                </div>
+              )
+            })}
           </div>
 
-          {/* Orange divider line */}
-          <div
-            style={{
-              borderTop: "2px solid #ffa733",
-              margin: "1rem 0"
-            }}
-          />
-
-          {/* Utility buttons */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+          {/* Tools (bottom) */}
+          <div style={{ padding: "1rem 0.6rem" }}>
+            <div
+              style={{
+                height: "1px",
+                background: "#ffa733",
+                marginBottom: "0.8rem"
+              }}
+            />
             <button
               onClick={importExcel}
-              style={{
-                background: "#ffa733",
-                color: "black",
-                border: "none",
-                borderRadius: "6px",
-                padding: "8px 12px",
-                cursor: "pointer",
-                textAlign: "left",
-                fontWeight: "500"
-              }}
+              style={toolBtn}
             >
-              ⬆ Import Excel
+              📂 Import Excel
             </button>
-
             <button
               onClick={exportExcel}
-              style={{
-                background: "#ffa733",
-                color: "black",
-                border: "none",
-                borderRadius: "6px",
-                padding: "8px 12px",
-                cursor: "pointer",
-                textAlign: "left",
-                fontWeight: "500"
-              }}
+              style={toolBtn}
             >
-              ⬇ Export Excel
+              💾 Export Excel
             </button>
-
             <button
               onClick={downloadCalendar}
-              style={{
-                background: "#ffa733",
-                color: "black",
-                border: "none",
-                borderRadius: "6px",
-                padding: "8px 12px",
-                cursor: "pointer",
-                textAlign: "left",
-                fontWeight: "500"
-              }}
+              style={toolBtn}
             >
-              📅 Calendar
+              📅 Export .ics
             </button>
           </div>
-        </div>
+        </aside>
 
-        {/* MAIN CONTENT */}
-        <div style={{ flex: 1, overflowY: "auto", padding: "1rem" }}>
+        {/* === MAIN === */}
+        <main style={{ flex: 1, overflowY: "auto", background: "#111", padding: "1rem" }}>
           {tab === "dashboard" && <Dashboard data={data} />}
           {tab === "clients" && <Clients data={data} setData={setData} />}
           {tab === "partners" && <Partners data={data} setData={setData} />}
           {tab === "products" && <Products data={data} setData={setData} />}
           {tab === "projects" && <Projects data={data} setData={setData} />}
           {tab === "followups" && <Followups data={data} setData={setData} />}
-        </div>
+        </main>
       </div>
     </div>
   )
+}
+
+const toolBtn = {
+  display: "block",
+  background: "#222",
+  color: "#ffa733",
+  border: "1px solid #333",
+  borderRadius: "6px",
+  width: "100%",
+  textAlign: "left",
+  padding: "0.5rem 0.6rem",
+  fontWeight: 600,
+  cursor: "pointer",
+  marginBottom: "0.4rem"
 }
