@@ -1,7 +1,5 @@
 // netlify/functions/saveData.js
 
-import fetch from "node-fetch"
-
 export async function handler(event) {
   try {
     // Parse the POST body (your app's data)
