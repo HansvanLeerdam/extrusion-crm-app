@@ -323,4 +323,5 @@ export default function App() {
     </div>
   )
 }
-t App
+export default App
+
