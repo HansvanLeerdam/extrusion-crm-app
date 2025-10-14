@@ -253,15 +253,13 @@ export default function App() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
-          <img
-            src="/logo.png"
-            alt="Logo"
-            style={{ height: 28, width: "auto", borderRadius: 4 }}
-          />
-          <h1 style={{ fontSize: "1.2rem", color: "#ffa733", margin: 0 }}>
-            Partners & Projects CRM
-          </h1>
-        </div>
+  <img
+    src="/logo.png"
+    alt="Company Logo"
+    style={{ height: "28px", width: "28px", objectFit: "contain" }}
+  />
+  <div>Partners & Projects CRM</div>
+</div>
 
         <button
           onClick={saveDataToGitHub}
@@ -294,7 +292,7 @@ export default function App() {
         {/* === SIDEBAR (single, vertical, compact) === */}
         <aside
           style={{
-            width: "200px",
+            width: "180px",
             background: "#000",
             color: "#fff",
             display: "flex",
@@ -349,7 +347,7 @@ export default function App() {
             <div
               style={{
                 height: "1px",
-                background: "#ffa733",
+                background: "#transparent",
                 marginBottom: "0.8rem"
               }}
             />

@@ -112,41 +112,73 @@ export default function Clients({ data, setData }) {
     <div className="card">
       <SectionTitle icon={User} title="Clients" />
 
-      {/* FILTERS */}
-      <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1rem" }}>
-        <select
-          value={filterCountry}
-          onChange={(e) => setFilterCountry(e.target.value)}
-          style={{ width: "150px" }}
-        >
-          <option value="">All Countries</option>
-          {countries.map((country, i) => (
-            <option key={i} value={country}>
-              {country}
-            </option>
-          ))}
-        </select>
+{/* === FILTERS === */}
+<div
+  className="table-filters"
+  style={{
+    display: "flex",
+    gap: "0.5rem",
+    marginBottom: "1rem",
+    alignItems: "center"
+  }}
+>
+  <select
+    value={filterCountry}
+    onChange={(e) => setFilterCountry(e.target.value)}
+    style={{
+      width: "160px",
+      height: "36px",
+      background: "#e9e9e9",
+      color: "#111",
+      border: "1px solid #ccc",
+      borderRadius: "4px"
+    }}
+  >
+    <option value="">All Countries</option>
+    {countries.map((country, i) => (
+      <option key={i} value={country}>
+        {country}
+      </option>
+    ))}
+  </select>
 
-        <input
-          type="text"
-          placeholder="Search..."
-          value={filterSearch}
-          onChange={(e) => setFilterSearch(e.target.value)}
-          style={{ flex: 1 }}
-        />
+  <input
+    type="text"
+    placeholder="Search..."
+    value={filterSearch}
+    onChange={(e) => setFilterSearch(e.target.value)}
+    style={{
+      width: "160px",
+      height: "36px",
+      background: "#e9e9e9",
+      color: "#111",
+      border: "1px solid #ccc",
+      borderRadius: "4px",
+      padding: "0 0.4rem"
+    }}
+  />
 
-        {(filterCountry || filterSearch) && (
-          <button
-            className="btn-icon"
-            onClick={() => {
-              setFilterCountry("")
-              setFilterSearch("")
-            }}
-          >
-            ✖
-          </button>
-        )}
-      </div>
+  {(filterCountry || filterSearch) && (
+    <button
+      className="btn-icon"
+      onClick={() => {
+        setFilterCountry("")
+        setFilterSearch("")
+      }}
+      title="Clear filters"
+      style={{
+        height: "36px",
+        background: "transparent",
+        border: "none",
+        color: "#444",
+        cursor: "pointer",
+        fontSize: "1rem"
+      }}
+    >
+      ✖
+    </button>
+  )}
+</div>
 
       {/* INPUT ROW */}
       <div
