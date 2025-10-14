@@ -403,14 +403,15 @@ const toolBtn = {
   transition: "color 0.2s ease"
 }
 
-const inputStyle = {
+  const inputStyle = {
   background: "#e6e6e6",
   border: "1px solid #ccc",
   borderRadius: "8px",
   padding: "0.35rem 0.5rem",
-  height: "30px",
+  height: "32px",
   fontSize: "0.9rem",
   color: "#111",
   width: "100%",
   outline: "none"
 }
+

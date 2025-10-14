@@ -6,8 +6,8 @@ export default function Clients({ data, setData }) {
   const [form, setForm] = useState({ name: "", country: "", contact: "", email: "", phone: "" })
   const [filterCountry, setFilterCountry] = useState("")
   const [filterSearch, setFilterSearch] = useState("")
-  const [openClients, setOpenClients] = useState({}) // all collapsed by default
-  const [editKey, setEditKey] = useState(null)       // `${clientId}-${index}`
+  const [openClients, setOpenClients] = useState({})
+  const [editKey, setEditKey] = useState(null)
   const [editContact, setEditContact] = useState({ contact: "", email: "", phone: "" })
 
   const BTN_STYLE = {
@@ -24,6 +24,18 @@ export default function Clients({ data, setData }) {
     cursor: "pointer"
   }
   const ICON_SIZE = 14
+
+  // unified style
+  const inputStyle = {
+    height: "32px",
+    background: "#e9e9e9",
+    color: "#111",
+    border: "1px solid #ccc",
+    borderRadius: "8px",
+    padding: "0 0.4rem",
+    fontSize: "0.9rem",
+    outline: "none"
+  }
 
   const countries = [...new Set((data.clients || []).map(c => c.country).filter(Boolean))].sort()
 
@@ -58,12 +70,9 @@ export default function Clients({ data, setData }) {
     setForm({ name: "", country: "", contact: "", email: "", phone: "" })
   }
 
-  const toggleClient = (id) => {
-    setOpenClients(prev => ({ ...prev, [id]: !prev[id] }))
-  }
+  const toggleClient = (id) => setOpenClients(prev => ({ ...prev, [id]: !prev[id] }))
 
   const startEdit = (clientId, idx, ct) => {
-    // ensure the panel is open and load the values into inputs
     setOpenClients(prev => ({ ...prev, [clientId]: true }))
     setEditKey(`${clientId}-${idx}`)
     setEditContact({
@@ -101,10 +110,8 @@ export default function Clients({ data, setData }) {
       contacts.splice(idx, 1)
       return { ...c, contacts }
     })
-    // remove clients that have no contacts left
     updated = updated.filter(c => (c.contacts && c.contacts.length > 0))
     setData({ ...data, clients: updated })
-    // clear edit state if needed
     cancelEdit()
   }
 
@@ -112,108 +119,68 @@ export default function Clients({ data, setData }) {
     <div className="card">
       <SectionTitle icon={User} title="Clients" />
 
-{/* === FILTERS === */}
-<div
-  className="table-filters"
-  style={{
-    display: "flex",
-    gap: "0.5rem",
-    marginBottom: "1rem",
-    alignItems: "center"
-  }}
->
-  <select
-    value={filterCountry}
-    onChange={(e) => setFilterCountry(e.target.value)}
-    style={{
-      width: "160px",
-      height: "36px",
-      background: "#e9e9e9",
-      color: "#111",
-      border: "1px solid #ccc",
-      borderRadius: "4px"
-    }}
-  >
-    <option value="">All Countries</option>
-    {countries.map((country, i) => (
-      <option key={i} value={country}>
-        {country}
-      </option>
-    ))}
-  </select>
-
-  <input
-    type="text"
-    placeholder="Search..."
-    value={filterSearch}
-    onChange={(e) => setFilterSearch(e.target.value)}
-    style={{
-      width: "160px",
-      height: "36px",
-      background: "#e9e9e9",
-      color: "#111",
-      border: "1px solid #ccc",
-      borderRadius: "4px",
-      padding: "0 0.4rem"
-    }}
-  />
-
-  {(filterCountry || filterSearch) && (
-    <button
-      className="btn-icon"
-      onClick={() => {
-        setFilterCountry("")
-        setFilterSearch("")
-      }}
-      title="Clear filters"
-      style={{
-        height: "36px",
-        background: "transparent",
-        border: "none",
-        color: "#444",
-        cursor: "pointer",
-        fontSize: "1rem"
-      }}
-    >
-      ✖
-    </button>
-  )}
-</div>
-
-      {/* INPUT ROW */}
+      {/* === FILTERS === */}
       <div
-        className="sticky-input-row"
-        style={{ gridTemplateColumns: "15% 15% 15% 15% 15% 36px" }}
+        className="table-filters"
+        style={{
+          display: "flex",
+          gap: "0.5rem",
+          marginBottom: "1rem",
+          alignItems: "center"
+        }}
       >
+        <select
+          value={filterCountry}
+          onChange={(e) => setFilterCountry(e.target.value)}
+          style={{ ...inputStyle, width: "160px" }}
+        >
+          <option value="">All Countries</option>
+          {countries.map((country, i) => (
+            <option key={i} value={country}>{country}</option>
+          ))}
+        </select>
+
         <input
-          placeholder="Client Name"
-          value={form.name}
-          onChange={(e) => setForm({ ...form, name: e.target.value })}
+          type="text"
+          placeholder="Search..."
+          value={filterSearch}
+          onChange={(e) => setFilterSearch(e.target.value)}
+          style={{ ...inputStyle, width: "160px" }}
         />
-        <input
-          placeholder="Country"
-          value={form.country}
-          onChange={(e) => setForm({ ...form, country: e.target.value })}
-        />
-        <input
-          placeholder="Contact"
-          value={form.contact}
-          onChange={(e) => setForm({ ...form, contact: e.target.value })}
-        />
-        <input
-          placeholder="Email"
-          value={form.email}
-          onChange={(e) => setForm({ ...form, email: e.target.value })}
-        />
-        <input
-          placeholder="Phone"
-          value={form.phone}
-          onChange={(e) => setForm({ ...form, phone: e.target.value })}
-        />
+
+        {(filterCountry || filterSearch) && (
+          <button
+            className="btn-icon"
+            onClick={() => {
+              setFilterCountry("")
+              setFilterSearch("")
+            }}
+            title="Clear filters"
+            style={{
+              height: "32px",
+              background: "transparent",
+              border: "none",
+              color: "#444",
+              cursor: "pointer",
+              fontSize: "1rem"
+            }}
+          >
+            ✖
+          </button>
+        )}
+      </div>
+
+      {/* === INPUT ROW === */}
+      <div className="sticky-input-row" style={{ gridTemplateColumns: "15% 15% 15% 15% 15% 36px" }}>
+        <input placeholder="Client Name" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
+        <input placeholder="Country" value={form.country} onChange={(e) => setForm({ ...form, country: e.target.value })} style={inputStyle} />
+        <input placeholder="Contact" value={form.contact} onChange={(e) => setForm({ ...form, contact: e.target.value })} style={inputStyle} />
+        <input placeholder="Email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} style={inputStyle} />
+        <input placeholder="Phone" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} style={inputStyle} />
         <button className="btn-icon" onClick={addClient}>+</button>
       </div>
 
-      {/* CLIENT LIST (collapsed by default) */}
+      {/* === CLIENT LIST === */}
       {filteredClients.map((client) => {
         const isOpen = !!openClients[client.id]
         return (
@@ -227,9 +194,7 @@ export default function Clients({ data, setData }) {
               boxShadow: "0 0 6px rgba(0,0,0,0.4)"
             }}
           >
-            {/* Header / toggle */}
-            <div
-              onClick={() => toggleClient(client.id)}
+            <div onClick={() => toggleClient(client.id)}
               style={{
                 display: "flex",
                 justifyContent: "space-between",
@@ -237,21 +202,13 @@ export default function Clients({ data, setData }) {
                 cursor: "pointer"
               }}
             >
-              <h3 style={{ color: "#fff", fontSize: "1.1rem", margin: 0 }}>
-                {client.name}
-              </h3>
+              <h3 style={{ color: "#fff", fontSize: "1.1rem", margin: 0 }}>{client.name}</h3>
               <span style={{ color: "#aaa" }}>{isOpen ? "▲" : "▼"}</span>
             </div>
-
-            <p style={{ color: "#aaa", margin: "0.2rem 0 0" }}>
-              Country: {client.country || "—"}
-            </p>
+            <p style={{ color: "#aaa", margin: "0.2rem 0 0" }}>Country: {client.country || "—"}</p>
 
             {isOpen && (
-              <table
-                className="clients-table table--has-actions"
-                style={{ marginTop: "0.5rem", width: "100%" }}
-              >
+              <table className="clients-table table--has-actions" style={{ marginTop: "0.5rem", width: "100%" }}>
                 <thead>
                   <tr>
                     <th>Contact</th>
@@ -264,54 +221,17 @@ export default function Clients({ data, setData }) {
                   {(client.contacts || []).map((ct, i) => {
                     const rowKey = `${client.id}-${i}`
                     const editing = editKey === rowKey
-
                     return (
                       <tr key={rowKey}>
                         {editing ? (
                           <>
-                            <td>
-                              <input
-                                value={editContact.contact}
-                                onChange={(e) =>
-                                  setEditContact({ ...editContact, contact: e.target.value })
-                                }
-                                placeholder="Contact person"
-                              />
-                            </td>
-                            <td>
-                              <input
-                                value={editContact.email}
-                                onChange={(e) =>
-                                  setEditContact({ ...editContact, email: e.target.value })
-                                }
-                                placeholder="Email"
-                              />
-                            </td>
-                            <td>
-                              <input
-                                value={editContact.phone}
-                                onChange={(e) =>
-                                  setEditContact({ ...editContact, phone: e.target.value })
-                                }
-                                placeholder="Phone"
-                              />
-                            </td>
+                            <td><input value={editContact.contact} onChange={(e) => setEditContact({ ...editContact, contact: e.target.value })} placeholder="Contact" style={inputStyle} /></td>
+                            <td><input value={editContact.email} onChange={(e) => setEditContact({ ...editContact, email: e.target.value })} placeholder="Email" style={inputStyle} /></td>
+                            <td><input value={editContact.phone} onChange={(e) => setEditContact({ ...editContact, phone: e.target.value })} placeholder="Phone" style={inputStyle} /></td>
                             <td style={{ textAlign: "right" }}>
                               <div style={{ display: "inline-flex", gap: 6 }}>
-                                <button
-                                  title="Save"
-                                  style={BTN_STYLE}
-                                  onClick={() => saveEdit(client.id, i)}
-                                >
-                                  <Save size={ICON_SIZE} />
-                                </button>
-                                <button
-                                  title="Cancel"
-                                  style={BTN_STYLE}
-                                  onClick={cancelEdit}
-                                >
-                                  <X size={ICON_SIZE} />
-                                </button>
+                                <button title="Save" style={BTN_STYLE} onClick={() => saveEdit(client.id, i)}><Save size={ICON_SIZE} /></button>
+                                <button title="Cancel" style={BTN_STYLE} onClick={cancelEdit}><X size={ICON_SIZE} /></button>
                               </div>
                             </td>
                           </>
@@ -322,26 +242,8 @@ export default function Clients({ data, setData }) {
                             <td>{ct.phone}</td>
                             <td style={{ textAlign: "right" }}>
                               <div style={{ display: "inline-flex", gap: 6 }}>
-                                <button
-                                  title="Modify"
-                                  style={BTN_STYLE}
-                                  onClick={(e) => {
-                                    e.stopPropagation()
-                                    startEdit(client.id, i, ct)
-                                  }}
-                                >
-                                  <Pencil size={ICON_SIZE} />
-                                </button>
-                                <button
-                                  title="Delete"
-                                  style={BTN_STYLE}
-                                  onClick={(e) => {
-                                    e.stopPropagation()
-                                    deleteContact(client.id, i)
-                                  }}
-                                >
-                                  <Trash2 size={ICON_SIZE} />
-                                </button>
+                                <button title="Modify" style={BTN_STYLE} onClick={(e) => { e.stopPropagation(); startEdit(client.id, i, ct) }}><Pencil size={ICON_SIZE} /></button>
+                                <button title="Delete" style={BTN_STYLE} onClick={(e) => { e.stopPropagation(); deleteContact(client.id, i) }}><Trash2 size={ICON_SIZE} /></button>
                               </div>
                             </td>
                           </>
@@ -358,3 +260,5 @@ export default function Clients({ data, setData }) {
     </div>
   )
 }
+
+  
