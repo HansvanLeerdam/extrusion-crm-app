@@ -217,10 +217,6 @@ export default function App() {
       "Clients"
     )
 
-    // You can add more sheets here if desired:
-    // XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(data.partners || []), "Partners")
-    // etc.
-
     XLSX.writeFile(wb, "crm_data.xlsx")
   }
 
@@ -253,13 +249,13 @@ export default function App() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
-  <img
-    src="/logo.png"
-    alt="Company Logo"
-    style={{ height: "28px", width: "28px", objectFit: "contain" }}
-  />
-  <div>Partners & Projects CRM</div>
-</div>
+          <img
+            src="/logo.png"
+            alt="Extrusion CRM"
+            style={{ height: "28px", width: "28px", objectFit: "contain" }}
+          />
+          <div>Partners & Projects CRM</div>
+        </div>
 
         <button
           onClick={saveDataToGitHub}
@@ -289,7 +285,7 @@ export default function App() {
 
       {/* === BODY === */}
       <div style={{ display: "flex", flex: 1, minHeight: 0 }}>
-        {/* === SIDEBAR (single, vertical, compact) === */}
+        {/* === SIDEBAR === */}
         <aside
           style={{
             width: "180px",
@@ -344,28 +340,27 @@ export default function App() {
 
           {/* Tools (bottom) */}
           <div style={{ padding: "1rem 0.6rem" }}>
-            <div
-              style={{
-                height: "1px",
-                background: "#transparent",
-                marginBottom: "0.8rem"
-              }}
-            />
             <button
               onClick={importExcel}
               style={toolBtn}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "#ffa733")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "#fff")}
             >
               📂 Import Excel
             </button>
             <button
               onClick={exportExcel}
               style={toolBtn}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "#ffa733")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "#fff")}
             >
               💾 Export Excel
             </button>
             <button
               onClick={downloadCalendar}
               style={toolBtn}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "#ffa733")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "#fff")}
             >
               📅 Export .ics
             </button>
@@ -373,7 +368,14 @@ export default function App() {
         </aside>
 
         {/* === MAIN === */}
-        <main style={{ flex: 1, overflowY: "auto", background: "#111", padding: "1rem" }}>
+        <main
+          style={{
+            flex: 1,
+            overflowY: "auto",
+            background: "#111",
+            padding: "1rem"
+          }}
+        >
           {tab === "dashboard" && <Dashboard data={data} />}
           {tab === "clients" && <Clients data={data} setData={setData} />}
           {tab === "partners" && <Partners data={data} setData={setData} />}
@@ -388,14 +390,27 @@ export default function App() {
 
 const toolBtn = {
   display: "block",
-  background: "#222",
-  color: "#ffa733",
-  border: "1px solid #333",
+  background: "transparent",
+  color: "#fff",
+  border: "none",
   borderRadius: "6px",
   width: "100%",
   textAlign: "left",
   padding: "0.5rem 0.6rem",
   fontWeight: 600,
   cursor: "pointer",
-  marginBottom: "0.4rem"
+  marginBottom: "0.4rem",
+  transition: "color 0.2s ease"
+}
+
+const inputStyle = {
+  background: "#e6e6e6",
+  border: "1px solid #ccc",
+  borderRadius: "8px",
+  padding: "0.35rem 0.5rem",
+  height: "30px",
+  fontSize: "0.9rem",
+  color: "#111",
+  width: "100%",
+  outline: "none"
 }
