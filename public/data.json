@@ -403,6 +403,18 @@
       ]
     },
     {
+      "id": "client-1760425998931",
+      "name": "Benelux Clients",
+      "country": "Netherlands",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
+    },
+    {
       "id": "41",
       "name": "Benkam Aluminium LLC",
       "country": "Uzbekistan",
@@ -1487,6 +1499,18 @@
       ]
     },
     {
+      "id": "client-1760426016447",
+      "name": "Spanish Clients",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
+    },
+    {
       "id": "212",
       "name": "Strugal S.L.",
       "country": "Spain",
@@ -1544,6 +1568,18 @@
       ]
     },
     {
+      "id": "client-1760425977274",
+      "name": "Turkish Clients",
+      "country": "Turkey",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
+    },
+    {
       "id": "38",
       "name": "Unterschütz GmbH & Co. KG",
       "country": "Germany",
@@ -1591,42 +1627,6 @@
           "email": "",
           "phone": "+90 5303689161",
           "id": "contact-8d1b0866-f69b-4685-9b0d-a2f7cf63c648"
-        }
-      ]
-    },
-    {
-      "id": "client-1760425977274",
-      "name": "Turkish Clients",
-      "country": "Turkey",
-      "contacts": [
-        {
-          "contact": "",
-          "email": "",
-          "phone": ""
-        }
-      ]
-    },
-    {
-      "id": "client-1760425998931",
-      "name": "Benelux Clients",
-      "country": "Netherlands",
-      "contacts": [
-        {
-          "contact": "",
-          "email": "",
-          "phone": ""
-        }
-      ]
-    },
-    {
-      "id": "client-1760426016447",
-      "name": "Spanish Clients",
-      "country": "Spain",
-      "contacts": [
-        {
-          "contact": "",
-          "email": "",
-          "phone": ""
         }
       ]
     }
@@ -2541,6 +2541,15 @@
       "productId": "CVD Coated Dies",
       "startDate": "2025-10-14",
       "status": "Start-up"
+    },
+    {
+      "id": "project-189ed57f-7c75-4112-bf83-464d8c6830d1",
+      "name": "Audits for Reynaers",
+      "clientId": "client-1760425998931",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-14",
+      "status": "To propose"
     }
   ],
   "followups": [
