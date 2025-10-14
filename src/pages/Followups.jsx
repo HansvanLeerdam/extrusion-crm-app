@@ -232,13 +232,16 @@ export default function Followups({ data, setData }) {
       {/* === INPUT ROW === */}
       <div
         className="sticky-input-row"
-        style={{
-          gridTemplateColumns: "12% 12% 12% 12% 12% 12% 36px",
-          background: "#222",
-          border: "1px solid #333",
-          borderRadius: "6px",
-          padding: "0.4rem"
-        }}
+style={{
+  display: "grid",                          // enables the grid layout
+  width: "100%",                            // ensures full horizontal space is used
+  gridTemplateColumns: "15% 15% 15% 15% 15% 15% 36px",
+  gap: "0.5rem",                            // adds clean spacing between inputs
+  background: "#222",
+  border: "1px solid #333",
+  borderRadius: "6px",
+  padding: "0.4rem"
+}}
       >
         <input
           type="date"

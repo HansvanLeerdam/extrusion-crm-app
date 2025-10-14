@@ -110,14 +110,17 @@ export default function Projects({ data, setData }) {
       {/* Input row */}
       <div
         className="sticky-input-row"
-        style={{
-          gridTemplateColumns: "12% 12% 12% 12% 12% 12% 36px",
-          background: "#222",
-          border: "1px solid #333",
-          borderRadius: "6px",
-          padding: "0.4rem",
-          marginBottom: "0.8rem"
-        }}
+style={{
+  display: "grid",                            // activates the grid
+  width: "100%",                              // uses full available space
+  gridTemplateColumns: "15% 15% 15% 15% 15% 15% 36px",
+  gap: "0.5rem",                              // adds small spacing between inputs
+  background: "#222",
+  border: "1px solid #333",
+  borderRadius: "6px",
+  padding: "0.4rem",
+  marginBottom: "0.8rem"
+}}
       >
         <input
           placeholder="Project Name"

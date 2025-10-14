@@ -171,14 +171,48 @@ export default function Clients({ data, setData }) {
       </div>
 
       {/* === INPUT ROW === */}
-      <div className="sticky-input-row" style={{ gridTemplateColumns: "15% 15% 15% 15% 15% 36px" }}>
-        <input placeholder="Client Name" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
-        <input placeholder="Country" value={form.country} onChange={(e) => setForm({ ...form, country: e.target.value })} style={inputStyle} />
-        <input placeholder="Contact" value={form.contact} onChange={(e) => setForm({ ...form, contact: e.target.value })} style={inputStyle} />
-        <input placeholder="Email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} style={inputStyle} />
-        <input placeholder="Phone" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} style={inputStyle} />
-        <button className="btn-icon" onClick={addClient}>+</button>
-      </div>
+      <div
+  className="sticky-input-row"
+  style={{
+    display: "grid",                          // enable grid layout
+    width: "100%",                            // ensure percentages use full width
+    gridTemplateColumns: "15% 15% 15% 15% 15% 36px",
+    gap: "0.5rem",                            // small space between inputs
+    marginBottom: "0.8rem"                    // optional spacing below
+  }}
+>
+  <input
+    placeholder="Client Name"
+    value={form.name}
+    onChange={(e) => setForm({ ...form, name: e.target.value })}
+    style={inputStyle}
+  />
+  <input
+    placeholder="Country"
+    value={form.country}
+    onChange={(e) => setForm({ ...form, country: e.target.value })}
+    style={inputStyle}
+  />
+  <input
+    placeholder="Contact"
+    value={form.contact}
+    onChange={(e) => setForm({ ...form, contact: e.target.value })}
+    style={inputStyle}
+  />
+  <input
+    placeholder="Email"
+    value={form.email}
+    onChange={(e) => setForm({ ...form, email: e.target.value })}
+    style={inputStyle}
+  />
+  <input
+    placeholder="Phone"
+    value={form.phone}
+    onChange={(e) => setForm({ ...form, phone: e.target.value })}
+    style={inputStyle}
+  />
+  <button className="btn-icon" onClick={addClient}>+</button>
+</div>
 
       {/* === CLIENT LIST === */}
       {filteredClients.map((client) => {
