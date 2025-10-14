@@ -12,6 +12,8 @@ export default function Followups({ data, setData }) {
     action: ""
   })
   const [editing, setEditing] = useState(null)
+  const [filterClient, setFilterClient] = useState("")
+  const [filterPartner, setFilterPartner] = useState("")
 
   const BTN_STYLE = {
     background: "#ffa733",
@@ -33,7 +35,7 @@ export default function Followups({ data, setData }) {
     border: "1px solid #ccc",
     borderRadius: "8px",
     padding: "0.35rem 0.5rem",
-    height: "30px",
+    height: "28px",
     fontSize: "0.9rem",
     color: "#111",
     width: "100%",
@@ -95,9 +97,108 @@ export default function Followups({ data, setData }) {
   const getProjectName = (id) =>
     (data.projects || []).find((p) => String(p.id) === String(id))?.name || ""
 
-  return (
-    <div className="card" style={{ textAlign: "left" }}>
-      <SectionTitle icon={CalendarDays} title="Follow-ups" />
+ return (
+  <div className="card" style={{ textAlign: "left" }}>
+    <SectionTitle icon={CalendarDays} title="Follow-ups" />
+
+{/* === FILTERS (same as Projects) === */}
+<div
+  style={{
+    display: "flex",
+    gap: "0.5rem",
+    marginBottom: "0.8rem",
+    alignItems: "center"
+  }}
+>
+  {/* CLIENT FILTER */}
+  <select
+    value={filterClient}
+    onChange={(e) => setFilterClient(e.target.value)}
+    style={{
+      background: "#e6e6e6",
+      border: "1px solid #ccc",
+      borderRadius: "8px",
+      padding: "0.35rem 0.5rem",
+      height: "28px",
+      fontSize: "0.9rem",
+      color: "#111",
+      width: "180px",
+      outline: "none"
+    }}
+  >
+    <option value="">All Clients</option>
+    {[
+      ...new Set(
+        (data.followups || []).map((f) => f.clientId).filter(Boolean)
+      )
+    ]
+      .map((id) =>
+        (data.clients || []).find((c) => String(c.id) === String(id))
+      )
+      .filter(Boolean)
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map((c) => (
+        <option key={c.id} value={c.id}>
+          {c.name}
+        </option>
+      ))}
+  </select>
+
+  {/* PARTNER FILTER */}
+  <select
+    value={filterPartner}
+    onChange={(e) => setFilterPartner(e.target.value)}
+    style={{
+      background: "#e6e6e6",
+      border: "1px solid #ccc",
+      borderRadius: "8px",
+      padding: "0.35rem 0.5rem",
+      height: "28px",
+      fontSize: "0.9rem",
+      color: "#111",
+      width: "180px",
+      outline: "none"
+    }}
+  >
+    <option value="">All Partners</option>
+    {[
+      ...new Set(
+        (data.followups || []).map((f) => f.partnerId).filter(Boolean)
+      )
+    ]
+      .map((id) =>
+        (data.partners || []).find((p) => String(p.id) === String(id))
+      )
+      .filter(Boolean)
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map((p) => (
+        <option key={p.id} value={p.id}>
+          {p.name}
+        </option>
+      ))}
+  </select>
+
+  {(filterClient || filterPartner) && (
+    <button
+      className="btn-icon"
+      onClick={() => {
+        setFilterClient("")
+        setFilterPartner("")
+      }}
+      title="Clear filters"
+      style={{
+        height: "28px",
+        background: "transparent",
+        border: "none",
+        color: "#444",
+        cursor: "pointer",
+        fontSize: "1rem"
+      }}
+    >
+      ✖
+    </button>
+  )}
+</div>
 
       {/* Input row */}
       <div
@@ -148,16 +249,27 @@ export default function Followups({ data, setData }) {
           ))}
         </select>
 
-        <select
-          value={form.productId}
-          onChange={(e) => setForm({ ...form, productId: e.target.value })}
-          style={inputStyle}
-        >
-          <option value="">Product</option>
-          {allProducts.map((pr, i) => (
-            <option key={i} value={pr}>{pr}</option>
-          ))}
-        </select>
+       <select
+  value={form.productId}
+  onChange={(e) => setForm({ ...form, productId: e.target.value })}
+  style={inputStyle}
+>
+  <option value="">Product</option>
+  {(
+    ((data.products || []).find(
+      (p) =>
+        String(p.partnerId) === String(form.partnerId) ||
+        p.partner ===
+          (data.partners || []).find(
+            (x) => String(x.id) === String(form.partnerId)
+          )?.name
+    )?.items) || []
+  ).map((prod, i) => (
+    <option key={i} value={prod}>
+      {prod}
+    </option>
+  ))}
+</select>
 
         <input
           type="date"
@@ -191,9 +303,14 @@ export default function Followups({ data, setData }) {
             <th style={{ width: 80, textAlign: "right" }}>Actions</th>
           </tr>
         </thead>
-        <tbody>
-          {(data.followups || []).length > 0 ? (
-            data.followups.map((f) => (
+         <tbody>
+          {(data.followups || [])
+            .filter((f) => {
+              const okClient = !filterClient || String(f.clientId) === String(filterClient)
+              const okPartner = !filterPartner || String(f.partnerId) === String(filterPartner)
+              return okClient && okPartner
+            })
+            .map((f) => (
               <tr key={f.id}>
                 <td>{f.nextDate}</td>
                 <td>{getClientName(f.clientId)}</td>
@@ -212,12 +329,17 @@ export default function Followups({ data, setData }) {
                   </div>
                 </td>
               </tr>
-            ))
-          ) : (
-            <tr><td colSpan={7} style={{ textAlign: "center", color: "#888" }}>No follow-ups found</td></tr>
+            ))}
+          {(!data.followups || data.followups.length === 0) && (
+            <tr>
+              <td colSpan={7} style={{ textAlign: "center", color: "#888" }}>
+                No follow-ups found
+              </td>
+            </tr>
           )}
         </tbody>
       </table>
     </div>
   )
 }
+
