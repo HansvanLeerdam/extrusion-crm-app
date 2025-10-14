@@ -22,247 +22,211 @@ export default function App() {
       .catch((err) => console.error("Error loading shared data.json", err))
   }, [setData])
 
-  // === Save manually to GitHub ===
-const saveDataToGitHub = async () => {
-  try {
-    const res = await fetch("/.netlify/functions/saveData", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data)
-    })
-    if (res.ok) {
-      alert("✅ Data successfully saved to GitHub (via Netlify Function)!")
-    } else {
-      const err = await res.text()
-      console.error("GitHub save error:", err)
-      alert("❌ Save failed — check console.")
+  // === Save to GitHub (via Netlify Function) ===
+  const saveDataToGitHub = async () => {
+    try {
+      const res = await fetch("/.netlify/functions/saveData", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      })
+      if (res.ok) {
+        alert("✅ Data successfully saved to GitHub (via Netlify Function)!")
+      } else {
+        const err = await res.text()
+        console.error("GitHub save error:", err)
+        alert("❌ Save failed — check console.")
+      }
+    } catch (e) {
+      console.error("Save error:", e)
+      alert("❌ Save failed — network or function error.")
     }
-  } catch (e) {
-    console.error("Save error:", e)
-    alert("❌ Save failed — network or function error.")
   }
-}
 
-  // === Import / Export to Excel ===
-  useEffect(() => {
-    const importBtn = document.getElementById("btn-import")
-    const exportBtn = document.getElementById("btn-export")
+  // === Import / Export / Calendar ===
+  const importExcel = () => {
+    const input = document.createElement("input")
+    input.type = "file"
+    input.accept = ".xlsx,.xls"
+    input.onchange = async (e) => {
+      const file = e.target.files?.[0]
+      if (!file) return
+      const buf = await file.arrayBuffer()
+      const wb = XLSX.read(buf, { type: "array" })
+      const toJSON = (sh) => (sh ? XLSX.utils.sheet_to_json(sh) : [])
 
-    if (importBtn) {
-      importBtn.onclick = () => {
-        const input = document.createElement("input")
-        input.type = "file"
-        input.accept = ".xlsx,.xls"
-        input.onchange = async (e) => {
-          const file = e.target.files?.[0]
-          if (!file) return
-          const buf = await file.arrayBuffer()
-          const wb = XLSX.read(buf, { type: "array" })
-          const toJSON = (sh) => (sh ? XLSX.utils.sheet_to_json(sh) : [])
-
-          const rawClients = toJSON(wb.Sheets["Clients"])
-          const clients = []
-          rawClients.forEach((r) => {
-            const clientName = (r["Client Name"] || "").trim()
-            if (!clientName) return
-            let client = clients.find((c) => c.name.toLowerCase() === clientName.toLowerCase())
-            if (!client) {
-              client = {
-                id: String(r["Client ID"] || crypto.randomUUID()),
-                name: clientName,
-                country: r["Country"] || "",
-                contacts: []
-              }
-              clients.push(client)
-            }
-            if (r["Contact Person"] || r["Email"] || r["Phone"]) {
-              const exists = client.contacts.some(
-                (ct) =>
-                  ct.contact === r["Contact Person"] &&
-                  ct.email === r["Email"] &&
-                  ct.phone === r["Phone"]
-              )
-              if (!exists) {
-                client.contacts.push({
-                  contact: r["Contact Person"] || "",
-                  email: r["Email"] || "",
-                  phone: r["Phone"] || ""
-                })
-              }
-            }
-          })
-
-          const rawPartners = toJSON(wb.Sheets["Partners"])
-          const partners = []
-          rawPartners.forEach((r) => {
-            const partnerName = (r["Partner Name"] || "").trim()
-            if (!partnerName) return
-            let partner = partners.find((p) => p.name.toLowerCase() === partnerName.toLowerCase())
-            if (!partner) {
-              partner = {
-                id: String(r["Partner ID"] || crypto.randomUUID()),
-                name: partnerName,
-                contacts: []
-              }
-              partners.push(partner)
-            }
-            if (r["Contact Person"] || r["Email"] || r["Phone"]) {
-              const exists = partner.contacts.some(
-                (ct) =>
-                  ct.contact === r["Contact Person"] &&
-                  ct.email === r["Email"] &&
-                  ct.phone === r["Phone"]
-              )
-              if (!exists) {
-                partner.contacts.push({
-                  contact: r["Contact Person"] || "",
-                  email: r["Email"] || "",
-                  phone: r["Phone"] || ""
-                })
-              }
-            }
-          })
-
-          const rawProducts = toJSON(wb.Sheets["Products"]) || []
-          const groupedProducts = []
-          rawProducts.forEach((r) => {
-            const partner = r["Partner"]
-            const product = r["Product"]
-            if (!partner || !product) return
-            let group = groupedProducts.find((p) => p.partner === partner)
-            if (!group) {
-              group = { partner, items: [] }
-              groupedProducts.push(group)
-            }
-            if (!group.items.includes(product)) group.items.push(product)
-          })
-          const products = groupedProducts.length ? groupedProducts : []
-
-          const projects = toJSON(wb.Sheets["Projects"]).map((r) => ({
-            id: String(r["Project ID"] || crypto.randomUUID()),
-            name: r["Project Name"] || "",
-            clientId: r["Client ID"] ? String(r["Client ID"]) : null,
-            partnerId: r["Partner ID"] ? String(r["Partner ID"]) : null,
-            productId: r["Product"] || "",
-            startDate: r["Start Date"] || "",
-            status: r["Status"] || ""
-          }))
-
-          const followups = toJSON(wb.Sheets["Follow-ups"]).map((r) => ({
-            id: String(r["Follow-Up ID"] || crypto.randomUUID()),
-            clientId: r["Client ID"] ? String(r["Client ID"]) : null,
-            projectId: r["Project ID"] ? String(r["Project ID"]) : null,
-            partnerId: r["Partner ID"] ? String(r["Partner ID"]) : null,
-            productId: r["Product"] ? String(r["Product"]) : "",
-            nextDate: r["Next Date"] || r["Date"] || "",
-            action: r["Action"] || ""
-          }))
-
-          const projectComments = (toJSON(wb.Sheets["Project Comments"]) || []).map((r) => ({
-            id: String(r["Comment ID"] || crypto.randomUUID()),
-            projectId: r["Project ID"] ? String(r["Project ID"]) : null,
-            type: r["Type"] || "note",
-            text: r["Comment"] || "",
-            date: r["Date"] || new Date().toISOString().split("T")[0]
-          }))
-
-          setData({
-            clients,
-            partners,
-            products,
-            projects,
-            followups,
-            projectComments
-          })
+      const rawClients = toJSON(wb.Sheets["Clients"])
+      const clients = []
+      rawClients.forEach((r) => {
+        const name = (r["Client Name"] || "").trim()
+        if (!name) return
+        let client = clients.find((c) => c.name.toLowerCase() === name.toLowerCase())
+        if (!client) {
+          client = {
+            id: String(r["Client ID"] || crypto.randomUUID()),
+            name,
+            country: r["Country"] || "",
+            contacts: []
+          }
+          clients.push(client)
         }
-        input.click()
-      }
-    }
+        if (r["Contact Person"] || r["Email"] || r["Phone"]) {
+          const exists = client.contacts.some(
+            (ct) =>
+              ct.contact === r["Contact Person"] &&
+              ct.email === r["Email"] &&
+              ct.phone === r["Phone"]
+          )
+          if (!exists) {
+            client.contacts.push({
+              contact: r["Contact Person"] || "",
+              email: r["Email"] || "",
+              phone: r["Phone"] || ""
+            })
+          }
+        }
+      })
 
-    if (exportBtn) {
-      exportBtn.onclick = () => {
-        const wb = XLSX.utils.book_new()
-        const clientsFlat = data.clients.flatMap((c) =>
-          c.contacts.length > 0
-            ? c.contacts.map((ct) => ({
-                "Client ID": String(c.id),
-                "Client Name": c.name,
-                Country: c.country,
-                "Contact Person": ct.contact,
-                Email: ct.email,
-                Phone: ct.phone
-              }))
-            : [
-                {
-                  "Client ID": String(c.id),
-                  "Client Name": c.name,
-                  Country: c.country,
-                  "Contact Person": "",
-                  Email: "",
-                  Phone: ""
-                }
-              ]
-        )
-        XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(clientsFlat), "Clients")
-        XLSX.writeFile(wb, "crm_data.xlsx")
-      }
+      const rawPartners = toJSON(wb.Sheets["Partners"])
+      const partners = []
+      rawPartners.forEach((r) => {
+        const name = (r["Partner Name"] || "").trim()
+        if (!name) return
+        let partner = partners.find((p) => p.name.toLowerCase() === name.toLowerCase())
+        if (!partner) {
+          partner = {
+            id: String(r["Partner ID"] || crypto.randomUUID()),
+            name,
+            contacts: []
+          }
+          partners.push(partner)
+        }
+        if (r["Contact Person"] || r["Email"] || r["Phone"]) {
+          const exists = partner.contacts.some(
+            (ct) =>
+              ct.contact === r["Contact Person"] &&
+              ct.email === r["Email"] &&
+              ct.phone === r["Phone"]
+          )
+          if (!exists) {
+            partner.contacts.push({
+              contact: r["Contact Person"] || "",
+              email: r["Email"] || "",
+              phone: r["Phone"] || ""
+            })
+          }
+        }
+      })
+
+      const rawProducts = toJSON(wb.Sheets["Products"]) || []
+      const groupedProducts = []
+      rawProducts.forEach((r) => {
+        const partner = r["Partner"]
+        const product = r["Product"]
+        if (!partner || !product) return
+        let group = groupedProducts.find((p) => p.partner === partner)
+        if (!group) {
+          group = { partner, items: [] }
+          groupedProducts.push(group)
+        }
+        if (!group.items.includes(product)) group.items.push(product)
+      })
+      const products = groupedProducts.length ? groupedProducts : []
+
+      const projects = toJSON(wb.Sheets["Projects"]).map((r) => ({
+        id: String(r["Project ID"] || crypto.randomUUID()),
+        name: r["Project Name"] || "",
+        clientId: r["Client ID"] ? String(r["Client ID"]) : null,
+        partnerId: r["Partner ID"] ? String(r["Partner ID"]) : null,
+        productId: r["Product"] || "",
+        startDate: r["Start Date"] || "",
+        status: r["Status"] || ""
+      }))
+
+      const followups = toJSON(wb.Sheets["Follow-ups"]).map((r) => ({
+        id: String(r["Follow-Up ID"] || crypto.randomUUID()),
+        clientId: r["Client ID"] ? String(r["Client ID"]) : null,
+        projectId: r["Project ID"] ? String(r["Project ID"]) : null,
+        partnerId: r["Partner ID"] ? String(r["Partner ID"]) : null,
+        productId: r["Product"] ? String(r["Product"]) : "",
+        nextDate: r["Next Date"] || r["Date"] || "",
+        action: r["Action"] || ""
+      }))
+
+      const projectComments = (toJSON(wb.Sheets["Project Comments"]) || []).map((r) => ({
+        id: String(r["Comment ID"] || crypto.randomUUID()),
+        projectId: r["Project ID"] ? String(r["Project ID"]) : null,
+        type: r["Type"] || "note",
+        text: r["Comment"] || "",
+        date: r["Date"] || new Date().toISOString().split("T")[0]
+      }))
+
+      setData({
+        clients,
+        partners,
+        products,
+        projects,
+        followups,
+        projectComments
+      })
     }
-  }, [data, setData])
+    input.click()
+  }
+
+  const exportExcel = () => {
+    const wb = XLSX.utils.book_new()
+    const clientsFlat = data.clients.flatMap((c) =>
+      c.contacts.length > 0
+        ? c.contacts.map((ct) => ({
+            "Client ID": String(c.id),
+            "Client Name": c.name,
+            Country: c.country,
+            "Contact Person": ct.contact,
+            Email: ct.email,
+            Phone: ct.phone
+          }))
+        : [
+            {
+              "Client ID": String(c.id),
+              "Client Name": c.name,
+              Country: c.country,
+              "Contact Person": "",
+              Email: "",
+              Phone: ""
+            }
+          ]
+    )
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(clientsFlat), "Clients")
+    XLSX.writeFile(wb, "crm_data.xlsx")
+  }
+
+  const downloadCalendar = () => {
+    const ics = buildICS(data.followups || [])
+    const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement("a")
+    a.href = url
+    a.download = "followups.ics"
+    a.click()
+    URL.revokeObjectURL(url)
+  }
 
   return (
-    <div style={{ display: "flex", height: "100vh" }}>
-      {/* === SIDEBAR === */}
+    <div className="app-container">
+      {/* === HEADER === */}
       <div
-        className="sidebar"
         style={{
-          width: "200px",
           background: "#111",
-          color: "#fff",
+          color: "white",
           display: "flex",
-          flexDirection: "column",
-          padding: "1rem",
-          gap: "0.5rem"
+          alignItems: "center",
+          justifyContent: "space-between",
+          padding: "0.6rem 1rem",
+          fontWeight: 600
         }}
       >
-        {[
-          { id: "dashboard", label: "Dashboard" },
-          { id: "clients", label: "Clients" },
-          { id: "partners", label: "Partners" },
-          { id: "products", label: "Products" },
-          { id: "projects", label: "Projects" },
-          { id: "followups", label: "Follow-ups" }
-        ].map((t) => (
-          <button
-            key={t.id}
-            onClick={() => setTab(t.id)}
-            className={tab === t.id ? "active" : ""}
-            style={{
-              background: tab === t.id ? "#ffa733" : "transparent",
-              color: tab === t.id ? "black" : "#fff",
-              border: "none",
-              borderRadius: "6px",
-              padding: "8px 12px",
-              textAlign: "left",
-              cursor: "pointer",
-              fontWeight: tab === t.id ? "600" : "400"
-            }}
-          >
-            {t.label}
-          </button>
-        ))}
-      </div>
-
-      {/* === MAIN CONTENT === */}
-      <div style={{ flex: 1, position: "relative", padding: "1rem" }}>
-        {/* Save to Cloud Button */}
-        <div
-          style={{
-            position: "absolute",
-            top: "12px",
-            right: "20px",
-            zIndex: 5000
-          }}
-        >
+        <div>Partners & Projects CRM</div>
+        <div>
           <button
             onClick={saveDataToGitHub}
             title="Save to Cloud"
@@ -288,15 +252,120 @@ const saveDataToGitHub = async () => {
             <CloudUpload size={16} />
           </button>
         </div>
+      </div>
 
-        {tab === "dashboard" && <Dashboard data={data} />}
-        {tab === "clients" && <Clients data={data} setData={setData} />}
-        {tab === "partners" && <Partners data={data} setData={setData} />}
-        {tab === "products" && <Products data={data} setData={setData} />}
-        {tab === "projects" && <Projects data={data} setData={setData} />}
-        {tab === "followups" && <Followups data={data} setData={setData} />}
+      {/* === BODY === */}
+      <div style={{ display: "flex", height: "calc(100vh - 48px)" }}>
+        {/* SIDEBAR */}
+        <div
+          style={{
+            width: "200px",
+            background: "#141414",
+            color: "#fff",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+            padding: "1rem"
+          }}
+        >
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+            {[
+              { id: "dashboard", label: "Dashboard" },
+              { id: "clients", label: "Clients" },
+              { id: "partners", label: "Partners" },
+              { id: "products", label: "Products" },
+              { id: "projects", label: "Projects" },
+              { id: "followups", label: "Follow-ups" }
+            ].map((t) => (
+              <button
+                key={t.id}
+                onClick={() => setTab(t.id)}
+                style={{
+                  background: tab === t.id ? "#ffa733" : "transparent",
+                  color: tab === t.id ? "black" : "#fff",
+                  border: "none",
+                  borderRadius: "6px",
+                  padding: "8px 12px",
+                  textAlign: "left",
+                  cursor: "pointer",
+                  fontWeight: tab === t.id ? "600" : "400"
+                }}
+              >
+                {t.label}
+              </button>
+            ))}
+          </div>
+
+          {/* Orange divider line */}
+          <div
+            style={{
+              borderTop: "2px solid #ffa733",
+              margin: "1rem 0"
+            }}
+          />
+
+          {/* Utility buttons */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+            <button
+              onClick={importExcel}
+              style={{
+                background: "#ffa733",
+                color: "black",
+                border: "none",
+                borderRadius: "6px",
+                padding: "8px 12px",
+                cursor: "pointer",
+                textAlign: "left",
+                fontWeight: "500"
+              }}
+            >
+              ⬆ Import Excel
+            </button>
+
+            <button
+              onClick={exportExcel}
+              style={{
+                background: "#ffa733",
+                color: "black",
+                border: "none",
+                borderRadius: "6px",
+                padding: "8px 12px",
+                cursor: "pointer",
+                textAlign: "left",
+                fontWeight: "500"
+              }}
+            >
+              ⬇ Export Excel
+            </button>
+
+            <button
+              onClick={downloadCalendar}
+              style={{
+                background: "#ffa733",
+                color: "black",
+                border: "none",
+                borderRadius: "6px",
+                padding: "8px 12px",
+                cursor: "pointer",
+                textAlign: "left",
+                fontWeight: "500"
+              }}
+            >
+              📅 Calendar
+            </button>
+          </div>
+        </div>
+
+        {/* MAIN CONTENT */}
+        <div style={{ flex: 1, overflowY: "auto", padding: "1rem" }}>
+          {tab === "dashboard" && <Dashboard data={data} />}
+          {tab === "clients" && <Clients data={data} setData={setData} />}
+          {tab === "partners" && <Partners data={data} setData={setData} />}
+          {tab === "products" && <Products data={data} setData={setData} />}
+          {tab === "projects" && <Projects data={data} setData={setData} />}
+          {tab === "followups" && <Followups data={data} setData={setData} />}
+        </div>
       </div>
     </div>
   )
 }
-

@@ -325,10 +325,11 @@ export default function Projects({ data, setData }) {
       </div>
 
       {/* === TABLE === */}
-      {grouped.map((g) => (
-        <div
-          key={g.client}
-          style={{
+      <div style={{ width: "100%", overflowX: "auto" }}>
+  {grouped.map((g) => (
+    <div
+      key={g.client}
+      style={{
             background: "#141414",
             borderRadius: "10px",
             padding: "0.8rem 1rem",
