@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { CalendarDays } from "lucide-react"
+import { CalendarDays, Pencil, Trash2, Save } from "lucide-react"
 import SectionTitle from "../components/SectionTitle"
 
 export default function Followups({ data, setData }) {
@@ -12,12 +12,25 @@ export default function Followups({ data, setData }) {
     action: ""
   })
   const [editingId, setEditingId] = useState(null)
-
-  // === FILTERS (Clients in projects + Partners) ===
   const [filterClient, setFilterClient] = useState("")
   const [filterPartner, setFilterPartner] = useState("")
 
-  // === CLIENTS ONLY FROM PROJECTS ===
+  const BTN_STYLE = {
+    background: "#ffa733",
+    color: "black",
+    borderRadius: "8px",
+    width: 28,
+    height: 28,
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 0,
+    border: "none",
+    cursor: "pointer"
+  }
+  const ICON_SIZE = 14
+
+  // === CLIENTS IN PROJECTS ===
   const projectClientIds = Array.from(
     new Set((data.projects || []).map((p) => String(p.clientId)))
   )
@@ -106,6 +119,7 @@ export default function Followups({ data, setData }) {
   }
 
   const deleteFollowup = (id) => {
+    if (!confirm("Delete this follow-up?")) return
     const updated = (data.followups || []).filter(
       (f) => String(f.id) !== String(id)
     )
@@ -132,7 +146,6 @@ export default function Followups({ data, setData }) {
     })
     .sort((a, b) => new Date(a.nextDate) - new Date(b.nextDate))
 
-  // === GROUP FOLLOWUPS BY CLIENT ===
   const grouped = clientsInProjects
     .map((client) => ({
       client,
@@ -266,8 +279,8 @@ export default function Followups({ data, setData }) {
           placeholder="Action"
         />
 
-        <button className="btn-icon" onClick={addOrUpdate}>
-          {editingId ? "💾" : "+"}
+        <button className="btn-icon" onClick={addOrUpdate} title="Save follow-up">
+          {editingId ? <Save size={ICON_SIZE} /> : "+"}
         </button>
       </div>
 
@@ -330,24 +343,24 @@ export default function Followups({ data, setData }) {
                     <td className="actions" style={{ textAlign: "right" }}>
                       <div
                         style={{
-                          display: "flex",
-                          justifyContent: "flex-end",
-                          gap: "0.4rem"
+                          display: "inline-flex",
+                          gap: 6,
+                          justifyContent: "flex-end"
                         }}
                       >
                         <button
-                          className="btn-icon"
+                          title="Modify"
+                          style={BTN_STYLE}
                           onClick={() => editFollowup(f.id)}
-                          title="Edit"
                         >
-                          ✏
+                          <Pencil size={ICON_SIZE} />
                         </button>
                         <button
-                          className="btn-icon"
-                          onClick={() => deleteFollowup(f.id)}
                           title="Delete"
+                          style={BTN_STYLE}
+                          onClick={() => deleteFollowup(f.id)}
                         >
-                          🗑
+                          <Trash2 size={ICON_SIZE} />
                         </button>
                       </div>
                     </td>

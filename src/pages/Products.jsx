@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Package } from "lucide-react"
+import { Package, Pencil, Trash2, Save } from "lucide-react"
 import SectionTitle from "../components/SectionTitle"
 
 export default function Products({ data, setData }) {
@@ -7,10 +7,24 @@ export default function Products({ data, setData }) {
   const [editing, setEditing] = useState({ partnerId: null, index: null })
   const [openMap, setOpenMap] = useState({}) // { [partnerKey]: boolean }
 
+  const BTN_STYLE = {
+    background: "#ffa733",
+    color: "black",
+    borderRadius: "8px",
+    width: 28,
+    height: 28,
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 0,
+    border: "none",
+    cursor: "pointer"
+  }
+  const ICON_SIZE = 14
+
   const toggleOpen = (key) =>
     setOpenMap((m) => ({ ...m, [key]: m[key] === false ? true : false }))
 
-  // merge duplicate groups (by partnerId or fallback partner name)
   const mergeDuplicatePartners = (products) => {
     const merged = {}
     for (const p of products || []) {
@@ -25,7 +39,6 @@ export default function Products({ data, setData }) {
         merged[key].items.push(...(p.items || []))
       }
     }
-    // remove duplicates within each group
     return Object.values(merged).map((p) => ({
       ...p,
       items: [...new Set(p.items)].sort((a, b) => a.localeCompare(b))
@@ -33,7 +46,7 @@ export default function Products({ data, setData }) {
   }
 
   const addOrUpdateProduct = () => {
-    if (!form.partnerId || !form.product.trim()) return
+    if (!form.partnerId || !form.product.trim()) return alert("Partner and Product are required.")
 
     const updatedProducts = JSON.parse(JSON.stringify(data.products || []))
     const partnerName =
@@ -73,6 +86,7 @@ export default function Products({ data, setData }) {
   }
 
   const deleteProduct = (partnerId, idx) => {
+    if (!confirm("Delete this product?")) return
     const updated = JSON.parse(JSON.stringify(data.products || []))
     const partnerIndex = updated.findIndex(
       (p) => p.partnerId === partnerId || (!p.partnerId && p.partner === partnerId)
@@ -130,8 +144,8 @@ export default function Products({ data, setData }) {
           placeholder="Product name"
         />
 
-        <button className="btn-icon" onClick={addOrUpdateProduct}>
-          {editing.partnerId ? "💾" : "+"}
+        <button className="btn-icon" onClick={addOrUpdateProduct} title="Save">
+          {editing.partnerId ? <Save size={ICON_SIZE} /> : "+"}
         </button>
       </div>
 
@@ -213,24 +227,24 @@ export default function Products({ data, setData }) {
                         <td className="actions" style={{ textAlign: "right" }}>
                           <div
                             style={{
-                              display: "flex",
-                              justifyContent: "flex-end",
-                              gap: "0.4rem"
+                              display: "inline-flex",
+                              gap: 6,
+                              justifyContent: "flex-end"
                             }}
                           >
                             <button
-                              className="btn-icon"
+                              title="Modify"
+                              style={BTN_STYLE}
                               onClick={() => editProduct(group.partnerId, idx, item)}
-                              title="Edit product"
                             >
-                              ✏
+                              <Pencil size={ICON_SIZE} />
                             </button>
                             <button
-                              className="btn-icon"
+                              title="Delete"
+                              style={BTN_STYLE}
                               onClick={() => deleteProduct(group.partnerId, idx)}
-                              title="Delete product"
                             >
-                              🗑
+                              <Trash2 size={ICON_SIZE} />
                             </button>
                           </div>
                         </td>

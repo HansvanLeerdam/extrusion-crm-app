@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { FolderKanban } from "lucide-react"
+import { FolderKanban, Pencil, Trash2, Save, MessageSquare } from "lucide-react"
 import SectionTitle from "../components/SectionTitle"
 
 export default function Projects({ data, setData }) {
@@ -16,9 +16,23 @@ export default function Projects({ data, setData }) {
   const [newComment, setNewComment] = useState("")
   const [commentType, setCommentType] = useState("note")
 
-  // === Filters ===
   const [filterClient, setFilterClient] = useState("")
   const [filterPartner, setFilterPartner] = useState("")
+
+  const BTN_STYLE = {
+    background: "#ffa733",
+    color: "black",
+    borderRadius: "8px",
+    width: 28,
+    height: 28,
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 0,
+    border: "none",
+    cursor: "pointer"
+  }
+  const ICON_SIZE = 14
 
   const getPartnerName = (id) =>
     (data.partners || []).find((p) => String(p.id) === String(id))?.name || ""
@@ -26,7 +40,6 @@ export default function Projects({ data, setData }) {
   const getProductName = (val) =>
     typeof val === "string" ? val : String(val ?? "")
 
-  // === PRODUCT SELECTION ===
   const selectedPartnerId = form.partnerId
   const selectedPartnerName =
     (data.partners || []).find((p) => String(p.id) === String(selectedPartnerId))
@@ -46,7 +59,6 @@ export default function Projects({ data, setData }) {
   const displayedProducts =
     partnerProducts && partnerProducts.length > 0 ? partnerProducts : allProducts
 
-  // === CLIENTS ===
   const allClients = [...(data.clients || [])].sort((a, b) =>
     a.name.localeCompare(b.name)
   )
@@ -62,7 +74,6 @@ export default function Projects({ data, setData }) {
     .map((id) => clientsMap.get(id))
     .sort((a, b) => a.name.localeCompare(b.name))
 
-  // === ADD / UPDATE PROJECT ===
   const addOrUpdate = () => {
     if (!form.name) return
     const updated = [...(data.projects || [])]
@@ -84,17 +95,17 @@ export default function Projects({ data, setData }) {
       const nextWeek = new Date(today)
       nextWeek.setDate(today.getDate() + 7)
       const newFollowup = {
-  id:
-    typeof crypto !== "undefined" && crypto.randomUUID
-      ? "followup-" + crypto.randomUUID()
-      : "followup-" + Date.now() + "-" + Math.floor(Math.random() * 100000),
-  clientId: form.clientId || null,
-  projectId: newProjectId,
-  partnerId: form.partnerId || null,
-  productId: form.productId || null,   // 👈 add this line
-  nextDate: nextWeek.toISOString().split("T")[0],
-  action: "Initial follow-up for new project"
-}
+        id:
+          typeof crypto !== "undefined" && crypto.randomUUID
+            ? "followup-" + crypto.randomUUID()
+            : "followup-" + Date.now() + "-" + Math.floor(Math.random() * 100000),
+        clientId: form.clientId || null,
+        projectId: newProjectId,
+        partnerId: form.partnerId || null,
+        productId: form.productId || null,
+        nextDate: nextWeek.toISOString().split("T")[0],
+        action: "Initial follow-up for new project"
+      }
 
       setData({
         ...data,
@@ -128,7 +139,6 @@ export default function Projects({ data, setData }) {
     setEditing(p.id)
   }
 
-  // === COMMENTS ===
   const getComments = (projectId) =>
     (data.projectComments || []).filter(
       (c) => String(c.projectId) === String(projectId)
@@ -164,7 +174,6 @@ export default function Projects({ data, setData }) {
     })
   }
 
-  // === GROUPING & FILTERING ===
   const groupedBase = clientsInProjects
     .map((c) => ({
       client: c.name,
@@ -310,8 +319,8 @@ export default function Projects({ data, setData }) {
           onChange={(e) => setForm({ ...form, status: e.target.value })}
           placeholder="Status"
         />
-        <button className="btn-icon" onClick={addOrUpdate}>
-          {editing ? "💾" : "+"}
+        <button className="btn-icon" onClick={addOrUpdate} title="Save project">
+          {editing ? <Save size={ICON_SIZE} /> : "+"}
         </button>
       </div>
 
@@ -368,33 +377,33 @@ export default function Projects({ data, setData }) {
                       <td className="actions" style={{ textAlign: "right" }}>
                         <div
                           style={{
-                            display: "flex",
-                            justifyContent: "flex-end",
-                            gap: "0.4rem"
+                            display: "inline-flex",
+                            gap: 6,
+                            justifyContent: "flex-end"
                           }}
                         >
                           <button
-                            className="btn-icon"
+                            title="Modify"
+                            style={BTN_STYLE}
                             onClick={() => editProject(p)}
-                            title="Edit project"
                           >
-                            ✏
+                            <Pencil size={ICON_SIZE} />
                           </button>
                           <button
-                            className="btn-icon"
+                            title="Delete"
+                            style={BTN_STYLE}
                             onClick={() => deleteProject(p.id)}
-                            title="Delete project"
                           >
-                            🗑
+                            <Trash2 size={ICON_SIZE} />
                           </button>
                           <button
-                            className="btn-icon"
                             title="Add comment"
+                            style={BTN_STYLE}
                             onClick={() =>
                               setActiveProject(isActive ? null : p.id)
                             }
                           >
-                            💬
+                            <MessageSquare size={ICON_SIZE} />
                           </button>
                         </div>
                       </td>
@@ -402,13 +411,7 @@ export default function Projects({ data, setData }) {
 
                     {(comments.length > 0 || isActive) && (
                       <tr>
-                        <td
-                          colSpan="6"
-                          style={{
-                            background: "#1a1a1a",
-                            padding: "0.8rem 1rem"
-                          }}
-                        >
+                        <td colSpan="6" style={{ background: "#1a1a1a", padding: "0.8rem 1rem" }}>
                           {comments.map((c) => (
                             <div
                               key={String(c.id)}
@@ -432,8 +435,7 @@ export default function Projects({ data, setData }) {
                                   marginRight: "0.4rem"
                                 }}
                               >
-                                {c.type.charAt(0).toUpperCase() +
-                                  c.type.slice(1)}
+                                {c.type.charAt(0).toUpperCase() + c.type.slice(1)}
                               </span>{" "}
                               {c.text}
                               <button
@@ -486,10 +488,11 @@ export default function Projects({ data, setData }) {
                                 }}
                               />
                               <button
-                                className="btn-icon"
+                                title="Save comment"
+                                style={BTN_STYLE}
                                 onClick={() => addComment(p.id)}
                               >
-                                💾
+                                <Save size={ICON_SIZE} />
                               </button>
                             </div>
                           )}

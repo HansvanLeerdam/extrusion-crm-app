@@ -151,7 +151,7 @@ export default function Clients({ data, setData }) {
       {/* INPUT ROW */}
       <div
         className="sticky-input-row"
-        style={{ gridTemplateColumns: "20% 15% 15% 20% 15% 36px" }}
+        style={{ gridTemplateColumns: "15% 15% 15% 15% 15% 36px" }}
       >
         <input
           placeholder="Client Name"

@@ -1,11 +1,26 @@
 import React, { useState } from "react"
-import { Handshake } from "lucide-react"
+import { Handshake, Pencil, Trash2, Save } from "lucide-react"
 import SectionTitle from "../components/SectionTitle"
 
 export default function Partners({ data, setData }) {
   const [form, setForm] = useState({ name: "", contact: "", email: "", phone: "" })
   const [editing, setEditing] = useState({ partnerId: null, contactIndex: null })
   const [openMap, setOpenMap] = useState({}) // { [partnerId]: boolean }
+
+  const BTN_STYLE = {
+    background: "#ffa733",
+    color: "black",
+    borderRadius: "8px",
+    width: 28,
+    height: 28,
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 0,
+    border: "none",
+    cursor: "pointer"
+  }
+  const ICON_SIZE = 14
 
   const toggleOpen = (id) =>
     setOpenMap((m) => ({ ...m, [id]: m[id] === false ? true : false }))
@@ -15,10 +30,10 @@ export default function Partners({ data, setData }) {
   )
 
   const addOrUpdate = () => {
-    if (!form.name) return
+    if (!form.name.trim()) return alert("Partner name is required.")
 
     const updated = [...(data.partners || [])]
-    let partner = updated.find((p) => p.name === form.name)
+    let partner = updated.find((p) => p.name.trim() === form.name.trim())
 
     if (!partner) {
       partner = {
@@ -26,7 +41,7 @@ export default function Partners({ data, setData }) {
           typeof crypto !== "undefined" && crypto.randomUUID
             ? "partner-" + crypto.randomUUID()
             : "partner-" + Date.now() + "-" + Math.floor(Math.random() * 100000),
-        name: form.name,
+        name: form.name.trim(),
         contacts: []
       }
       updated.push(partner)
@@ -58,6 +73,7 @@ export default function Partners({ data, setData }) {
   }
 
   const deleteContact = (partnerId, index) => {
+    if (!confirm("Delete this contact?")) return
     const updated = (data.partners || []).map((p) =>
       p.id === partnerId
         ? { ...p, contacts: (p.contacts || []).filter((_, i) => i !== index) }
@@ -113,8 +129,8 @@ export default function Partners({ data, setData }) {
           onChange={(e) => setForm({ ...form, phone: e.target.value })}
           placeholder="Phone"
         />
-        <button className="btn-icon" onClick={addOrUpdate}>
-          {editing.partnerId !== null ? "💾" : "+"}
+        <button className="btn-icon" onClick={addOrUpdate} title="Save">
+          {editing.partnerId !== null ? <Save size={ICON_SIZE} /> : "+"}
         </button>
       </div>
 
@@ -198,24 +214,24 @@ export default function Partners({ data, setData }) {
                           <td className="actions" style={{ textAlign: "right" }}>
                             <div
                               style={{
-                                display: "flex",
-                                justifyContent: "flex-end",
-                                gap: "0.4rem"
+                                display: "inline-flex",
+                                gap: 6,
+                                justifyContent: "flex-end"
                               }}
                             >
                               <button
-                                className="btn-icon"
+                                title="Modify"
+                                style={BTN_STYLE}
                                 onClick={() => editContact(p, i)}
-                                title="Edit"
                               >
-                                ✏
+                                <Pencil size={ICON_SIZE} />
                               </button>
                               <button
-                                className="btn-icon"
-                                onClick={() => deleteContact(p.id, i)}
                                 title="Delete"
+                                style={BTN_STYLE}
+                                onClick={() => deleteContact(p.id, i)}
                               >
-                                🗑
+                                <Trash2 size={ICON_SIZE} />
                               </button>
                             </div>
                           </td>
