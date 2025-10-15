@@ -1912,6 +1912,7 @@
   ],
   "products": [
     {
+      "partnerId": "",
       "partner": "Al Solutions",
       "items": [
         "Audit",
@@ -1922,18 +1923,21 @@
       ]
     },
     {
+      "partnerId": "",
       "partner": "Avanzate",
       "items": [
         "Software"
       ]
     },
     {
+      "partnerId": "",
       "partner": "EGE+Endustri",
       "items": [
         "Ageing Oven",
         "Air Cooling Installation",
         "Billet Casting Line",
         "Billet Oven",
+        "Caustic Soda Installation",
         "Die Oven",
         "Extrusion Equipment",
         "Extrusion Press Line",
@@ -1944,18 +1948,21 @@
       ]
     },
     {
+      "partnerId": "",
       "partner": "Eroga Die",
       "items": [
         "Dies"
       ]
     },
     {
+      "partnerId": "",
       "partner": "Extrugasa",
       "items": [
         "Extrusion"
       ]
     },
     {
+      "partnerId": "",
       "partner": "LBB Systems",
       "items": [
         "Container Relining",
@@ -1963,24 +1970,28 @@
       ]
     },
     {
+      "partnerId": "",
       "partner": "Pafer",
       "items": [
         "Consumables"
       ]
     },
     {
+      "partnerId": "",
       "partner": "PX Automation",
       "items": [
         "Press Optimization"
       ]
     },
     {
+      "partnerId": "",
       "partner": "Saylan Teknik",
       "items": [
         "Die Cleaning Machine"
       ]
     },
     {
+      "partnerId": "",
       "partner": "Unterschütz",
       "items": [
         "Air Cooling Installation",
@@ -1992,6 +2003,7 @@
       ]
     },
     {
+      "partnerId": "",
       "partner": "WEFA",
       "items": [
         "CVD Coated Dies"
@@ -2661,7 +2673,7 @@
       "name": "Caustic Soda",
       "clientId": "client-1760532157081",
       "partnerId": "3",
-      "productId": "Extrusion Equipment",
+      "productId": "Caustic Soda Installation",
       "startDate": "2025-10-15",
       "status": "Check with Mehmet"
     }
