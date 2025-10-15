@@ -1691,6 +1691,18 @@
           "phone": ""
         }
       ]
+    },
+    {
+      "id": "client-1760515468922",
+      "name": "Navarra",
+      "country": "Portugal",
+      "contacts": [
+        {
+          "contact": "Tiago Martins",
+          "email": "tiago.martins@navarraaluminio.com",
+          "phone": "+351 253 603 520"
+        }
+      ]
     }
   ],
   "partners": [
