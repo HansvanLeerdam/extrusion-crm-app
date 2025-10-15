@@ -1142,13 +1142,7 @@
       "id": "client-3a2ac487-7436-47b3-ac55-020c641d8eba",
       "name": "Extrugasa",
       "country": "Spain",
-      "contacts": [
-        {
-          "contact": "Francesco Quinta",
-          "email": "",
-          "phone": ""
-        }
-      ]
+      "contacts": []
     },
     {
       "id": "1760179183342",
