@@ -1503,7 +1503,11 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Zona Industrial da Lameira\n4820-840\nPortugal",
+        "notes": "2500 and 2600 tn"
+      }
     },
     {
       "id": "4b60c64b-6b55-43a0-86b3-3af6d311474a",
