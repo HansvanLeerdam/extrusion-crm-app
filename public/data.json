@@ -2655,6 +2655,15 @@
       "productId": "Audit",
       "startDate": "2025-10-14",
       "status": "To propose"
+    },
+    {
+      "id": "project-204ebf6c-b52d-4f17-97bc-7cffb09f43eb",
+      "name": "Caustic Soda",
+      "clientId": "client-1760532157081",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "startDate": "2025-10-15",
+      "status": "Check with Mehmet"
     }
   ],
   "followups": [
@@ -3007,6 +3016,15 @@
       "partnerId": "7",
       "productId": "CVD Coated Dies",
       "nextDate": "2025-10-17",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-b33b22df-d926-4b5f-84a3-2168017aaaed",
+      "clientId": "client-1760532157081",
+      "projectId": "project-204ebf6c-b52d-4f17-97bc-7cffb09f43eb",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "nextDate": "2025-10-22",
       "action": "Initial follow-up for new project"
     }
   ],
