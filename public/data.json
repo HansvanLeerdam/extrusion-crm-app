@@ -445,13 +445,7 @@
       "id": "1760261015294",
       "name": "Compes Spa",
       "country": "Italy",
-      "contacts": [
-        {
-          "contact": "Guido Mazzolari",
-          "email": "guido.mazzolari@compes.com",
-          "phone": "+39 339 3233994"
-        }
-      ],
+      "contacts": [],
       "details": {
         "address": "Via Castegnato, 6/C\n25050 Rodengo Saiano\nBrescia, Italy\n"
       }
@@ -2297,6 +2291,210 @@
       "contacts": [
         {
           "contact": "Nando Carbonara",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569299612",
+      "name": "Alumec S.r.l",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569311808",
+      "name": "GEAL S.p.A.",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569323942",
+      "name": "Profall (Profilati Alluminio)",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569342676",
+      "name": "Estrusione Roccafranca",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569354923",
+      "name": "Estral S.p.a.",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569366909",
+      "name": "Allit S.p.A.",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569378218",
+      "name": "Pandolfo Alluminio",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569393922",
+      "name": "Groppalli",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569409258",
+      "name": "Eural Gnutti S.p.A.",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569421061",
+      "name": "Pasturi S.r.l.",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569443373",
+      "name": "Casal Aluminium",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569477601",
+      "name": "Gastaldello Sistemi",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
           "email": "",
           "phone": ""
         }
