@@ -97,7 +97,10 @@
           "email": "cvetomir.penchev@alcomet.eu ",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Second Industrial Zone\n9700 Shumen\nBulgaria"
+      }
     },
     {
       "id": "59",
