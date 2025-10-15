@@ -1795,6 +1795,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760548998855",
+      "name": "All Clients",
+      "country": "All",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
