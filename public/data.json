@@ -144,7 +144,10 @@
           "email": "juan-manuel.aparicio@alusolutionsgroup.com",
           "phone": "+34 925 23 44 66"
         }
-      ]
+      ],
+      "details": {
+        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\n45007 Toledo\nSpain\n"
+      }
     },
     {
       "id": "43",
