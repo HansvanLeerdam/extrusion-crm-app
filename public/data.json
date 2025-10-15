@@ -1761,6 +1761,40 @@
         "notes": "2300 tn - 8\"\nCapacidad productiva anual 11.000 toneladas",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760548730507",
+      "name": "Hydro Extrusion La Roca S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "P.I. Can Font de la Parera, C/ Esteve Terrades, s/n\n08430 La Roca del Vallès\nBarcelona, Spain",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760548771282",
+      "name": "Hydro Extrusion Portugal",
+      "country": "Portugal",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
