@@ -2763,6 +2763,15 @@
       "productId": "Audit",
       "startDate": "2025-10-15",
       "status": "Follow up email Heidi"
+    },
+    {
+      "id": "project-b5d4e2e1-1594-4f68-a173-8d53d8ce7376",
+      "name": "PD Calculator Modify",
+      "clientId": "client-1760548998855",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2025-10-15",
+      "status": "To improve"
     }
   ],
   "followups": [
@@ -3132,6 +3141,15 @@
       "projectId": "project-bae1789a-94fc-4678-a060-c68b1625f6ac",
       "partnerId": "1",
       "productId": "Audit",
+      "nextDate": "2025-10-22",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-0c5742ec-b491-437c-a83f-3c25d7c0dcd4",
+      "clientId": "client-1760548998855",
+      "projectId": "project-b5d4e2e1-1594-4f68-a173-8d53d8ce7376",
+      "partnerId": "1",
+      "productId": "Consulting",
       "nextDate": "2025-10-22",
       "action": "Initial follow-up for new project"
     }
