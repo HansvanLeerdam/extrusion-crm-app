@@ -8,12 +8,12 @@
         {
           "contact": "David  Seoane",
           "email": "d.seoane@alasiberia.com",
-          "phone": ""
+          "phone": "+34 697 145 898"
         },
         {
           "contact": "Pablo Bouzas",
           "email": "p.bouzas@alasiberia.com",
-          "phone": ""
+          "phone": "+34 619 679 834"
         },
         {
           "contact": "Sergio Zapico",
@@ -25,7 +25,10 @@
           "email": "r.martinez@alasiberia.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Av de Laviana, s/n\n33930 Langreo, Asturias\nSpain"
+      }
     },
     {
       "id": "2",
@@ -1499,8 +1502,13 @@
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
-          "email": "",
+          "contact": "Fernando Cardoso",
+          "email": "fernandocardoso@adla-aluminium.pt",
+          "phone": ""
+        },
+        {
+          "contact": "Tiago Oliveira",
+          "email": "geral@adlanext.pt",
           "phone": ""
         }
       ],
