@@ -1292,13 +1292,7 @@
       "id": "15",
       "name": "Extrusax S.A.",
       "country": "Spain",
-      "contacts": [
-        {
-          "contact": "Luis Albert",
-          "email": "mantenimiento@extrusax.com",
-          "phone": "+34 600 49 17 40"
-        }
-      ]
+      "contacts": []
     },
     {
       "id": "30",
@@ -1421,8 +1415,13 @@
         },
         {
           "contact": "Miguel Angel Valero",
-          "email": "",
+          "email": "matriceria@extrusax.com",
           "phone": ""
+        },
+        {
+          "contact": "Luis Albert",
+          "email": "mantenimiento@extrusax.com",
+          "phone": "\t+34 600 49 17 40"
         }
       ],
       "details": {
