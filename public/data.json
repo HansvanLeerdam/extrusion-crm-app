@@ -376,7 +376,10 @@
           "email": "shahrizod.hosilov@akfagroup.com",
           "phone": " +99 890 501 34 62"
         }
-      ]
+      ],
+      "details": {
+        "address": "Navoi region, Karmana district \nterritory Navoi Free Economic Zone, Uzbekistan"
+      }
     },
     {
       "id": "7",
@@ -393,7 +396,10 @@
           "email": "p.koenis@boalgroup.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Hondert Margen 12\n2678 AC De Lier\nNetherlands\n"
+      }
     },
     {
       "id": "9",
@@ -410,7 +416,10 @@
           "email": "g.suffolk@boalgroup.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Ashby Road East\nShepshed\nLoughborough\nLeicestershire LE12 9BS\nUnited Kingdom\n"
+      }
     },
     {
       "id": "10",
@@ -427,7 +436,10 @@
           "email": "mdaaboul@canexalu.com",
           "phone": "+20 102 7778077"
         }
-      ]
+      ],
+      "details": {
+        "address": "2/170 CPC Industrial Park\nNorthern Extensions, Industrial Area #4\n6th October City\n12573 Giza, Egypt\n"
+      }
     },
     {
       "id": "1760261015294",
@@ -439,7 +451,10 @@
           "email": "guido.mazzolari@compes.com",
           "phone": "+39 339 3233994"
         }
-      ]
+      ],
+      "details": {
+        "address": "Via Castegnato, 6/C\n25050 Rodengo Saiano\nBrescia, Italy\n"
+      }
     },
     {
       "id": "116",
@@ -451,7 +466,10 @@
           "email": "",
           "phone": "+30 241 056 7567"
         }
-      ]
+      ],
+      "details": {
+        "address": "8th km National Road Larissa-Athens, Nikea Intersection\nLarissa, 41110\nGreece\n"
+      }
     },
     {
       "id": "11",
@@ -463,7 +481,10 @@
           "email": "justin.gamage@delemaralu.com",
           "phone": "+21 2 6 64 26 66 97"
         }
-      ]
+      ],
+      "details": {
+        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\n6th of October City\nGiza, Egypt"
+      }
     },
     {
       "id": "21",
@@ -475,7 +496,10 @@
           "email": "dennis@denting.nl",
           "phone": "+31 6 53 56 55 24"
         }
-      ]
+      ],
+      "details": {
+        "address": "De Trompet 1205\n1967 DA Heemskerk\nNetherlands\n"
+      }
     },
     {
       "id": "1760261175899",
@@ -487,7 +511,10 @@
           "email": "maryam@dogus-kalip.com.tr",
           "phone": "+90 216 396 13 54"
         }
-      ]
+      ],
+      "details": {
+        "address": "Büyükdere Caddesi No: 2\nSarıyer, Istanbul\nTurkey\n"
+      }
     },
     {
       "id": "12",
@@ -504,7 +531,10 @@
           "email": "emre@egeendustri.net",
           "phone": "+90 552 214 66 21"
         }
-      ]
+      ],
+      "details": {
+        "address": "Yenibosna Merkez Mah. 1. Asena Sok.\nKarat-34 E Blog No.:23 Kat 5 Ofis No.:16\nBahçelievler / İstanbul-Türkiye"
+      }
     },
     {
       "id": "72",
@@ -516,7 +546,10 @@
           "email": "ahmed.egyptalum@gmail.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Naga Hammadi, Qena Governorate, Egypt\n\nOffice in Cairo: 48–50 Abdel Khalek Sarwat St., Cairo, Egypt\n"
+      }
     },
     {
       "id": "13",
@@ -533,7 +566,10 @@
           "email": "alu@elgammal-eg.com",
           "phone": "+20 100 255 1361"
         }
-      ]
+      ],
+      "details": {
+        "address": "101 El Amal Shourta Buildings\nAutostrad Road, New Maadi\nCairo, Egypt\n"
+      }
     },
     {
       "id": "117",
@@ -545,7 +581,10 @@
           "email": "",
           "phone": "+30 2341039500"
         }
-      ]
+      ],
+      "details": {
+        "address": "25th km Thessaloniki\nKilkis National Road\nNea Santa, 61100 Kilkis, Greece\n"
+      }
     },
     {
       "id": "60",
@@ -557,7 +596,10 @@
           "email": "jos.lamerigts@e-max.eu",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Siemenslaan 8\n3650 Dilsen-Stokkem\nBelgium\n"
+      }
     },
     {
       "id": "14",
@@ -586,7 +628,10 @@
           "email": "Dave.Debosschere@e-max.eu",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Nijverheidslaan 70\n8560 Gullegem — Wevelgem\nBelgium\n"
+      }
     },
     {
       "id": "62",
@@ -598,7 +643,10 @@
           "email": "Dave.Debosschere@e-max.eu",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Drieslaan 29\n8560 Moorsele-Wevelgem\nBelgium\n"
+      }
     },
     {
       "id": "118",
@@ -610,7 +658,10 @@
           "email": "jpapa@etem.com",
           "phone": "+30 210 489 8605"
         }
-      ]
+      ],
+      "details": {
+        "address": "Iroon Polytechneiou 4\nMagoula, Greece\n"
+      }
     },
     {
       "id": "119",
@@ -622,7 +673,10 @@
           "email": "",
           "phone": "+30 22620 32202"
         }
-      ]
+      ],
+      "details": {
+        "address": "56th km Athens–Lamia National Road\nOinofyta, Viotia 32011\nGreece\n"
+      }
     },
     {
       "id": "177",
@@ -704,7 +758,10 @@
           "email": "",
           "phone": "+33 251 85 00 33"
         }
-      ]
+      ],
+      "details": {
+        "address": "16, Rue du Moulin de la Garde\n44300 Nantes\nFrance\n"
+      }
     },
     {
       "id": "c9e34803-30e7-4f38-86c7-42e7b0cd28dc",
@@ -908,7 +965,10 @@
       "id": "df4591be-5f74-494c-bd6e-a79ebcce254b",
       "name": "Euroal Extrusion S.L. (SIMER)",
       "country": "Spain",
-      "contacts": []
+      "contacts": [],
+      "details": {
+        "address": "Camino del Puente Viejo, 32\n28500 Arganda del Rey, Madrid\nSpain\n"
+      }
     },
     {
       "id": "225",
@@ -932,7 +992,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Zona Industrial de Soure, Lote 25\n3130-506 Soure, Coimbra\nPortugal\n"
+      }
     },
     {
       "id": "188",
@@ -944,7 +1007,10 @@
           "email": "ramon.vazquez@exlabesa.com",
           "phone": "+34 981 803 011"
         }
-      ]
+      ],
+      "details": {
+        "address": "Lugar Estramundi de Arriba, s/n\n15910 Padrón, A Coruña\nSpain\n"
+      }
     },
     {
       "id": "19",
@@ -992,7 +1058,10 @@
           "email": "jsanjose@extrual.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Polígono Industrial Campollano\nCalle A, Parcela 42\n02007 Albacete, Spain\n"
+      }
     },
     {
       "id": "46",
@@ -1346,7 +1415,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Autovía de Alicante A-31, Km. 191 (Salida Sta. Eulalia)\n03630 Sax, Murcia\nSpain\n"
+      }
     },
     {
       "id": "cad00f40-0b91-42f1-b834-d896c166e991",
@@ -1358,7 +1430,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "C / Parque de las Marismas de Santoña, 20\nPol. Industrial Jalón, 47013\nValladolid, Spain\n"
+      }
     },
     {
       "id": "16",
@@ -1880,6 +1955,23 @@
       ],
       "details": {
         "address": "Daimlerstr. 10\n40789 Monheim am Rhein\nGermany\n",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760567098569",
+      "name": "Etem Bulgaria",
+      "country": "Bulgaria",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "“Iliyantsi” 119A\n1220 Iliyantsi industrial zone \nSofia, Bulgaria\n",
         "notes": "",
         "notebook": ""
       }
