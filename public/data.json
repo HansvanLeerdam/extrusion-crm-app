@@ -1717,6 +1717,23 @@
           "phone": ""
         }
       ]
+    },
+    {
+      "id": "client-1760532157081",
+      "name": "Heez Aluminium",
+      "country": "Bosnia and Herzegovina",
+      "contacts": [
+        {
+          "contact": "Kenan Dedić",
+          "email": "k.dedic@heezaluminium.com",
+          "phone": "+387 61 043 430"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
