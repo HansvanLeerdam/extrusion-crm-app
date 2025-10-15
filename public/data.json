@@ -60,6 +60,11 @@
           "contact": "Mariya Kalinova",
           "email": "mariya.kalinova@alcomet.eu",
           "phone": "+35 954 858 752"
+        },
+        {
+          "contact": "Cvetomir Penchev",
+          "email": "cvetomir.penchev@alcomet.eu ",
+          "phone": ""
         }
       ]
     },
@@ -2723,7 +2728,7 @@
       "projectId": "37",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-15",
+      "nextDate": "2025-10-24",
       "action": "Follow up offer David"
     },
     {
@@ -2759,7 +2764,7 @@
       "projectId": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-18",
+      "nextDate": "2025-10-24",
       "action": "Follow up"
     },
     {
@@ -3184,6 +3189,20 @@
       "type": "offer",
       "text": "Offer was send to Claire on the 16/11/2024",
       "date": "2025-10-13"
+    },
+    {
+      "id": "comment-54fbe29e-18ef-4f73-9222-ecde3af7f136",
+      "projectId": "13",
+      "type": "note",
+      "text": "Nathan told me that the final client has it for review - 15/10/25",
+      "date": "2025-10-15"
+    },
+    {
+      "id": "comment-b71a9316-b1b9-44c0-b3d8-c986b7159918",
+      "projectId": "37",
+      "type": "note",
+      "text": "David told me that the alu price was good but that they needed to see what to do with the die price 15/10/25",
+      "date": "2025-10-15"
     }
   ]
 }
