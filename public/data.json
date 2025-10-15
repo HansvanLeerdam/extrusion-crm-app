@@ -57,7 +57,10 @@
           "email": "r.martinez@alasiberia.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Av. de Laviana, s/n\n33900 Ciaño – Langreo\nAsturias, Spain\n"
+      }
     },
     {
       "id": "2",
