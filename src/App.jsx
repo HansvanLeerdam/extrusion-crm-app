@@ -13,6 +13,8 @@ import { CloudUpload } from "lucide-react"
 export default function App() {
   const { data, setData } = useStore()
   const [tab, setTab] = useState("dashboard")
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 768
 
   // === Load shared data.json on start ===
   useEffect(() => {
@@ -55,7 +57,7 @@ export default function App() {
       const wb = XLSX.read(buf, { type: "array" })
       const toJSON = (sh) => (sh ? XLSX.utils.sheet_to_json(sh) : [])
 
-      // Clients (dedupe by name, collect contacts)
+      // Clients
       const rawClients = toJSON(wb.Sheets["Clients"])
       const clients = []
       rawClients.forEach((r) => {
@@ -90,7 +92,7 @@ export default function App() {
         }
       })
 
-      // Partners (dedupe by name, collect contacts)
+      // Partners
       const rawPartners = toJSON(wb.Sheets["Partners"])
       const partners = []
       rawPartners.forEach((r) => {
@@ -124,7 +126,7 @@ export default function App() {
         }
       })
 
-      // Products (group by partner)
+      // Products
       const rawProducts = toJSON(wb.Sheets["Products"]) || []
       const groupedProducts = []
       rawProducts.forEach((r) => {
@@ -185,10 +187,10 @@ export default function App() {
     input.click()
   }
 
+  // === Export all sheets ===
   const exportExcel = () => {
     const wb = XLSX.utils.book_new()
 
-    // Example: export clients with their contacts flattened
     const clientsFlat = (data.clients || []).flatMap((c) =>
       c.contacts && c.contacts.length
         ? c.contacts.map((ct) => ({
@@ -210,11 +212,90 @@ export default function App() {
             }
           ]
     )
-
     XLSX.utils.book_append_sheet(
       wb,
       XLSX.utils.json_to_sheet(clientsFlat),
       "Clients"
+    )
+
+    const partnersFlat = (data.partners || []).flatMap((p) =>
+      p.contacts && p.contacts.length
+        ? p.contacts.map((ct) => ({
+            "Partner ID": String(p.id),
+            "Partner Name": p.name,
+            "Contact Person": ct.contact,
+            Email: ct.email,
+            Phone: ct.phone
+          }))
+        : [
+            {
+              "Partner ID": String(p.id),
+              "Partner Name": p.name,
+              "Contact Person": "",
+              Email: "",
+              Phone: ""
+            }
+          ]
+    )
+    XLSX.utils.book_append_sheet(
+      wb,
+      XLSX.utils.json_to_sheet(partnersFlat),
+      "Partners"
+    )
+
+    const productsFlat = (data.products || []).flatMap((p) =>
+      (p.items || []).map((prod) => ({
+        Partner: p.partner,
+        Product: prod
+      }))
+    )
+    XLSX.utils.book_append_sheet(
+      wb,
+      XLSX.utils.json_to_sheet(productsFlat),
+      "Products"
+    )
+
+    const projectsSheet = (data.projects || []).map((p) => ({
+      "Project ID": String(p.id),
+      "Project Name": p.name,
+      "Client ID": p.clientId,
+      "Partner ID": p.partnerId,
+      Product: p.productId,
+      "Start Date": p.startDate,
+      Status: p.status
+    }))
+    XLSX.utils.book_append_sheet(
+      wb,
+      XLSX.utils.json_to_sheet(projectsSheet),
+      "Projects"
+    )
+
+    const followupsSheet = (data.followups || []).map((f) => ({
+      "Follow-Up ID": String(f.id),
+      "Client ID": f.clientId,
+      "Project ID": f.projectId,
+      "Partner ID": f.partnerId,
+      Product: f.productId,
+      "Next Date": f.nextDate,
+      Action: f.action
+    }))
+    XLSX.utils.book_append_sheet(
+      wb,
+      XLSX.utils.json_to_sheet(followupsSheet),
+      "Follow-ups"
+    )
+
+    const commentsSheet = (data.projectComments || []).map((c) => ({
+      "Comment ID": String(c.id),
+      "Project ID": c.projectId,
+      Type: c.type,
+      Comment: c.text,
+      Date: c.date
+    }))
+    XLSX.utils.book_append_sheet(
+      wb,
+      XLSX.utils.json_to_sheet(commentsSheet),
+      "Project Comments"
     )
 
     XLSX.writeFile(wb, "crm_data.xlsx")
@@ -233,12 +314,12 @@ export default function App() {
 
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
-      {/* === STICKY HEADER === */}
+      {/* === HEADER === */}
       <header
         style={{
           position: "sticky",
           top: 0,
-          zIndex: 10,
+          zIndex: 20,
           background: "#111",
           color: "#fff",
           display: "flex",
@@ -249,22 +330,36 @@ export default function App() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+          {isMobile && (
+            <button
+              onClick={() => setSidebarOpen(!sidebarOpen)}
+              style={{
+                background: "transparent",
+                border: "none",
+                color: "#ffa733",
+                fontSize: "1.4rem",
+                cursor: "pointer"
+              }}
+            >
+              ☰
+            </button>
+          )}
           <img
             src="/logo.png"
             alt="Extrusion CRM"
-            style={{ height: "40px", width: "40px", objectFit: "contain" }}
+            style={{ height: "36px", width: "36px", objectFit: "contain" }}
           />
-         <div
-  style={{
-    fontSize: "1.2rem",
-    fontWeight: 700,
-    color: "#fff",
-    letterSpacing: "0.4px"
-  }}
->
-  Partners & Projects <span style={{ color: "#fff" }}>CRM</span>
-</div>
-</div>
+          <div
+            style={{
+              fontSize: "1.2rem",
+              fontWeight: 700,
+              color: "#fff",
+              letterSpacing: "0.4px"
+            }}
+          >
+            Partners & Projects <span style={{ color: "#fff" }}>CRM</span>
+          </div>
+        </div>
 
         <button
           onClick={saveDataToGitHub}
@@ -279,14 +374,8 @@ export default function App() {
             alignItems: "center",
             justifyContent: "center",
             border: "none",
-            cursor: "pointer",
-            transition: "background 0.2s ease, transform 0.1s ease",
-            boxShadow: "0 0 6px rgba(0,0,0,0.3)"
+            cursor: "pointer"
           }}
-          onMouseEnter={(e) => (e.currentTarget.style.background = "#ffb84d")}
-          onMouseLeave={(e) => (e.currentTarget.style.background = "#ffa733")}
-          onMouseDown={(e) => (e.currentTarget.style.transform = "scale(0.95)")}
-          onMouseUp={(e) => (e.currentTarget.style.transform = "scale(1)")}
         >
           <CloudUpload size={16} />
         </button>
@@ -297,16 +386,22 @@ export default function App() {
         {/* === SIDEBAR === */}
         <aside
           style={{
+            position: isMobile ? "fixed" : "static",
+            top: 0,
+            left: isMobile ? (sidebarOpen ? "0" : "-200px") : "auto",
+            height: isMobile ? "100vh" : "auto",
             width: "180px",
             background: "#000",
             color: "#fff",
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
-            borderRight: "1px solid #333"
+            borderRight: "1px solid #333",
+            paddingTop: isMobile ? "3.5rem" : "0",
+            transition: "left 0.3s ease",
+            zIndex: 15
           }}
         >
-          {/* Menu */}
           <div style={{ padding: "1rem 0.6rem" }}>
             {[
               { id: "dashboard", name: "Dashboard" },
@@ -320,7 +415,10 @@ export default function App() {
               return (
                 <div key={item.id} style={{ marginBottom: "0.35rem" }}>
                   <button
-                    onClick={() => setTab(item.id)}
+                    onClick={() => {
+                      setTab(item.id)
+                      if (isMobile) setSidebarOpen(false)
+                    }}
                     style={{
                       background: "transparent",
                       border: "none",
@@ -330,14 +428,7 @@ export default function App() {
                       width: "100%",
                       textAlign: "left",
                       padding: "0.3rem 0.5rem",
-                      cursor: "pointer",
-                      transition: "color 0.15s ease, font-size 0.1s ease"
-                    }}
-                    onMouseEnter={(e) => {
-                      if (!isActive) e.currentTarget.style.color = "#ffa733"
-                    }}
-                    onMouseLeave={(e) => {
-                      if (!isActive) e.currentTarget.style.color = "#fff"
+                      cursor: "pointer"
                     }}
                   >
                     {item.name}
@@ -347,30 +438,15 @@ export default function App() {
             })}
           </div>
 
-          {/* Tools (bottom) */}
+          {/* === TOOLS === */}
           <div style={{ padding: "1rem 0.6rem" }}>
-            <button
-              onClick={importExcel}
-              style={toolBtn}
-              onMouseEnter={(e) => (e.currentTarget.style.color = "#ffa733")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#fff")}
-            >
+            <button onClick={importExcel} style={toolBtn}>
               📂 Import Excel
             </button>
-            <button
-              onClick={exportExcel}
-              style={toolBtn}
-              onMouseEnter={(e) => (e.currentTarget.style.color = "#ffa733")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#fff")}
-            >
+            <button onClick={exportExcel} style={toolBtn}>
               💾 Export Excel
             </button>
-            <button
-              onClick={downloadCalendar}
-              style={toolBtn}
-              onMouseEnter={(e) => (e.currentTarget.style.color = "#ffa733")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#fff")}
-            >
+            <button onClick={downloadCalendar} style={toolBtn}>
               📅 Export .ics
             </button>
           </div>
@@ -411,16 +487,3 @@ const toolBtn = {
   marginBottom: "0.4rem",
   transition: "color 0.2s ease"
 }
-
-  const inputStyle = {
-  background: "#e6e6e6",
-  border: "1px solid #ccc",
-  borderRadius: "8px",
-  padding: "0.35rem 0.5rem",
-  height: "28px",
-  fontSize: "0.9rem",
-  color: "#111",
-  width: "100%",
-  outline: "none"
-}
-
