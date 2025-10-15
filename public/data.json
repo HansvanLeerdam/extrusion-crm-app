@@ -1180,9 +1180,14 @@
           "phone": "+34 607 479 764"
         },
         {
-          "contact": "Sergio Primalum",
+          "contact": "Sergio Gázquez",
           "email": "sergio@primalumcanales.com",
           "phone": "+34 647262453"
+        },
+        {
+          "contact": "Toni González",
+          "email": "toni@primalumcanales.com",
+          "phone": "+34 661 904 337"
         }
       ]
     },
@@ -1402,6 +1407,11 @@
           "contact": "Rubén Ordóñez",
           "email": "ruben@strugal.com",
           "phone": ""
+        },
+        {
+          "contact": "Oscar Esque",
+          "email": "o.esque@strugal.com",
+          "phone": "+34 673 856 530"
         }
       ]
     },
@@ -2422,7 +2432,7 @@
       "clientId": "23",
       "partnerId": "11",
       "productId": "Extrusion",
-      "startDate": "2025-07-05",
+      "startDate": "2026-02-02",
       "status": "Follow up for new order"
     },
     {
@@ -2811,7 +2821,7 @@
       "projectId": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-24",
+      "nextDate": "2026-02-02",
       "action": "Follow up"
     },
     {
@@ -3274,6 +3284,13 @@
       "projectId": "7",
       "type": "note",
       "text": "Heidi called me the 15/10 and told me they will do their audit shortly",
+      "date": "2025-10-15"
+    },
+    {
+      "id": "comment-f89a0eb3-6c7a-4c55-b137-fefafa5cdd59",
+      "projectId": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
+      "type": "note",
+      "text": "Arjan told me that he has enough material in stock and that the next order will probably be around Feb/March 2026",
       "date": "2025-10-15"
     }
   ]
