@@ -174,7 +174,10 @@
           "email": "produccion@alucoferinternacional.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Ctra. Viveros, km. 1\n02340 El Robledo\nAlbacete, Spain\n"
+      }
     },
     {
       "id": "45",
@@ -246,7 +249,10 @@
           "email": "calidadnorte@alueuropa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "P.I. El Sequero, Parcels 169-176\n26151 Arrúbal, La Rioja\nSpain\n"
+      }
     },
     {
       "id": "127",
@@ -319,7 +325,10 @@
           "email": "matriceria@alueuropa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Carretera N-IV, S/N, Km 32.400\n28350 Ciempozuelos, Madrid\nSpain\n"
+      }
     },
     {
       "id": "client-1760425998931",
