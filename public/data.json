@@ -1744,6 +1744,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760547166354",
+      "name": "Extruiberica S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Antonio Macias",
+          "email": "amacias@extruiberica.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Pol. Ind. Gandul, Calle Pintores 23 \n41510, Mairena del Alcor \nSevilla, Spain",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
