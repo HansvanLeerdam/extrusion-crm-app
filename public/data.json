@@ -1133,7 +1133,10 @@
           "email": "",
           "phone": "+34 968684001"
         }
-      ]
+      ],
+      "details": {
+        "address": "P. I. La Jaira\nC/ K – Ctra. Santomera-Abanilla, Km. 15.4\n30640 Abanilla, Murcia\nSpain\n"
+      }
     },
     {
       "id": "client-3a2ac487-7436-47b3-ac55-020c641d8eba",
@@ -1208,7 +1211,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Lugar Camiño da Toldra, 6\n36640 Valga, Pontevedra\nSpain\n"
+      }
     },
     {
       "id": "client-1760547166354",
@@ -1220,7 +1226,10 @@
           "email": "amacias@extruiberica.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Ctra. Valencia, Km 722, Polígono La Cartuja\n41008 Sevilla\nSpain\n"
+      }
     },
     {
       "id": "5ef868e7-d8ba-46eb-8bce-93d2f7287c79",
@@ -1232,7 +1241,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Rua da Estação, Zona Industrial da Anta\n3830-527 Gafanha da Encarnação\nÍlhavo, Portugal\n"
+      }
     },
     {
       "id": "65",
@@ -1333,7 +1345,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\n30820 Alcantarilla, Murcia\nSpain"
+      }
     },
     {
       "id": "32",
