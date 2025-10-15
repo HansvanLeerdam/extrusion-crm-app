@@ -1511,11 +1511,14 @@
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
-          "email": "",
-          "phone": ""
+          "contact": "Info",
+          "email": "geral@accelum.pt",
+          "phone": "+351 915 223 715 "
         }
-      ]
+      ],
+      "details": {
+        "address": "Rua de Bouças, nº35\n4820-394 FAFE\nPortugal"
+      }
     },
     {
       "id": "80cb6747-1146-4920-b365-c4c4dcba4470",
