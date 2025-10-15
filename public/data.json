@@ -130,6 +130,11 @@
           "contact": "na",
           "email": "",
           "phone": "+34 967 38 82 67"
+        },
+        {
+          "contact": "Juan Fernando Moreno Román",
+          "email": "produccion@alucoferinternacional.com",
+          "phone": ""
         }
       ]
     },
@@ -1639,6 +1644,11 @@
       "contacts": [
         {
           "contact": "na",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "contact": "Jesús Salgado Seijas",
           "email": "",
           "phone": ""
         }
