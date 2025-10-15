@@ -2238,6 +2238,74 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760569058436",
+      "name": "apt Extrusions GmbH & Co. KG",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569138832",
+      "name": "Hydro Extrusion Nenzing",
+      "country": "Austria",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569151746",
+      "name": "Aluminiumwerk Unna AG",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569227128",
+      "name": "Alu Menziken Extrusion AG",
+      "country": "Switzerland",
+      "contacts": [
+        {
+          "contact": "Nando Carbonara",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
