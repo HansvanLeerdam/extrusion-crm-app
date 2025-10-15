@@ -2754,15 +2754,6 @@
       "action": "Follow up"
     },
     {
-      "id": "db773eda-5204-49b0-afaf-727232ea0dc0",
-      "clientId": "1760217942122",
-      "projectId": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
-      "partnerId": "2",
-      "productId": "",
-      "nextDate": "2025-10-18",
-      "action": "Follow up"
-    },
-    {
       "id": "cf29c298-86e6-4523-b2d2-3380b300e1cc",
       "clientId": "23",
       "projectId": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
@@ -2932,15 +2923,6 @@
       "productId": "Die Oven",
       "nextDate": "2025-10-13",
       "action": "Send promotion email"
-    },
-    {
-      "id": "followup-da2ed5f7-6395-4530-b8f3-2680b2309ac5",
-      "clientId": "client-445b5eed-7c14-48d3-a04e-28c59e460f2d",
-      "projectId": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
-      "partnerId": "2",
-      "productId": "Software",
-      "nextDate": "2025-10-14",
-      "action": "Initial follow-up for new project"
     },
     {
       "id": "followup-8087cd87-3f0c-4b26-9318-8b3eead41b38",
