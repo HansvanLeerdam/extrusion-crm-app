@@ -2676,6 +2676,15 @@
       "productId": "Caustic Soda Installation",
       "startDate": "2025-10-15",
       "status": "Check with Mehmet"
+    },
+    {
+      "id": "project-bae1789a-94fc-4678-a060-c68b1625f6ac",
+      "name": "Audit for Reynaers",
+      "clientId": "30",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-15",
+      "status": "Follow up email Heidi"
     }
   ],
   "followups": [
@@ -3038,6 +3047,15 @@
       "productId": "Extrusion Equipment",
       "nextDate": "2025-10-22",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-928b651c-b2b2-4b0e-a72d-76874efa386e",
+      "clientId": "30",
+      "projectId": "project-bae1789a-94fc-4678-a060-c68b1625f6ac",
+      "partnerId": "1",
+      "productId": "Audit",
+      "nextDate": "2025-10-22",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -3249,6 +3267,13 @@
       "projectId": "37",
       "type": "note",
       "text": "David told me that the alu price was good but that they needed to see what to do with the die price 15/10/25",
+      "date": "2025-10-15"
+    },
+    {
+      "id": "comment-4ae156ed-6922-43dc-b0f8-1a5654b29819",
+      "projectId": "7",
+      "type": "note",
+      "text": "Heidi called me the 15/10 and told me they will do their audit shortly",
       "date": "2025-10-15"
     }
   ]
