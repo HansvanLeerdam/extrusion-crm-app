@@ -1101,6 +1101,11 @@
           "contact": "Paulo Rodrigues",
           "email": "paulo.rodrigues@navarraaluminio.com",
           "phone": "+35 1253 603 520"
+        },
+        {
+          "contact": "Tiago Martins",
+          "email": "tiago.martins@navarraaluminio.com",
+          "phone": "+351 253 603 520"
         }
       ]
     },
@@ -1696,13 +1701,7 @@
       "id": "client-1760515468922",
       "name": "Navarra",
       "country": "Portugal",
-      "contacts": [
-        {
-          "contact": "Tiago Martins",
-          "email": "tiago.martins@navarraaluminio.com",
-          "phone": "+351 253 603 520"
-        }
-      ]
+      "contacts": []
     }
   ],
   "partners": [
