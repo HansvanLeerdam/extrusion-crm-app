@@ -27,7 +27,10 @@
           "email": "geral@adlanext.pt",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Zona Industrial da Lameira          \nLote 1/15, 4820-840 Rego                                              \nCelorico de Basto, Portugal"
+      }
     },
     {
       "id": "167",
