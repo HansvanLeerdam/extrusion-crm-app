@@ -129,7 +129,10 @@
           "email": "grzegorz.wojciechowski@aliplast.pl",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "ul. Wacława Moritza 3\n20-276 Lublin\nPoland"
+      }
     },
     {
       "id": "195",
