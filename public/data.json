@@ -2504,6 +2504,91 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760569782647",
+      "name": "Hydro Extrusion Italy S.r.l. (Feltre)",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569794697",
+      "name": "Hydro Extrusion Italy S.r.l. (Ornago)",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569806595",
+      "name": "METRA S.p.A.",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569821567",
+      "name": "All.co S.p.A.",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760569873289",
+      "name": "Indinvest LT S.r.l.",
+      "country": "Italy",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
