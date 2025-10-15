@@ -189,7 +189,10 @@
           "email": "j.vanbussel@alumero.nl",
           "phone": "+31 614367164"
         }
-      ]
+      ],
+      "details": {
+        "address": "Duizeldonksestraat 20\n5705 CA Helmond\nNetherlands\n"
+      }
     },
     {
       "id": "114",
@@ -201,7 +204,10 @@
           "email": "i.theodoridis@alumil.com",
           "phone": "+30 2341079323"
         }
-      ]
+      ],
+      "details": {
+        "address": "Gogousi 8\n56429, Greece\n"
+      }
     },
     {
       "id": "115",
@@ -213,7 +219,10 @@
           "email": "k.chatzipanigiris@aluminco.com",
           "phone": "+30 2262 047000"
         }
-      ]
+      ],
+      "details": {
+        "address": "Thessi Megali Rachi\n32011 Inofita, Viotia\nGreece\n"
+      }
     },
     {
       "id": "217",
@@ -225,7 +234,10 @@
           "email": "sammie.vanrens@aluminium-laufen.com",
           "phone": "+41 61 775 22 28"
         }
-      ]
+      ],
+      "details": {
+        "address": "Industriestrasse 5\n4253 Liesberg\nSwitzerland\n"
+      }
     },
     {
       "id": "3",
@@ -237,7 +249,10 @@
           "email": "a.aziz@alupco.com",
           "phone": "+96 655 414 1508"
         }
-      ]
+      ],
+      "details": {
+        "address": "First Industrial City, Street 38, Building 7244\nDammam, Eastern Province 31451\nSaudi Arabia\n"
+      }
     },
     {
       "id": "176",
@@ -269,7 +284,10 @@
           "email": "Michel.Minten@apt-alu-products.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Industrieweg 8\n6045 JG Roermond\nNetherlands\n"
+      }
     },
     {
       "id": "1760171460925",
@@ -291,7 +309,10 @@
           "email": "ramazan.erman@asastr.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Rüzgarlı Bahçe Mah., Kumlu Sok. No. 2, Asaş İş Merkezi, Kavacık, Beykoz\n34810 Istanbul, Turkey\n"
+      }
     },
     {
       "id": "5",
@@ -303,7 +324,10 @@
           "email": "",
           "phone": "+90 546 450 34 53"
         }
-      ]
+      ],
+      "details": {
+        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\nKırklareli, Turkey\n"
+      }
     },
     {
       "id": "173",
@@ -615,7 +639,10 @@
           "email": "matriceriasv@alueuropa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\n41700 Dos Hermanas, Sevilla\nSpain\n"
+      }
     },
     {
       "id": "179",
@@ -627,7 +654,10 @@
           "email": "matriceriase@alueuropa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\n40400 El Espinar, Segovia\nSpain\n"
+      }
     },
     {
       "id": "53",
@@ -644,7 +674,10 @@
           "email": "pjimenez@alumineraextrusion.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\n08403 Granollers, Barcelona\nSpain\n"
+      }
     },
     {
       "id": "2c2a4d28-8118-4139-8196-20153815d84a",
@@ -656,7 +689,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Polígono Industrial Granadilla, Parcelas 8-12\n38611 Granadilla de Abona\nSanta Cruz de Tenerife, Spain\n"
+      }
     },
     {
       "id": "79",
@@ -680,7 +716,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "P.I. de Manzanares — c/ D, Parcela 20\n13200 Manzanares\nCiudad Real, Spain\n"
+      }
     },
     {
       "id": "80",
@@ -716,7 +755,10 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Lugar Estramundi de Arriba, s/n\n15910 Padrón, A Coruña\nSpain\n"
+      }
     },
     {
       "id": "4",
@@ -728,7 +770,10 @@
           "email": "enrique@aluval.es",
           "phone": "+34 671 075 378"
         }
-      ]
+      ],
+      "details": {
+        "address": "Av. Castellón, 2\n46210 Picanya, Valencia\nSpain\n"
+      }
     },
     {
       "id": "40",
@@ -740,7 +785,10 @@
           "email": "rodolfo@anicolor.pt",
           "phone": "+35 1234729420"
         }
-      ]
+      ],
+      "details": {
+        "address": "Zona Industrial de Oiã, Apt 6\n3770-908 Oiã, Oliveira do Bairro\nPortugal\n"
+      }
     },
     {
       "id": "183",
@@ -752,7 +800,10 @@
           "email": "josegomez@avalumitran.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "Ctra. A-3 Km 52.300\nVillarejo de Salvanés, 28590\nMadrid, Spain\n"
+      }
     },
     {
       "id": "6",
@@ -764,7 +815,10 @@
           "email": " juan.lopez@avanzate.es",
           "phone": "+34 653 912 224"
         }
-      ]
+      ],
+      "details": {
+        "address": "Parque Científico-Tecnológico de Castilla la Mancha\nCalle de la Investigación 1, Edificio 2, Oficina 1.21\n02006 Albacete, Spain\n"
+      }
     },
     {
       "id": "224",
@@ -1812,6 +1866,23 @@
           "phone": "+34 638 051 281"
         }
       ]
+    },
+    {
+      "id": "client-1760557180923",
+      "name": "apt Extrusions Hiller",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Daimlerstr. 10\n40789 Monheim am Rhein\nGermany\n",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
