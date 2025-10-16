@@ -12,7 +12,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Rua de Bouças nº 35, 4820-394 Fafe, Portugal",
         "notes": "",
         "notebook": ""
       }
@@ -125,7 +125,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Waaslandlaan 36, 9160 Lokeren, Belgium",
         "notes": "",
         "notebook": ""
       }
@@ -164,7 +164,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via Antonio Meucci 15, 56121 Pisa, Italy",
         "notes": "",
         "notebook": ""
       }
@@ -175,7 +175,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "S.S. 156 dei Monti Lepini Km 42, 04010 Sezze Scalo (LT), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -192,7 +192,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Alte Aarauerstrasse 11, CH-5734 Reinach, Switzerland",
         "notes": "",
         "notebook": ""
       }
@@ -337,7 +337,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Traversa Duecento di Via Lavoro e Industria 200, 25030 Rudiano (BS), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -478,7 +478,7 @@
         }
       ],
       "details": {
-        "address": "Industriestrasse 5\r\n4253 Liesberg\r\nSwitzerland",
+        "address": "Industriestrasse 5, 4253 Liesberg, Switzerland",
         "notes": "",
         "notebook": ""
       }
@@ -762,7 +762,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via IV Novembre 36, 26010 Casale Cremasco-Vidolasco (LO), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -773,7 +773,7 @@
       "country": "Czech Republic",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Ústecká 751/37, 405 02 Děčín V – Rozbělesy, Czech Republic",
         "notes": "",
         "notebook": ""
       }
@@ -961,6 +961,11 @@
           "contact": "David Schaekers",
           "email": "david.schaekers@e-max.eu",
           "phone": "+32 495 15 57 22"
+        },
+        {
+          "contact": "Johan van Putten",
+          "email": "johan.vanputten@e-max.eu",
+          "phone": "+31 6 15 66 82 57"
         }
       ],
       "details": {
@@ -1004,23 +1009,6 @@
       }
     },
     {
-      "id": "9b341148-16c1-4eab-9c45-c5fa0b721746",
-      "name": "E-MAXGroup NV",
-      "country": "Belgium",
-      "contacts": [
-        {
-          "contact": "Johan van Putten",
-          "email": "johan.vanputten@e-max.eu",
-          "phone": "+31 6 15 66 82 57"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
       "id": "11a3db4f-443b-4224-b3db-756b927367b1",
       "name": "E-MAX Crailsheim GmbH",
       "country": "Germany",
@@ -1059,7 +1047,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via Artigianale 19, 25025 Manerbio (BS), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -1070,7 +1058,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Viale Industria 39, 25030 Roccafranca (BS), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -1109,7 +1097,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via S. Andrea 3, 25038 Rovato (Brescia), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -1322,7 +1310,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "16 Rue du Moulin de la Garde, 44300 Nantes, France",
         "notes": "",
         "notebook": ""
       }
@@ -1339,7 +1327,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Calle Parque de las Marismas de Santoña 20, 47013 Valladolid, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1356,7 +1344,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "40 route de Deûlémont, 59560 Warneton, France",
         "notes": "",
         "notebook": ""
       }
@@ -1373,7 +1361,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Şeker Pınar Mh. Ayça Sk. No: 44 K:3, Şekerpınar / Kocaeli, Turkey",
         "notes": "",
         "notebook": ""
       }
@@ -1422,7 +1410,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Polígono Industrial Rivadill, s/n, 36880 A Cañiza, Pontevedra, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1444,7 +1432,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Pol. Ind. Fridex, Calle Fridex Siete, nº 19, 41500 Alcalá de Guadaíra, Sevilla, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1461,7 +1449,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Firs Works, Spanker Lane, Nether Heage, Belper, Derbyshire, DE56 2JJ, United Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -1472,7 +1460,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Viale dell’Artigianato 16, 37064 Povegliano Veronese, Italy",
         "notes": "",
         "notebook": ""
       }
@@ -1483,7 +1471,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via della Miniera 15, 50031 Barberino di Mugello, Italy",
         "notes": "",
         "notebook": ""
       }
@@ -1494,7 +1482,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Loc. Pilastro di Gragnanino, 29010 Gragnano Trebbiense (PC), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -1523,7 +1511,7 @@
     },
     {
       "id": "3b385ffd-6d34-4cc7-91e1-27415938504c",
-      "name": "Heez Aluminium",
+      "name": "HEEZ Aluminium d.o.o.",
       "country": "Bosnia and Herzegovina",
       "contacts": [
         {
@@ -1533,7 +1521,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Brod, Industrijska bb, 76120 Brčko, Bosnia and Herzegovina",
         "notes": "",
         "notebook": ""
       }
@@ -1550,7 +1538,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Gewerbering 32, 06333 Hettstedt, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1578,24 +1566,24 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Tomasbacken 6, SE-574 37 Vetlanda, Sweden",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "85ab4206-fd00-4461-954d-1fac7f43c783",
-      "name": "Hydro – Miranda de Ebro",
+      "name": "Hydro Building Systems Miranda de Ebro S.L.U.",
       "country": "Spain",
       "contacts": [
         {
-          "contact": "na",
+          "contact": "Iñigo Sáenz de Ugarte",
           "email": "",
           "phone": ""
         }
       ],
       "details": {
-        "address": "",
+        "address": "P.I. de Bayas, C/ Ayuelas 18, 09200 Miranda de Ebro, Burgos, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1617,7 +1605,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Viale Monte Grappa 29, 32032 Feltre (BL), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -1634,7 +1622,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Industrieweg 15, 3846 BB Harderwijk, Netherlands",
         "notes": "",
         "notebook": ""
       }
@@ -1651,7 +1639,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Nijverheidsweg 9, 9601 LX Hoogezand, Netherlands",
         "notes": "",
         "notebook": ""
       }
@@ -1668,7 +1656,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "P.I. Can Font de la Parera, C/ Esteve Terrades, s/n, 08430 La Roca del Vallès, Barcelona, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1685,7 +1673,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Kortemarkstraat 52, 8810 Lichtervelde, Belgium",
         "notes": "",
         "notebook": ""
       }
@@ -1718,14 +1706,14 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via A. Ciucani 8, 20876 Ornago (MB), Italy",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "cd2246cc-a7cb-4da6-8294-4aee18a4ac35",
-      "name": "Hydro Extrusion Portugal",
+      "name": "Hydro Extrusion Portugal (HAEP)",
       "country": "Portugal",
       "contacts": [
         {
@@ -1735,7 +1723,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Travessa Nova das Alheiras 216, 4415-272 Pedroso, V.N. Gaia, Portugal",
         "notes": "",
         "notebook": ""
       }
@@ -1763,7 +1751,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Waldstrasse 91, 4730 Raeren, Belgium",
         "notes": "",
         "notebook": ""
       }
@@ -1791,23 +1779,6 @@
       }
     },
     {
-      "id": "178cf5f8-f801-4a82-aed0-3e951cfd2b72",
-      "name": "Hydro Extrusions Navarra",
-      "country": "Spain",
-      "contacts": [
-        {
-          "contact": "na",
-          "email": "",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
       "id": "6b39a3e6-0df0-4a38-8370-0de374a82657",
       "name": "Hydro Extrusions Navarra S.L.",
       "country": "Spain",
@@ -1819,24 +1790,7 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "b73a43dc-6e5f-4749-a489-8d8a1852bf9c",
-      "name": "Hydro Miranda de Ebro S.L.",
-      "country": "Spain",
-      "contacts": [
-        {
-          "contact": "Iñigo Sáenz de Ugarte",
-          "email": "",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
+        "address": "Aralar, 9, 31860 Irurtzun, Navarra, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1853,24 +1807,7 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "49e7d961-7d59-4278-bb03-4e0a18e1cf00",
-      "name": "INALSA – Industrias del Aluminio S.A.",
-      "country": "Spain",
-      "contacts": [
-        {
-          "contact": "na",
-          "email": "",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
+        "address": "Carretera Cogullada, 31, 50014 Zaragoza, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1887,7 +1824,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Carretera Caldas-Vilagarcía, Km 2.5, 36659 Caldas de Reis, Pontevedra, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1898,7 +1835,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Strada Prov.le Ninfina II, Km 1,200, 04012 Cisterna di Latina (LT), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -1915,14 +1852,14 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Calle Manuel Cobo Calleja, 3, 28947 Fuenlabrada, Madrid, Spain",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "52651167-9896-455c-a8a3-34f0f2b9b80c",
-      "name": "Installux Extrusion Services S.L. - Paret",
+      "name": "Installux Extrusion Services S.L. - Parets",
       "country": "Spain",
       "contacts": [
         {
@@ -1932,7 +1869,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "P. I. Can Volard – Mestrall, 5, 08150 Parets del Vallès, Barcelona, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1954,7 +1891,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Carrer de Montmell 1, Pol. Ind. L’Albornar, 43710 Santa Oliva, Tarragona, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -1971,14 +1908,14 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "P.I. c/G – Aptdo. 46, 50750 Pina de Ebro, Zaragoza, Spain",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "e33275c0-99a2-4253-9869-ef0ae7ec4626",
-      "name": "Kawneer Uk",
+      "name": "Kawneer UK Limited",
       "country": "United Kingdom",
       "contacts": [
         {
@@ -1988,24 +1925,7 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "152",
-      "name": "La Aluminio",
-      "country": "Portugal",
-      "contacts": [
-        {
-          "contact": "na",
-          "email": "geral@la-aluminios.com",
-          "phone": "+35 1707 20 30 41"
-        }
-      ],
-      "details": {
-        "address": "",
+        "address": "Astmoor Road, Astmoor Industrial Estate, Runcorn, Cheshire WA7 1QQ, United Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -2022,24 +1942,7 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "5013f58c-0f9e-4f30-ac38-f3e1be7eeccb",
-      "name": "Lacbraga – Termolacado Perfil Alumínio Lda.",
-      "country": "Portugal",
-      "contacts": [
-        {
-          "contact": "na",
-          "email": "",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
+        "address": "Termolacado de Perfil de Alumínio, S.A.: Parque Industrial, Lote S-6, Celeirós, 4705-414 Celirós / Aveleda, Braga, Portugal",
         "notes": "",
         "notebook": ""
       }
