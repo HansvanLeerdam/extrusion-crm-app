@@ -3148,15 +3148,6 @@
       "action": "In review for 2026"
     },
     {
-      "id": "followup-57a1ebbf-4abd-4168-9afa-1790a0cd8f47",
-      "clientId": "59",
-      "projectId": "9",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-15",
-      "action": "Follow up with Christoph"
-    },
-    {
       "id": "followup-7f1a4262-5bf7-43ac-8a6e-a319c5c213ba",
       "clientId": "4",
       "projectId": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
@@ -3563,6 +3554,13 @@
       "projectId": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
       "type": "offer",
       "text": "Send offer for training and date & schedule proposal",
+      "date": "2025-10-16"
+    },
+    {
+      "id": "comment-0106990b-3653-46eb-a16d-bc26e61487f2",
+      "projectId": "38",
+      "type": "note",
+      "text": "Christoph told me that they are not interested at the moment due to lack of space 16/10",
       "date": "2025-10-16"
     }
   ]
