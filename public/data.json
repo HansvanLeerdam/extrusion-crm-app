@@ -1,14 +1,14 @@
 {
   "clients": [
     {
-      "id": "4b60c64b-6b55-43a0-86b3-3af6d311474a",
+      "id": "0149e400-4ecd-4cef-b3a4-3ed268c82f19",
       "name": "Accelum Portugal",
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
-          "email": "",
-          "phone": ""
+          "contact": "Info",
+          "email": "geral@accelum.pt",
+          "phone": "+351 915 223 715 "
         }
       ],
       "details": {
@@ -18,13 +18,18 @@
       }
     },
     {
-      "id": "bed490a0-98b1-42d3-bf07-ae69df0b1cfe",
+      "id": "94574686-841c-4c57-bf4f-b3c22ce218de",
       "name": "ADLA Aluminium",
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
-          "email": "",
+          "contact": "Fernando Cardoso",
+          "email": "fernandocardoso@adla-aluminium.pt",
+          "phone": ""
+        },
+        {
+          "contact": "Tiago Oliveira",
+          "email": "geral@adlanext.pt",
           "phone": ""
         }
       ],
@@ -35,19 +40,14 @@
       }
     },
     {
-      "id": "167",
+      "id": "48c8e1b8-6b36-4f60-a087-84045937e670",
       "name": "Alas Iberia S.A.",
       "country": "Spain",
       "contacts": [
         {
-          "contact": "David  Seoane",
-          "email": "d.seoane@alasiberia.com",
-          "phone": ""
-        },
-        {
           "contact": "Pablo Bouzas",
           "email": "p.bouzas@alasiberia.com",
-          "phone": ""
+          "phone": "+34 619 679 834"
         },
         {
           "contact": "Sergio Zapico",
@@ -95,10 +95,15 @@
           "contact": "Mariya Kalinova",
           "email": "mariya.kalinova@alcomet.eu",
           "phone": "+35 954 858 752"
+        },
+        {
+          "contact": "Cvetomir Penchev",
+          "email": "cvetomir.penchev@alcomet.eu ",
+          "phone": ""
         }
       ],
       "details": {
-        "address": "",
+        "address": "Second Industrial Zone\r\n9700 Shumen\r\nBulgaria",
         "notes": "",
         "notebook": ""
       }
@@ -137,6 +142,56 @@
         }
       ],
       "details": {
+        "address": "ul. Wacława Moritza 3\r\n20-276 Lublin\r\nPoland",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "ec548303-0678-449f-9dd8-45a1041446b7",
+      "name": "All Clients",
+      "country": "All",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "a8a10869-3665-48b6-a908-0655eac6f872",
+      "name": "All.co S.p.A.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "7f48fcbc-0064-4af5-90dc-0732043ee216",
+      "name": "Allit S.p.A.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "61013c64-17cf-434c-9005-ec73b5db925e",
+      "name": "Alu Menziken Extrusion AG",
+      "country": "Switzerland",
+      "contacts": [
+        {
+          "contact": "Nando Carbonara",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
         "address": "",
         "notes": "",
         "notebook": ""
@@ -154,7 +209,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\n45007 Toledo, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -171,24 +226,24 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\n38509 Candelaria, Santa Cruz de Tenerife\r\nSpain",
         "notes": "",
         "notebook": ""
       }
     },
     {
-      "id": "172",
+      "id": "ac7c6a5a-935f-458d-b1ce-822978e3c2f0",
       "name": "Alucofer Internacional S.L.",
       "country": "Spain",
       "contacts": [
         {
-          "contact": "na",
-          "email": "",
-          "phone": "+34 967 38 82 67"
+          "contact": "Juan Fernando Moreno Román",
+          "email": "produccion@alucoferinternacional.com",
+          "phone": ""
         }
       ],
       "details": {
-        "address": "",
+        "address": "Ctra. Viveros, km. 1\r\n02340 El Robledo\r\nAlbacete, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -205,7 +260,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "P.I. El Sequero, Parcels 169-176\r\n26151 Arrúbal, La Rioja\r\nSpain",
         "notes": "",
         "notebook": ""
       }
@@ -232,7 +287,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Carretera N-IV, S/N, Km 32.400\r\n28350 Ciempozuelos, Madrid\r\nSpain",
         "notes": "",
         "notebook": ""
       }
@@ -254,7 +309,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\n41700 Dos Hermanas, Sevilla\r\nSpain",
         "notes": "",
         "notebook": ""
       }
@@ -270,6 +325,17 @@
           "phone": ""
         }
       ],
+      "details": {
+        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\n40400 El Espinar, Segovia\r\nSpain",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "a2758ff2-183c-446a-9a73-cff95720ab09",
+      "name": "Alumec S.r.l",
+      "country": "Italy",
+      "contacts": [],
       "details": {
         "address": "",
         "notes": "",
@@ -288,14 +354,14 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Duizeldonksestraat 20\r\n5705 CA Helmond\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "114",
-      "name": "Alumil",
+      "name": "Alumil Greece",
       "country": "Greece",
       "contacts": [
         {
@@ -305,7 +371,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Gogousi 8, 56429, Greece",
         "notes": "",
         "notebook": ""
       }
@@ -322,7 +388,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Thessi Megali Rachi\r\n32011 Inofita, Viotia\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -344,13 +410,64 @@
         }
       ],
       "details": {
+        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\n08403 Granollers, Barcelona\r\nSpain",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "bca30593-7f06-4ab7-90ad-6e77791bb442",
+      "name": "Aluminios Cortizo Canarias S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "José Carlos León Gallego",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
         "address": "",
         "notes": "",
         "notebook": ""
       }
     },
     {
-      "id": "217",
+      "id": "9f6fb6ff-47ad-4a65-a96b-6a3716c9a5d4",
+      "name": "Aluminios Cortizo Manzanares S.L.U.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Fernando Bautista",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "36ca1381-e983-4cf8-ba35-1e410552349a",
+      "name": "Aluminios Cortizo S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Jesús Salgado Seijas",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "eac4afb4-3855-4cec-9f82-fe7081185bf4",
       "name": "Aluminium Laufen",
       "country": "Switzerland",
       "contacts": [
@@ -367,8 +484,8 @@
       }
     },
     {
-      "id": "3",
-      "name": "Aluminium Products Company (ALUPCO)",
+      "id": "884078f0-55f2-4b43-859d-004d496019f9",
+      "name": "Aluminium Products Company (Alupco)",
       "country": "Saudi Arabia",
       "contacts": [
         {
@@ -384,7 +501,18 @@
       }
     },
     {
-      "id": "4",
+      "id": "e1267232-7d28-403e-9078-f9946ed1131c",
+      "name": "Aluminiumwerk Unna AG",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Uelzener Weg 36\r\n59425 Unna, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "0432dc94-6a68-49c3-93d7-6c9bcaca9eaa",
       "name": "Aluval S.L.",
       "country": "Spain",
       "contacts": [
@@ -401,7 +529,7 @@
       }
     },
     {
-      "id": "40",
+      "id": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "name": "Anicolor S.A.",
       "country": "Portugal",
       "contacts": [
@@ -418,8 +546,8 @@
       }
     },
     {
-      "id": "127",
-      "name": "apt Extrusions",
+      "id": "5eeb094d-b7e1-4dd8-a116-a68cc5541f66",
+      "name": "apt Extrusions B.V.",
       "country": "Netherlands",
       "contacts": [
         {
@@ -440,7 +568,18 @@
       }
     },
     {
-      "id": "1760171460925",
+      "id": "513fad3a-414d-4fbe-8f9d-b6ddd472213f",
+      "name": "apt Extrusions GmbH & Co. KG",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Daimlerstraße 10\r\n40789 Monheim am Rhein, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "4a303865-69b7-4464-ae3f-cf7fcd7e0f99",
       "name": "ASAŞ Alüminyum",
       "country": "Turkey",
       "contacts": [
@@ -467,7 +606,7 @@
       }
     },
     {
-      "id": "5",
+      "id": "fe4fd23b-c297-4cda-9832-4379c91897f3",
       "name": "Asital Alüminyum San. ve Tic. A.Ş.",
       "country": "Turkey",
       "contacts": [
@@ -484,7 +623,7 @@
       }
     },
     {
-      "id": "183",
+      "id": "c16d1d91-d8b2-442f-a246-f90f67b71d5d",
       "name": "Av Alumitran S.A.",
       "country": "Spain",
       "contacts": [
@@ -501,7 +640,7 @@
       }
     },
     {
-      "id": "6",
+      "id": "96fd2b3a-f112-4d1d-9d9f-632844983d38",
       "name": "Avanzate Technology S.L.",
       "country": "Spain",
       "contacts": [
@@ -518,7 +657,7 @@
       }
     },
     {
-      "id": "client-1760425998931",
+      "id": "16b928a4-9501-4cfa-9672-17625e9acea2",
       "name": "Benelux Clients",
       "country": "Netherlands",
       "contacts": [
@@ -535,7 +674,7 @@
       }
     },
     {
-      "id": "41",
+      "id": "d835cae1-915c-470d-a348-99faa2369483",
       "name": "Benkam Aluminium LLC",
       "country": "Uzbekistan",
       "contacts": [
@@ -552,7 +691,7 @@
       }
     },
     {
-      "id": "7",
+      "id": "53bc986e-d96f-4415-a802-bab53d054b94",
       "name": "Boal De Lier B.V.",
       "country": "Netherlands",
       "contacts": [
@@ -574,7 +713,7 @@
       }
     },
     {
-      "id": "9",
+      "id": "bc9ae8ea-bbd1-4205-a37d-1b1ca01615c7",
       "name": "Boal UK Ltd.",
       "country": "United Kingdom",
       "contacts": [
@@ -596,7 +735,7 @@
       }
     },
     {
-      "id": "10",
+      "id": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
       "name": "Canex Aluminum",
       "country": "Egypt",
       "contacts": [
@@ -611,6 +750,17 @@
           "phone": "+20 102 7778077"
         }
       ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "07d25386-898c-4d4f-8339-17936d079f0d",
+      "name": "Casal Aluminium",
+      "country": "Italy",
+      "contacts": [],
       "details": {
         "address": "",
         "notes": "",
@@ -635,6 +785,28 @@
       }
     },
     {
+      "id": "b3890842-a548-433a-a4a4-a237983793b4",
+      "name": "Constellium Děčín",
+      "country": "Czech Republic",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "f858edd6-5e3e-41d0-ac60-1d54261f3a4e",
+      "name": "Constellium Singen",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Alusingen Platz 1\r\n78224 Singen, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
       "id": "35ef4ba7-2f3d-4bac-8580-fdf2d3dfc4ae",
       "name": "Cortizo",
       "country": "Spain",
@@ -652,7 +824,7 @@
       }
     },
     {
-      "id": "116",
+      "id": "8dfde593-f1c9-4cae-995d-c60d88692226",
       "name": "Cosmos Profil",
       "country": "Greece",
       "contacts": [
@@ -669,7 +841,7 @@
       }
     },
     {
-      "id": "11",
+      "id": "e86d430d-ed9a-4c79-8e7e-18dec9fbd451",
       "name": "Delemar Aluminium S.A.",
       "country": "Egypt",
       "contacts": [
@@ -686,7 +858,7 @@
       }
     },
     {
-      "id": "21",
+      "id": "5be84058-6bef-4595-8e54-fced94ed0bef",
       "name": "Denting Flight Cases S.L.",
       "country": "Netherlands",
       "contacts": [
@@ -703,7 +875,7 @@
       }
     },
     {
-      "id": "1760261175899",
+      "id": "877f79d4-cca6-4f71-b8bb-91117d6dbe29",
       "name": "Dogus",
       "country": "Turkey",
       "contacts": [
@@ -720,8 +892,8 @@
       }
     },
     {
-      "id": "12",
-      "name": "Ege Endüstri ve Ticaret A.Ş.",
+      "id": "6fa83793-6989-4283-a8d3-4247ef7c9ec8",
+      "name": "Ege Endüstri",
       "country": "Turkey",
       "contacts": [
         {
@@ -742,7 +914,7 @@
       }
     },
     {
-      "id": "72",
+      "id": "aab955f3-13dc-4ef9-9aba-41e9c1874d2b",
       "name": "Egyptalum",
       "country": "Egypt",
       "contacts": [
@@ -765,7 +937,7 @@
       "contacts": [
         {
           "contact": "Mazen El Gammal",
-          "email": " mazen@elgammal-eg.com",
+          "email": "mazen@elgammal-eg.com",
           "phone": "+20 2 2310 1290"
         },
         {
@@ -781,7 +953,7 @@
       }
     },
     {
-      "id": "117",
+      "id": "07c519e5-65c4-4835-928f-ff4e1276b29d",
       "name": "Elvial",
       "country": "Greece",
       "contacts": [
@@ -798,8 +970,8 @@
       }
     },
     {
-      "id": "60",
-      "name": "Emax Dilsen-Stokkum Nv",
+      "id": "b43d28f4-6dd5-4433-9610-092bfd734b87",
+      "name": "E-MAX Dilsen-Stokkum Nv",
       "country": "Belgium",
       "contacts": [
         {
@@ -815,15 +987,27 @@
       }
     },
     {
-      "id": "14",
-      "name": "Emax Group NV",
+      "id": "5518ab28-6b85-40b9-a84f-0a49df2d821f",
+      "name": "E-MAX Group NV",
       "country": "Belgium",
       "contacts": [
         {
           "contact": "David Schaekers",
           "email": "david.schaekers@e-max.eu",
           "phone": "+32 495 15 57 22"
-        },
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "9b341148-16c1-4eab-9c45-c5fa0b721746",
+      "name": "E-MAXGroup NV",
+      "country": "Belgium",
+      "contacts": [
         {
           "contact": "Johan van Putten",
           "email": "johan.vanputten@e-max.eu",
@@ -837,8 +1021,8 @@
       }
     },
     {
-      "id": "61",
-      "name": "Emax Gullegem Nv",
+      "id": "0fdab180-3466-4b3e-9707-7f576c7357fa",
+      "name": "E-MAX Gullegem Nv",
       "country": "Belgium",
       "contacts": [
         {
@@ -854,8 +1038,8 @@
       }
     },
     {
-      "id": "62",
-      "name": "Emax Moorsele Nv",
+      "id": "766332b1-fd37-4e1d-9ce9-461ac8c7974a",
+      "name": "E-MAX Moorsele Nv",
       "country": "Belgium",
       "contacts": [
         {
@@ -871,8 +1055,74 @@
       }
     },
     {
-      "id": "118",
-      "name": "Etem",
+      "id": "11a3db4f-443b-4224-b3db-756b927367b1",
+      "name": "E-MAX Crailsheim GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Bildstraße 4\r\n74564 Crailsheim, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "e0387947-431c-4da9-9699-691593b26ced",
+      "name": "E-MAX Burg GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Erlenweg 2\r\n39288 Burg, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "d7e2d8eb-0559-4198-b5c0-38d6170c31a3",
+      "name": "E-MAX Landau GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Landkommissärstraße 16\r\n76829 Landau in der Pfalz, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "9923b4e6-f868-4537-adfd-13b8edde45d0",
+      "name": "Estral S.p.a.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "d8d468a5-e982-490e-a393-576697b779da",
+      "name": "Estrusione Roccafranca",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "f74f65c0-8fee-494a-a228-322db2f452ab",
+      "name": "Etem Bulgaria",
+      "country": "Bulgaria",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "4338747f-c6d3-4835-9855-63f011b94a84",
+      "name": "Etem Greece",
       "country": "Greece",
       "contacts": [
         {
@@ -888,16 +1138,10 @@
       }
     },
     {
-      "id": "f258b976-a6f1-4ebc-bf65-5cbf4bf59b12",
-      "name": "EUROAL Extrusion S.L. (SIMER – Euroal)",
-      "country": "Spain",
-      "contacts": [
-        {
-          "contact": "na",
-          "email": "",
-          "phone": ""
-        }
-      ],
+      "id": "0dd3536d-fc73-48d1-ad99-5f679255b907",
+      "name": "Eural Gnutti S.p.A.",
+      "country": "Italy",
+      "contacts": [],
       "details": {
         "address": "",
         "notes": "",
@@ -905,7 +1149,18 @@
       }
     },
     {
-      "id": "119",
+      "id": "12ece91f-8052-4a7e-b011-3956a516c1dc",
+      "name": "Euroal Extrusion S.L. (Simer)",
+      "country": "Spain",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "34de329f-b0c6-4668-bcbd-03d337b8ee2f",
       "name": "Europa Profil Aluminio S.A.",
       "country": "Greece",
       "contacts": [
@@ -922,12 +1177,12 @@
       }
     },
     {
-      "id": "80cb6747-1146-4920-b365-c4c4dcba4470",
+      "id": "3d8a3d9e-1e3f-49c4-a6ff-72066c417b97",
       "name": "Exlabesa Extrusion Coimbra",
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
+          "contact": "Ramón Vázquez",
           "email": "",
           "phone": ""
         }
@@ -939,7 +1194,7 @@
       }
     },
     {
-      "id": "188",
+      "id": "0a8204c8-3e37-408b-b7ca-4e5a40cfd57f",
       "name": "Exlabesa Extrusion Padrón S.L.",
       "country": "Spain",
       "contacts": [
@@ -956,7 +1211,7 @@
       }
     },
     {
-      "id": "189",
+      "id": "9dfe30f7-7978-4a3a-b2bc-047c4e0092a8",
       "name": "Extrual - Extruidos Del Aluminio S.A.",
       "country": "Spain",
       "contacts": [
@@ -973,7 +1228,7 @@
       }
     },
     {
-      "id": "190",
+      "id": "f9e1a570-b764-4c73-9584-a4bb71a98ee5",
       "name": "Extrucolor S.A.",
       "country": "Spain",
       "contacts": [
@@ -1007,7 +1262,41 @@
       }
     },
     {
-      "id": "5ef868e7-d8ba-46eb-8bce-93d2f7287c79",
+      "id": "54e49a10-2b03-47e5-9f7d-9ca06e48d733",
+      "name": "Extrugasa - Extrusionados Galicia S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Pablo Ranz Loureiro",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "8fba76c7-c173-4313-9771-a06eb975bbca",
+      "name": "Extruiberica S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Antonio Macias",
+          "email": "amacias@extruiberica.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "3323e5f1-7e05-40c4-9242-de9d53aa5af2",
       "name": "Extrusal S.A.",
       "country": "Portugal",
       "contacts": [
@@ -1024,24 +1313,7 @@
       }
     },
     {
-      "id": "15",
-      "name": "Extrusax S.A.",
-      "country": "Spain",
-      "contacts": [
-        {
-          "contact": "Luis Albert",
-          "email": "mantenimiento@extrusax.com",
-          "phone": "+34 600 49 17 40"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "193",
+      "id": "744c72ec-292c-47d2-94f1-71401ecee421",
       "name": "Extrusion De Sax S.L. (Murcia)",
       "country": "Spain",
       "contacts": [
@@ -1049,22 +1321,10 @@
           "contact": "Jordi Gomez",
           "email": "jgomez@extrusax.com",
           "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "194",
-      "name": "Extrusion De Sax S.L. (Sax)",
-      "country": "Spain",
-      "contacts": [
+        },
         {
-          "contact": "Jordi Gomez",
-          "email": "jgomez@extrusax.com",
+          "contact": "Nacho Gil Moreno",
+          "email": "",
           "phone": ""
         }
       ],
@@ -1075,7 +1335,34 @@
       }
     },
     {
-      "id": "79",
+      "id": "924a9c40-a31c-4a23-af53-8f07288774ff",
+      "name": "Extrusion De Sax S.L. (Sax)",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Jordi Gomez",
+          "email": "jgomez@extrusax.com",
+          "phone": ""
+        },
+        {
+          "contact": "Miguel Angel Valero",
+          "email": "matriceria@extrusax.com",
+          "phone": ""
+        },
+        {
+          "contact": "Luis Albert",
+          "email": "mantenimiento@extrusax.com",
+          "phone": "\t+34 600 49 17 40"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "98d459a1-ffc0-4041-a2fd-95496ffa05b3",
       "name": "Extrusiones De Toledo France",
       "country": "France",
       "contacts": [
@@ -1092,14 +1379,14 @@
       }
     },
     {
-      "id": "196",
+      "id": "5fac0ae6-12eb-4437-aa45-87c551b97941",
       "name": "Extrusiones Metalicas Europea S.L.",
       "country": "Spain",
       "contacts": [
         {
-          "contact": "na",
+          "contact": "Daniel Valero",
           "email": "",
-          "phone": "+34 983 511 000"
+          "phone": ""
         }
       ],
       "details": {
@@ -1109,7 +1396,7 @@
       }
     },
     {
-      "id": "80",
+      "id": "a24794ec-8398-42e8-be7a-b97914bc9455",
       "name": "Flandria Aluminium S.A.",
       "country": "France",
       "contacts": [
@@ -1126,7 +1413,7 @@
       }
     },
     {
-      "id": "1760261107998",
+      "id": "8d11accc-9e83-40fb-816e-8bcf9b8d58bf",
       "name": "Forexdie",
       "country": "Turkey",
       "contacts": [
@@ -1143,7 +1430,7 @@
       }
     },
     {
-      "id": "16",
+      "id": "b7bbc267-38bf-42e2-a58c-bc2308badace",
       "name": "Freelance",
       "country": "Spain",
       "contacts": [
@@ -1170,7 +1457,7 @@
       }
     },
     {
-      "id": "17",
+      "id": "b4095d81-256e-4d9f-8662-dc0a7a61bd02",
       "name": "Galimetal S.A.",
       "country": "Spain",
       "contacts": [
@@ -1178,22 +1465,10 @@
           "contact": "Alvaro",
           "email": "",
           "phone": "+34 616 904 730"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "198",
-      "name": "Galisur",
-      "country": "Spain",
-      "contacts": [
+        },
         {
-          "contact": "Jesús López Conde",
-          "email": "jlopez@galisur.es",
+          "contact": "Agustin Vilaverde",
+          "email": "",
           "phone": ""
         }
       ],
@@ -1204,8 +1479,30 @@
       }
     },
     {
-      "id": "224",
-      "name": "Garnalex",
+      "id": "7dcb340a-4fa2-41fc-bbff-0e52ffc81375",
+      "name": "Galisur",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Jesús López Conde",
+          "email": "jlopez@galisur.es",
+          "phone": ""
+        },
+        {
+          "contact": "Juan Antonio García ",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "3c69e3a7-2122-4f0c-b3b2-5ed36361d547",
+      "name": "Garnalex Ltd",
       "country": "UK",
       "contacts": [
         {
@@ -1221,7 +1518,79 @@
       }
     },
     {
-      "id": "102",
+      "id": "1ba8c4b7-ed1c-4b37-865b-0f8234aeb88d",
+      "name": "Gastaldello Sistemi",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "e5f74668-d600-46bd-9ea9-f80476f0c7a5",
+      "name": "GEAL S.p.A.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "c87c5558-0285-4550-80bc-b7814dcd30e4",
+      "name": "Groppalli",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "30b395e4-5b6d-46af-b97e-40d34da71709",
+      "name": "Gutmann GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Nürnberger Straße 57\r\n91781 Weißenburg i. Bay., Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "238d6c15-5903-4589-bd2d-b092a1e72fd0",
+      "name": "HAI Extrusion Soest GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Niederbergheimer Straße 181\r\n59494 Soest, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "name": "Heez Aluminium",
+      "country": "Bosnia and Herzegovina",
+      "contacts": [
+        {
+          "contact": "Kenan Dedić",
+          "email": "k.dedic@heezaluminium.com",
+          "phone": "+387 61 043 430"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "80f7705f-8c2a-4e96-96d9-f113677215c7",
       "name": "Hmt Hoefer Metall Technik",
       "country": "Germany",
       "contacts": [
@@ -1238,7 +1607,18 @@
       }
     },
     {
-      "id": "214",
+      "id": "8f69883b-626c-400b-8681-b2f05ff0b122",
+      "name": "Hueck / Hydro Building Systems Lüdenscheid GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Loher Straße 9\r\n58511 Lüdenscheid, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "7fcc1ec5-f2c8-4b04-95be-40418df8a1c4",
       "name": "Hydal Aluminium Profiler Vetlanda",
       "country": "Sweden",
       "contacts": [
@@ -1272,7 +1652,29 @@
       }
     },
     {
-      "id": "130",
+      "id": "0020a788-58f9-4a6c-a4c7-c6a73d003902",
+      "name": "Hydro Building Systems Extrusion Bellenberg GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Am Mühlholz 1\r\n89287 Bellenberg, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "65c9867c-070b-4b23-8e7e-ee498099ff7a",
+      "name": "Hydro Extrusion Feltre S.r.l.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "17cba769-a7d5-4f6a-bb88-4493858223c6",
       "name": "Hydro Extrusion Harderwijk B.V.",
       "country": "Netherlands",
       "contacts": [
@@ -1289,7 +1691,7 @@
       }
     },
     {
-      "id": "131",
+      "id": "8faacf0e-c71f-4dac-b589-0b4b6507dbc8",
       "name": "Hydro Extrusion Hoogezand B.V.",
       "country": "Netherlands",
       "contacts": [
@@ -1306,7 +1708,24 @@
       }
     },
     {
-      "id": "63",
+      "id": "150837a9-5026-4810-ad85-d46be2cf56c7",
+      "name": "Hydro Extrusion La Roca S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "na",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "dacab33b-5ae1-4c87-9bea-bbe691b4e9d0",
       "name": "Hydro Extrusion Lichtervelde",
       "country": "Belgium",
       "contacts": [
@@ -1323,12 +1742,45 @@
       }
     },
     {
-      "id": "282d43f1-048e-46ae-9780-c2340b999b98",
-      "name": "Hydro Extrusion Portugal (Avintes)",
+      "id": "e73d4f13-db60-49d4-a8a9-aa6020693bac",
+      "name": "Hydro Extrusion Nenzing",
+      "country": "Austria",
+      "contacts": [],
+      "details": {
+        "address": "Industriestraße 1\r\n6710 Nenzing, Austria",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "fea98004-7260-4fbe-95ce-f2176f4ba33a",
+      "name": "Hydro Extrusion Offenburg GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Industriestraße 10\r\n77656 Offenburg, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "a83fa356-fcd8-404d-9ede-eed894e11fd5",
+      "name": "Hydro Extrusion Ornago S.r.l.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "cd2246cc-a7cb-4da6-8294-4aee18a4ac35",
+      "name": "Hydro Extrusion Portugal",
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
+          "contact": "Daniel Couto",
           "email": "",
           "phone": ""
         }
@@ -1340,7 +1792,18 @@
       }
     },
     {
-      "id": "64",
+      "id": "02d190c6-44be-4636-850b-830ad2b63d7f",
+      "name": "Hydro Extrusion Rackwitz GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Am Wasserwerk 1\r\n04519 Rackwitz, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "ab12982d-47b2-4ebd-9d36-db840064114b",
       "name": "Hydro Extrusion Raeren",
       "country": "Belgium",
       "contacts": [
@@ -1357,12 +1820,85 @@
       }
     },
     {
+      "id": "42c5acd9-b98c-462d-a9a1-11e710f8ba0f",
+      "name": "Hydro Extrusion Uphusen GmbH",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Uphuser Heerstraße 7\r\n28832 Achim, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "f888e55f-0f3e-474e-9e36-43a130ca752c",
+      "name": "Hydro Extrusions La Selva S.A.",
+      "country": "Spain",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
       "id": "178cf5f8-f801-4a82-aed0-3e951cfd2b72",
       "name": "Hydro Extrusions Navarra",
       "country": "Spain",
       "contacts": [
         {
           "contact": "na",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "6b39a3e6-0df0-4a38-8370-0de374a82657",
+      "name": "Hydro Extrusions Navarra S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Ángel Iribarren",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "b73a43dc-6e5f-4749-a489-8d8a1852bf9c",
+      "name": "Hydro Miranda de Ebro S.L.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Iñigo Sáenz de Ugarte",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "57d9354d-07be-49d0-b332-127d37defe27",
+      "name": "Inalsa – Industrias aragonesas del Aluminio S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Félix Ramírez Hernández",
           "email": "",
           "phone": ""
         }
@@ -1391,7 +1927,7 @@
       }
     },
     {
-      "id": "202",
+      "id": "8ba88972-5226-47a4-abea-23898bca53d7",
       "name": "Indalsu S.L.",
       "country": "Spain",
       "contacts": [
@@ -1408,8 +1944,19 @@
       }
     },
     {
-      "id": "f330b098-318b-4fa0-bd07-cb1c4a65ad72",
-      "name": "INEXAL (Industria Extruidora de Aluminio S.A.)",
+      "id": "ba00f8b2-90fd-4460-81dc-367703c8cd87",
+      "name": "Indinvest LT S.r.l.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "8a1490c4-2c2d-4c16-9aba-2746fc233436",
+      "name": "Inexal S.A. (Industria Extruidora de Aluminio)",
       "country": "Spain",
       "contacts": [
         {
@@ -1425,7 +1972,7 @@
       }
     },
     {
-      "id": "205",
+      "id": "52651167-9896-455c-a8a3-34f0f2b9b80c",
       "name": "Installux Extrusion Services S.L. - Paret",
       "country": "Spain",
       "contacts": [
@@ -1442,7 +1989,7 @@
       }
     },
     {
-      "id": "206",
+      "id": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "name": "Installux Extrusion Services S.L. - Santa Oliva",
       "country": "Spain",
       "contacts": [
@@ -1464,7 +2011,7 @@
       }
     },
     {
-      "id": "208",
+      "id": "47b40834-ebe7-4cbe-8ad4-6350a0d3b24c",
       "name": "Itesal S.A.",
       "country": "Spain",
       "contacts": [
@@ -1481,7 +2028,7 @@
       }
     },
     {
-      "id": "225",
+      "id": "e33275c0-99a2-4253-9869-ef0ae7ec4626",
       "name": "Kawneer Uk",
       "country": "United Kingdom",
       "contacts": [
@@ -1515,7 +2062,7 @@
       }
     },
     {
-      "id": "153",
+      "id": "a50d0bd0-0da7-427d-9437-75904bd7b8ae",
       "name": "Lacbraga - Termolacado Perfil Alumínio Lda.",
       "country": "Portugal",
       "contacts": [
@@ -1549,7 +2096,7 @@
       }
     },
     {
-      "id": "19",
+      "id": "b33aea16-da54-4ee1-936d-0f125ffc094e",
       "name": "LBB Systems GmbH",
       "country": "Turkey",
       "contacts": [
@@ -1566,7 +2113,7 @@
       }
     },
     {
-      "id": "20",
+      "id": "5444d9fb-b9c9-49a4-8d5b-a7118012d932",
       "name": "Leonardo Fix S.L.",
       "country": "Belgium",
       "contacts": [
@@ -1583,12 +2130,12 @@
       }
     },
     {
-      "id": "913ab597-9c6e-4d0e-bd72-ae694c72b294",
+      "id": "e5e9f07e-4d14-47a1-b3cf-348a7143ed11",
       "name": "Lingote Alumínios S.A.",
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
+          "contact": "Paulo Sampaio",
           "email": "",
           "phone": ""
         }
@@ -1600,7 +2147,7 @@
       }
     },
     {
-      "id": "23",
+      "id": "4a73b2ec-48d3-4839-a05e-122842b1c5f3",
       "name": "Lo Minck B.V.",
       "country": "Netherlands",
       "contacts": [
@@ -1617,7 +2164,7 @@
       }
     },
     {
-      "id": "24",
+      "id": "328c08a1-3575-4409-8e3e-9fe534ae5d83",
       "name": "Maimbar S.L.",
       "country": "Spain",
       "contacts": [
@@ -1634,7 +2181,7 @@
       }
     },
     {
-      "id": "46",
+      "id": "fabc0edc-6ee3-4232-a23d-85280c5786c0",
       "name": "Mejo Metall Josten GmbH & Co. KG",
       "country": "Germany",
       "contacts": [
@@ -1651,7 +2198,7 @@
       }
     },
     {
-      "id": "25",
+      "id": "ed18c3e5-73a3-4fe6-b61c-e75f54a21344",
       "name": "Metadecor B.V.",
       "country": "Netherlands",
       "contacts": [
@@ -1668,7 +2215,7 @@
       }
     },
     {
-      "id": "121",
+      "id": "84e9d51c-ddad-4618-beef-d8704743f1ac",
       "name": "Metal Sa",
       "country": "Greece",
       "contacts": [
@@ -1685,7 +2232,7 @@
       }
     },
     {
-      "id": "122",
+      "id": "14870035-e463-4522-abc7-be32de9cae53",
       "name": "Metaloumin",
       "country": "Greece",
       "contacts": [
@@ -1702,7 +2249,18 @@
       }
     },
     {
-      "id": "e695251a-3a70-41bb-a0f3-0abae6e9340d",
+      "id": "a75c693e-40ff-4cf2-85b5-abfc6a318a0b",
+      "name": "METRA S.p.A.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "6af6f50e-9be0-46d2-8487-53929248b00c",
       "name": "Miexal (Forta S.L.)",
       "country": "Spain",
       "contacts": [
@@ -1719,7 +2277,7 @@
       }
     },
     {
-      "id": "132",
+      "id": "19f0edad-5bb8-43e0-ada9-323750a3bc80",
       "name": "Mifa Aluminium B.V.",
       "country": "Netherlands",
       "contacts": [
@@ -1736,7 +2294,7 @@
       }
     },
     {
-      "id": "170a8c15-4da2-4a5d-84e3-59379dbc0752",
+      "id": "6ad79498-8a47-400c-a651-d5dcd0bc0e26",
       "name": "Mikraltek",
       "country": "Portugal",
       "contacts": [
@@ -1753,12 +2311,12 @@
       }
     },
     {
-      "id": "043f1f99-8ef9-4d40-895d-a777abde7f05",
+      "id": "f02d2aed-76ae-4a92-9910-f58d697f04c8",
       "name": "Natural Aluminium (ex Fortalex)",
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
+          "contact": "Sergio Vinhais de Sá",
           "email": "",
           "phone": ""
         }
@@ -1770,24 +2328,7 @@
       }
     },
     {
-      "id": "client-1760515468922",
-      "name": "Navarra",
-      "country": "Portugal",
-      "contacts": [
-        {
-          "contact": "Tiago Martins",
-          "email": "tiago.martins@navarraaluminio.com",
-          "phone": "+351 253 603 520"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "42",
+      "id": "53971e91-dd57-46a0-b910-9c0e60fe7810",
       "name": "Navarra Extrusión de Aluminio S.A.",
       "country": "Portugal",
       "contacts": [
@@ -1795,6 +2336,11 @@
           "contact": "Paulo Rodrigues",
           "email": "paulo.rodrigues@navarraaluminio.com",
           "phone": "+35 1253 603 520"
+        },
+        {
+          "contact": "Tiago Martins",
+          "email": "tiago.martins@navarraaluminio.com",
+          "phone": "+351 253 603 520"
         }
       ],
       "details": {
@@ -1804,7 +2350,7 @@
       }
     },
     {
-      "id": "1760179183342",
+      "id": "b416f3ec-b564-494b-8c5f-f5752d6be527",
       "name": "Nedal Aluminium B.V.",
       "country": "Netherlands",
       "contacts": [
@@ -1836,7 +2382,7 @@
       }
     },
     {
-      "id": "27",
+      "id": "0797f057-89da-469e-8f3a-79dc8ce3a0e2",
       "name": "Nisal Aluminyum San. ve Tic. Ltd. Şti.",
       "country": "Turkey",
       "contacts": [
@@ -1853,7 +2399,7 @@
       }
     },
     {
-      "id": "107",
+      "id": "4c96ccf7-dbf8-4f06-85ef-5353a3d0213c",
       "name": "Nordalu GmbH",
       "country": "Germany",
       "contacts": [
@@ -1870,12 +2416,45 @@
       }
     },
     {
-      "id": "4f42ba21-a7a1-4be7-bf83-b32ade1c2147",
+      "id": "73938f4c-900f-4fa3-a545-c1b075f456c6",
+      "name": "Otto Fuchs KG",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Derschlager Straße 26\r\n58540 Meinerzhagen, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "60ddba9c-1a9e-4cd1-95a6-1c0ea824f5e4",
+      "name": "Pandolfo Alluminio",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "f446988b-77c4-453c-a4ee-36d2e97ead38",
+      "name": "Pasturi S.r.l.",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "0396dfcf-87ea-4c44-9726-e2d745e09c09",
       "name": "Portalex Alumínio S.A.",
       "country": "Portugal",
       "contacts": [
         {
-          "contact": "na",
+          "contact": "Carlos Cabral Filho",
           "email": "",
           "phone": ""
         }
@@ -1887,7 +2466,7 @@
       }
     },
     {
-      "id": "28",
+      "id": "434fda5e-58b1-4273-b29c-9c912323d910",
       "name": "Primalum S.A.",
       "country": "Spain",
       "contacts": [
@@ -1897,9 +2476,14 @@
           "phone": "+34 607 479 764"
         },
         {
-          "contact": "Sergio Primalum",
+          "contact": "Sergio Gázquez",
           "email": "sergio@primalumcanales.com",
           "phone": "+34 647262453"
+        },
+        {
+          "contact": "Toni González",
+          "email": "toni@primalumcanales.com",
+          "phone": "+34 661 904 337"
         }
       ],
       "details": {
@@ -1909,7 +2493,18 @@
       }
     },
     {
-      "id": "65",
+      "id": "96a963f3-91a0-4b69-b75f-ac63c16abaff",
+      "name": "Profall (Profilati Alluminio)",
+      "country": "Italy",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "c7e36b44-dc5e-4f60-a0e2-7b4b4b9d73ed",
       "name": "Profalu N.V.",
       "country": "Belgium",
       "contacts": [
@@ -1926,7 +2521,7 @@
       }
     },
     {
-      "id": "123",
+      "id": "20d270ff-67b1-4ce2-a781-8d53581c3698",
       "name": "Profilco",
       "country": "Greece",
       "contacts": [
@@ -1943,7 +2538,7 @@
       }
     },
     {
-      "id": "86",
+      "id": "49c83211-b850-4e11-8f15-86f6374e592f",
       "name": "Profils Systemes",
       "country": "France",
       "contacts": [
@@ -1960,7 +2555,7 @@
       }
     },
     {
-      "id": "75",
+      "id": "40ee503f-90f1-4739-9029-827bce1b596a",
       "name": "Purso Oy",
       "country": "Finland",
       "contacts": [
@@ -1977,7 +2572,7 @@
       }
     },
     {
-      "id": "29",
+      "id": "90d68d89-4f50-4c14-8c15-96f46b87fb48",
       "name": "Raesa S.A.",
       "country": "Spain",
       "contacts": [
@@ -1999,7 +2594,7 @@
       }
     },
     {
-      "id": "30",
+      "id": "035e10d1-b887-4436-832a-afc814f4999f",
       "name": "Reynaers Aluminium NV",
       "country": "Belgium",
       "contacts": [
@@ -2016,7 +2611,7 @@
       }
     },
     {
-      "id": "31",
+      "id": "eab834fb-a62e-4b5e-ac0a-41b6444e3ab5",
       "name": "Richter Aluminium GmbH",
       "country": "Germany",
       "contacts": [
@@ -2033,7 +2628,7 @@
       }
     },
     {
-      "id": "210",
+      "id": "35d18469-dff5-45a4-9be7-9e97787e9bc9",
       "name": "San Antonio S.L.",
       "country": "Spain",
       "contacts": [
@@ -2050,7 +2645,7 @@
       }
     },
     {
-      "id": "32",
+      "id": "9ca17ac6-012d-44ed-bd2e-82813d68c155",
       "name": "Sanlev S.A.",
       "country": "Greece",
       "contacts": [
@@ -2067,7 +2662,7 @@
       }
     },
     {
-      "id": "226",
+      "id": "4f02438b-9139-4328-83b2-ce0679face27",
       "name": "Shapes Aluminium",
       "country": "UK",
       "contacts": [
@@ -2084,7 +2679,7 @@
       }
     },
     {
-      "id": "33",
+      "id": "22d2c068-4713-43c7-842c-41251afce35c",
       "name": "Siescom Group S.L.",
       "country": "Egypt",
       "contacts": [
@@ -2101,7 +2696,7 @@
       }
     },
     {
-      "id": "34",
+      "id": "e6731773-ebd9-4641-b1e5-dc66b25b8a65",
       "name": "Sky BM S.A.",
       "country": "USA",
       "contacts": [
@@ -2118,7 +2713,7 @@
       }
     },
     {
-      "id": "227",
+      "id": "6c3c9548-7db4-4e3a-b2ab-82272da373ac",
       "name": "Smart Systems Ltd.",
       "country": "United Kingdom",
       "contacts": [
@@ -2140,7 +2735,7 @@
       }
     },
     {
-      "id": "54",
+      "id": "8ea2686b-e1b2-4534-b210-6456b37c96e5",
       "name": "Sopena Innovations S.L.",
       "country": "Spain",
       "contacts": [
@@ -2157,7 +2752,7 @@
       }
     },
     {
-      "id": "36",
+      "id": "5ac0684f-0a8a-410a-baad-82bcd714eee3",
       "name": "Soriano S.L.",
       "country": "Spain",
       "contacts": [
@@ -2179,7 +2774,7 @@
       }
     },
     {
-      "id": "client-1760426016447",
+      "id": "93dd76f9-510b-4909-9bf8-cf57eda0f674",
       "name": "Spanish Clients",
       "country": "Spain",
       "contacts": [
@@ -2196,7 +2791,51 @@
       }
     },
     {
-      "id": "212",
+      "id": "b70aa009-08cd-4189-be0a-cf6b6dc5eef4",
+      "name": "STEP-G Bitterfeld",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Devillestraße 2\r\n06749 Bitterfeld, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "67df339a-9ee0-4b86-a712-d5b43cbe5173",
+      "name": "STEP-G Bonn",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Friedrich-Wöhler-Straße 2\r\n53117 Bonn, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "616c01f8-e406-43ae-a41d-2cf1b4a3e7c2",
+      "name": "STEP-G Duffel",
+      "country": "Belgium",
+      "contacts": [],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "781d0d57-2b9b-419f-bdd6-6d92427b3c04",
+      "name": "STEP-G Vogt",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Lichtlöcherberg 40\r\n88267 Vogt, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "4a33b4a6-5e16-43c7-997e-38f3a27968b2",
       "name": "Strugal S.L.",
       "country": "Spain",
       "contacts": [
@@ -2204,6 +2843,11 @@
           "contact": "Rubén Ordóñez",
           "email": "ruben@strugal.com",
           "phone": ""
+        },
+        {
+          "contact": "Oscar Esque",
+          "email": "o.esque@strugal.com",
+          "phone": "+34 673 856 530"
         }
       ],
       "details": {
@@ -2213,7 +2857,7 @@
       }
     },
     {
-      "id": "37",
+      "id": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
       "name": "Tecalum S.L.",
       "country": "Spain",
       "contacts": [
@@ -2231,11 +2875,6 @@
           "contact": "Felix Jorba",
           "email": "fjorba@tecalum.com",
           "phone": "+34 638 051 281"
-        },
-        {
-          "contact": "Albert Gayola",
-          "email": "agayola@tecalum.com",
-          "phone": ""
         }
       ],
       "details": {
@@ -2245,7 +2884,7 @@
       }
     },
     {
-      "id": "162",
+      "id": "9afa052f-3a72-46c7-8931-2aba42a0dacd",
       "name": "Tehnomarket",
       "country": "Serbia",
       "contacts": [
@@ -2262,7 +2901,7 @@
       }
     },
     {
-      "id": "client-1760425977274",
+      "id": "e63bb69a-bbbd-4506-991c-2337fa6e8f34",
       "name": "Turkish Clients",
       "country": "Turkey",
       "contacts": [
@@ -2279,7 +2918,7 @@
       }
     },
     {
-      "id": "38",
+      "id": "fc9cb1bb-c3f2-4f68-8d96-9c3617d468f3",
       "name": "Unterschütz GmbH & Co. KG",
       "country": "Germany",
       "contacts": [
@@ -2306,7 +2945,7 @@
       }
     },
     {
-      "id": "44",
+      "id": "bc36f9e1-7df7-498e-a814-7eea4e44872c",
       "name": "WEFA Aluminiumprofile GmbH",
       "country": "Germany",
       "contacts": [
@@ -2323,7 +2962,18 @@
       }
     },
     {
-      "id": "39",
+      "id": "24bacf74-873a-4d6d-92b0-eeeedf7df74f",
+      "name": "Weseralu GmbH & Co. KG",
+      "country": "Germany",
+      "contacts": [],
+      "details": {
+        "address": "Am Osthafen 5\r\n32423 Minden, Germany",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "63265847-f578-4a25-8af3-881ce025131a",
       "name": "Yavuz Alüminyum San. ve Tic. A.Ş.",
       "country": "Turkey",
       "contacts": [
