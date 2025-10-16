@@ -2338,28 +2338,6 @@
         "notes": "",
         "notebook": ""
       }
-    },
-    {
-      "id": "client-1760631938505",
-      "name": "aaaa",
-      "country": "aaaa",
-      "contacts": [
-        {
-          "contact": "aaaaa",
-          "email": "",
-          "phone": ""
-        },
-        {
-          "contact": "bb",
-          "email": "bbbbbbbb",
-          "phone": "bbbbbbbb"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
     }
   ],
   "partners": [
