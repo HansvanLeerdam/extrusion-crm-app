@@ -25,7 +25,12 @@
           "email": "r.martinez@alasiberia.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "2",
@@ -57,7 +62,12 @@
           "email": "mariya.kalinova@alcomet.eu",
           "phone": "+35 954 858 752"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "59",
@@ -74,7 +84,12 @@
           "email": "christoph.de.pauw@aliplast.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "137",
@@ -86,7 +101,12 @@
           "email": "grzegorz.wojciechowski@aliplast.pl",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "195",
@@ -98,7 +118,12 @@
           "email": "juan-manuel.aparicio@alusolutionsgroup.com",
           "phone": "+34 925 23 44 66"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "43",
@@ -110,7 +135,12 @@
           "email": "nacholopeztanoira@gmail.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "172",
@@ -122,7 +152,12 @@
           "email": "",
           "phone": "+34 967 38 82 67"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "176",
@@ -134,7 +169,12 @@
           "email": "calidadnorte@alueuropa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "173",
@@ -156,7 +196,12 @@
           "email": "matriceria@alueuropa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "177",
@@ -173,7 +218,12 @@
           "email": "matriceriasv@alueuropa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "179",
@@ -185,7 +235,12 @@
           "email": "matriceriase@alueuropa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "45",
@@ -197,7 +252,12 @@
           "email": "j.vanbussel@alumero.nl",
           "phone": "+31 614367164"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "114",
@@ -209,7 +269,12 @@
           "email": "i.theodoridis@alumil.com",
           "phone": "+30 2341079323"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "115",
@@ -221,7 +286,12 @@
           "email": "k.chatzipanigiris@aluminco.com",
           "phone": "+30 2262 047000"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "53",
@@ -238,7 +308,12 @@
           "email": "pjimenez@alumineraextrusion.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "217",
@@ -250,7 +325,12 @@
           "email": "sammie.vanrens@aluminium-laufen.com",
           "phone": "+41 61 775 22 28"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "3",
@@ -262,7 +342,12 @@
           "email": "a.aziz@alupco.com",
           "phone": "+96 655 414 1508"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "4",
@@ -274,7 +359,12 @@
           "email": "enrique@aluval.es",
           "phone": "+34 671 075 378"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "40",
@@ -286,7 +376,12 @@
           "email": "rodolfo@anicolor.pt",
           "phone": "+35 1234729420"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "127",
@@ -303,7 +398,12 @@
           "email": "Michel.Minten@apt-alu-products.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "1760171460925",
@@ -325,7 +425,12 @@
           "email": "ramazan.erman@asastr.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "5",
@@ -337,7 +442,12 @@
           "email": "",
           "phone": "+90 546 450 34 53"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "183",
@@ -349,7 +459,12 @@
           "email": "josegomez@avalumitran.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "6",
@@ -361,7 +476,12 @@
           "email": " juan.lopez@avanzate.es",
           "phone": "+34 653 912 224"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "client-1760425998931",
@@ -373,7 +493,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "41",
@@ -385,7 +510,12 @@
           "email": "shahrizod.hosilov@akfagroup.com",
           "phone": " +99 890 501 34 62"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "7",
@@ -402,7 +532,12 @@
           "email": "p.koenis@boalgroup.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "9",
@@ -419,7 +554,12 @@
           "email": "g.suffolk@boalgroup.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "10",
@@ -436,7 +576,12 @@
           "email": "mdaaboul@canexalu.com",
           "phone": "+20 102 7778077"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "1760261015294",
@@ -448,7 +593,12 @@
           "email": "guido.mazzolari@compes.com",
           "phone": "+39 339 3233994"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "116",
@@ -460,7 +610,12 @@
           "email": "",
           "phone": "+30 241 056 7567"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "11",
@@ -472,7 +627,12 @@
           "email": "justin.gamage@delemaralu.com",
           "phone": "+21 2 6 64 26 66 97"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "21",
@@ -484,7 +644,12 @@
           "email": "dennis@denting.nl",
           "phone": "+31 6 53 56 55 24"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "1760261175899",
@@ -496,7 +661,12 @@
           "email": "maryam@dogus-kalip.com.tr",
           "phone": "+90 216 396 13 54"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "12",
@@ -513,7 +683,12 @@
           "email": "emre@egeendustri.net",
           "phone": "+90 552 214 66 21"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "72",
@@ -525,7 +700,12 @@
           "email": "ahmed.egyptalum@gmail.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "13",
@@ -542,7 +722,12 @@
           "email": "alu@elgammal-eg.com",
           "phone": "+20 100 255 1361"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "117",
@@ -554,7 +739,12 @@
           "email": "",
           "phone": "+30 2341039500"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "60",
@@ -566,7 +756,12 @@
           "email": "jos.lamerigts@e-max.eu",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "14",
@@ -583,7 +778,12 @@
           "email": "johan.vanputten@e-max.eu",
           "phone": "+31 6 15 66 82 57"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "61",
@@ -595,7 +795,12 @@
           "email": "Dave.Debosschere@e-max.eu",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "62",
@@ -607,7 +812,12 @@
           "email": "Dave.Debosschere@e-max.eu",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "118",
@@ -619,7 +829,12 @@
           "email": "jpapa@etem.com",
           "phone": "+30 210 489 8605"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "119",
@@ -631,7 +846,12 @@
           "email": "",
           "phone": "+30 22620 32202"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "188",
@@ -643,7 +863,12 @@
           "email": "ramon.vazquez@exlabesa.com",
           "phone": "+34 981 803 011"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "189",
@@ -655,7 +880,12 @@
           "email": "jsanjose@extrual.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "190",
@@ -667,7 +897,12 @@
           "email": "",
           "phone": "+34 968684001"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "client-3a2ac487-7436-47b3-ac55-020c641d8eba",
@@ -679,7 +914,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "15",
@@ -691,7 +931,12 @@
           "email": "mantenimiento@extrusax.com",
           "phone": "+34 600 49 17 40"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "193",
@@ -703,7 +948,12 @@
           "email": "jgomez@extrusax.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "194",
@@ -715,7 +965,12 @@
           "email": "jgomez@extrusax.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "79",
@@ -727,7 +982,12 @@
           "email": "",
           "phone": "+33 251 85 00 33"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "196",
@@ -739,7 +999,12 @@
           "email": "",
           "phone": "+34 983 511 000"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "80",
@@ -751,7 +1016,12 @@
           "email": "vgivry@flandria.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "1760261107998",
@@ -763,7 +1033,12 @@
           "email": "naile@forexdie.com",
           "phone": "+90 507 559 02 06"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "16",
@@ -785,7 +1060,12 @@
           "email": "",
           "phone": "+34 663 834 661"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "17",
@@ -797,7 +1077,12 @@
           "email": "",
           "phone": "+34 616 904 730"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "198",
@@ -809,7 +1094,12 @@
           "email": "jlopez@galisur.es",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "224",
@@ -821,7 +1111,12 @@
           "email": "Shona.Hartshorn@garnalex.com",
           "phone": "+44 1332 883960"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "102",
@@ -833,7 +1128,12 @@
           "email": "c.schwarz@hmt-alu.de",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "214",
@@ -845,7 +1145,12 @@
           "email": "petra.olsson@hydal.com",
           "phone": "+46 383 76 39 40"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "130",
@@ -857,7 +1162,12 @@
           "email": "thierry.devos@hydro.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "131",
@@ -869,7 +1179,12 @@
           "email": "mark.pieter.alsem@hydro.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "63",
@@ -881,7 +1196,12 @@
           "email": "pierre.mulnard@hydro.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "64",
@@ -893,7 +1213,12 @@
           "email": "perrine.schmid@hydro.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "202",
@@ -905,7 +1230,12 @@
           "email": "antonio.fernandez@indalsu.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "205",
@@ -917,7 +1247,12 @@
           "email": "Albert.ARNAL@installux-es.com",
           "phone": "+34 935 602 350"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "206",
@@ -934,7 +1269,12 @@
           "email": "Pere.MARTI@installux-es.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "208",
@@ -946,7 +1286,12 @@
           "email": "dgil@itesal.es",
           "phone": "+34 976 16 64 91"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "225",
@@ -958,7 +1303,12 @@
           "email": "paul.draper@arconic.com",
           "phone": "+44 1928 502412"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "152",
@@ -970,7 +1320,12 @@
           "email": "geral@la-aluminios.com",
           "phone": "+35 1707 20 30 41"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "153",
@@ -982,7 +1337,12 @@
           "email": "lacbraga@clix.pt",
           "phone": "+55 253674889"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "19",
@@ -994,7 +1354,12 @@
           "email": "evgenij.lymar@lbbsystems.com",
           "phone": "+41 78 720 4500"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "20",
@@ -1006,7 +1371,12 @@
           "email": "Bart.lips@leonardofix.be",
           "phone": "+32 475917365"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "23",
@@ -1018,7 +1388,12 @@
           "email": "arjan@lo-minck.nl",
           "phone": "+31 6 83 67 75 59"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "24",
@@ -1030,7 +1405,12 @@
           "email": "maimbargroup@gmail.com",
           "phone": "+34 654 551 899"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "46",
@@ -1042,7 +1422,12 @@
           "email": "stephan.josten@mejo.de",
           "phone": "+49 021199880"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "25",
@@ -1054,7 +1439,12 @@
           "email": "nthvdtoorn@metadecor.nl",
           "phone": "+31 6 11 89 61 71"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "121",
@@ -1066,7 +1456,12 @@
           "email": "metal3@hol.gr ",
           "phone": "+30 22620 58212"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "122",
@@ -1078,7 +1473,12 @@
           "email": "f.b.design@metaloumin.gr",
           "phone": "+30 21 0246 3630"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "132",
@@ -1090,7 +1490,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "42",
@@ -1102,7 +1507,12 @@
           "email": "paulo.rodrigues@navarraaluminio.com",
           "phone": "+35 1253 603 520"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "1760179183342",
@@ -1129,7 +1539,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "27",
@@ -1141,7 +1556,12 @@
           "email": "ersin@nisalaluminyum.com",
           "phone": "+90 5325453032"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "107",
@@ -1153,7 +1573,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "28",
@@ -1170,7 +1595,12 @@
           "email": "sergio@primalumcanales.com",
           "phone": "+34 647262453"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "65",
@@ -1182,7 +1612,12 @@
           "email": "sschrooten@profel.be",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "123",
@@ -1194,7 +1629,12 @@
           "email": "",
           "phone": "+30 2262 031753"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "86",
@@ -1206,7 +1646,12 @@
           "email": "bsaintsulpice@profils-systemes.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "75",
@@ -1218,7 +1663,12 @@
           "email": "mika-petteri.laakso@purso.fi",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "29",
@@ -1235,7 +1685,12 @@
           "email": "j.leon@raesa.com",
           "phone": "+34 979706060"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "30",
@@ -1247,7 +1702,12 @@
           "email": "filip.buts@reynaers.com",
           "phone": "+32 472515620"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "31",
@@ -1259,7 +1719,12 @@
           "email": "a.kempf@richter-aluminium.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "210",
@@ -1271,7 +1736,12 @@
           "email": "juanjo@sanantoniosl.es",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "32",
@@ -1283,7 +1753,12 @@
           "email": "gk@sanlev.gr",
           "phone": "+30 21055782789"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "226",
@@ -1295,7 +1770,12 @@
           "email": "dieshop@alishapes.co.uk",
           "phone": "+44 1536 262437"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "33",
@@ -1307,7 +1787,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "34",
@@ -1319,7 +1804,12 @@
           "email": "zak@skybm.com",
           "phone": "+1 214 507 7337"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "227",
@@ -1336,7 +1826,12 @@
           "email": "CDavies@smartsystems.co.uk",
           "phone": "+44 7753 319031"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "54",
@@ -1348,7 +1843,12 @@
           "email": "csanchez@gruposopena.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "36",
@@ -1365,7 +1865,12 @@
           "email": "info@sorianosolucionestecnicas.com",
           "phone": "+34 670426275"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "client-1760426016447",
@@ -1377,7 +1882,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "212",
@@ -1389,7 +1899,12 @@
           "email": "ruben@strugal.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "37",
@@ -1416,7 +1931,12 @@
           "email": "agayola@tecalum.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "162",
@@ -1428,7 +1948,12 @@
           "email": "extrusion@tehnomarket.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "client-1760425977274",
@@ -1440,7 +1965,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "38",
@@ -1462,7 +1992,12 @@
           "email": "uweunterschuetz@usmd.de",
           "phone": "+49 173 3529766"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "44",
@@ -1474,7 +2009,12 @@
           "email": "joe.maier@wefa.com",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "39",
@@ -1486,7 +2026,12 @@
           "email": "",
           "phone": "+90 5303689161"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "bed490a0-98b1-42d3-bf07-ae69df0b1cfe",
@@ -1498,7 +2043,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "4b60c64b-6b55-43a0-86b3-3af6d311474a",
@@ -1510,7 +2060,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "80cb6747-1146-4920-b365-c4c4dcba4470",
@@ -1522,7 +2077,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "5ef868e7-d8ba-46eb-8bce-93d2f7287c79",
@@ -1534,7 +2094,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "282d43f1-048e-46ae-9780-c2340b999b98",
@@ -1546,7 +2111,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "5013f58c-0f9e-4f30-ac38-f3e1be7eeccb",
@@ -1558,7 +2128,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "913ab597-9c6e-4d0e-bd72-ae694c72b294",
@@ -1570,7 +2145,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "170a8c15-4da2-4a5d-84e3-59379dbc0752",
@@ -1582,7 +2162,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "4f42ba21-a7a1-4be7-bf83-b32ade1c2147",
@@ -1594,7 +2179,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "35ef4ba7-2f3d-4bac-8580-fdf2d3dfc4ae",
@@ -1606,7 +2196,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "f258b976-a6f1-4ebc-bf65-5cbf4bf59b12",
@@ -1618,7 +2213,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "178cf5f8-f801-4a82-aed0-3e951cfd2b72",
@@ -1630,7 +2230,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "85ab4206-fd00-4461-954d-1fac7f43c783",
@@ -1642,7 +2247,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "49e7d961-7d59-4278-bb03-4e0a18e1cf00",
@@ -1654,7 +2264,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "f330b098-318b-4fa0-bd07-cb1c4a65ad72",
@@ -1666,7 +2281,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "e695251a-3a70-41bb-a0f3-0abae6e9340d",
@@ -1678,7 +2298,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "043f1f99-8ef9-4d40-895d-a777abde7f05",
@@ -1690,7 +2315,12 @@
           "email": "",
           "phone": ""
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
       "id": "client-1760515468922",
@@ -1702,22 +2332,27 @@
           "email": "tiago.martins@navarraaluminio.com",
           "phone": "+351 253 603 520"
         }
-      ]
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     },
     {
-      "id": "client-1760630818197",
+      "id": "client-1760631938505",
       "name": "aaaa",
       "country": "aaaa",
       "contacts": [
         {
-          "contact": "aaaa",
+          "contact": "aaaaa",
           "email": "",
           "phone": ""
         },
         {
-          "contact": "bbbb",
-          "email": "bbbb",
-          "phone": "bbb"
+          "contact": "bb",
+          "email": "bbbbbbbb",
+          "phone": "bbbbbbbb"
         }
       ],
       "details": {
