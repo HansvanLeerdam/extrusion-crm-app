@@ -2436,7 +2436,7 @@
     },
     {
       "id": "24",
-      "name": "Worskshop",
+      "name": "Workshop",
       "clientId": "45",
       "partnerId": "1",
       "productId": "Training",
@@ -2688,7 +2688,7 @@
     },
     {
       "id": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
-      "name": "Teams Meeting",
+      "name": "Training proposal",
       "clientId": "40",
       "partnerId": "1",
       "productId": "Consulting",
@@ -3091,7 +3091,7 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2025-10-16",
-      "action": "Teams Meeting at 11:00 h"
+      "action": "Send offer / dates"
     },
     {
       "id": "followup-1731c215-0ddb-4b9b-b361-5fffc826dd4b",
@@ -3543,6 +3543,27 @@
       "type": "note",
       "text": "Arjan told me that he has enough material in stock and that the next order will probably be around Feb/March 2026",
       "date": "2025-10-15"
+    },
+    {
+      "id": "comment-20785d86-203e-4afb-a142-7cf1d5065327",
+      "projectId": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
+      "type": "note",
+      "text": "Put Rodolfo in contact with Pedro - PX Automation - done 16/10",
+      "date": "2025-10-16"
+    },
+    {
+      "id": "comment-65fd28c9-a934-47dd-ae7c-a77282954b70",
+      "projectId": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
+      "type": "note",
+      "text": "To do: Put Rodolfo in contact with Yevgenij for the relining of the container (customs check) and set a date for the visit to Istanbul - done 16/10",
+      "date": "2025-10-16"
+    },
+    {
+      "id": "comment-b89149b7-ef72-4fb3-954c-f122cd15b5ac",
+      "projectId": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
+      "type": "offer",
+      "text": "Send offer for training and date & schedule proposal",
+      "date": "2025-10-16"
     }
   ]
 }
