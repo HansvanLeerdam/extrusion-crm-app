@@ -717,18 +717,6 @@
       ]
     },
     {
-      "id": "766332b1-fd37-4e1d-9ce9-461ac8c7974a",
-      "name": "E-MAX Moorsele Nv",
-      "country": "Belgium",
-      "contacts": [
-        {
-          "contact": "Dave Debosschere",
-          "email": "Dave.Debosschere@e-max.eu",
-          "phone": ""
-        }
-      ]
-    },
-    {
       "id": "11a3db4f-443b-4224-b3db-756b927367b1",
       "name": "E-MAX Crailsheim GmbH",
       "country": "Germany",
@@ -2014,55 +2002,23 @@
       "country": "USA",
       "contacts": [
         {
-          "contact": "",
-          "email": "",
-          "phone": ""
-        },
-        {
           "contact": "Nacho Lopez - Freelance",
           "email": "",
           "phone": ""
         }
-      ],
-      "details": {
-        "address": "14760 Don Julian Rd, City of Industry, CA 91746, USA",
-        "notes": "",
-        "notebook": ""
-      }
+      ]
     },
     {
       "id": "client-1760697340767",
       "name": "Capalex Ltd",
       "country": "United Kingdom",
-      "contacts": [
-        {
-          "contact": "",
-          "email": "",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "Clay Flatts Industrial Estate\nWorkington, Cumbria\nCA14 2TQ\nUnited Kingdom",
-        "notes": "",
-        "notebook": ""
-      }
+      "contacts": []
     },
     {
       "id": "client-1760697813262",
       "name": "Hakeem Group",
       "country": "Egypt",
-      "contacts": [
-        {
-          "contact": "",
-          "email": "",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "10th of Ramadan City, Cairo, Egypt",
-        "notes": "",
-        "notebook": ""
-      }
+      "contacts": []
     },
     {
       "id": "client-1760697988389",
@@ -2079,12 +2035,7 @@
           "email": "ferNANDO@aglaluminio.com",
           "phone": ""
         }
-      ],
-      "details": {
-        "address": "Avenida las Melias, Pl. Ind. Parsi, Nave 2,3 y 5\n41010, Sevilla\nSpain",
-        "notes": "",
-        "notebook": ""
-      }
+      ]
     },
     {
       "id": "client-1760698341529",
@@ -2096,12 +2047,7 @@
           "email": "",
           "phone": ""
         }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
+      ]
     },
     {
       "id": "client-1760698493074",
@@ -2113,29 +2059,13 @@
           "email": "",
           "phone": ""
         }
-      ],
-      "details": {
-        "address": "Route 110 (par Chefchaouni), Km 11.5, 20610 Casablanca, Morocco",
-        "notes": "",
-        "notebook": ""
-      }
+      ]
     },
     {
       "id": "client-1760699006811",
       "name": "Latem Aluminium S.A.",
       "country": "Spain",
-      "contacts": [
-        {
-          "contact": "",
-          "email": "",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
+      "contacts": []
     }
   ],
   "partners": [
@@ -3565,22 +3495,22 @@
       "action": "Call Rodolfo"
     },
     {
+      "id": "followup-90c8a93c-a839-48ed-ad82-7c223bc0051c",
       "clientId": "43",
       "projectId": "19",
       "partnerId": "3",
       "productId": "Air Cooling Installation",
       "nextDate": "2025-10-20",
-      "action": "Contact Nacho",
-      "id": "followup-90c8a93c-a839-48ed-ad82-7c223bc0051c"
+      "action": "Contact Nacho"
     },
     {
+      "id": "followup-bf923175-cb50-4b0e-94fd-565ca78036a8",
       "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
       "projectId": "33",
       "partnerId": "3",
       "productId": "Ageing Oven",
       "nextDate": "2025-10-22",
-      "action": "Contact Mutassem",
-      "id": "followup-bf923175-cb50-4b0e-94fd-565ca78036a8"
+      "action": "Contact Mutassem"
     },
     {
       "id": "followup-b7431b88-20b8-48e2-b2f5-161696dca49b",
@@ -3601,22 +3531,22 @@
       "action": "Initial follow-up for new project"
     },
     {
+      "id": "followup-b6022cdf-d325-48ee-a926-50e25ab73fe9",
       "clientId": "c7e36b44-dc5e-4f60-a0e2-7b4b4b9d73ed",
       "projectId": "42",
       "partnerId": "3",
       "productId": "Die Oven",
       "nextDate": "2025-10-20",
-      "action": "Contact Luc",
-      "id": "followup-b6022cdf-d325-48ee-a926-50e25ab73fe9"
+      "action": "Contact Luc"
     },
     {
+      "id": "followup-94a0fdb4-ff50-4289-b767-2fa9974eebf6",
       "clientId": "fabc0edc-6ee3-4232-a23d-85280c5786c0",
       "projectId": "26",
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2025-10-20",
-      "action": "Contact Ume",
-      "id": "followup-94a0fdb4-ff50-4289-b767-2fa9974eebf6"
+      "action": "Contact Ume"
     },
     {
       "id": "followup-9fbcc187-f282-42cd-a4c0-a80fd79e43a2",
