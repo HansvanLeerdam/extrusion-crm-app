@@ -2558,7 +2558,7 @@
       "partnerId": "1",
       "productId": "Training",
       "startDate": "2025-10-07",
-      "status": ""
+      "status": "Follow up"
     },
     {
       "id": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
@@ -2651,15 +2651,6 @@
       "status": "Check with Nacho"
     },
     {
-      "id": "22",
-      "name": "Die Oven - Navarra",
-      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-09-30",
-      "status": ""
-    },
-    {
       "id": "1",
       "name": "New 8-Inch Press Line",
       "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
@@ -2720,7 +2711,7 @@
       "partnerId": "3",
       "productId": "Quench Cooling Tunnel",
       "startDate": "2025-09-20",
-      "status": ""
+      "status": "Check with Nacho"
     },
     {
       "id": "project-4f20167f-b809-4a20-8d5a-b903e94762c6",
@@ -2747,7 +2738,7 @@
       "partnerId": "3",
       "productId": "Billet Casting Line",
       "startDate": "2025-09-20",
-      "status": ""
+      "status": "Check with Nacho"
     },
     {
       "id": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
@@ -2783,7 +2774,7 @@
       "partnerId": "3",
       "productId": "Extrusion Press Line",
       "startDate": "2025-10-11",
-      "status": ""
+      "status": "Follow up"
     },
     {
       "id": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
