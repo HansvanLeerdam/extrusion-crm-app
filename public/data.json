@@ -2063,6 +2063,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760697988389",
+      "name": "AGL Aluminio",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Fernando",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -3056,6 +3073,15 @@
       "productId": "Training",
       "startDate": "2025-10-17",
       "status": "Follow up"
+    },
+    {
+      "id": "project-2d1cdee0-2393-49a3-a6a7-c0fd6816b241",
+      "name": "Consulting",
+      "clientId": "client-1760697813262",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -3524,6 +3550,15 @@
       "projectId": "project-99132134-259f-437f-8d13-3f221790ee4d",
       "partnerId": "1",
       "productId": "Training",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-c26a154f-437e-458b-a134-0bb969d9834c",
+      "clientId": "client-1760697813262",
+      "projectId": "project-2d1cdee0-2393-49a3-a6a7-c0fd6816b241",
+      "partnerId": "1",
+      "productId": "Audit",
       "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
     }
