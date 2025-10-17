@@ -34,8 +34,8 @@
         }
       ],
       "details": {
-        "address": "Zona Industrial da Lameira\r\r\nLote 1/15, 4820-840 Rego\r\r\nCelorico de Basto, Portugal",
-        "notes": "",
+        "address": "Zona Industrial da Lameira\r\r\r\nLote 1/15, 4820-840 Rego\r\r\r\nCelorico de Basto, Portugal",
+        "notes": "2500, 2600",
         "notebook": ""
       }
     },
@@ -61,8 +61,8 @@
         }
       ],
       "details": {
-        "address": "Av. de Laviana, s/n\r\r\n33900 Ciaño – Langreo\r\r\nAsturias, Spain",
-        "notes": "",
+        "address": "Av. de Laviana, s/n\r\r\r\n33900 Ciaño – Langreo\r\r\r\nAsturias, Spain",
+        "notes": "1800, 2500, 3500",
         "notebook": ""
       }
     },
@@ -103,8 +103,8 @@
         }
       ],
       "details": {
-        "address": "Second Industrial Zone\r\r\n9700 Shumen\r\r\nBulgaria",
-        "notes": "",
+        "address": "Second Industrial Zone\r\r\r\n9700 Shumen\r\r\r\nBulgaria",
+        "notes": "600, 1300, 1800, 2000, 2500, 4000",
         "notebook": ""
       }
     },
@@ -142,7 +142,7 @@
         }
       ],
       "details": {
-        "address": "ul. Wacława Moritza 3\r\r\n20-276 Lublin\r\r\nPoland",
+        "address": "ul. Wacława Moritza 3\r\r\r\n20-276 Lublin\r\r\r\nPoland",
         "notes": "",
         "notebook": ""
       }
@@ -209,8 +209,8 @@
         }
       ],
       "details": {
-        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\n45007 Toledo, Spain",
-        "notes": "",
+        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\r\n45007 Toledo, Spain",
+        "notes": "1800 (2), 2200",
         "notebook": ""
       }
     },
@@ -226,8 +226,8 @@
         }
       ],
       "details": {
-        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\n38509 Candelaria, Santa Cruz de Tenerife\r\nSpain",
-        "notes": "",
+        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\r\n38509 Candelaria, Santa Cruz de Tenerife\r\r\nSpain",
+        "notes": "1800, 2200",
         "notebook": ""
       }
     },
@@ -243,8 +243,8 @@
         }
       ],
       "details": {
-        "address": "Ctra. Viveros, km. 1\r\r\n02340 El Robledo\r\r\nAlbacete, Spain",
-        "notes": "",
+        "address": "Ctra. Viveros, km. 1\r\r\r\n02340 El Robledo\r\r\r\nAlbacete, Spain",
+        "notes": "1800, 2000",
         "notebook": ""
       }
     },
@@ -260,8 +260,8 @@
         }
       ],
       "details": {
-        "address": "P.I. El Sequero, Parcels 169-176\r\r\n26151 Arrúbal, La Rioja\r\r\nSpain",
-        "notes": "",
+        "address": "P.I. El Sequero, Parcels 169-176\r\r\r\n26151 Arrúbal, La Rioja\r\r\r\nSpain",
+        "notes": "1800, 2000",
         "notebook": ""
       }
     },
@@ -287,8 +287,8 @@
         }
       ],
       "details": {
-        "address": "Carretera N-IV, S/N, Km 32.400\r\r\n28350 Ciempozuelos, Madrid\r\r\nSpain",
-        "notes": "",
+        "address": "Carretera N-IV, S/N, Km 32.400\r\r\r\n28350 Ciempozuelos, Madrid\r\r\r\nSpain",
+        "notes": "1600, 1800, 2200",
         "notebook": ""
       }
     },
@@ -309,8 +309,8 @@
         }
       ],
       "details": {
-        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\r\n41700 Dos Hermanas, Sevilla\r\r\nSpain",
-        "notes": "",
+        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\r\r\n41700 Dos Hermanas, Sevilla\r\r\r\nSpain",
+        "notes": "1800, 2500, 4800",
         "notebook": ""
       }
     },
@@ -326,8 +326,8 @@
         }
       ],
       "details": {
-        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\r\n40400 El Espinar, Segovia\r\r\nSpain",
-        "notes": "",
+        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\r\r\n40400 El Espinar, Segovia\r\r\r\nSpain",
+        "notes": "1800, 1800",
         "notebook": ""
       }
     },
@@ -354,7 +354,7 @@
         }
       ],
       "details": {
-        "address": "Duizeldonksestraat 20\r\r\n5705 CA Helmond\r\r\nNetherlands",
+        "address": "Duizeldonksestraat 20\r\r\r\n5705 CA Helmond\r\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -388,7 +388,7 @@
         }
       ],
       "details": {
-        "address": "Thessi Megali Rachi\r\r\n32011 Inofita, Viotia\r\r\nGreece",
+        "address": "Thessi Megali Rachi\r\r\r\n32011 Inofita, Viotia\r\r\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -410,8 +410,8 @@
         }
       ],
       "details": {
-        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\r\n08403 Granollers, Barcelona\r\r\nSpain",
-        "notes": "",
+        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\r\r\n08403 Granollers, Barcelona\r\r\r\nSpain",
+        "notes": 2500,
         "notebook": ""
       }
     },
@@ -428,7 +428,7 @@
       ],
       "details": {
         "address": "Polígono Industrial Granadilla – Parcels 8–12, 38619 Granadilla de Abona, Santa Cruz de Tenerife, Spain",
-        "notes": "",
+        "notes": 1600,
         "notebook": ""
       }
     },
@@ -445,7 +445,7 @@
       ],
       "details": {
         "address": "Pol. Ind. de Manzanares, Calle D, Parcela 20, 13200 Manzanares, Ciudad Real, Spain",
-        "notes": "",
+        "notes": "900, 1100, 1600, 1800, 2500,  3500, 4500",
         "notebook": ""
       }
     },
@@ -462,7 +462,7 @@
       ],
       "details": {
         "address": "Extramundi, s/n, 15910 Padrón, A Coruña, Spain",
-        "notes": "",
+        "notes": "2500, 3500",
         "notebook": ""
       }
     },
@@ -495,7 +495,7 @@
         }
       ],
       "details": {
-        "address": "First Industrial City, Street 38, Building 7244\r\nDammam, Eastern Province 31451\r\nSaudi Arabia",
+        "address": "First Industrial City, Street 38, Building 7244\r\r\nDammam, Eastern Province 31451\r\r\nSaudi Arabia",
         "notes": "",
         "notebook": ""
       }
@@ -506,7 +506,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Uelzener Weg 36\r\r\n59425 Unna, Germany",
+        "address": "Uelzener Weg 36\r\r\r\n59425 Unna, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -524,7 +524,7 @@
       ],
       "details": {
         "address": "Pol. Ind. Bobalar, Travesera del Bobalar 22, 46970 Alaquàs, Valencia, Spain",
-        "notes": "",
+        "notes": "1800, 2500",
         "notebook": ""
       }
     },
@@ -540,8 +540,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Zona Industrial de Oiã – Apt 6, 3770-908 Oiã, Oliveira do Bairro, Portugal",
+        "notes": "1800, 2500",
         "notebook": ""
       }
     },
@@ -562,7 +562,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Industrieweg 8, 6045 JG Roermond, Netherlands",
         "notes": "",
         "notebook": ""
       }
@@ -573,7 +573,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Daimlerstraße 10, 40789 Monheim am Rhein, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -600,7 +600,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Rüzgarlı Bahçe Mah., Kumlu Sok. No.2, Asaş İş Merkezi, 34810 Kavacık, Beykoz, İstanbul, Turkey",
         "notes": "",
         "notebook": ""
       }
@@ -617,7 +617,7 @@
         }
       ],
       "details": {
-        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\r\nKırklareli, Turkey",
+        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\r\r\nKırklareli, Turkey",
         "notes": "",
         "notebook": ""
       }
@@ -635,7 +635,7 @@
       ],
       "details": {
         "address": "Ctra. N-III, Km 52.500, Apdo. 11, 28590 Villarejo de Salvanés, Madrid, Spain",
-        "notes": "",
+        "notes": "1600, 2200, 2800, 4000",
         "notebook": ""
       }
     },
@@ -707,7 +707,7 @@
         }
       ],
       "details": {
-        "address": "Hondert Margen 12\r\n2678 AC De Lier\r\nNetherlands",
+        "address": "Hondert Margen 12\r\r\n2678 AC De Lier\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -729,7 +729,7 @@
         }
       ],
       "details": {
-        "address": "Ashby Road East\r\nShepshed\r\nLoughborough\r\nLeicestershire LE12 9BS\r\nUnited Kingdom",
+        "address": "Ashby Road East\r\r\nShepshed\r\r\nLoughborough\r\r\nLeicestershire LE12 9BS\r\r\nUnited Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -751,7 +751,7 @@
         }
       ],
       "details": {
-        "address": "2/170 CPC Industrial Park\r\nNorthern Extensions, Industrial Area #4\r\n6th October City\r\n12573 Giza, Egypt",
+        "address": "2/170 CPC Industrial Park\r\r\nNorthern Extensions, Industrial Area #4\r\r\n6th October City\r\r\n12573 Giza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -784,7 +784,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Alusingen Platz 1\r\r\n78224 Singen, Germany",
+        "address": "Alusingen Platz 1\r\r\r\n78224 Singen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -801,7 +801,7 @@
         }
       ],
       "details": {
-        "address": "8th km National Road Larissa-Athens, Nikea Intersection\r\nLarissa, 41110\r\nGreece",
+        "address": "8th km National Road Larissa-Athens, Nikea Intersection\r\r\nLarissa, 41110\r\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -818,7 +818,7 @@
         }
       ],
       "details": {
-        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\r\n6th of October City\r\nGiza, Egypt",
+        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\r\r\n6th of October City\r\r\nGiza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -835,7 +835,7 @@
         }
       ],
       "details": {
-        "address": "De Trompet 1205\r\n1967 DA Heemskerk\r\nNetherlands",
+        "address": "De Trompet 1205\r\r\n1967 DA Heemskerk\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -852,7 +852,7 @@
         }
       ],
       "details": {
-        "address": "Büyükdere Caddesi No: 2\r\nSarıyer, Istanbul\r\nTurkey",
+        "address": "Büyükdere Caddesi No: 2\r\r\nSarıyer, Istanbul\r\r\nTurkey",
         "notes": "",
         "notebook": ""
       }
@@ -913,7 +913,7 @@
         }
       ],
       "details": {
-        "address": "101 El Amal Shourta Buildings\r\nAutostrad Road, New Maadi\r\nCairo, Egypt",
+        "address": "101 El Amal Shourta Buildings\r\r\nAutostrad Road, New Maadi\r\r\nCairo, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -947,7 +947,7 @@
         }
       ],
       "details": {
-        "address": "Siemenslaan 8\r\n3650 Dilsen-Stokkem\r\nBelgium",
+        "address": "Siemenslaan 8\r\r\n3650 Dilsen-Stokkem\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -969,7 +969,7 @@
         }
       ],
       "details": {
-        "address": "Siemenslaan 8\r\n3650 Dilsen-Stokkem\r\nBelgium",
+        "address": "Siemenslaan 8\r\r\n3650 Dilsen-Stokkem\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -986,7 +986,7 @@
         }
       ],
       "details": {
-        "address": "Drieslaan 29\r\n8560 Moorsele-Wevelgem\r\nBelgium",
+        "address": "Drieslaan 29\r\r\n8560 Moorsele-Wevelgem\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -997,7 +997,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Bildstraße 4\r\r\n74564 Crailsheim, Germany",
+        "address": "Bildstraße 4\r\r\r\n74564 Crailsheim, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1008,7 +1008,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Erlenweg 2\r\r\n39288 Burg, Germany",
+        "address": "Erlenweg 2\r\r\r\n39288 Burg, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1019,7 +1019,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Landkommissärstraße 16\r\r\n76829 Landau in der Pfalz, Germany",
+        "address": "Landkommissärstraße 16\r\r\r\n76829 Landau in der Pfalz, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1069,7 +1069,7 @@
         }
       ],
       "details": {
-        "address": "Iroon Polytechneiou 4\r\nMagoula, Greece",
+        "address": "Iroon Polytechneiou 4\r\r\nMagoula, Greece",
         "notes": "",
         "notebook": ""
       }
@@ -1091,8 +1091,8 @@
       "country": "Spain",
       "contacts": [],
       "details": {
-        "address": "Camino del Puente Viejo, 32\r\n28500 Arganda del Rey, Madrid\r\nSpain",
-        "notes": "",
+        "address": "Camino del Puente Viejo, 32\r\r\n28500 Arganda del Rey, Madrid\r\r\nSpain",
+        "notes": 1800,
         "notebook": ""
       }
     },
@@ -1108,7 +1108,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Sindos Industrial Area, Block 13, 57022 Thessaloniki, Greece",
         "notes": "",
         "notebook": ""
       }
@@ -1125,8 +1125,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Rua Vale da Mó, Lote 1, 3045-446 Coimbra, Portugal",
+        "notes": "2800 (2)",
         "notebook": ""
       }
     },
@@ -1142,8 +1142,8 @@
         }
       ],
       "details": {
-        "address": "Lugar Estramundi de Arriba, s/n\r\n15910 Padrón, A Coruña\r\nSpain",
-        "notes": "",
+        "address": "Lugar de Padróns, 15917 Padrón, A Coruña, Spain",
+        "notes": "1300(2), 1600(2), 2200, 3500, 6500",
         "notebook": ""
       }
     },
@@ -1159,8 +1159,8 @@
         }
       ],
       "details": {
-        "address": "Polígono Industrial Campollano, Calle A, Parcela 42\r\n02007 Albacete, Spain",
-        "notes": "",
+        "address": "Rua da Indústria, 3800-908 Esgueira, Aveiro, Portugal",
+        "notes": "1600, 1800, 2200 (2), 2800, 5000",
         "notebook": ""
       }
     },
@@ -1177,7 +1177,7 @@
       ],
       "details": {
         "address": "P.I. La Jaira, C/ K – Ctra. Santomera‑Abanilla, Km 15.4, 30640 Abanilla, Murcia, Spain",
-        "notes": "",
+        "notes": "1800, 2800",
         "notebook": ""
       }
     },
@@ -1193,8 +1193,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Lugar de Padróns, 15917 Padrón, A Coruña, Spain",
+        "notes": "1300, 1600, 2000, 2500, 3200, 4800",
         "notebook": ""
       }
     },
@@ -1210,8 +1210,8 @@
         }
       ],
       "details": {
-        "address": "Ctra. Valencia, Km 722, Polígono La Cartuja\r\n41008 Sevilla\r\nSpain",
-        "notes": "",
+        "address": "Rua da Indústria, 3800-908 Esgueira, Aveiro, Portugal",
+        "notes": 2300,
         "notebook": ""
       }
     },
@@ -1227,8 +1227,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Rua da Indústria, 3800-908 Esgueira, Aveiro, Portugal",
+        "notes": "1700, 2300",
         "notebook": ""
       }
     },
@@ -1249,8 +1249,8 @@
         }
       ],
       "details": {
-        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\r\n30820 Alcantarilla, Murcia\r\nSpain",
-        "notes": "",
+        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\r\r\n30820 Alcantarilla, Murcia\r\r\nSpain",
+        "notes": "1800, 2800",
         "notebook": ""
       }
     },
@@ -1277,7 +1277,7 @@
       ],
       "details": {
         "address": "Autovía de Alicante (A‑31), km 191, 03630 Sax, Alicante, Spain",
-        "notes": "",
+        "notes": "1800 (3), 2800, 4000",
         "notebook": ""
       }
     },
@@ -1311,7 +1311,7 @@
       ],
       "details": {
         "address": "Calle Parque de las Marismas de Santoña 20, 47013 Valladolid, Spain",
-        "notes": "",
+        "notes": "2200, 2500, 3500, 1800",
         "notebook": ""
       }
     },
@@ -1394,7 +1394,7 @@
       ],
       "details": {
         "address": "Polígono Industrial Rivadill, s/n, 36880 A Cañiza, Pontevedra, Spain",
-        "notes": "",
+        "notes": "1800, 2200",
         "notebook": ""
       }
     },
@@ -1416,7 +1416,7 @@
       ],
       "details": {
         "address": "Pol. Ind. Fridex, Calle Fridex Siete, nº 19, 41500 Alcalá de Guadaíra, Sevilla, Spain",
-        "notes": "",
+        "notes": "1800 (2)",
         "notebook": ""
       }
     },
@@ -1476,7 +1476,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Nürnberger Straße 57\r\r\n91781 Weißenburg i. Bay., Germany",
+        "address": "Nürnberger Straße 57\r\r\r\n91781 Weißenburg i. Bay., Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1487,7 +1487,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Niederbergheimer Straße 181\r\r\n59494 Soest, Germany",
+        "address": "Niederbergheimer Straße 181\r\r\r\n59494 Soest, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1532,7 +1532,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Loher Straße 9\r\r\n58511 Lüdenscheid, Germany",
+        "address": "Loher Straße 9\r\r\r\n58511 Lüdenscheid, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1560,7 +1560,7 @@
       "country": "Norway",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Drammensveien 264, NO-0283 Oslo, Norway",
         "notes": "",
         "notebook": ""
       }
@@ -1578,7 +1578,7 @@
       ],
       "details": {
         "address": "P.I. de Bayas, C/ Ayuelas 18, 09200 Miranda de Ebro, Burgos, Spain",
-        "notes": "",
+        "notes": "1800, 2500",
         "notebook": ""
       }
     },
@@ -1588,7 +1588,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Am Mühlholz 1\r\r\n89287 Bellenberg, Germany",
+        "address": "Am Mühlholz 1\r\r\r\n89287 Bellenberg, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1651,7 +1651,7 @@
       ],
       "details": {
         "address": "P.I. Can Font de la Parera, C/ Esteve Terrades, s/n, 08430 La Roca del Vallès, Barcelona, Spain",
-        "notes": "",
+        "notes": "2200, 3500",
         "notebook": ""
       }
     },
@@ -1678,7 +1678,7 @@
       "country": "Austria",
       "contacts": [],
       "details": {
-        "address": "Industriestraße 1\r\r\n6710 Nenzing, Austria",
+        "address": "Industriestraße 1\r\r\r\n6710 Nenzing, Austria",
         "notes": "",
         "notebook": ""
       }
@@ -1689,7 +1689,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Industriestraße 10\r\r\n77656 Offenburg, Germany",
+        "address": "Industriestraße 10\r\r\r\n77656 Offenburg, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1718,7 +1718,7 @@
       ],
       "details": {
         "address": "Travessa Nova das Alheiras 216, 4415-272 Pedroso, V.N. Gaia, Portugal",
-        "notes": "",
+        "notes": 2000,
         "notebook": ""
       }
     },
@@ -1728,7 +1728,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Am Wasserwerk 1\r\r\n04519 Rackwitz, Germany",
+        "address": "Am Wasserwerk 1\r\r\r\n04519 Rackwitz, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1756,7 +1756,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Uphuser Heerstraße 7\r\r\n28832 Achim, Germany",
+        "address": "Uphuser Heerstraße 7\r\r\r\n28832 Achim, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1768,7 +1768,7 @@
       "contacts": [],
       "details": {
         "address": "Av. del Aluminio, s/n, Polígono Millenium, 43470 La Selva del Camp, Tarragona, Spain",
-        "notes": "",
+        "notes": 1350,
         "notebook": ""
       }
     },
@@ -1785,7 +1785,7 @@
       ],
       "details": {
         "address": "Aralar, 9, 31860 Irurtzun, Navarra, Spain",
-        "notes": "",
+        "notes": "2000 (2), 4000",
         "notebook": ""
       }
     },
@@ -1802,7 +1802,7 @@
       ],
       "details": {
         "address": "Carretera Cogullada, 31, 50014 Zaragoza, Spain",
-        "notes": "",
+        "notes": "1000, 1600, 1800, 2500, 2800, 4800",
         "notebook": ""
       }
     },
@@ -1819,7 +1819,7 @@
       ],
       "details": {
         "address": "Carretera Caldas-Vilagarcía, Km 2.5, 36659 Caldas de Reis, Pontevedra, Spain",
-        "notes": "",
+        "notes": "1600, 2500",
         "notebook": ""
       }
     },
@@ -1847,7 +1847,7 @@
       ],
       "details": {
         "address": "Calle Manuel Cobo Calleja, 3, 28947 Fuenlabrada, Madrid, Spain",
-        "notes": "",
+        "notes": 2200,
         "notebook": ""
       }
     },
@@ -1864,7 +1864,7 @@
       ],
       "details": {
         "address": "P. I. Can Volard – Mestrall, 5, 08150 Parets del Vallès, Barcelona, Spain",
-        "notes": "",
+        "notes": 2000,
         "notebook": ""
       }
     },
@@ -1886,7 +1886,7 @@
       ],
       "details": {
         "address": "Carrer de Montmell 1, Pol. Ind. L’Albornar, 43710 Santa Oliva, Tarragona, Spain",
-        "notes": "",
+        "notes": 1800,
         "notebook": ""
       }
     },
@@ -1903,7 +1903,7 @@
       ],
       "details": {
         "address": "P.I. c/G – Aptdo. 46, 50750 Pina de Ebro, Zaragoza, Spain",
-        "notes": "",
+        "notes": "1600, 2200",
         "notebook": ""
       }
     },
@@ -1920,23 +1920,6 @@
       ],
       "details": {
         "address": "Astmoor Road, Astmoor Industrial Estate, Runcorn, Cheshire WA7 1QQ, United Kingdom",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "a50d0bd0-0da7-427d-9437-75904bd7b8ae",
-      "name": "Lacbraga - Termolacado Perfil Alumínio Lda.",
-      "country": "Portugal",
-      "contacts": [
-        {
-          "contact": "na",
-          "email": "lacbraga@clix.pt",
-          "phone": "+55 253674889"
-        }
-      ],
-      "details": {
-        "address": "Termolacado de Perfil de Alumínio, S.A.: Parque Industrial, Lote S-6, Celeirós, 4705-414 Celirós / Aveleda, Braga, Portugal",
         "notes": "",
         "notebook": ""
       }
@@ -1970,7 +1953,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Winkelsestraat 150, 8860 Lendelede, Belgium",
         "notes": "",
         "notebook": ""
       }
@@ -1987,8 +1970,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Zona Industrial do Socorro, Lote 82, 4820-570 Fafe, Portugal",
+        "notes": "1800, 2500, 2800",
         "notebook": ""
       }
     },
@@ -2004,7 +1987,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Gansoord 80, 2165 BD Lisserbroek, Netherlands",
         "notes": "",
         "notebook": ""
       }
@@ -2021,7 +2004,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Parque Empresarial de Pazos, Rúa Circular Norte, Parcela 75, 15917 Padrón, A Coruña, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -2038,7 +2021,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Bublitzer Straße 23\r\n40599 Düsseldorf\r\nGermany",
         "notes": "",
         "notebook": ""
       }
@@ -2055,7 +2038,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Eckertstraat 75, 8263 CB Kampen, Netherlands",
         "notes": "",
         "notebook": ""
       }
@@ -2072,7 +2055,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "32009 Schimatari, Viotia, Greece",
         "notes": "",
         "notebook": ""
       }
@@ -2089,7 +2072,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "20 Saint Fanouriou, 13678 Acharnes, Attica, Greece",
         "notes": "",
         "notebook": ""
       }
@@ -2100,7 +2083,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via Stacca 1, 25050 Rodengo Saiano, Brescia, Italy",
         "notes": "",
         "notebook": ""
       }
@@ -2117,8 +2100,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Av. de Gregorio Arcos, 59, 02007 Albacete, Spain",
+        "notes": 650,
         "notebook": ""
       }
     },
@@ -2134,7 +2117,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Rijnaakkade 6, 5928 PT Venlo, Netherlands",
         "notes": "",
         "notebook": ""
       }
@@ -2151,8 +2134,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Av. do Emigrante, Nº 1896, Zona Industrial de Alagôa, 3750-171 Águeda, Portugal",
+        "notes": "1000, 1300",
         "notebook": ""
       }
     },
@@ -2168,7 +2151,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Zona Industrial da Mota, Rua 7, Lotes A13/14, 3830-527 Gafanha da Encarnação, Ílhavo, Aveiro, Portugal",
         "notes": "",
         "notebook": ""
       }
@@ -2190,8 +2173,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Veiga das Antas, 4701-971 Braga, Portugal",
+        "notes": "2200 (2), 2400, 4000",
         "notebook": ""
       }
     },
@@ -2222,7 +2205,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Groenewoudsedijk 1, 3528 BG, Utrecht, Netherlands",
         "notes": "",
         "notebook": ""
       }
@@ -2239,7 +2222,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "İOSB Mah. Tormak San. Sitesi D Blok No: 15, İkitelli-Başakşehir, Istanbul, Turkey",
         "notes": "",
         "notebook": ""
       }
@@ -2256,7 +2239,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Oderstraße 78-82, 24539 Neumünster, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2267,7 +2250,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Derschlager Straße 26\r\r\n58540 Meinerzhagen, Germany",
+        "address": "Derschlager Straße 26\r\r\r\n58540 Meinerzhagen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2278,7 +2261,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via Della Provvidenza 143, 35030 Sarmeola (PD), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -2289,7 +2272,7 @@
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Pasturi S.r.l.: Via San Gervasio 13/13a, 25020 Cigole (BS), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -2306,8 +2289,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Estrada de São Marcos, 23, 2735-521 Agualva-Cacém, Portugal",
+        "notes": "1600, 2200, 2600",
         "notebook": ""
       }
     },
@@ -2333,18 +2316,18 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Calle Alcalde José López Fuentes, Pol. Ind. Saprelorca, Parc. N-7, 30817 Lorca, Murcia, Spain",
+        "notes": 2200,
         "notebook": ""
       }
     },
     {
       "id": "96a963f3-91a0-4b69-b75f-ac63c16abaff",
-      "name": "Profall (Profilati Alluminio)",
+      "name": "Profilati Alluminio (Profall)",
       "country": "Italy",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Via A. Pacinotti 190, 21042 Caronno Pertusella (Varese), Italy",
         "notes": "",
         "notebook": ""
       }
@@ -2361,14 +2344,14 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Europalaan 17, Overpelt, 3900, Belgium",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "20d270ff-67b1-4ce2-a781-8d53581c3698",
-      "name": "Profilco",
+      "name": "Profilco Aluminum Systems S.A",
       "country": "Greece",
       "contacts": [
         {
@@ -2378,14 +2361,14 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "53th Km National Road Athens-Lamia, 32011 Inofita, Viotia, Greece",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "49c83211-b850-4e11-8f15-86f6374e592f",
-      "name": "Profils Systemes",
+      "name": "Profils Systèmes",
       "country": "France",
       "contacts": [
         {
@@ -2395,7 +2378,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "10 Rue Alfred Sauvy, 34670 Baillargues, France",
         "notes": "",
         "notebook": ""
       }
@@ -2412,7 +2395,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Alumiinitie 1, 37200 Siuro, Finland",
         "notes": "",
         "notebook": ""
       }
@@ -2434,8 +2417,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Carretera Santander Km. 14, 34419 Fuentes de Valdepero, Palencia, Spain",
+        "notes": "2200 (2), 1600",
         "notebook": ""
       }
     },
@@ -2451,7 +2434,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Oude Liersebaan 266, 2570 Duffel, Belgium",
         "notes": "",
         "notebook": ""
       }
@@ -2468,7 +2451,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Drei Linden 14, 77746 Schutterwald, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2485,8 +2468,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "C/ Fueros Leoneses s/n, 24750 La Bañeza (León), Spain",
+        "notes": 1800,
         "notebook": ""
       }
     },
@@ -2502,14 +2485,14 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Thesi Tzitzili, 19300 Aspropyrgos, Attica, Greece",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "4f02438b-9139-4328-83b2-ce0679face27",
-      "name": "Shapes Aluminium",
+      "name": "Aluminium Shapes Ltd",
       "country": "UK",
       "contacts": [
         {
@@ -2519,7 +2502,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Princewood Industrial Estate, Corby, Northamptonshire NN17 4AP, United Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -2536,7 +2519,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "43 Lebanon St., Mohandseen, Giza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -2553,7 +2536,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "10835 Shady Trail, Dallas, TX 75220, USA",
         "notes": "",
         "notebook": ""
       }
@@ -2575,7 +2558,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Arnolds Way, Yatton, Bristol, BS49 4QN, United Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -2592,8 +2575,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Calle Garbí 9, Polígono Industrial Los Vientos, 46119 Náquera, Valencia, Spain",
+        "notes": "1800, 2200",
         "notebook": ""
       }
     },
@@ -2614,7 +2597,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Calle La Libertad 8B, 03630 Sax, Alicante, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -2642,7 +2625,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Devillestraße 2\r\r\n06749 Bitterfeld, Germany",
+        "address": "Devillestraße 2\r\r\r\n06749 Bitterfeld, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2653,7 +2636,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Friedrich-Wöhler-Straße 2\r\r\n53117 Bonn, Germany",
+        "address": "Friedrich-Wöhler-Straße 2\r\r\r\n53117 Bonn, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2664,7 +2647,7 @@
       "country": "Belgium",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "A. Stocletlaan 87 B, 2570 Duffel, Belgium",
         "notes": "",
         "notebook": ""
       }
@@ -2675,7 +2658,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Lichtlöcherberg 40\r\r\n88267 Vogt, Germany",
+        "address": "Lichtlöcherberg 40\r\r\r\n88267 Vogt, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2697,8 +2680,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Pol. Ind. La Red Sur, C/ La Red Nueve, 11, 41500 Alcalá de Guadaíra, Sevilla, Spain",
+        "notes": "1400, 1800, 2000, 2800",
         "notebook": ""
       }
     },
@@ -2724,8 +2707,8 @@
         }
       ],
       "details": {
-        "address": "",
-        "notes": "",
+        "address": "Carretera de Sales 2, 17853 Tortellà, Girona, Spain",
+        "notes": 2200,
         "notebook": ""
       }
     },
@@ -2741,7 +2724,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Bulevar Vojvode Misica 37, 11000 Belgrade, Serbia",
         "notes": "",
         "notebook": ""
       }
@@ -2785,14 +2768,14 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Gewerbering 32, 06333 Hettstedt, Germany",
         "notes": "",
         "notebook": ""
       }
     },
     {
       "id": "bc36f9e1-7df7-498e-a814-7eea4e44872c",
-      "name": "WEFA Aluminiumprofile GmbH",
+      "name": "WEFA Singen GmbH",
       "country": "Germany",
       "contacts": [
         {
@@ -2802,7 +2785,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Rudolf-Diesel-Straße 11, 78224 Singen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2813,7 +2796,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Am Osthafen 5\r\r\n32423 Minden, Germany",
+        "address": "Am Osthafen 5\r\r\r\n32423 Minden, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2830,7 +2813,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Akçaburgaz Mah. 3108. Sokak No:6, 34522 Esenyurt, Istanbul, Turkey",
         "notes": "",
         "notebook": ""
       }
@@ -2841,7 +2824,7 @@
       "country": "Portugal",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Zona Industrial de Oiã, Rua do Progresso Lote 6, 3770-908 Oiã, Portugal",
         "notes": "",
         "notebook": ""
       }
@@ -2858,7 +2841,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "1201 W. Broadway Rd, Mesa, AZ 85202, USA",
         "notes": "",
         "notebook": ""
       }
@@ -2869,7 +2852,7 @@
       "country": "United Kingdom",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Park Road, Barrow-in-Furness, Cumbria LA14 4EQ, United Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -2880,7 +2863,7 @@
       "country": "Egypt",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "12 El Obour Buildings, Salah Salem St., Nasr City, Cairo, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -2897,7 +2880,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Calle Las Melias, 62, Polígono Industrial Parsi, 41016 Sevilla, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -2914,7 +2897,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "2nd Industrial City, Dammam 32234, Saudi Arabia",
         "notes": "",
         "notebook": ""
       }
@@ -2931,7 +2914,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Lotissement Al Amana II, N°14, Ain Sebaâ, Casablanca, Morocco",
         "notes": "",
         "notebook": ""
       }
@@ -2942,7 +2925,7 @@
       "country": "Spain",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Polígono Industrial de Villadangos del Páramo, Parcela M50, 24392 León, Spain",
         "notes": "",
         "notebook": ""
       }
@@ -4038,6 +4021,33 @@
       "productId": "Quench Cooling Installation",
       "startDate": "2025-04-07",
       "status": "On hold"
+    },
+    {
+      "id": "project-7bbf6927-652a-464f-b91c-d4fe1cabbd11",
+      "name": "Continues Improvement",
+      "clientId": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2025-10-17",
+      "status": "Ongoing"
+    },
+    {
+      "id": "project-695314a9-dcea-4ec8-ac20-a4abb46e2f2b",
+      "name": "Continues Improvement",
+      "clientId": "434fda5e-58b1-4273-b29c-9c912323d910",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2025-10-17",
+      "status": "Ongoing"
+    },
+    {
+      "id": "project-97b01ef0-205c-4c9a-89d7-633e373affc8",
+      "name": "Continues Improvement",
+      "clientId": "2",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2025-10-17",
+      "status": "Ongoing"
     }
   ],
   "followups": [
@@ -4605,6 +4615,33 @@
       "projectId": "project-fa8fea8d-be3b-4da5-908b-d2aa63b1e012",
       "partnerId": "3",
       "productId": "Quench Cooling Installation",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-b93c0524-392c-4991-a42d-835d39b76aa3",
+      "clientId": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
+      "projectId": "project-7bbf6927-652a-464f-b91c-d4fe1cabbd11",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-0c3c4843-09a5-4a63-8515-58ebde38ecde",
+      "clientId": "434fda5e-58b1-4273-b29c-9c912323d910",
+      "projectId": "project-695314a9-dcea-4ec8-ac20-a4abb46e2f2b",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-08dc45c2-fd91-46d8-a8d4-7a7896889485",
+      "clientId": "2",
+      "projectId": "project-97b01ef0-205c-4c9a-89d7-633e373affc8",
+      "partnerId": "1",
+      "productId": "Consulting",
       "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
     }
