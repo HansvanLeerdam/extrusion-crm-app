@@ -2969,7 +2969,7 @@
     },
     {
       "id": "10",
-      "clientId": "2",
+      "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "projectId": "11",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
@@ -3023,7 +3023,7 @@
     },
     {
       "id": "followup-0fe4e6f2-9598-494c-a3c1-91fc4efb2970",
-      "clientId": "2",
+      "clientId": "54e49a10-2b03-47e5-9f7d-9ca06e48d733",
       "projectId": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
       "partnerId": "3",
       "productId": "Die Oven",
@@ -3032,7 +3032,7 @@
     },
     {
       "id": "54726a55-a13f-46c0-b4c8-97810e344ce8",
-      "clientId": "2",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
       "projectId": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
       "partnerId": "10",
       "productId": "Safety Door Flap",
@@ -3041,7 +3041,7 @@
     },
     {
       "id": "followup-e2d06445-1c2f-4818-87cb-f62c82c83d5f",
-      "clientId": "2",
+      "clientId": "c7e36b44-dc5e-4f60-a0e2-7b4b4b9d73ed",
       "projectId": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
       "partnerId": "3",
       "productId": "Air Cooling Installation",
@@ -3050,7 +3050,7 @@
     },
     {
       "id": "followup-513a31a5-53e0-44ec-b0a1-b29343018dc7",
-      "clientId": "2",
+      "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "projectId": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
       "partnerId": "10",
       "productId": "Air Cooling Installation",
@@ -3059,7 +3059,7 @@
     },
     {
       "id": "followup-4c815337-2a6c-401b-b871-c1045e750911",
-      "clientId": "2",
+      "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "projectId": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
       "partnerId": "10",
       "productId": "Safety Door Flap",
@@ -3122,7 +3122,7 @@
     },
     {
       "id": "followup-7f1a4262-5bf7-43ac-8a6e-a319c5c213ba",
-      "clientId": "2",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
       "projectId": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
@@ -3139,15 +3139,6 @@
       "action": "Initial follow-up for new project"
     },
     {
-      "id": "followup-f53fa347-ba90-4770-b9f4-83329b8e20d9",
-      "clientId": "2",
-      "projectId": "project-30484924-6176-48ee-8292-25b325b2799d",
-      "partnerId": "2",
-      "productId": "Software",
-      "nextDate": "2025-10-20",
-      "action": "Initial follow-up for new project"
-    },
-    {
       "id": "80344f02-890a-4b00-a122-d037018e801d",
       "clientId": "43",
       "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
@@ -3157,17 +3148,8 @@
       "action": "Follow up"
     },
     {
-      "id": "followup-57a1ebbf-4abd-4168-9afa-1790a0cd8f47",
-      "clientId": "2",
-      "projectId": "9",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-15",
-      "action": "Follow up with Christoph"
-    },
-    {
       "id": "followup-dd0d71f0-61cc-4796-b077-030fd17758d5",
-      "clientId": "2",
+      "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
       "projectId": "project-0f794d56-1843-46a4-858d-2d947ac28263",
       "partnerId": "3",
       "productId": "Die Oven",
@@ -3176,7 +3158,7 @@
     },
     {
       "id": "followup-1fde4034-a835-488c-8956-65c36b37e903",
-      "clientId": "2",
+      "clientId": "5eeb094d-b7e1-4dd8-a116-a68cc5541f66",
       "projectId": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
       "partnerId": "3",
       "productId": "Die Oven",
@@ -3203,7 +3185,7 @@
     },
     {
       "id": "followup-edfc2029-b82d-40e9-bd08-e544f986159f",
-      "clientId": "2",
+      "clientId": "bc9ae8ea-bbd1-4205-a37d-1b1ca01615c7",
       "projectId": "project-be913dcc-1a54-45d5-b460-5adea61ca172",
       "partnerId": "3",
       "productId": "Die Oven",
@@ -3230,7 +3212,7 @@
     },
     {
       "id": "followup-c562fdf5-0206-46d1-94fe-e777f66c80fa",
-      "clientId": "2",
+      "clientId": "8ba88972-5226-47a4-abea-23898bca53d7",
       "projectId": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
       "partnerId": "3",
       "productId": "Die Oven",
@@ -3248,7 +3230,7 @@
     },
     {
       "id": "followup-4285751f-4e44-4438-8947-a489dc8c3fd6",
-      "clientId": "2",
+      "clientId": "ec548303-0678-449f-9dd8-45a1041446b7",
       "projectId": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
       "partnerId": "3",
       "productId": "Die Oven",
