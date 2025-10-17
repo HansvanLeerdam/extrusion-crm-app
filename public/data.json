@@ -2073,10 +2073,15 @@
           "contact": "Fernando",
           "email": "",
           "phone": ""
+        },
+        {
+          "contact": "Fernando González de la Flor",
+          "email": "ferNANDO@aglaluminio.com",
+          "phone": ""
         }
       ],
       "details": {
-        "address": "",
+        "address": "Avenida las Melias, Pl. Ind. Parsi, Nave 2,3 y 5\n41010, Sevilla\nSpain",
         "notes": "",
         "notebook": ""
       }
@@ -2111,6 +2116,23 @@
       ],
       "details": {
         "address": "Route 110 (par Chefchaouni), Km 11.5, 20610 Casablanca, Morocco",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760699006811",
+      "name": "Latem Aluminium S.A.",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
         "notes": "",
         "notebook": ""
       }
@@ -3179,6 +3201,33 @@
       "productId": "Training",
       "startDate": "2025-10-17",
       "status": "Follow up with Kenan"
+    },
+    {
+      "id": "project-cabe091f-c284-4dcb-ae51-c179100df4bf",
+      "name": "Billet Casting",
+      "clientId": "client-1760699006811",
+      "partnerId": "3",
+      "productId": "Billet Casting Line",
+      "startDate": "2025-10-17",
+      "status": "Follow up with Nacho"
+    },
+    {
+      "id": "project-2ee8cb32-f9eb-4b6f-90ce-b8dd423b1c83",
+      "name": "Billet Oven",
+      "clientId": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
+      "partnerId": "3",
+      "productId": "Billet Oven",
+      "startDate": "2025-04-07",
+      "status": "On hold"
+    },
+    {
+      "id": "project-fa8fea8d-be3b-4da5-908b-d2aa63b1e012",
+      "name": "Quench Cooling",
+      "clientId": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
+      "partnerId": "3",
+      "productId": "Quench Cooling Installation",
+      "startDate": "2025-04-07",
+      "status": "On hold"
     }
   ],
   "followups": [
@@ -3719,6 +3768,33 @@
       "projectId": "project-dd6df8e8-de86-46b3-a50b-13f1052d3bf1",
       "partnerId": "1",
       "productId": "Training",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-ab27e745-bd98-4af5-a399-5e962d524eb4",
+      "clientId": "client-1760699006811",
+      "projectId": "project-cabe091f-c284-4dcb-ae51-c179100df4bf",
+      "partnerId": "3",
+      "productId": "Billet Casting Line",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-ec097e00-fa11-4554-9d55-b8ed26a35f57",
+      "clientId": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
+      "projectId": "project-2ee8cb32-f9eb-4b6f-90ce-b8dd423b1c83",
+      "partnerId": "3",
+      "productId": "Billet Oven",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-1af6fb1f-8e25-4339-aca8-e0c30d7bb49a",
+      "clientId": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
+      "projectId": "project-fa8fea8d-be3b-4da5-908b-d2aa63b1e012",
+      "partnerId": "3",
+      "productId": "Quench Cooling Installation",
       "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
     }
