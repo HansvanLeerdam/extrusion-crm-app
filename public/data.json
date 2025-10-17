@@ -2009,8 +2009,8 @@
       "contacts": []
     },
     {
-      "id": "client-1760695563428",
-      "name": "PRL ALUMINUM - 14760 Don Julian Rd, City of Industry, CA 91746",
+      "id": "client-1760695753694",
+      "name": "PRL Aluminum",
       "country": "USA",
       "contacts": [
         {
@@ -2021,28 +2021,6 @@
       ],
       "details": {
         "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "client-1760695606451",
-      "name": "PRL Aluminum",
-      "country": "USA",
-      "contacts": [
-        {
-          "contact": "",
-          "email": "",
-          "phone": ""
-        },
-        {
-          "contact": "Nacho Lopez",
-          "email": "",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "14760 Don Julian Rd, City of Industry, CA 91746, USA",
         "notes": "",
         "notebook": ""
       }
@@ -2393,6 +2371,15 @@
       "status": "Follow up"
     },
     {
+      "id": "project-15e9ba55-cea3-46d7-91b5-52d8918a8ff8",
+      "name": "Promotion die Oven",
+      "clientId": "2",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Waiting reply"
+    },
+    {
       "id": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
       "name": "Press Equipment",
       "clientId": "b416f3ec-b564-494b-8c5f-f5752d6be527",
@@ -2484,12 +2471,12 @@
     },
     {
       "id": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
-      "name": "APS",
+      "name": "Turkey",
       "clientId": "e63bb69a-bbbd-4506-991c-2337fa6e8f34",
       "partnerId": "2",
       "productId": "Software",
       "startDate": "2025-10-01",
-      "status": "Follow up with Emre"
+      "status": "Emre"
     },
     {
       "id": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
@@ -2852,6 +2839,15 @@
       "status": "Send info"
     },
     {
+      "id": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
+      "name": "APS",
+      "clientId": "e63bb69a-bbbd-4506-991c-2337fa6e8f34",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-10-13",
+      "status": "Promote APS in Turkey"
+    },
+    {
       "id": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
       "name": "Die oven",
       "clientId": "d7e2d8eb-0559-4198-b5c0-38d6170c31a3",
@@ -3093,7 +3089,7 @@
       "projectId": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2026-02-09",
+      "nextDate": "2025-10-18",
       "action": "Follow up"
     },
     {
@@ -3111,7 +3107,7 @@
       "projectId": "13",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-10-15",
       "action": "Follow up offer Nathan"
     },
     {
@@ -3120,7 +3116,7 @@
       "projectId": "37",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-10-15",
       "action": "Follow up offer David"
     },
     {
@@ -3398,6 +3394,13 @@
       "date": "2025-10-12"
     },
     {
+      "id": "comment-17cf46de-886a-41b7-9ad7-0992c5eddf01",
+      "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
+      "type": "offer",
+      "text": "Offer has been send to Enrique on the 13/10",
+      "date": "2025-10-13"
+    },
+    {
       "id": "comment-df22ecff-e6ff-48e4-8c08-51a5c105f2b2",
       "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
       "type": "email",
@@ -3507,20 +3510,6 @@
       "projectId": "13",
       "type": "note",
       "text": "Offer is with the end client, Nathan told me - 15/10/25",
-      "date": "2025-10-17"
-    },
-    {
-      "id": "comment-b9289640-e610-43dd-ae96-8d305e29206d",
-      "projectId": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
-      "type": "note",
-      "text": "Juan contacted Rodolfo to set up a meeting - 14/10/25",
-      "date": "2025-10-17"
-    },
-    {
-      "id": "comment-4029fca4-3810-44ce-9487-4f69f6d529a2",
-      "projectId": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
-      "type": "note",
-      "text": "Emre told me that Turkish clients react slowly in general - 15/10/25",
       "date": "2025-10-17"
     }
   ]
