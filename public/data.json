@@ -1599,7 +1599,7 @@
         }
       ],
       "details": {
-        "address": "Loher Straße 9\r\r\r\r\n58511 Lüdenscheid, Germany",
+        "address": "Loher Straße 9\n58511 Lüdenscheid, Germany",
         "notes": "2500, 5500",
         "notebook": ""
       }
@@ -1666,7 +1666,7 @@
         }
       ],
       "details": {
-        "address": "Am Mühlholz 1\r\r\r\r\n89287 Bellenberg, Germany",
+        "address": "Am Mühlholz 1\n89287 Bellenberg, Germany",
         "notes": 2200,
         "notebook": ""
       }
