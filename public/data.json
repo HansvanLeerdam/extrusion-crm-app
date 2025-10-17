@@ -1112,6 +1112,12 @@
       ]
     },
     {
+      "id": "7fcc1ec5-f2c8-4b04-95be-40418df8a1c5",
+      "name": "Hydro Group",
+      "country": "Norway",
+      "contacts": []
+    },
+    {
       "id": "85ab4206-fd00-4461-954d-1fac7f43c783",
       "name": "Hydro Building Systems Miranda de Ebro S.L.U.",
       "country": "Spain",
@@ -2377,7 +2383,7 @@
     {
       "id": "39",
       "name": "Die Splitter",
-      "clientId": "127",
+      "clientId": "5eeb094d-b7e1-4dd8-a116-a68cc5541f66",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-10",
@@ -2413,7 +2419,7 @@
     {
       "id": "11",
       "name": "Die Splitter",
-      "clientId": "15",
+      "clientId": "924a9c40-a31c-4a23-af53-8f07288774ff",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-01",
@@ -2431,7 +2437,7 @@
     {
       "id": "f0e73179-1cfb-4900-996f-8e6c98955543",
       "name": "Safety Door Flap",
-      "clientId": "154",
+      "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "partnerId": "10",
       "productId": "Safety Door Flap",
       "startDate": "2025-09-18",
@@ -2449,7 +2455,7 @@
     {
       "id": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
       "name": "Turkey",
-      "clientId": "1760217942122",
+      "clientId": "e63bb69a-bbbd-4506-991c-2337fa6e8f34",
       "partnerId": "2",
       "productId": "Software",
       "startDate": "2025-10-01",
@@ -2467,7 +2473,7 @@
     {
       "id": "25",
       "name": "Bart Lips",
-      "clientId": "20",
+      "clientId": "5444d9fb-b9c9-49a4-8d5b-a7118012d932",
       "partnerId": "11",
       "productId": "Profiles",
       "startDate": "2025-06-18",
@@ -2485,7 +2491,7 @@
     {
       "id": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
       "name": "Profile Cooling",
-      "clientId": "206",
+      "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "partnerId": "3",
       "productId": "Air Cooling Installation",
       "startDate": "2025-06-17",
@@ -2494,7 +2500,7 @@
     {
       "id": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
       "name": "Safety Door Flap",
-      "clientId": "206",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
       "partnerId": "10",
       "productId": "Safety Door Flap",
       "startDate": "2025-07-23",
@@ -2503,7 +2509,7 @@
     {
       "id": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
       "name": "Profile Cooling",
-      "clientId": "206",
+      "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "partnerId": "10",
       "productId": "Air Cooling Installation",
       "startDate": "2025-09-05",
@@ -2512,7 +2518,7 @@
     {
       "id": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
       "name": "Safety Flap",
-      "clientId": "217",
+      "clientId": "eac4afb4-3855-4cec-9f82-fe7081185bf4",
       "partnerId": "10",
       "productId": "Safety Door Flap",
       "startDate": "2025-10-13",
@@ -2552,7 +2558,7 @@
       "partnerId": "1",
       "productId": "Training",
       "startDate": "2025-10-07",
-      "status": "Follow up"
+      "status": ""
     },
     {
       "id": "41",
@@ -2566,7 +2572,7 @@
     {
       "id": "45",
       "name": "New 7-Inch Press",
-      "clientId": "28",
+      "clientId": "434fda5e-58b1-4273-b29c-9c912323d910",
       "partnerId": "10",
       "productId": "Extrusion Press Line",
       "startDate": "2025-07-30",
@@ -2584,7 +2590,7 @@
     {
       "id": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
       "name": "Die Splitter",
-      "clientId": "4",
+      "clientId": "0432dc94-6a68-49c3-93d7-6c9bcaca9eaa",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-13",
@@ -2593,7 +2599,7 @@
     {
       "id": "9",
       "name": "Die Splitter",
-      "clientId": "40",
+      "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-01",
@@ -2634,15 +2640,6 @@
       "productId": "Die Oven",
       "startDate": "2025-10-13",
       "status": "Offer sent "
-    },
-    {
-      "id": "project-30484924-6176-48ee-8292-25b325b2799d",
-      "name": "APS",
-      "clientId": null,
-      "partnerId": "2",
-      "productId": "Software",
-      "startDate": "2025-06-05",
-      "status": "Follow up"
     },
     {
       "id": "19",
@@ -2710,16 +2707,16 @@
     {
       "id": "36",
       "name": "Die Splitter Group Offer",
-      "clientId": "50",
+      "clientId": "7fcc1ec5-f2c8-4b04-95be-40418df8a1c5",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-09",
-      "status": ""
+      "status": "Follow up"
     },
     {
       "id": "40",
       "name": "Exlabesa",
-      "clientId": "51",
+      "clientId": "0a8204c8-3e37-408b-b7ca-4e5a40cfd57f",
       "partnerId": "10",
       "productId": "Extrusion Equipment",
       "startDate": "2025-10-10",
@@ -2737,7 +2734,7 @@
     {
       "id": "project-4f20167f-b809-4a20-8d5a-b903e94762c6",
       "name": "Die Splitter",
-      "clientId": "54",
+      "clientId": "8ea2686b-e1b2-4534-b210-6456b37c96e5",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-09",
@@ -2822,7 +2819,7 @@
       "partnerId": "1",
       "productId": "Audit",
       "startDate": "2025-10-14",
-      "status": "Awaiting reply"
+      "status": "To propose"
     },
     {
       "id": "project-38ad1d7f-7aa0-4645-b0ef-515d34d52141",
@@ -2863,7 +2860,7 @@
     {
       "id": "project-758bd224-85db-4280-bdba-0252d355cd71",
       "name": "Die Splitter",
-      "clientId": "client-63f9d1cf-097c-49a3-9785-140acd95fc59",
+      "clientId": "7fcc1ec5-f2c8-4b04-95be-40418df8a1c5",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-08",
@@ -2906,7 +2903,7 @@
       "status": ""
     },
     {
-      "id": "4dc9f582-8321-40b0-b1f6-c4e358393485",
+      "id": "6f4eb7d2-bf17-406f-83f9-7c1a6c42dc7b",
       "name": "Press Optimization",
       "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "partnerId": "6",
@@ -3482,13 +3479,6 @@
       "type": "offer",
       "text": "Offer was send to Claire on the 16/11/2024",
       "date": "2025-10-13"
-    },
-    {
-      "id": "comment-135c850d-80f4-47f4-8af1-f96a3edc876a",
-      "projectId": "project-189ed57f-7c75-4112-bf83-464d8c6830d1",
-      "type": "email",
-      "text": "I have send an email to Heidi with my proposal on 16/10/25",
-      "date": "2025-10-17"
     }
   ]
 }
