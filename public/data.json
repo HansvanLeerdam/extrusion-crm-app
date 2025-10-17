@@ -2017,10 +2017,15 @@
           "contact": "",
           "email": "",
           "phone": ""
+        },
+        {
+          "contact": "Nacho Lopez - Freelance",
+          "email": "",
+          "phone": ""
         }
       ],
       "details": {
-        "address": "",
+        "address": "14760 Don Julian Rd, City of Industry, CA 91746, USA",
         "notes": "",
         "notebook": ""
       }
