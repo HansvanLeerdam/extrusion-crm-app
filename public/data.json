@@ -34,7 +34,7 @@
         }
       ],
       "details": {
-        "address": "Zona Industrial da Lameira\r\r\r\nLote 1/15, 4820-840 Rego\r\r\r\nCelorico de Basto, Portugal",
+        "address": "Zona Industrial da Lameira\r\r\r\r\nLote 1/15, 4820-840 Rego\r\r\r\r\nCelorico de Basto, Portugal",
         "notes": "2500, 2600",
         "notebook": ""
       }
@@ -61,7 +61,7 @@
         }
       ],
       "details": {
-        "address": "Av. de Laviana, s/n\r\r\r\n33900 Ciaño – Langreo\r\r\r\nAsturias, Spain",
+        "address": "Av. de Laviana, s/n\r\r\r\r\n33900 Ciaño – Langreo\r\r\r\r\nAsturias, Spain",
         "notes": "1800, 2500, 3500",
         "notebook": ""
       }
@@ -103,7 +103,7 @@
         }
       ],
       "details": {
-        "address": "Second Industrial Zone\r\r\r\n9700 Shumen\r\r\r\nBulgaria",
+        "address": "Second Industrial Zone\r\r\r\r\n9700 Shumen\r\r\r\r\nBulgaria",
         "notes": "600, 1300, 1800, 2000, 2500, 4000",
         "notebook": ""
       }
@@ -142,7 +142,7 @@
         }
       ],
       "details": {
-        "address": "ul. Wacława Moritza 3\r\r\r\n20-276 Lublin\r\r\r\nPoland",
+        "address": "ul. Wacława Moritza 3\r\r\r\r\n20-276 Lublin\r\r\r\r\nPoland",
         "notes": "",
         "notebook": ""
       }
@@ -209,7 +209,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\r\n45007 Toledo, Spain",
+        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\r\r\n45007 Toledo, Spain",
         "notes": "1800 (2), 2200",
         "notebook": ""
       }
@@ -226,7 +226,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\r\n38509 Candelaria, Santa Cruz de Tenerife\r\r\nSpain",
+        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\r\r\n38509 Candelaria, Santa Cruz de Tenerife\r\r\r\nSpain",
         "notes": "1800, 2200",
         "notebook": ""
       }
@@ -243,7 +243,7 @@
         }
       ],
       "details": {
-        "address": "Ctra. Viveros, km. 1\r\r\r\n02340 El Robledo\r\r\r\nAlbacete, Spain",
+        "address": "Ctra. Viveros, km. 1\r\r\r\r\n02340 El Robledo\r\r\r\r\nAlbacete, Spain",
         "notes": "1800, 2000",
         "notebook": ""
       }
@@ -260,7 +260,7 @@
         }
       ],
       "details": {
-        "address": "P.I. El Sequero, Parcels 169-176\r\r\r\n26151 Arrúbal, La Rioja\r\r\r\nSpain",
+        "address": "P.I. El Sequero, Parcels 169-176\r\r\r\r\n26151 Arrúbal, La Rioja\r\r\r\r\nSpain",
         "notes": "1800, 2000",
         "notebook": ""
       }
@@ -287,7 +287,7 @@
         }
       ],
       "details": {
-        "address": "Carretera N-IV, S/N, Km 32.400\r\r\r\n28350 Ciempozuelos, Madrid\r\r\r\nSpain",
+        "address": "Carretera N-IV, S/N, Km 32.400\r\r\r\r\n28350 Ciempozuelos, Madrid\r\r\r\r\nSpain",
         "notes": "1600, 1800, 2200",
         "notebook": ""
       }
@@ -309,7 +309,7 @@
         }
       ],
       "details": {
-        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\r\r\n41700 Dos Hermanas, Sevilla\r\r\r\nSpain",
+        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\r\r\r\n41700 Dos Hermanas, Sevilla\r\r\r\r\nSpain",
         "notes": "1800, 2500, 4800",
         "notebook": ""
       }
@@ -326,7 +326,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\r\r\n40400 El Espinar, Segovia\r\r\r\nSpain",
+        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\r\r\r\n40400 El Espinar, Segovia\r\r\r\r\nSpain",
         "notes": "1800, 1800",
         "notebook": ""
       }
@@ -354,7 +354,7 @@
         }
       ],
       "details": {
-        "address": "Duizeldonksestraat 20\r\r\r\n5705 CA Helmond\r\r\r\nNetherlands",
+        "address": "Duizeldonksestraat 20\r\r\r\r\n5705 CA Helmond\r\r\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -388,7 +388,7 @@
         }
       ],
       "details": {
-        "address": "Thessi Megali Rachi\r\r\r\n32011 Inofita, Viotia\r\r\r\nGreece",
+        "address": "Thessi Megali Rachi\r\r\r\r\n32011 Inofita, Viotia\r\r\r\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -410,7 +410,7 @@
         }
       ],
       "details": {
-        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\r\r\n08403 Granollers, Barcelona\r\r\r\nSpain",
+        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\r\r\r\n08403 Granollers, Barcelona\r\r\r\r\nSpain",
         "notes": 2500,
         "notebook": ""
       }
@@ -495,7 +495,7 @@
         }
       ],
       "details": {
-        "address": "First Industrial City, Street 38, Building 7244\r\r\nDammam, Eastern Province 31451\r\r\nSaudi Arabia",
+        "address": "First Industrial City, Street 38, Building 7244\r\r\r\nDammam, Eastern Province 31451\r\r\r\nSaudi Arabia",
         "notes": "",
         "notebook": ""
       }
@@ -506,7 +506,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Uelzener Weg 36\r\r\r\n59425 Unna, Germany",
+        "address": "Uelzener Weg 36\r\r\r\r\n59425 Unna, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -617,7 +617,7 @@
         }
       ],
       "details": {
-        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\r\r\nKırklareli, Turkey",
+        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\r\r\r\nKırklareli, Turkey",
         "notes": "",
         "notebook": ""
       }
@@ -707,7 +707,7 @@
         }
       ],
       "details": {
-        "address": "Hondert Margen 12\r\r\n2678 AC De Lier\r\r\nNetherlands",
+        "address": "Hondert Margen 12\r\r\r\n2678 AC De Lier\r\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -729,7 +729,7 @@
         }
       ],
       "details": {
-        "address": "Ashby Road East\r\r\nShepshed\r\r\nLoughborough\r\r\nLeicestershire LE12 9BS\r\r\nUnited Kingdom",
+        "address": "Ashby Road East\r\r\r\nShepshed\r\r\r\nLoughborough\r\r\r\nLeicestershire LE12 9BS\r\r\r\nUnited Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -751,7 +751,7 @@
         }
       ],
       "details": {
-        "address": "2/170 CPC Industrial Park\r\r\nNorthern Extensions, Industrial Area #4\r\r\n6th October City\r\r\n12573 Giza, Egypt",
+        "address": "2/170 CPC Industrial Park\r\r\r\nNorthern Extensions, Industrial Area #4\r\r\r\n6th October City\r\r\r\n12573 Giza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -771,7 +771,13 @@
       "id": "b3890842-a548-433a-a4a4-a237983793b4",
       "name": "Constellium Děčín",
       "country": "Czech Republic",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Jiří Palma",
+          "email": "jiri.palma@constellium.com",
+          "phone": ""
+        }
+      ],
       "details": {
         "address": "Ústecká 751/37, 405 02 Děčín V – Rozbělesy, Czech Republic",
         "notes": "",
@@ -782,9 +788,15 @@
       "id": "f858edd6-5e3e-41d0-ac60-1d54261f3a4e",
       "name": "Constellium Singen",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Jochen Chwalisz",
+          "email": "jochen.chwalisz@constellium.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Alusingen Platz 1\r\r\r\n78224 Singen, Germany",
+        "address": "Alusingen Platz 1\r\r\r\r\n78224 Singen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -801,7 +813,7 @@
         }
       ],
       "details": {
-        "address": "8th km National Road Larissa-Athens, Nikea Intersection\r\r\nLarissa, 41110\r\r\nGreece",
+        "address": "8th km National Road Larissa-Athens, Nikea Intersection\r\r\r\nLarissa, 41110\r\r\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -818,7 +830,7 @@
         }
       ],
       "details": {
-        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\r\r\n6th of October City\r\r\nGiza, Egypt",
+        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\r\r\r\n6th of October City\r\r\r\nGiza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -835,7 +847,7 @@
         }
       ],
       "details": {
-        "address": "De Trompet 1205\r\r\n1967 DA Heemskerk\r\r\nNetherlands",
+        "address": "De Trompet 1205\r\r\r\n1967 DA Heemskerk\r\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -852,7 +864,7 @@
         }
       ],
       "details": {
-        "address": "Büyükdere Caddesi No: 2\r\r\nSarıyer, Istanbul\r\r\nTurkey",
+        "address": "Büyükdere Caddesi No: 2\r\r\r\nSarıyer, Istanbul\r\r\r\nTurkey",
         "notes": "",
         "notebook": ""
       }
@@ -913,7 +925,7 @@
         }
       ],
       "details": {
-        "address": "101 El Amal Shourta Buildings\r\r\nAutostrad Road, New Maadi\r\r\nCairo, Egypt",
+        "address": "101 El Amal Shourta Buildings\r\r\r\nAutostrad Road, New Maadi\r\r\r\nCairo, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -941,13 +953,23 @@
       "country": "Belgium",
       "contacts": [
         {
-          "contact": "Jos Lamerigts",
-          "email": "jos.lamerigts@e-max.eu",
+          "contact": "Gerald Barth",
+          "email": "gerald.barth@e-max.eu",
+          "phone": ""
+        },
+        {
+          "contact": "Koen Hendrikx",
+          "email": "koen.hendrikx@e-max.eu",
+          "phone": ""
+        },
+        {
+          "contact": "Stijn Kusters",
+          "email": "stijn.kusters@e-max.eu",
           "phone": ""
         }
       ],
       "details": {
-        "address": "Siemenslaan 8\r\r\n3650 Dilsen-Stokkem\r\r\nBelgium",
+        "address": "",
         "notes": "",
         "notebook": ""
       }
@@ -958,18 +980,13 @@
       "country": "Belgium",
       "contacts": [
         {
-          "contact": "David Schaekers",
-          "email": "david.schaekers@e-max.eu",
-          "phone": "+32 495 15 57 22"
-        },
-        {
           "contact": "Johan van Putten",
           "email": "johan.vanputten@e-max.eu",
           "phone": "+31 6 15 66 82 57"
         }
       ],
       "details": {
-        "address": "Siemenslaan 8\r\r\n3650 Dilsen-Stokkem\r\r\nBelgium",
+        "address": "Siemenslaan 8\r\r\r\n3650 Dilsen-Stokkem\r\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -986,7 +1003,7 @@
         }
       ],
       "details": {
-        "address": "Drieslaan 29\r\r\n8560 Moorsele-Wevelgem\r\r\nBelgium",
+        "address": "Drieslaan 29\r\r\r\n8560 Moorsele-Wevelgem\r\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -995,9 +1012,20 @@
       "id": "11a3db4f-443b-4224-b3db-756b927367b1",
       "name": "E-MAX Crailsheim GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Attila Horvath",
+          "email": "attila.horvath@e-max.eu",
+          "phone": ""
+        },
+        {
+          "contact": "Yolanda Fischer",
+          "email": "yolanda.fischer@e-max.eu",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Bildstraße 4\r\r\r\n74564 Crailsheim, Germany",
+        "address": "",
         "notes": "",
         "notebook": ""
       }
@@ -1006,9 +1034,25 @@
       "id": "e0387947-431c-4da9-9699-691593b26ced",
       "name": "E-MAX Burg GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "David Schaekers",
+          "email": "david.schaekers@e-max.eu",
+          "phone": "+32 495 15 57 22"
+        },
+        {
+          "contact": "Heiko Baumbach",
+          "email": "heiko.baumbach@e-max.eu",
+          "phone": ""
+        },
+        {
+          "contact": "Christian Hosse",
+          "email": "christian.hosse@e-max.eu",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Erlenweg 2\r\r\r\n39288 Burg, Germany",
+        "address": "",
         "notes": "",
         "notebook": ""
       }
@@ -1017,9 +1061,20 @@
       "id": "d7e2d8eb-0559-4198-b5c0-38d6170c31a3",
       "name": "E-MAX Landau GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Juergen Wagner",
+          "email": "juergen.wagner@e-max.eu",
+          "phone": ""
+        },
+        {
+          "contact": "Fabio Barth",
+          "email": "fabio.barth@e-max.eu",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Landkommissärstraße 16\r\r\r\n76829 Landau in der Pfalz, Germany",
+        "address": "",
         "notes": "",
         "notebook": ""
       }
@@ -1069,7 +1124,7 @@
         }
       ],
       "details": {
-        "address": "Iroon Polytechneiou 4\r\r\nMagoula, Greece",
+        "address": "Iroon Polytechneiou 4\r\r\r\nMagoula, Greece",
         "notes": "",
         "notebook": ""
       }
@@ -1091,7 +1146,7 @@
       "country": "Spain",
       "contacts": [],
       "details": {
-        "address": "Camino del Puente Viejo, 32\r\r\n28500 Arganda del Rey, Madrid\r\r\nSpain",
+        "address": "Camino del Puente Viejo, 32\r\r\r\n28500 Arganda del Rey, Madrid\r\r\r\nSpain",
         "notes": 1800,
         "notebook": ""
       }
@@ -1249,7 +1304,7 @@
         }
       ],
       "details": {
-        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\r\r\n30820 Alcantarilla, Murcia\r\r\nSpain",
+        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\r\r\r\n30820 Alcantarilla, Murcia\r\r\r\nSpain",
         "notes": "1800, 2800",
         "notebook": ""
       }
@@ -1476,7 +1531,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Nürnberger Straße 57\r\r\r\n91781 Weißenburg i. Bay., Germany",
+        "address": "Nürnberger Straße 57\r\r\r\r\n91781 Weißenburg i. Bay., Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1485,9 +1540,15 @@
       "id": "238d6c15-5903-4589-bd2d-b092a1e72fd0",
       "name": "HAI Extrusion Soest GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "John van den Nieuwelaar",
+          "email": "",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Niederbergheimer Straße 181\r\r\r\n59494 Soest, Germany",
+        "address": "Niederbergheimer Straße 181\r\r\r\r\n59494 Soest, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1530,10 +1591,16 @@
       "id": "8f69883b-626c-400b-8681-b2f05ff0b122",
       "name": "Hueck / Hydro Building Systems Lüdenscheid GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Ralf Seufert",
+          "email": "ralf.seufert@hydro.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Loher Straße 9\r\r\r\n58511 Lüdenscheid, Germany",
-        "notes": "",
+        "address": "Loher Straße 9\r\r\r\r\n58511 Lüdenscheid, Germany",
+        "notes": "2500, 5500",
         "notebook": ""
       }
     },
@@ -1550,7 +1617,7 @@
       ],
       "details": {
         "address": "Tomasbacken 6, SE-574 37 Vetlanda, Sweden",
-        "notes": "",
+        "notes": "1200, 2200, 5500",
         "notebook": ""
       }
     },
@@ -1572,7 +1639,12 @@
       "contacts": [
         {
           "contact": "Iñigo Sáenz de Ugarte",
-          "email": "",
+          "email": "Inigo.saenz.de.ugarte@hydro.com",
+          "phone": "+34 689 315 310"
+        },
+        {
+          "contact": "Idioa Gil",
+          "email": "Idoia.gil.santamaria@hydro.com",
           "phone": ""
         }
       ],
@@ -1586,10 +1658,16 @@
       "id": "0020a788-58f9-4a6c-a4c7-c6a73d003902",
       "name": "Hydro Building Systems Extrusion Bellenberg GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Gøte Johannes Nordh",
+          "email": "",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Am Mühlholz 1\r\r\r\n89287 Bellenberg, Germany",
-        "notes": "",
+        "address": "Am Mühlholz 1\r\r\r\r\n89287 Bellenberg, Germany",
+        "notes": 2200,
         "notebook": ""
       }
     },
@@ -1597,10 +1675,16 @@
       "id": "65c9867c-070b-4b23-8e7e-ee498099ff7a",
       "name": "Hydro Extrusion Feltre S.r.l.",
       "country": "Italy",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Stefano Spinelli",
+          "email": "stefano.spinelli@hydro.com",
+          "phone": ""
+        }
+      ],
       "details": {
         "address": "Viale Monte Grappa 29, 32032 Feltre (BL), Italy",
-        "notes": "",
+        "notes": "2000, 3500",
         "notebook": ""
       }
     },
@@ -1617,7 +1701,7 @@
       ],
       "details": {
         "address": "Industrieweg 15, 3846 BB Harderwijk, Netherlands",
-        "notes": "",
+        "notes": 5500,
         "notebook": ""
       }
     },
@@ -1634,7 +1718,7 @@
       ],
       "details": {
         "address": "Nijverheidsweg 9, 9601 LX Hoogezand, Netherlands",
-        "notes": "",
+        "notes": "1800, 2200",
         "notebook": ""
       }
     },
@@ -1644,8 +1728,8 @@
       "country": "Spain",
       "contacts": [
         {
-          "contact": "na",
-          "email": "",
+          "contact": "Ana M. Vázquez Avilés",
+          "email": "ana.vazquez@hydro.com",
           "phone": ""
         }
       ],
@@ -1668,7 +1752,7 @@
       ],
       "details": {
         "address": "Kortemarkstraat 52, 8810 Lichtervelde, Belgium",
-        "notes": "",
+        "notes": 8200,
         "notebook": ""
       }
     },
@@ -1676,10 +1760,16 @@
       "id": "e73d4f13-db60-49d4-a8a9-aa6020693bac",
       "name": "Hydro Extrusion Nenzing",
       "country": "Austria",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Hubert Ronecker",
+          "email": "hubert.ronecker@hydro.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Industriestraße 1\r\r\r\n6710 Nenzing, Austria",
-        "notes": "",
+        "address": "Industriestraße 1\r\r\r\r\n6710 Nenzing, Austria",
+        "notes": "1600, 1800, 2200, 4000",
         "notebook": ""
       }
     },
@@ -1687,10 +1777,16 @@
       "id": "fea98004-7260-4fbe-95ce-f2176f4ba33a",
       "name": "Hydro Extrusion Offenburg GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Hubert Ronecker",
+          "email": "hubert.ronecker@hydro.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Industriestraße 10\r\r\r\n77656 Offenburg, Germany",
-        "notes": "",
+        "address": "Industriestraße 10\r\r\r\r\n77656 Offenburg, Germany",
+        "notes": "1200, 2000",
         "notebook": ""
       }
     },
@@ -1698,10 +1794,16 @@
       "id": "a83fa356-fcd8-404d-9ede-eed894e11fd5",
       "name": "Hydro Extrusion Ornago S.r.l.",
       "country": "Italy",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Alberto Terenzi",
+          "email": "alberto.terenzi@hydro.com",
+          "phone": ""
+        }
+      ],
       "details": {
         "address": "Via A. Ciucani 8, 20876 Ornago (MB), Italy",
-        "notes": "",
+        "notes": "2200, 3500",
         "notebook": ""
       }
     },
@@ -1712,7 +1814,7 @@
       "contacts": [
         {
           "contact": "Daniel Couto",
-          "email": "",
+          "email": "daniel.couto@hydro.com",
           "phone": ""
         }
       ],
@@ -1726,10 +1828,16 @@
       "id": "02d190c6-44be-4636-850b-830ad2b63d7f",
       "name": "Hydro Extrusion Rackwitz GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Matthias Hellmann",
+          "email": "matthias.hellmann@hydro.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Am Wasserwerk 1\r\r\r\n04519 Rackwitz, Germany",
-        "notes": "",
+        "address": "Am Wasserwerk 1\r\r\r\r\n04519 Rackwitz, Germany",
+        "notes": 2200,
         "notebook": ""
       }
     },
@@ -1746,7 +1854,7 @@
       ],
       "details": {
         "address": "Waldstrasse 91, 4730 Raeren, Belgium",
-        "notes": "",
+        "notes": 2000,
         "notebook": ""
       }
     },
@@ -1754,9 +1862,15 @@
       "id": "42c5acd9-b98c-462d-a9a1-11e710f8ba0f",
       "name": "Hydro Extrusion Uphusen GmbH",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Ralf Liedtke",
+          "email": "ralf.liedtke@hydro.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Uphuser Heerstraße 7\r\r\r\n28832 Achim, Germany",
+        "address": "Uphuser Heerstraße 7\r\r\r\r\n28832 Achim, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1765,7 +1879,13 @@
       "id": "f888e55f-0f3e-474e-9e36-43a130ca752c",
       "name": "Hydro Extrusions La Selva S.A.",
       "country": "Spain",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Ana M. Vázquez Avilés",
+          "email": "ana.vazquez@hydro.com",
+          "phone": ""
+        }
+      ],
       "details": {
         "address": "Av. del Aluminio, s/n, Polígono Millenium, 43470 La Selva del Camp, Tarragona, Spain",
         "notes": 1350,
@@ -1779,7 +1899,7 @@
       "contacts": [
         {
           "contact": "Ángel Iribarren",
-          "email": "",
+          "email": "angel.iribarren@hydro.com",
           "phone": ""
         }
       ],
@@ -2021,7 +2141,7 @@
         }
       ],
       "details": {
-        "address": "Bublitzer Straße 23\r\n40599 Düsseldorf\r\nGermany",
+        "address": "Bublitzer Straße 23\r\r\n40599 Düsseldorf\r\r\nGermany",
         "notes": "",
         "notebook": ""
       }
@@ -2250,7 +2370,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Derschlager Straße 26\r\r\r\n58540 Meinerzhagen, Germany",
+        "address": "Derschlager Straße 26\r\r\r\r\n58540 Meinerzhagen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2623,9 +2743,15 @@
       "id": "b70aa009-08cd-4189-be0a-cf6b6dc5eef4",
       "name": "STEP-G Bitterfeld",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Markus Backmann",
+          "email": "markus.backmann@step-g.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Devillestraße 2\r\r\r\n06749 Bitterfeld, Germany",
+        "address": "Devillestraße 2\r\r\r\r\n06749 Bitterfeld, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2634,9 +2760,15 @@
       "id": "67df339a-9ee0-4b86-a712-d5b43cbe5173",
       "name": "STEP-G Bonn",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Roland Zentgraf",
+          "email": "roland.zentgraf@step-g.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Friedrich-Wöhler-Straße 2\r\r\r\n53117 Bonn, Germany",
+        "address": "Friedrich-Wöhler-Straße 2\r\r\r\r\n53117 Bonn, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2645,7 +2777,13 @@
       "id": "616c01f8-e406-43ae-a41d-2cf1b4a3e7c2",
       "name": "STEP-G Duffel",
       "country": "Belgium",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Karel Van Trimpont",
+          "email": "karel.vantrimpont@step-g.com",
+          "phone": ""
+        }
+      ],
       "details": {
         "address": "A. Stocletlaan 87 B, 2570 Duffel, Belgium",
         "notes": "",
@@ -2656,9 +2794,15 @@
       "id": "781d0d57-2b9b-419f-bdd6-6d92427b3c04",
       "name": "STEP-G Vogt",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Sebastian Sachs",
+          "email": "sebastian.sachs@step-g.com",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Lichtlöcherberg 40\r\r\r\n88267 Vogt, Germany",
+        "address": "Lichtlöcherberg 40\r\r\r\r\n88267 Vogt, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2794,9 +2938,15 @@
       "id": "24bacf74-873a-4d6d-92b0-eeeedf7df74f",
       "name": "Weseralu GmbH & Co. KG",
       "country": "Germany",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Rainer Eifler",
+          "email": "",
+          "phone": ""
+        }
+      ],
       "details": {
-        "address": "Am Osthafen 5\r\r\r\n32423 Minden, Germany",
+        "address": "Am Osthafen 5\r\r\r\r\n32423 Minden, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2850,7 +3000,23 @@
       "id": "client-1760697340767",
       "name": "Capalex Ltd",
       "country": "United Kingdom",
-      "contacts": [],
+      "contacts": [
+        {
+          "contact": "Colin Helliwell",
+          "email": "chelliwell@capalex.co.uk",
+          "phone": ""
+        },
+        {
+          "contact": "Richard Owen",
+          "email": "rowen@capalex.co.uk",
+          "phone": ""
+        },
+        {
+          "contact": "Paul Bennett",
+          "email": "pbennett@capalex.co.uk",
+          "phone": ""
+        }
+      ],
       "details": {
         "address": "Park Road, Barrow-in-Furness, Cumbria LA14 4EQ, United Kingdom",
         "notes": "",
