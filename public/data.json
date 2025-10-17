@@ -2046,6 +2046,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760697813262",
+      "name": "Hakeem Group",
+      "country": "Egypt",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "10th of Ramadan City, Cairo, Egypt",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -3021,6 +3038,24 @@
       "productId": "Training",
       "startDate": "2025-10-17",
       "status": "Contact Pedro"
+    },
+    {
+      "id": "project-09ea0283-d3d3-4341-98fa-de6932f45e65",
+      "name": "Workshop",
+      "clientId": "e86d430d-ed9a-4c79-8e7e-18dec9fbd451",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-99132134-259f-437f-8d13-3f221790ee4d",
+      "name": "Dieshop Training",
+      "clientId": "85ab4206-fd00-4461-954d-1fac7f43c783",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -3472,6 +3507,24 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2026-01-12",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-9b22db08-4abf-4d0c-bc6b-d035c6264e2d",
+      "clientId": "e86d430d-ed9a-4c79-8e7e-18dec9fbd451",
+      "projectId": "project-09ea0283-d3d3-4341-98fa-de6932f45e65",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-12-08",
+      "action": "Contact Jason"
+    },
+    {
+      "id": "followup-f943e301-6236-4c65-9442-d48cd024e3dd",
+      "clientId": "85ab4206-fd00-4461-954d-1fac7f43c783",
+      "projectId": "project-99132134-259f-437f-8d13-3f221790ee4d",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
     }
   ],
