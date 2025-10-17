@@ -2080,6 +2080,40 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760698341529",
+      "name": "Alojaimi Industrial Group",
+      "country": "Saudi Arabia",
+      "contacts": [
+        {
+          "contact": "Moustafa Khadir",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1760698493074",
+      "name": "Asslasec (AlMaghribia Lil Asslak)",
+      "country": "Morocco",
+      "contacts": [
+        {
+          "contact": "Tariq Malla",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Route 110 (par Chefchaouni), Km 11.5, 20610 Casablanca, Morocco",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -3082,6 +3116,51 @@
       "productId": "Audit",
       "startDate": "2025-10-17",
       "status": "Follow up"
+    },
+    {
+      "id": "project-5614dc26-e7d9-4204-98f4-b7d8c6f6431c",
+      "name": "4,5-Inch Extrusion Line",
+      "clientId": "client-1760697988389",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-3cf4b518-5c01-4b6a-ae00-fba2fae3716f",
+      "name": "9-Inch Extrusion Press",
+      "clientId": "9dfe30f7-7978-4a3a-b2bc-047c4e0092a8",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-61b7b8ca-cd64-43bf-a641-6e977127f7e5",
+      "name": "DS Machine",
+      "clientId": "54e49a10-2b03-47e5-9f7d-9ca06e48d733",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-07d43716-c1dc-446b-85fd-a853beb0b3b1",
+      "name": "8-Inch Press Line",
+      "clientId": "client-1760698341529",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-a9b0103f-b882-4c2a-af33-9096f2493196",
+      "name": "8-Inch Press Line",
+      "clientId": "client-1760698493074",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -3559,6 +3638,51 @@
       "projectId": "project-2d1cdee0-2393-49a3-a6a7-c0fd6816b241",
       "partnerId": "1",
       "productId": "Audit",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-87eb74b2-65bd-4ddd-904d-37c2ac340133",
+      "clientId": "client-1760697988389",
+      "projectId": "project-5614dc26-e7d9-4204-98f4-b7d8c6f6431c",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-565744e2-fb4a-47ab-94ae-ed01b202f153",
+      "clientId": "9dfe30f7-7978-4a3a-b2bc-047c4e0092a8",
+      "projectId": "project-3cf4b518-5c01-4b6a-ae00-fba2fae3716f",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-cdb7f10e-765d-4870-86bc-5e9e427d28f3",
+      "clientId": "54e49a10-2b03-47e5-9f7d-9ca06e48d733",
+      "projectId": "project-61b7b8ca-cd64-43bf-a641-6e977127f7e5",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-75bf1f8f-7cc3-4823-bec1-daa1a163d71d",
+      "clientId": "client-1760698341529",
+      "projectId": "project-07d43716-c1dc-446b-85fd-a853beb0b3b1",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-976ff8f2-3e19-4dc8-adf2-2623765b8748",
+      "clientId": "client-1760698493074",
+      "projectId": "project-a9b0103f-b882-4c2a-af33-9096f2493196",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
       "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
     }
