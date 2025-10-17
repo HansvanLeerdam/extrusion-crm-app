@@ -2648,7 +2648,7 @@
       "partnerId": "3",
       "productId": "Extrusion Press Line",
       "startDate": "2025-08-29",
-      "status": ""
+      "status": "Check with Nacho"
     },
     {
       "id": "22",
@@ -2880,27 +2880,27 @@
       "name": "Audits Benelux",
       "clientId": "16b928a4-9501-4cfa-9672-17625e9acea2",
       "partnerId": "1",
-      "productId": "",
+      "productId": "Audit",
       "startDate": "2025-10-08",
-      "status": ""
+      "status": "Send offers"
     },
     {
       "id": "42",
       "name": "Die Oven Offer",
       "clientId": "5eeb094d-b7e1-4dd8-a116-a68cc5541f66",
       "partnerId": "3",
-      "productId": "",
+      "productId": "Die Oven",
       "startDate": "2025-10-13",
-      "status": ""
+      "status": "Follow up"
     },
     {
       "id": "43",
       "name": "Die Oven Offers",
       "clientId": "ec548303-0678-449f-9dd8-45a1041446b7",
       "partnerId": "3",
-      "productId": "",
+      "productId": "Die Oven",
       "startDate": "2025-10-11",
-      "status": ""
+      "status": "Follow up"
     },
     {
       "id": "6f4eb7d2-bf17-406f-83f9-7c1a6c42dc7b",
