@@ -3049,24 +3049,6 @@
       "action": "Follow up"
     },
     {
-      "id": "followup-2df7f472-c0ab-48cb-8573-57615a6fc3ac",
-      "clientId": "2",
-      "projectId": "project-94f39e7c-0303-4a26-9d2d-56a8bca716c8",
-      "partnerId": "1",
-      "productId": "Audit",
-      "nextDate": "2025-10-19",
-      "action": "Done"
-    },
-    {
-      "id": "followup-b6e95bfb-c836-447d-b225-3ca70c7e487b",
-      "clientId": "40",
-      "projectId": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
-      "partnerId": "1",
-      "productId": "Training",
-      "nextDate": "2025-10-16",
-      "action": "Teams Meeting at 11:00 h"
-    },
-    {
       "id": "followup-1731c215-0ddb-4b9b-b361-5fffc826dd4b",
       "clientId": "14",
       "projectId": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
@@ -3279,8 +3261,17 @@
       "projectId": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-24",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2025-10-20",
+      "action": "Week 47 - Check with Carlos"
+    },
+    {
+      "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
+      "projectId": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-21",
+      "action": "Call Rodolfo",
+      "id": "followup-d455cfb4-a29a-401c-ae93-e2e83cc1a3b0"
     }
   ],
   "projectComments": [
