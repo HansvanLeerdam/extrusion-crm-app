@@ -3473,6 +3473,27 @@
       "type": "email",
       "text": "Sent proposal for collaborartion to Heidi - 15/10/25",
       "date": "2025-10-17"
+    },
+    {
+      "id": "comment-93d9d579-82cb-4dd2-a329-54c9a60a1f5c",
+      "projectId": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
+      "type": "note",
+      "text": "Arjan told me that he has enough stock until Feb 2026 - 15/10/25",
+      "date": "2025-10-17"
+    },
+    {
+      "id": "comment-fd876e18-df33-4b80-ab81-10449e8c03de",
+      "projectId": "37",
+      "type": "note",
+      "text": "David told me the price was right but die cost has to be discussed with client - 15/10/25",
+      "date": "2025-10-17"
+    },
+    {
+      "id": "comment-2198325b-67a5-44e3-854b-45bbb3d1503f",
+      "projectId": "13",
+      "type": "note",
+      "text": "Offer is with the end client, Nathan told me - 15/10/25",
+      "date": "2025-10-17"
     }
   ]
 }
