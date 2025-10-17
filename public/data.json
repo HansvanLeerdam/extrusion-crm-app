@@ -2300,22 +2300,22 @@
       "status": "In review"
     },
     {
-      "id": "3",
-      "name": "Replacing Die Ovens",
-      "clientId": "2",
+      "id": "2",
+      "name": "Quench Cooling Tunnel",
+      "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
       "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-10-03",
-      "status": "In review"
+      "productId": "Quench Cooling Tunnel",
+      "startDate": "2025-02-17",
+      "status": "Follow up"
     },
     {
-      "id": "4",
-      "name": "Buying-Installing new Press",
-      "clientId": "2",
+      "id": "5",
+      "name": "New Billet Oven",
+      "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
       "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-10-03",
-      "status": "In review"
+      "productId": "Billet Oven",
+      "startDate": "2025-02-17",
+      "status": "Follow up"
     },
     {
       "id": "project-94f39e7c-0303-4a26-9d2d-56a8bca716c8",
@@ -2345,24 +2345,6 @@
       "status": "Follow up"
     },
     {
-      "id": "2",
-      "name": "Quench Cooling Tunnel",
-      "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
-      "partnerId": "3",
-      "productId": "Quench Cooling Tunnel",
-      "startDate": "2025-02-17",
-      "status": "Follow up"
-    },
-    {
-      "id": "5",
-      "name": "New Billet Oven",
-      "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
-      "partnerId": "3",
-      "productId": "Billet Oven",
-      "startDate": "2025-02-17",
-      "status": "Follow up"
-    },
-    {
       "id": "33",
       "name": "Ageing",
       "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
@@ -2374,11 +2356,29 @@
     {
       "id": "project-15e9ba55-cea3-46d7-91b5-52d8918a8ff8",
       "name": "Promotion die Oven",
-      "clientId": "127",
+      "clientId": "2",
       "partnerId": "3",
       "productId": "Die Oven",
       "startDate": "2025-10-13",
       "status": "Waiting reply"
+    },
+    {
+      "id": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
+      "name": "Press Equipment",
+      "clientId": "b416f3ec-b564-494b-8c5f-f5752d6be527",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "startDate": "2025-10-13",
+      "status": "In review"
+    },
+    {
+      "id": "6",
+      "name": "Maimbar - Die Oven",
+      "clientId": "0a8204c8-3e37-408b-b7ca-4e5a40cfd57f",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-09-16",
+      "status": "In review at Exlabesa 6/10"
     },
     {
       "id": "39",
@@ -2399,12 +2399,12 @@
       "status": "Follow up"
     },
     {
-      "id": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
-      "name": "Die oven",
-      "clientId": "d7e2d8eb-0559-4198-b5c0-38d6170c31a3",
+      "id": "3",
+      "name": "Replacing Die Ovens",
+      "clientId": "2",
       "partnerId": "3",
       "productId": "Die Oven",
-      "startDate": "2025-10-09",
+      "startDate": "2025-10-03",
       "status": "In review"
     },
     {
@@ -2444,12 +2444,12 @@
       "status": "Ongoing"
     },
     {
-      "id": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
-      "name": "Press Equipment",
-      "clientId": "1760179183342",
+      "id": "4",
+      "name": "Buying-Installing new Press",
+      "clientId": "2",
       "partnerId": "3",
-      "productId": "Extrusion Equipment",
-      "startDate": "2025-10-13",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-03",
       "status": "In review"
     },
     {
@@ -2462,13 +2462,13 @@
       "status": "Emre"
     },
     {
-      "id": "6",
+      "id": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
       "name": "Maimbar - Die Oven",
-      "clientId": "188",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
       "partnerId": "3",
       "productId": "Die Oven",
-      "startDate": "2025-09-16",
-      "status": "In review at Exlabesa 6/10"
+      "startDate": "2025-10-13",
+      "status": "Offer sent"
     },
     {
       "id": "25",
@@ -2480,22 +2480,22 @@
       "status": "Follow up"
     },
     {
-      "id": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
+      "id": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
       "name": "Maimbar - Die Oven",
-      "clientId": "202",
+      "clientId": "42",
       "partnerId": "3",
       "productId": "Die Oven",
       "startDate": "2025-10-13",
-      "status": "Offer sent"
+      "status": "Offer sent "
     },
     {
-      "id": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
-      "name": "Profile Cooling",
-      "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
+      "id": "19",
+      "name": "Cooling Installation",
+      "clientId": "43",
       "partnerId": "3",
       "productId": "Air Cooling Installation",
-      "startDate": "2025-06-17",
-      "status": "In review"
+      "startDate": "2025-09-11",
+      "status": "Follow up "
     },
     {
       "id": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
@@ -2561,13 +2561,13 @@
       "status": ""
     },
     {
-      "id": "41",
-      "name": "8-Inch Press line",
-      "clientId": "b416f3ec-b564-494b-8c5f-f5752d6be527",
+      "id": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
+      "name": "New exit and handling table",
+      "clientId": "43",
       "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-10-11",
-      "status": ""
+      "productId": "Handling Table",
+      "startDate": "2025-09-25",
+      "status": "Follow up"
     },
     {
       "id": "45",
@@ -2633,33 +2633,6 @@
       "status": "In process"
     },
     {
-      "id": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
-      "name": "Maimbar - Die Oven",
-      "clientId": "42",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-10-13",
-      "status": "Offer sent "
-    },
-    {
-      "id": "19",
-      "name": "Cooling Installation",
-      "clientId": "43",
-      "partnerId": "3",
-      "productId": "Air Cooling Installation",
-      "startDate": "2025-09-11",
-      "status": "Follow up "
-    },
-    {
-      "id": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
-      "name": "New exit and handling table",
-      "clientId": "43",
-      "partnerId": "3",
-      "productId": "Handling Table",
-      "startDate": "2025-09-25",
-      "status": "Follow up"
-    },
-    {
       "id": "project-2f889a34-3bdf-4eb2-91fe-6f817ff6e8b9",
       "name": "New 7-Inch Press",
       "clientId": "434fda5e-58b1-4273-b29c-9c912323d910",
@@ -2667,6 +2640,33 @@
       "productId": "Extrusion Press Line",
       "startDate": "2025-06-26",
       "status": "For 2026 - 2027"
+    },
+    {
+      "id": "34",
+      "name": "25MN Press Line",
+      "clientId": "b7bbc267-38bf-42e2-a58c-bc2308badace",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-08-29",
+      "status": ""
+    },
+    {
+      "id": "22",
+      "name": "Die Oven - Navarra",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-09-30",
+      "status": ""
+    },
+    {
+      "id": "1",
+      "name": "New 8-Inch Press Line",
+      "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-01",
+      "status": "Follow up"
     },
     {
       "id": "23",
@@ -2696,13 +2696,13 @@
       "status": "Follow up"
     },
     {
-      "id": "34",
-      "name": "25MN Press Line",
-      "clientId": "49",
+      "id": "project-0f794d56-1843-46a4-858d-2d947ac28263",
+      "name": "Promotion die Oven",
+      "clientId": "59",
       "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-08-29",
-      "status": ""
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Waiting reply"
     },
     {
       "id": "36",
@@ -2723,12 +2723,12 @@
       "status": "Andreas"
     },
     {
-      "id": "22",
-      "name": "Die Oven - Navarra",
-      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
+      "id": "31",
+      "name": "Quench Tunnel",
+      "clientId": "63265847-f578-4a25-8af3-881ce025131b",
       "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-09-30",
+      "productId": "Quench Cooling Tunnel",
+      "startDate": "2025-09-20",
       "status": ""
     },
     {
@@ -2750,24 +2750,6 @@
       "status": "In review"
     },
     {
-      "id": "project-0f794d56-1843-46a4-858d-2d947ac28263",
-      "name": "Promotion die Oven",
-      "clientId": "59",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-10-13",
-      "status": "Waiting reply"
-    },
-    {
-      "id": "31",
-      "name": "Quench Tunnel",
-      "clientId": "63265847-f578-4a25-8af3-881ce025131b",
-      "partnerId": "3",
-      "productId": "Quench Cooling Tunnel",
-      "startDate": "2025-09-20",
-      "status": ""
-    },
-    {
       "id": "32",
       "name": "Billet Casting",
       "clientId": "63265847-f578-4a25-8af3-881ce025131b",
@@ -2779,29 +2761,47 @@
     {
       "id": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
       "name": "Promotion die Oven",
-      "clientId": "65",
+      "clientId": "c7e36b44-dc5e-4f60-a0e2-7b4b4b9d73ed",
       "partnerId": "3",
       "productId": "Die Oven",
       "startDate": "2025-10-13",
       "status": "Waiting reply"
     },
     {
-      "id": "1",
-      "name": "New 8-Inch Press Line",
-      "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
+      "id": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
+      "name": "Profile Cooling",
+      "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-10-01",
-      "status": "Follow up"
+      "productId": "Air Cooling Installation",
+      "startDate": "2025-06-17",
+      "status": "In review"
     },
     {
       "id": "project-be913dcc-1a54-45d5-b460-5adea61ca172",
       "name": "Promotion die Oven",
-      "clientId": "9",
+      "clientId": "bc9ae8ea-bbd1-4205-a37d-1b1ca01615c7",
       "partnerId": "3",
       "productId": "Die Oven",
       "startDate": "2025-10-13",
       "status": "Waiting reply"
+    },
+    {
+      "id": "41",
+      "name": "8-Inch Press line",
+      "clientId": "b416f3ec-b564-494b-8c5f-f5752d6be527",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-11",
+      "status": ""
+    },
+    {
+      "id": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
+      "name": "Maimbar - Die Oven",
+      "clientId": "client-3a2ac487-7436-47b3-ac55-020c641d8eba",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Offer sent"
     },
     {
       "id": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
@@ -2824,20 +2824,20 @@
     {
       "id": "project-38ad1d7f-7aa0-4645-b0ef-515d34d52141",
       "name": "Spain / Portugal Promoting",
-      "clientId": "client-1760426016447",
+      "clientId": "93dd76f9-510b-4909-9bf8-cf57eda0f674",
       "partnerId": "7",
       "productId": "CVD Coated Dies",
       "startDate": "2025-10-14",
       "status": "Start-up"
     },
     {
-      "id": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
-      "name": "Maimbar - Die Oven",
-      "clientId": "client-3a2ac487-7436-47b3-ac55-020c641d8eba",
+      "id": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
+      "name": "Die Oven Promotion",
+      "clientId": "client-6030814e-22d6-452e-8df8-a0dcc12e7230",
       "partnerId": "3",
       "productId": "Die Oven",
       "startDate": "2025-10-13",
-      "status": "Offer sent"
+      "status": "Send info"
     },
     {
       "id": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
@@ -2849,13 +2849,13 @@
       "status": "Promote APS in Turkey"
     },
     {
-      "id": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
-      "name": "Die Oven Promotion",
-      "clientId": "client-6030814e-22d6-452e-8df8-a0dcc12e7230",
+      "id": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
+      "name": "Die oven",
+      "clientId": "d7e2d8eb-0559-4198-b5c0-38d6170c31a3",
       "partnerId": "3",
       "productId": "Die Oven",
-      "startDate": "2025-10-13",
-      "status": "Send info"
+      "startDate": "2025-10-09",
+      "status": "In review"
     },
     {
       "id": "project-758bd224-85db-4280-bdba-0252d355cd71",
@@ -2887,7 +2887,7 @@
     {
       "id": "42",
       "name": "Die Oven Offer",
-      "clientId": null,
+      "clientId": "5eeb094d-b7e1-4dd8-a116-a68cc5541f66",
       "partnerId": "3",
       "productId": "",
       "startDate": "2025-10-13",
@@ -2896,7 +2896,7 @@
     {
       "id": "43",
       "name": "Die Oven Offers",
-      "clientId": null,
+      "clientId": "ec548303-0678-449f-9dd8-45a1041446b7",
       "partnerId": "3",
       "productId": "",
       "startDate": "2025-10-11",
