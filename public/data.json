@@ -3161,6 +3161,24 @@
       "productId": "Extrusion Press Line",
       "startDate": "2025-10-17",
       "status": "Follow up"
+    },
+    {
+      "id": "project-00a2ea2e-3ef3-4b4e-954a-9f07bb108bd7",
+      "name": "1450 UST Press",
+      "clientId": "client-1760697340767",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-dd6df8e8-de86-46b3-a50b-13f1052d3bf1",
+      "name": "Workshop",
+      "clientId": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-17",
+      "status": "Follow up with Kenan"
     }
   ],
   "followups": [
@@ -3683,6 +3701,24 @@
       "projectId": "project-a9b0103f-b882-4c2a-af33-9096f2493196",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-1bcb2261-4ac2-4794-9dfd-3a1733615932",
+      "clientId": "client-1760697340767",
+      "projectId": "project-00a2ea2e-3ef3-4b4e-954a-9f07bb108bd7",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-39abf01f-8c6e-4fa3-ae1e-6199c1d92eec",
+      "clientId": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "projectId": "project-dd6df8e8-de86-46b3-a50b-13f1052d3bf1",
+      "partnerId": "1",
+      "productId": "Training",
       "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
     }
