@@ -3321,6 +3321,15 @@
       "nextDate": "2025-10-20",
       "action": "Contact Luc",
       "id": "followup-b6022cdf-d325-48ee-a926-50e25ab73fe9"
+    },
+    {
+      "clientId": "fabc0edc-6ee3-4232-a23d-85280c5786c0",
+      "projectId": "26",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-20",
+      "action": "Contact Ume",
+      "id": "followup-94a0fdb4-ff50-4289-b767-2fa9974eebf6"
     }
   ],
   "projectComments": [
