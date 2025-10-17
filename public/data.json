@@ -2267,6 +2267,78 @@
   ],
   "projects": [
     {
+      "id": "7",
+      "name": "Reynaers - Alcomet",
+      "clientId": "2",
+      "partnerId": "1",
+      "productId": "Profiles",
+      "startDate": "2025-10-03",
+      "status": "In review"
+    },
+    {
+      "id": "12",
+      "name": "Die Splitter",
+      "clientId": "2",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-01",
+      "status": "In review"
+    },
+    {
+      "id": "14",
+      "name": "Die Cleaner",
+      "clientId": "2",
+      "partnerId": "9",
+      "productId": "Die Cleaning Machine",
+      "startDate": "2025-10-07",
+      "status": "In review"
+    },
+    {
+      "id": "3",
+      "name": "Replacing Die Ovens",
+      "clientId": "2",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-03",
+      "status": "In review"
+    },
+    {
+      "id": "4",
+      "name": "Buying-Installing new Press",
+      "clientId": "2",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-03",
+      "status": "In review"
+    },
+    {
+      "id": "project-94f39e7c-0303-4a26-9d2d-56a8bca716c8",
+      "name": "Process Audit",
+      "clientId": "2",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-03",
+      "status": "Done"
+    },
+    {
+      "id": "fd2b103d-cb61-4152-bdd5-cc1a5e0e2186",
+      "name": "Coated dies",
+      "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
+      "partnerId": "7",
+      "productId": "CVD Coated Dies",
+      "startDate": "2025-04-30",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
+      "name": "APS",
+      "clientId": "e86d430d-ed9a-4c79-8e7e-18dec9fbd451",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2024-11-16",
+      "status": "Follow up"
+    },
+    {
       "id": "2",
       "name": "Quench Cooling Tunnel",
       "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
@@ -2303,30 +2375,219 @@
       "status": "Waiting reply"
     },
     {
+      "id": "39",
+      "name": "Die Splitter",
+      "clientId": "127",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-10",
+      "status": "In review"
+    },
+    {
+      "id": "18",
+      "name": "Audit El-Gammal",
+      "clientId": "13",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-02",
+      "status": "Follow up"
+    },
+    {
       "id": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
       "name": "Die oven",
-      "clientId": "14",
+      "clientId": "d7e2d8eb-0559-4198-b5c0-38d6170c31a3",
       "partnerId": "3",
       "productId": "Die Oven",
       "startDate": "2025-10-09",
       "status": "In review"
     },
     {
-      "id": "22",
-      "name": "Die Oven - Navarra",
+      "id": "35",
+      "name": "Workshop Landau",
+      "clientId": "d7e2d8eb-0559-4198-b5c0-38d6170c31a3",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-27",
+      "status": "Week 44"
+    },
+    {
+      "id": "11",
+      "name": "Die Splitter",
+      "clientId": "15",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-01",
+      "status": "Follow up"
+    },
+    {
+      "id": "28",
+      "name": "APS",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-07-23",
+      "status": "Follow up"
+    },
+    {
+      "id": "f0e73179-1cfb-4900-996f-8e6c98955543",
+      "name": "Safety Door Flap",
       "clientId": "154",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "startDate": "2025-09-18",
+      "status": "Ongoing"
+    },
+    {
+      "id": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
+      "name": "Press Equipment",
+      "clientId": "1760179183342",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "startDate": "2025-10-13",
+      "status": "In review"
+    },
+    {
+      "id": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
+      "name": "Turkey",
+      "clientId": "1760217942122",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-10-01",
+      "status": "Emre"
+    },
+    {
+      "id": "6",
+      "name": "Maimbar - Die Oven",
+      "clientId": "188",
       "partnerId": "3",
       "productId": "Die Oven",
-      "startDate": "2025-09-30",
+      "startDate": "2025-09-16",
+      "status": "In review at Exlabesa 6/10"
+    },
+    {
+      "id": "25",
+      "name": "Bart Lips",
+      "clientId": "20",
+      "partnerId": "11",
+      "productId": "Profiles",
+      "startDate": "2025-06-18",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
+      "name": "Maimbar - Die Oven",
+      "clientId": "202",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Offer sent"
+    },
+    {
+      "id": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
+      "name": "Profile Cooling",
+      "clientId": "206",
+      "partnerId": "3",
+      "productId": "Air Cooling Installation",
+      "startDate": "2025-06-17",
+      "status": "In review"
+    },
+    {
+      "id": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
+      "name": "Safety Door Flap",
+      "clientId": "206",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "startDate": "2025-07-23",
+      "status": "Ongoing"
+    },
+    {
+      "id": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
+      "name": "Profile Cooling",
+      "clientId": "206",
+      "partnerId": "10",
+      "productId": "Air Cooling Installation",
+      "startDate": "2025-09-05",
+      "status": "In review"
+    },
+    {
+      "id": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
+      "name": "Safety Flap",
+      "clientId": "217",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "startDate": "2025-10-13",
+      "status": "In review"
+    },
+    {
+      "id": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
+      "name": "VelowUp! profiel",
+      "clientId": "4a73b2ec-48d3-4839-a05e-122842b1c5f3",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "startDate": "2025-07-05",
+      "status": "Follow up for new order"
+    },
+    {
+      "id": "13",
+      "name": "L002 Profile 340 wide",
+      "clientId": "ed18c3e5-73a3-4fe6-b61c-e75f54a21344",
+      "partnerId": "11",
+      "productId": "Profiles",
+      "startDate": "2025-10-09",
+      "status": "Follow up"
+    },
+    {
+      "id": "37",
+      "name": "Koker profielen",
+      "clientId": "ed18c3e5-73a3-4fe6-b61c-e75f54a21344",
+      "partnerId": "11",
+      "productId": "Profiles",
+      "startDate": "2025-10-09",
+      "status": "Follow up"
+    },
+    {
+      "id": "15",
+      "name": "Training Nedal",
+      "clientId": "b416f3ec-b564-494b-8c5f-f5752d6be527",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-07",
       "status": ""
     },
     {
-      "id": "7",
-      "name": "Reynaers - Alcomet",
-      "clientId": "30",
-      "partnerId": "1",
-      "productId": "Profiles",
-      "startDate": "2025-10-03",
+      "id": "41",
+      "name": "8-Inch Press line",
+      "clientId": "b416f3ec-b564-494b-8c5f-f5752d6be527",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-10-11",
+      "status": ""
+    },
+    {
+      "id": "45",
+      "name": "New 7-Inch Press",
+      "clientId": "28",
+      "partnerId": "10",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-07-30",
+      "status": "For 2026 - 2027"
+    },
+    {
+      "id": "5b632f1e-1f0f-42a9-9069-10f023ed4348",
+      "name": "Profile Marker",
+      "clientId": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
+      "partnerId": "10",
+      "productId": "Profile Marker",
+      "startDate": "2025-06-18",
+      "status": "On hold"
+    },
+    {
+      "id": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
+      "name": "Die Splitter",
+      "clientId": "4",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-13",
       "status": "In review"
     },
     {
@@ -2348,357 +2609,6 @@
       "status": "In review"
     },
     {
-      "id": "11",
-      "name": "Die Splitter",
-      "clientId": "15",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "startDate": "2025-10-01",
-      "status": "Follow up"
-    },
-    {
-      "id": "12",
-      "name": "Die Splitter",
-      "clientId": "2",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "startDate": "2025-10-01",
-      "status": "In review"
-    },
-    {
-      "id": "13",
-      "name": "L002 Profile 340 wide",
-      "clientId": "25",
-      "partnerId": "11",
-      "productId": "Profiles",
-      "startDate": "2025-10-09",
-      "status": "Follow up"
-    },
-    {
-      "id": "14",
-      "name": "Die Cleaner",
-      "clientId": "2",
-      "partnerId": "9",
-      "productId": "Die Cleaning Machine",
-      "startDate": "2025-10-07",
-      "status": "In review"
-    },
-    {
-      "id": "15",
-      "name": "Training Nedal",
-      "clientId": "26",
-      "partnerId": "1",
-      "productId": "Training",
-      "startDate": "2025-10-07",
-      "status": ""
-    },
-    {
-      "id": "17",
-      "name": "Audit Benkam",
-      "clientId": "41",
-      "partnerId": "1",
-      "productId": "Audit",
-      "startDate": "2025-10-02",
-      "status": "In process"
-    },
-    {
-      "id": "18",
-      "name": "Audit El-Gammal",
-      "clientId": "13",
-      "partnerId": "1",
-      "productId": "Audit",
-      "startDate": "2025-10-02",
-      "status": "Follow up"
-    },
-    {
-      "id": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
-      "name": "Press Equipment",
-      "clientId": "1760179183342",
-      "partnerId": "3",
-      "productId": "Extrusion Equipment",
-      "startDate": "2025-10-13",
-      "status": "In review"
-    },
-    {
-      "id": "6",
-      "name": "Maimbar - Die Oven",
-      "clientId": "188",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-09-16",
-      "status": "In review at Exlabesa 6/10"
-    },
-    {
-      "id": "3",
-      "name": "Replacing Die Ovens",
-      "clientId": "2",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-10-03",
-      "status": "In review"
-    },
-    {
-      "id": "23",
-      "name": "Workshop in Wefa",
-      "clientId": "44",
-      "partnerId": "1",
-      "productId": "Training",
-      "startDate": "2025-10-08",
-      "status": "Follow up"
-    },
-    {
-      "id": "24",
-      "name": "Worskshop",
-      "clientId": "45",
-      "partnerId": "1",
-      "productId": "Training",
-      "startDate": "2025-10-08",
-      "status": "Send offer"
-    },
-    {
-      "id": "25",
-      "name": "Bart Lips",
-      "clientId": "20",
-      "partnerId": "11",
-      "productId": "Profiles",
-      "startDate": "2025-06-18",
-      "status": "Follow up"
-    },
-    {
-      "id": "26",
-      "name": "Workshop Duitsland",
-      "clientId": "46",
-      "partnerId": "1",
-      "productId": "Training",
-      "startDate": "2025-09-08",
-      "status": "Follow up"
-    },
-    {
-      "id": "27",
-      "name": "Audits Benelux",
-      "clientId": null,
-      "partnerId": "1",
-      "productId": "",
-      "startDate": "2025-10-08",
-      "status": ""
-    },
-    {
-      "id": "28",
-      "name": "APS",
-      "clientId": "154",
-      "partnerId": "2",
-      "productId": "Software",
-      "startDate": "2025-07-23",
-      "status": ""
-    },
-    {
-      "id": "30",
-      "name": "APS Turkey",
-      "clientId": null,
-      "partnerId": "2",
-      "productId": "",
-      "startDate": "2025-09-29",
-      "status": ""
-    },
-    {
-      "id": "4",
-      "name": "Buying-Installing new Press",
-      "clientId": "2",
-      "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-10-03",
-      "status": "In review"
-    },
-    {
-      "id": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
-      "name": "Maimbar - Die Oven",
-      "clientId": "202",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-10-13",
-      "status": "Offer sent"
-    },
-    {
-      "id": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
-      "name": "Profile Cooling",
-      "clientId": "206",
-      "partnerId": "3",
-      "productId": "Air Cooling Installation",
-      "startDate": "2025-06-17",
-      "status": "In review"
-    },
-    {
-      "id": "41",
-      "name": "8-Inch Press line",
-      "clientId": "26",
-      "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-10-11",
-      "status": ""
-    },
-    {
-      "id": "35",
-      "name": "Workshop Landau",
-      "clientId": "14",
-      "partnerId": "1",
-      "productId": "Training",
-      "startDate": "2025-10-27",
-      "status": "Week 44"
-    },
-    {
-      "id": "36",
-      "name": "Die Splitter Group Offer",
-      "clientId": "50",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "startDate": "2025-10-09",
-      "status": ""
-    },
-    {
-      "id": "37",
-      "name": "Koker profielen",
-      "clientId": "25",
-      "partnerId": "11",
-      "productId": "Profiles",
-      "startDate": "2025-10-09",
-      "status": "Follow up"
-    },
-    {
-      "id": "38",
-      "name": "Die Splitter",
-      "clientId": "59",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "startDate": "2025-10-10",
-      "status": "In review"
-    },
-    {
-      "id": "39",
-      "name": "Die Splitter",
-      "clientId": "127",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "startDate": "2025-10-10",
-      "status": "In review"
-    },
-    {
-      "id": "40",
-      "name": "Exlabesa",
-      "clientId": "51",
-      "partnerId": "10",
-      "productId": "Extrusion Equipment",
-      "startDate": "2025-10-10",
-      "status": "Andreas"
-    },
-    {
-      "id": "project-2f889a34-3bdf-4eb2-91fe-6f817ff6e8b9",
-      "name": "New 7-Inch Press",
-      "clientId": "28",
-      "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-06-26",
-      "status": "For 2026 - 2027"
-    },
-    {
-      "id": "20",
-      "name": "New 7-Inch press",
-      "clientId": "34",
-      "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-09-27",
-      "status": "Searching for funding"
-    },
-    {
-      "id": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
-      "name": "Maimbar - Die Oven",
-      "clientId": "42",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "startDate": "2025-10-13",
-      "status": "Offer sent "
-    },
-    {
-      "id": "45",
-      "name": "New 7-Inch Press",
-      "clientId": "28",
-      "partnerId": "10",
-      "productId": "Extrusion Press Line",
-      "startDate": "2025-07-30",
-      "status": "For 2026 - 2027"
-    },
-    {
-      "id": "5b632f1e-1f0f-42a9-9069-10f023ed4348",
-      "name": "Profile Marker",
-      "clientId": "37",
-      "partnerId": "10",
-      "productId": "Profile Marker",
-      "startDate": "2025-06-18",
-      "status": "On hold"
-    },
-    {
-      "id": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
-      "name": "Safety Door Flap",
-      "clientId": "206",
-      "partnerId": "10",
-      "productId": "Safety Door Flap",
-      "startDate": "2025-07-23",
-      "status": "Ongoing"
-    },
-    {
-      "id": "f0e73179-1cfb-4900-996f-8e6c98955543",
-      "name": "Safety Door Flap",
-      "clientId": "154",
-      "partnerId": "10",
-      "productId": "Safety Door Flap",
-      "startDate": "2025-09-18",
-      "status": "Ongoing"
-    },
-    {
-      "id": "fd2b103d-cb61-4152-bdd5-cc1a5e0e2186",
-      "name": "Coated dies",
-      "clientId": "10",
-      "partnerId": "7",
-      "productId": "CVD Coated Dies",
-      "startDate": "2025-04-30",
-      "status": "Follow up"
-    },
-    {
-      "id": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
-      "name": "Turkey",
-      "clientId": "1760217942122",
-      "partnerId": "2",
-      "productId": "Software",
-      "startDate": "2025-10-01",
-      "status": "Emre"
-    },
-    {
-      "id": "d8750a87-52a4-4a38-8c79-b9cdc2b343ca",
-      "name": "VelowUp! profiel",
-      "clientId": "23",
-      "partnerId": "11",
-      "productId": "Extrusion",
-      "startDate": "2025-07-05",
-      "status": "Follow up for new order"
-    },
-    {
-      "id": "19",
-      "name": "Cooling Installation",
-      "clientId": "43",
-      "partnerId": "3",
-      "productId": "Air Cooling Installation",
-      "startDate": "2025-09-11",
-      "status": "Follow up "
-    },
-    {
-      "id": "project-94f39e7c-0303-4a26-9d2d-56a8bca716c8",
-      "name": "Process Audit",
-      "clientId": "2",
-      "partnerId": "1",
-      "productId": "Audit",
-      "startDate": "2025-10-03",
-      "status": "Done"
-    },
-    {
       "id": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
       "name": "Teams Meeting",
       "clientId": "40",
@@ -2717,6 +2627,42 @@
       "status": "Try to set date"
     },
     {
+      "id": "17",
+      "name": "Audit Benkam",
+      "clientId": "41",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-02",
+      "status": "In process"
+    },
+    {
+      "id": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
+      "name": "Maimbar - Die Oven",
+      "clientId": "42",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-10-13",
+      "status": "Offer sent "
+    },
+    {
+      "id": "project-30484924-6176-48ee-8292-25b325b2799d",
+      "name": "APS",
+      "clientId": "42",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-06-05",
+      "status": "Follow up"
+    },
+    {
+      "id": "19",
+      "name": "Cooling Installation",
+      "clientId": "43",
+      "partnerId": "3",
+      "productId": "Air Cooling Installation",
+      "startDate": "2025-09-11",
+      "status": "Follow up "
+    },
+    {
       "id": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
       "name": "New exit and handling table",
       "clientId": "43",
@@ -2726,49 +2672,40 @@
       "status": "Follow up"
     },
     {
-      "id": "31",
-      "name": "Quench Tunnel",
-      "clientId": "63265847-f578-4a25-8af3-881ce025131b",
+      "id": "project-2f889a34-3bdf-4eb2-91fe-6f817ff6e8b9",
+      "name": "New 7-Inch Press",
+      "clientId": "434fda5e-58b1-4273-b29c-9c912323d910",
       "partnerId": "3",
-      "productId": "Quench Cooling Tunnel",
-      "startDate": "2025-09-20",
-      "status": ""
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-06-26",
+      "status": "For 2026 - 2027"
     },
     {
-      "id": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
-      "name": "Profile Cooling",
-      "clientId": "206",
-      "partnerId": "10",
-      "productId": "Air Cooling Installation",
-      "startDate": "2025-09-05",
-      "status": "In review"
-    },
-    {
-      "id": "32",
-      "name": "Billet Casting",
-      "clientId": "63265847-f578-4a25-8af3-881ce025131b",
-      "partnerId": "3",
-      "productId": "Billet Casting Line",
-      "startDate": "2025-09-20",
-      "status": ""
-    },
-    {
-      "id": "project-758bd224-85db-4280-bdba-0252d355cd71",
-      "name": "Die Splitter",
-      "clientId": "client-63f9d1cf-097c-49a3-9785-140acd95fc59",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
+      "id": "23",
+      "name": "Workshop in Wefa",
+      "clientId": "bc36f9e1-7df7-498e-a814-7eea4e44872c",
+      "partnerId": "1",
+      "productId": "Training",
       "startDate": "2025-10-08",
       "status": "Follow up"
     },
     {
-      "id": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
-      "name": "Die Splitter",
-      "clientId": "4",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "startDate": "2025-10-13",
-      "status": "In review"
+      "id": "24",
+      "name": "Worskshop",
+      "clientId": "45",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-08",
+      "status": "Send offer"
+    },
+    {
+      "id": "26",
+      "name": "Workshop Duitsland",
+      "clientId": "46",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-09-08",
+      "status": "Follow up"
     },
     {
       "id": "34",
@@ -2780,12 +2717,48 @@
       "status": ""
     },
     {
-      "id": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
-      "name": "Safety Flap",
-      "clientId": "217",
+      "id": "36",
+      "name": "Die Splitter Group Offer",
+      "clientId": "50",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-09",
+      "status": ""
+    },
+    {
+      "id": "40",
+      "name": "Exlabesa",
+      "clientId": "51",
       "partnerId": "10",
-      "productId": "Safety Door Flap",
-      "startDate": "2025-10-13",
+      "productId": "Extrusion Equipment",
+      "startDate": "2025-10-10",
+      "status": "Andreas"
+    },
+    {
+      "id": "22",
+      "name": "Die Oven - Navarra",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-09-30",
+      "status": ""
+    },
+    {
+      "id": "project-4f20167f-b809-4a20-8d5a-b903e94762c6",
+      "name": "Die Splitter",
+      "clientId": "54",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-09",
+      "status": "Not interested at this moment"
+    },
+    {
+      "id": "38",
+      "name": "Die Splitter",
+      "clientId": "59",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-10",
       "status": "In review"
     },
     {
@@ -2796,6 +2769,24 @@
       "productId": "Die Oven",
       "startDate": "2025-10-13",
       "status": "Waiting reply"
+    },
+    {
+      "id": "31",
+      "name": "Quench Tunnel",
+      "clientId": "63265847-f578-4a25-8af3-881ce025131b",
+      "partnerId": "3",
+      "productId": "Quench Cooling Tunnel",
+      "startDate": "2025-09-20",
+      "status": ""
+    },
+    {
+      "id": "32",
+      "name": "Billet Casting",
+      "clientId": "63265847-f578-4a25-8af3-881ce025131b",
+      "partnerId": "3",
+      "productId": "Billet Casting Line",
+      "startDate": "2025-09-20",
+      "status": ""
     },
     {
       "id": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
@@ -2809,7 +2800,7 @@
     {
       "id": "1",
       "name": "New 8-Inch Press Line",
-      "clientId": "7",
+      "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
       "startDate": "2025-10-01",
@@ -2825,13 +2816,31 @@
       "status": "Waiting reply"
     },
     {
-      "id": "project-4f20167f-b809-4a20-8d5a-b903e94762c6",
-      "name": "Die Splitter",
-      "clientId": "54",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "startDate": "2025-10-09",
-      "status": "Not interested at this moment"
+      "id": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
+      "name": "APS",
+      "clientId": "client-1760425977274",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2025-10-15",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-189ed57f-7c75-4112-bf83-464d8c6830d1",
+      "name": "Audits for Reynaers",
+      "clientId": "client-1760425998931",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-14",
+      "status": "To propose"
+    },
+    {
+      "id": "project-38ad1d7f-7aa0-4645-b0ef-515d34d52141",
+      "name": "Spain / Portugal Promoting",
+      "clientId": "client-1760426016447",
+      "partnerId": "7",
+      "productId": "CVD Coated Dies",
+      "startDate": "2025-10-14",
+      "status": "Start-up"
     },
     {
       "id": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
@@ -2845,7 +2854,7 @@
     {
       "id": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
       "name": "APS",
-      "clientId": "client-445b5eed-7c14-48d3-a04e-28c59e460f2d",
+      "clientId": "e63bb69a-bbbd-4506-991c-2337fa6e8f34",
       "partnerId": "2",
       "productId": "Software",
       "startDate": "2025-10-13",
@@ -2859,6 +2868,33 @@
       "productId": "Die Oven",
       "startDate": "2025-10-13",
       "status": "Send info"
+    },
+    {
+      "id": "project-758bd224-85db-4280-bdba-0252d355cd71",
+      "name": "Die Splitter",
+      "clientId": "client-63f9d1cf-097c-49a3-9785-140acd95fc59",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-08",
+      "status": "Follow up"
+    },
+    {
+      "id": "20",
+      "name": "New 7-Inch press",
+      "clientId": "e6731773-ebd9-4641-b1e5-dc66b25b8a65",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2025-09-27",
+      "status": "Searching for funding"
+    },
+    {
+      "id": "27",
+      "name": "Audits Benelux",
+      "clientId": null,
+      "partnerId": "1",
+      "productId": "",
+      "startDate": "2025-10-08",
+      "status": ""
     },
     {
       "id": "42",
@@ -2879,49 +2915,22 @@
       "status": ""
     },
     {
-      "id": "project-30484924-6176-48ee-8292-25b325b2799d",
-      "name": "APS",
-      "clientId": "42",
-      "partnerId": "2",
-      "productId": "Software",
-      "startDate": "2025-06-05",
-      "status": "Follow up"
-    },
-    {
-      "id": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
-      "name": "APS",
-      "clientId": "11",
-      "partnerId": "2",
-      "productId": "Software",
+      "id": "b206cca3-0c67-4db6-9fd5-9401aa2599c2",
+      "name": "Press Optimization",
+      "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
+      "partnerId": "6",
+      "productId": "Press Optimization",
       "startDate": "2024-11-16",
       "status": "Follow up"
     },
     {
-      "id": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
+      "id": "b5e1527d-0c01-4323-9e10-599dc14140fd",
       "name": "APS",
-      "clientId": "client-1760425977274",
+      "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "partnerId": "2",
       "productId": "Software",
-      "startDate": "2025-10-15",
+      "startDate": "2025-10-16",
       "status": "Follow up"
-    },
-    {
-      "id": "project-38ad1d7f-7aa0-4645-b0ef-515d34d52141",
-      "name": "Spain / Portugal Promoting",
-      "clientId": "client-1760426016447",
-      "partnerId": "7",
-      "productId": "CVD Coated Dies",
-      "startDate": "2025-10-14",
-      "status": "Start-up"
-    },
-    {
-      "id": "project-189ed57f-7c75-4112-bf83-464d8c6830d1",
-      "name": "Audits for Reynaers",
-      "clientId": "client-1760425998931",
-      "partnerId": "1",
-      "productId": "Audit",
-      "startDate": "2025-10-14",
-      "status": "To propose"
     }
   ],
   "followups": [
