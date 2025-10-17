@@ -2552,7 +2552,7 @@
       "partnerId": "1",
       "productId": "Training",
       "startDate": "2025-10-07",
-      "status": ""
+      "status": "Follow up"
     },
     {
       "id": "41",
@@ -2609,18 +2609,9 @@
       "status": "In review"
     },
     {
-      "id": "project-6aa3a0fb-33a1-490a-aa8e-80d954f39cc3",
-      "name": "Teams Meeting",
-      "clientId": "40",
-      "partnerId": "1",
-      "productId": "Consulting",
-      "startDate": "2025-10-16",
-      "status": "Meeting 10:00 h"
-    },
-    {
       "id": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
       "name": "Follow-up Training",
-      "clientId": "40",
+      "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "partnerId": "1",
       "productId": "Training",
       "startDate": "2025-10-12",
@@ -2629,7 +2620,7 @@
     {
       "id": "17",
       "name": "Audit Benkam",
-      "clientId": "41",
+      "clientId": "d835cae1-915c-470d-a348-99faa2369483",
       "partnerId": "1",
       "productId": "Audit",
       "startDate": "2025-10-02",
@@ -2647,7 +2638,7 @@
     {
       "id": "project-30484924-6176-48ee-8292-25b325b2799d",
       "name": "APS",
-      "clientId": "42",
+      "clientId": null,
       "partnerId": "2",
       "productId": "Software",
       "startDate": "2025-06-05",
@@ -2692,16 +2683,16 @@
     {
       "id": "24",
       "name": "Worskshop",
-      "clientId": "45",
+      "clientId": "eab834fb-a62e-4b5e-ac0a-41b6444e3ab5",
       "partnerId": "1",
       "productId": "Training",
       "startDate": "2025-10-08",
-      "status": "Send offer"
+      "status": "Waiting for reply"
     },
     {
       "id": "26",
       "name": "Workshop Duitsland",
-      "clientId": "46",
+      "clientId": "fabc0edc-6ee3-4232-a23d-85280c5786c0",
       "partnerId": "1",
       "productId": "Training",
       "startDate": "2025-09-08",
@@ -2818,7 +2809,7 @@
     {
       "id": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
       "name": "APS",
-      "clientId": "client-1760425977274",
+      "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "partnerId": "2",
       "productId": "Software",
       "startDate": "2025-10-15",
@@ -2827,11 +2818,11 @@
     {
       "id": "project-189ed57f-7c75-4112-bf83-464d8c6830d1",
       "name": "Audits for Reynaers",
-      "clientId": "client-1760425998931",
+      "clientId": "035e10d1-b887-4436-832a-afc814f4999f",
       "partnerId": "1",
       "productId": "Audit",
       "startDate": "2025-10-14",
-      "status": "To propose"
+      "status": "Awaiting reply"
     },
     {
       "id": "project-38ad1d7f-7aa0-4645-b0ef-515d34d52141",
@@ -2890,7 +2881,7 @@
     {
       "id": "27",
       "name": "Audits Benelux",
-      "clientId": null,
+      "clientId": "16b928a4-9501-4cfa-9672-17625e9acea2",
       "partnerId": "1",
       "productId": "",
       "startDate": "2025-10-08",
@@ -2915,21 +2906,12 @@
       "status": ""
     },
     {
-      "id": "b206cca3-0c67-4db6-9fd5-9401aa2599c2",
+      "id": "4dc9f582-8321-40b0-b1f6-c4e358393485",
       "name": "Press Optimization",
       "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "partnerId": "6",
       "productId": "Press Optimization",
       "startDate": "2024-11-16",
-      "status": "Follow up"
-    },
-    {
-      "id": "b5e1527d-0c01-4323-9e10-599dc14140fd",
-      "name": "APS",
-      "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
-      "partnerId": "2",
-      "productId": "Software",
-      "startDate": "2025-10-16",
       "status": "Follow up"
     }
   ],
@@ -3500,6 +3482,13 @@
       "type": "offer",
       "text": "Offer was send to Claire on the 16/11/2024",
       "date": "2025-10-13"
+    },
+    {
+      "id": "comment-135c850d-80f4-47f4-8af1-f96a3edc876a",
+      "projectId": "project-189ed57f-7c75-4112-bf83-464d8c6830d1",
+      "type": "email",
+      "text": "I have send an email to Heidi with my proposal on 16/10/25",
+      "date": "2025-10-17"
     }
   ]
 }
