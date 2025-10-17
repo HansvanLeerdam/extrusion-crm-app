@@ -2705,15 +2705,6 @@
       "status": "Waiting reply"
     },
     {
-      "id": "36",
-      "name": "Die Splitter Group Offer",
-      "clientId": "7fcc1ec5-f2c8-4b04-95be-40418df8a1c5",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "startDate": "2025-10-09",
-      "status": "Follow up"
-    },
-    {
       "id": "40",
       "name": "Exlabesa",
       "clientId": "0a8204c8-3e37-408b-b7ca-4e5a40cfd57f",
@@ -2859,7 +2850,7 @@
     },
     {
       "id": "project-758bd224-85db-4280-bdba-0252d355cd71",
-      "name": "Die Splitter",
+      "name": "Die Splitter Group Offer",
       "clientId": "7fcc1ec5-f2c8-4b04-95be-40418df8a1c5",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
