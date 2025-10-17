@@ -2620,7 +2620,7 @@
       "clientId": "daa54bbd-fc91-479a-85c1-11751e689c83",
       "partnerId": "1",
       "productId": "Training",
-      "startDate": "2025-10-12",
+      "startDate": "2025-10-16",
       "status": "Try to set date"
     },
     {
@@ -2630,7 +2630,7 @@
       "partnerId": "1",
       "productId": "Audit",
       "startDate": "2025-10-02",
-      "status": "In process"
+      "status": "Week 46"
     },
     {
       "id": "project-2f889a34-3bdf-4eb2-91fe-6f817ff6e8b9",
@@ -2892,6 +2892,15 @@
       "productId": "Press Optimization",
       "startDate": "2024-11-16",
       "status": "Follow up"
+    },
+    {
+      "id": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
+      "name": "Workshop",
+      "clientId": "8ea2686b-e1b2-4534-b210-6456b37c96e5",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-07-10",
+      "status": "Week 47"
     }
   ],
   "followups": [
@@ -3263,6 +3272,15 @@
       "productId": "CVD Coated Dies",
       "nextDate": "2025-10-21",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-de8fe643-d8f6-44f0-8760-2fb61f3bd039",
+      "clientId": "8ea2686b-e1b2-4534-b210-6456b37c96e5",
+      "projectId": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -3461,6 +3479,27 @@
       "type": "offer",
       "text": "Offer was send to Claire on the 16/11/2024",
       "date": "2025-10-13"
+    },
+    {
+      "id": "comment-1d2b415b-7b46-405c-9dc7-ec9ddda5af12",
+      "projectId": "23",
+      "type": "email",
+      "text": "Send email with approach proposal  - 16/10/25",
+      "date": "2025-10-17"
+    },
+    {
+      "id": "comment-304570b7-a4e9-4c5e-833c-7c995b2826fe",
+      "projectId": "24",
+      "type": "email",
+      "text": "Anna told me that she would come back to me in a couple of weeks - 15/10/25",
+      "date": "2025-10-17"
+    },
+    {
+      "id": "comment-367d4573-595e-4467-8f91-b5e05497d451",
+      "projectId": "project-189ed57f-7c75-4112-bf83-464d8c6830d1",
+      "type": "email",
+      "text": "Sent proposal for collaborartion to Heidi - 15/10/25",
+      "date": "2025-10-17"
     }
   ]
 }
