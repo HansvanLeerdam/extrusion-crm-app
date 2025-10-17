@@ -2029,6 +2029,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760697340767",
+      "name": "Capalex Ltd",
+      "country": "United Kingdom",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Clay Flatts Industrial Estate\nWorkington, Cumbria\nCA14 2TQ\nUnited Kingdom",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -2941,6 +2958,33 @@
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-20",
       "status": "Send information to Justin"
+    },
+    {
+      "id": "project-cde3f8b1-c38c-40d8-8406-f67f1bacf07c",
+      "name": "Workshop",
+      "clientId": "3c69e3a7-2122-4f0c-b3b2-5ed36361d547",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-17",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-04df98a7-2441-42e5-b4ab-723f448e9f74",
+      "name": "Dieshop Training",
+      "clientId": "48c8e1b8-6b36-4f60-a087-84045937e670",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-17",
+      "status": "Contact Pablo"
+    },
+    {
+      "id": "project-b4b32ec4-1851-46d4-891d-041087fb41ad",
+      "name": "Extrusion Training",
+      "clientId": "90d68d89-4f50-4c14-8c15-96f46b87fb48",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-17",
+      "status": "Contact Sagar"
     }
   ],
   "followups": [
@@ -3330,6 +3374,33 @@
       "nextDate": "2025-10-20",
       "action": "Contact Ume",
       "id": "followup-94a0fdb4-ff50-4289-b767-2fa9974eebf6"
+    },
+    {
+      "id": "followup-9fbcc187-f282-42cd-a4c0-a80fd79e43a2",
+      "clientId": "3c69e3a7-2122-4f0c-b3b2-5ed36361d547",
+      "projectId": "project-cde3f8b1-c38c-40d8-8406-f67f1bacf07c",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-afeb5c1d-9881-45c2-9110-ed44d075c140",
+      "clientId": "48c8e1b8-6b36-4f60-a087-84045937e670",
+      "projectId": "project-04df98a7-2441-42e5-b4ab-723f448e9f74",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-5fee6c1c-69b2-4675-bf0e-0ebece761a00",
+      "clientId": "90d68d89-4f50-4c14-8c15-96f46b87fb48",
+      "projectId": "project-b4b32ec4-1851-46d4-891d-041087fb41ad",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-24",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
