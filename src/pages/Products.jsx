@@ -276,3 +276,16 @@ export default function Products({ data, setData }) {
     </div>
   )
 }
+
+const inputStyle = {
+  background: "#e6e6e6", // light grey
+  border: "1px solid #ccc",
+  borderRadius: "8px",
+  padding: "0.35rem 0.5rem",
+  height: "30px", // slightly smaller for uniformity
+  fontSize: "0.9rem",
+  color: "#111",
+  width: "100%",
+  outline: "none"
+}
+

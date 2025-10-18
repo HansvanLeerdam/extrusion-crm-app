@@ -114,8 +114,13 @@ export default function Clients({ data, setData }) {
       contacts.splice(idx, 1)
       return { ...c, contacts }
     })
+<<<<<<< Updated upstream
     updatedClients = updatedClients.filter(c => c.contacts && c.contacts.length > 0)
     setData({ ...data, clients: updatedClients })
+=======
+    updated = updated.filter(c => (c.contacts && c.contacts.length > 0))
+    setData({ ...data, clients: updated })
+>>>>>>> Stashed changes
     cancelEdit()
   }
 
@@ -149,6 +154,7 @@ export default function Clients({ data, setData }) {
       <SectionTitle icon={User} title="Clients" />
 
       {/* === FILTERS === */}
+<<<<<<< Updated upstream
       <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1rem", alignItems: "center" }}>
         <select
           value={filterCountry}
@@ -183,6 +189,61 @@ export default function Clients({ data, setData }) {
       </div>
 
       {/* === INPUT ROW === */}
+=======
+      <div
+        className="table-filters"
+        style={{
+          display: "flex",
+          gap: "0.5rem",
+          marginBottom: "1rem",
+          alignItems: "center"
+        }}
+      >
+        <select
+          value={filterCountry}
+          onChange={(e) => setFilterCountry(e.target.value)}
+          style={inputStyle}
+        >
+          <option value="">All Countries</option>
+          {countries.map((country, i) => (
+            <option key={i} value={country}>
+              {country}
+            </option>
+          ))}
+        </select>
+
+        <input
+          type="text"
+          placeholder="Search..."
+          value={filterSearch}
+          onChange={(e) => setFilterSearch(e.target.value)}
+          style={inputStyle}
+        />
+
+        {(filterCountry || filterSearch) && (
+          <button
+            className="btn-icon"
+            onClick={() => {
+              setFilterCountry("")
+              setFilterSearch("")
+            }}
+            title="Clear filters"
+            style={{
+              height: "30px",
+              background: "transparent",
+              border: "none",
+              color: "#444",
+              cursor: "pointer",
+              fontSize: "1rem"
+            }}
+          >
+            ✖
+          </button>
+        )}
+      </div>
+
+      {/* INPUT ROW */}
+>>>>>>> Stashed changes
       <div
         className="sticky-input-row"
         style={{
@@ -193,6 +254,7 @@ export default function Clients({ data, setData }) {
           marginBottom: "0.8rem"
         }}
       >
+<<<<<<< Updated upstream
         <input placeholder="Client Name" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
         <input placeholder="Country" value={form.country} onChange={(e) => setForm({ ...form, country: e.target.value })} style={inputStyle} />
         <input placeholder="Contact" value={form.contact} onChange={(e) => setForm({ ...form, contact: e.target.value })} style={inputStyle} />
@@ -202,12 +264,61 @@ export default function Clients({ data, setData }) {
       </div>
 
       {/* === CLIENT LIST === */}
+=======
+        <input
+          placeholder="Client Name"
+          value={form.name}
+          onChange={(e) => setForm({ ...form, name: e.target.value })}
+          style={inputStyle}
+        />
+        <input
+          placeholder="Country"
+          value={form.country}
+          onChange={(e) => setForm({ ...form, country: e.target.value })}
+          style={inputStyle}
+        />
+        <input
+          placeholder="Contact"
+          value={form.contact}
+          onChange={(e) => setForm({ ...form, contact: e.target.value })}
+          style={inputStyle}
+        />
+        <input
+          placeholder="Email"
+          value={form.email}
+          onChange={(e) => setForm({ ...form, email: e.target.value })}
+          style={inputStyle}
+        />
+        <input
+          placeholder="Phone"
+          value={form.phone}
+          onChange={(e) => setForm({ ...form, phone: e.target.value })}
+          style={inputStyle}
+        />
+        <button className="btn-icon" onClick={addClient}>+</button>
+      </div>
+
+      {/* CLIENT LIST */}
+>>>>>>> Stashed changes
       {filteredClients.map((client) => {
         const isOpen = !!openClients[client.id]
         const showDetails = !!detailsOpen[client.id]
         return (
+<<<<<<< Updated upstream
           <div key={client.id} style={{ background: "#141414", borderRadius: "10px", padding: "0.8rem 1rem", marginBottom: "1rem", boxShadow: "0 0 6px rgba(0,0,0,0.4)" }}>
             {/* Header with delete button */}
+=======
+          <div
+            key={client.id}
+            style={{
+              background: "#141414",
+              borderRadius: "10px",
+              padding: "0.8rem 1rem",
+              marginBottom: "1rem",
+              boxShadow: "0 0 6px rgba(0,0,0,0.4)"
+            }}
+          >
+>>>>>>> Stashed changes
             <div
               style={{
                 display: "flex",
@@ -294,6 +405,7 @@ export default function Clients({ data, setData }) {
                       )
                     })}
 
+<<<<<<< Updated upstream
                     {/* Add contact row */}
                     <tr>
                       <td><input placeholder="New contact" value={newContact.contact} onChange={(e) => setNewContact({ ...newContact, contact: e.target.value })} style={inputStyle} /></td>
@@ -360,10 +472,113 @@ export default function Clients({ data, setData }) {
                   </div>
                 )}
               </>
+=======
+                    return (
+                      <tr key={rowKey}>
+                        {editing ? (
+                          <>
+                            <td>
+                              <input
+                                value={editContact.contact}
+                                onChange={(e) =>
+                                  setEditContact({ ...editContact, contact: e.target.value })
+                                }
+                                placeholder="Contact person"
+                                style={inputStyle}
+                              />
+                            </td>
+                            <td>
+                              <input
+                                value={editContact.email}
+                                onChange={(e) =>
+                                  setEditContact({ ...editContact, email: e.target.value })
+                                }
+                                placeholder="Email"
+                                style={inputStyle}
+                              />
+                            </td>
+                            <td>
+                              <input
+                                value={editContact.phone}
+                                onChange={(e) =>
+                                  setEditContact({ ...editContact, phone: e.target.value })
+                                }
+                                placeholder="Phone"
+                                style={inputStyle}
+                              />
+                            </td>
+                            <td style={{ textAlign: "right" }}>
+                              <div style={{ display: "inline-flex", gap: 6 }}>
+                                <button
+                                  title="Save"
+                                  style={BTN_STYLE}
+                                  onClick={() => saveEdit(client.id, i)}
+                                >
+                                  <Save size={ICON_SIZE} />
+                                </button>
+                                <button
+                                  title="Cancel"
+                                  style={BTN_STYLE}
+                                  onClick={cancelEdit}
+                                >
+                                  <X size={ICON_SIZE} />
+                                </button>
+                              </div>
+                            </td>
+                          </>
+                        ) : (
+                          <>
+                            <td>{ct.contact}</td>
+                            <td>{ct.email}</td>
+                            <td>{ct.phone}</td>
+                            <td style={{ textAlign: "right" }}>
+                              <div style={{ display: "inline-flex", gap: 6 }}>
+                                <button
+                                  title="Modify"
+                                  style={BTN_STYLE}
+                                  onClick={(e) => {
+                                    e.stopPropagation()
+                                    startEdit(client.id, i, ct)
+                                  }}
+                                >
+                                  <Pencil size={ICON_SIZE} />
+                                </button>
+                                <button
+                                  title="Delete"
+                                  style={BTN_STYLE}
+                                  onClick={(e) => {
+                                    e.stopPropagation()
+                                    deleteContact(client.id, i)
+                                  }}
+                                >
+                                  <Trash2 size={ICON_SIZE} />
+                                </button>
+                              </div>
+                            </td>
+                          </>
+                        )}
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>
+>>>>>>> Stashed changes
             )}
           </div>
         )
       })}
     </div>
   )
+}
+
+const inputStyle = {
+  background: "#e6e6e6", // light grey
+  border: "1px solid #ccc",
+  borderRadius: "8px",
+  padding: "0.35rem 0.5rem",
+  height: "30px", // slightly smaller
+  fontSize: "0.9rem",
+  color: "#111",
+  width: "100%",
+  outline: "none"
 }

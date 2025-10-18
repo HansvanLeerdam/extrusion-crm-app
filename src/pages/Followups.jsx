@@ -30,6 +30,7 @@ export default function Followups({ data, setData }) {
   }
   const ICON_SIZE = 14
 
+<<<<<<< Updated upstream
   const inputStyle = {
     background: "#e6e6e6",
     border: "1px solid #ccc",
@@ -48,6 +49,34 @@ export default function Followups({ data, setData }) {
   const allProducts = [...new Set((data.products || []).flatMap((p) => p.items || []))].sort((a, b) => a.localeCompare(b))
   const allProjects = [...(data.projects || [])].sort((a, b) => a.name.localeCompare(b.name))
 
+=======
+  const projectClientIds = Array.from(
+    new Set((data.projects || []).map((p) => String(p.clientId)))
+  )
+  const clientsInProjects = (data.clients || [])
+    .filter((c) => projectClientIds.includes(String(c.id)))
+    .sort((a, b) => a.name.localeCompare(b.name))
+
+  const selectedPartnerId = form.partnerId
+  const selectedPartnerName =
+    (data.partners || []).find((p) => String(p.id) === String(selectedPartnerId))
+      ?.name || ""
+
+  const partnerProducts =
+    ((data.products || []).find(
+      (p) =>
+        String(p.partnerId) === String(selectedPartnerId) ||
+        (p.partner && p.partner === selectedPartnerName)
+    )?.items || [])
+
+  const allProducts = [
+    ...new Set((data.products || []).flatMap((p) => p.items || []))
+  ].sort((a, b) => a.localeCompare(b))
+
+  const displayedProducts =
+    partnerProducts && partnerProducts.length > 0 ? partnerProducts : allProducts
+
+>>>>>>> Stashed changes
   const addOrUpdate = () => {
     if (!form.clientId || !form.partnerId) return alert("Client and Partner are required.")
 
@@ -88,8 +117,18 @@ export default function Followups({ data, setData }) {
     })
   }
 
+<<<<<<< Updated upstream
   const getClientName = (id) =>
     (data.clients || []).find((c) => String(c.id) === String(id))?.name || ""
+=======
+  const sorted = [...(data.followups || [])]
+    .filter((f) => {
+      const okClient = !filterClient || String(f.clientId) === String(filterClient)
+      const okPartner = !filterPartner || String(f.partnerId) === String(filterPartner)
+      return okClient && okPartner
+    })
+    .sort((a, b) => new Date(a.nextDate) - new Date(b.nextDate))
+>>>>>>> Stashed changes
 
   const getPartnerName = (id) =>
     (data.partners || []).find((p) => String(p.id) === String(id))?.name || ""
@@ -97,6 +136,7 @@ export default function Followups({ data, setData }) {
   const getProjectName = (id) =>
     (data.projects || []).find((p) => String(p.id) === String(id))?.name || ""
 
+<<<<<<< Updated upstream
  return (
   <div className="card" style={{ textAlign: "left" }}>
     <SectionTitle icon={CalendarDays} title="Follow-ups" />
@@ -143,6 +183,42 @@ export default function Followups({ data, setData }) {
         </option>
       ))}
   </select>
+=======
+      {/* === FILTERS === */}
+      <div
+        style={{
+          display: "flex",
+          gap: "0.5rem",
+          marginBottom: "0.8rem",
+          alignItems: "center"
+        }}
+      >
+        <select
+          value={filterClient}
+          onChange={(e) => setFilterClient(e.target.value)}
+          style={inputStyle}
+        >
+          <option value="">All Clients</option>
+          {clientsInProjects.map((c) => (
+            <option key={c.id} value={c.id}>
+              {c.name}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={filterPartner}
+          onChange={(e) => setFilterPartner(e.target.value)}
+          style={inputStyle}
+        >
+          <option value="">All Partners</option>
+          {(data.partners || []).map((p) => (
+            <option key={p.id} value={p.id}>
+              {p.name}
+            </option>
+          ))}
+        </select>
+>>>>>>> Stashed changes
 
   {/* PARTNER FILTER */}
   <select
@@ -216,14 +292,59 @@ export default function Followups({ data, setData }) {
           marginBottom: "0.8rem"
         }}
       >
+<<<<<<< Updated upstream
+=======
+        <input
+          type="date"
+          value={form.date}
+          onChange={(e) => setForm({ ...form, date: e.target.value })}
+          style={inputStyle}
+        />
+
+>>>>>>> Stashed changes
         <select
           value={form.clientId}
           onChange={(e) => setForm({ ...form, clientId: e.target.value })}
           style={inputStyle}
         >
           <option value="">Client</option>
+<<<<<<< Updated upstream
           {allClients.map((c) => (
             <option key={c.id} value={c.id}>{c.name}</option>
+=======
+          {clientsInProjects.map((c) => (
+            <option key={c.id} value={c.id}>
+              {c.name}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={form.partnerId}
+          onChange={(e) =>
+            setForm({ ...form, partnerId: e.target.value, productId: "" })
+          }
+          style={inputStyle}
+        >
+          <option value="">Partner</option>
+          {(data.partners || []).map((p) => (
+            <option key={p.id} value={p.id}>
+              {p.name}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={form.productId}
+          onChange={(e) => setForm({ ...form, productId: e.target.value })}
+          style={inputStyle}
+        >
+          <option value="">Product</option>
+          {displayedProducts.map((p, idx) => (
+            <option key={idx} value={p}>
+              {p}
+            </option>
+>>>>>>> Stashed changes
           ))}
         </select>
 
@@ -282,6 +403,10 @@ export default function Followups({ data, setData }) {
           placeholder="Action"
           value={form.action}
           onChange={(e) => setForm({ ...form, action: e.target.value })}
+<<<<<<< Updated upstream
+=======
+          placeholder="Action"
+>>>>>>> Stashed changes
           style={inputStyle}
         />
 
@@ -343,3 +468,17 @@ export default function Followups({ data, setData }) {
   )
 }
 
+<<<<<<< Updated upstream
+=======
+const inputStyle = {
+  background: "#e6e6e6",
+  border: "1px solid #ccc",
+  borderRadius: "8px",
+  padding: "0.35rem 0.5rem",
+  height: "30px",
+  fontSize: "0.9rem",
+  color: "#111",
+  width: "100%",
+  outline: "none"
+}
+>>>>>>> Stashed changes

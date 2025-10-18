@@ -125,11 +125,41 @@ export default function Partners({ data, setData }) {
           marginBottom: "0.8rem"
         }}
       >
+<<<<<<< Updated upstream
         <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Partner" style={inputStyle} />
         <input value={form.contact} onChange={(e) => setForm({ ...form, contact: e.target.value })} placeholder="Contact" style={inputStyle} />
         <input value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder="Email" style={inputStyle} />
         <input value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} placeholder="Phone" style={inputStyle} />
         <button className="btn-icon" onClick={addOrUpdate} title="Save">{editing.partnerId !== null ? <Save size={ICON_SIZE} /> : "+"}</button>
+=======
+        <input
+          value={form.name}
+          onChange={(e) => setForm({ ...form, name: e.target.value })}
+          placeholder="Partner"
+          style={inputStyle}
+        />
+        <input
+          value={form.contact}
+          onChange={(e) => setForm({ ...form, contact: e.target.value })}
+          placeholder="Contact"
+          style={inputStyle}
+        />
+        <input
+          value={form.email}
+          onChange={(e) => setForm({ ...form, email: e.target.value })}
+          placeholder="Email"
+          style={inputStyle}
+        />
+        <input
+          value={form.phone}
+          onChange={(e) => setForm({ ...form, phone: e.target.value })}
+          placeholder="Phone"
+          style={inputStyle}
+        />
+        <button className="btn-icon" onClick={addOrUpdate} title="Save">
+          {editing.partnerId !== null ? <Save size={ICON_SIZE} /> : "+"}
+        </button>
+>>>>>>> Stashed changes
       </div>
 
       {sortedPartners.map((p) => {
@@ -211,4 +241,16 @@ export default function Partners({ data, setData }) {
       })}
     </div>
   )
+}
+
+const inputStyle = {
+  background: "#e6e6e6", // light grey
+  border: "1px solid #ccc",
+  borderRadius: "8px",
+  padding: "0.35rem 0.5rem",
+  height: "30px", // slightly smaller than before
+  fontSize: "0.9rem",
+  color: "#111",
+  width: "100%",
+  outline: "none"
 }
