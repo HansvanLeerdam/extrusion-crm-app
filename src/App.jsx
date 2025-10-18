@@ -22,7 +22,7 @@ export default function App() {
     const loadData = async () => {
       try {
         const githubURL =
-          "https://raw.githubusercontent.com/HansvanLeerdam/extrusion-crm-app/main/public/data.json"
+          "/.netlify/functions/getData"
         const res = await fetch(githubURL + `?t=${Date.now()}`, { cache: "no-store" })
         if (!res.ok) throw new Error("GitHub data not available")
         const json = await res.json()
