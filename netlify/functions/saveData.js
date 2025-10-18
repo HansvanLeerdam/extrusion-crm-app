@@ -1,5 +1,3 @@
-import fetch from "node-fetch"
-
 export const handler = async (event) => {
   try {
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN
@@ -13,29 +11,30 @@ export const handler = async (event) => {
       }
     }
 
-    const body = JSON.parse(event.body)
+    const body = JSON.parse(event.body || "{}")
 
-    // === Get SHA of current data.json (needed by GitHub API)
-    const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
+    // === Get current SHA of the data.json ===
+    const getRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
       headers: {
         Authorization: `token ${GITHUB_TOKEN}`,
         Accept: "application/vnd.github.v3+json"
       }
     })
 
-    if (!res.ok) {
-      throw new Error(`Failed to get file SHA: ${res.statusText}`)
+    if (!getRes.ok) {
+      const msg = await getRes.text()
+      throw new Error(`Failed to fetch file: ${msg}`)
     }
 
-    const { sha } = await res.json()
+    const fileData = await getRes.json()
+    const sha = fileData.sha
 
-    // === Create commit with updated content
-    const updateRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
+    // === Update the file on GitHub ===
+    const commitRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
       method: "PUT",
       headers: {
         Authorization: `token ${GITHUB_TOKEN}`,
-        "Content-Type": "application/json",
-        Accept: "application/vnd.github.v3+json"
+        "Content-Type": "application/json"
       },
       body: JSON.stringify({
         message: "Update data.json from CRM app",
@@ -44,17 +43,17 @@ export const handler = async (event) => {
       })
     })
 
-    if (!updateRes.ok) {
-      const errText = await updateRes.text()
-      throw new Error(`GitHub update failed: ${errText}`)
+    if (!commitRes.ok) {
+      const msg = await commitRes.text()
+      throw new Error(`GitHub update failed: ${msg}`)
     }
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ success: true })
+      body: JSON.stringify({ success: true, message: "Data saved to GitHub" })
     }
   } catch (err) {
-    console.error("Error saving data:", err)
+    console.error("❌ Function error:", err)
     return {
       statusCode: 500,
       body: JSON.stringify({ error: err.message })
