@@ -32,9 +32,8 @@ export default function App() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
       })
-      if (res.ok) {
-        alert("✅ Data successfully saved to GitHub (via Netlify Function)!")
-      } else {
+      if (res.ok) alert("✅ Data successfully saved to GitHub (via Netlify Function)!")
+      else {
         const err = await res.text()
         console.error("GitHub save error:", err)
         alert("❌ Save failed — check console.")
@@ -57,21 +56,24 @@ export default function App() {
       const wb = XLSX.read(buf, { type: "array" })
       const toJSON = (sh) => (sh ? XLSX.utils.sheet_to_json(sh) : [])
 
-      // Clients
+      // === Clients ===
       const rawClients = toJSON(wb.Sheets["Clients"])
       const clients = []
       rawClients.forEach((r) => {
         const clientName = (r["Client Name"] || "").trim()
         if (!clientName) return
-        let client = clients.find(
-          (c) => c.name.toLowerCase() === clientName.toLowerCase()
-        )
+        let client = clients.find((c) => c.name.toLowerCase() === clientName.toLowerCase())
         if (!client) {
           client = {
             id: String(r["Client ID"] || crypto.randomUUID()),
             name: clientName,
             country: r["Country"] || "",
-            contacts: []
+            contacts: [],
+            details: {
+              address: r["Address"] || "",
+              notes: r["Notes"] || "",
+              notebook: r["Notebook"] || ""
+            }
           }
           clients.push(client)
         }
@@ -82,25 +84,22 @@ export default function App() {
               ct.email === r["Email"] &&
               ct.phone === r["Phone"]
           )
-          if (!exists) {
+          if (!exists)
             client.contacts.push({
               contact: r["Contact Person"] || "",
               email: r["Email"] || "",
               phone: r["Phone"] || ""
             })
-          }
         }
       })
 
-      // Partners
+      // === Partners ===
       const rawPartners = toJSON(wb.Sheets["Partners"])
       const partners = []
       rawPartners.forEach((r) => {
         const partnerName = (r["Partner Name"] || "").trim()
         if (!partnerName) return
-        let partner = partners.find(
-          (p) => p.name.toLowerCase() === partnerName.toLowerCase()
-        )
+        let partner = partners.find((p) => p.name.toLowerCase() === partnerName.toLowerCase())
         if (!partner) {
           partner = {
             id: String(r["Partner ID"] || crypto.randomUUID()),
@@ -116,17 +115,16 @@ export default function App() {
               ct.email === r["Email"] &&
               ct.phone === r["Phone"]
           )
-          if (!exists) {
+          if (!exists)
             partner.contacts.push({
               contact: r["Contact Person"] || "",
               email: r["Email"] || "",
               phone: r["Phone"] || ""
             })
-          }
         }
       })
 
-      // Products
+      // === Products ===
       const rawProducts = toJSON(wb.Sheets["Products"]) || []
       const groupedProducts = []
       rawProducts.forEach((r) => {
@@ -142,7 +140,7 @@ export default function App() {
       })
       const products = groupedProducts.length ? groupedProducts : []
 
-      // Projects
+      // === Projects ===
       const projects = toJSON(wb.Sheets["Projects"]).map((r) => ({
         id: String(r["Project ID"] || crypto.randomUUID()),
         name: r["Project Name"] || "",
@@ -153,7 +151,7 @@ export default function App() {
         status: r["Status"] || ""
       }))
 
-      // Follow-ups
+      // === Follow-ups ===
       const followups = toJSON(wb.Sheets["Follow-ups"]).map((r) => ({
         id: String(r["Follow-Up ID"] || crypto.randomUUID()),
         clientId: r["Client ID"] ? String(r["Client ID"]) : null,
@@ -164,25 +162,16 @@ export default function App() {
         action: r["Action"] || ""
       }))
 
-      // Project Comments
-      const projectComments = (toJSON(wb.Sheets["Project Comments"]) || []).map(
-        (r) => ({
-          id: String(r["Comment ID"] || crypto.randomUUID()),
-          projectId: r["Project ID"] ? String(r["Project ID"]) : null,
-          type: r["Type"] || "note",
-          text: r["Comment"] || "",
-          date: r["Date"] || new Date().toISOString().split("T")[0]
-        })
-      )
+      // === Project Comments ===
+      const projectComments = (toJSON(wb.Sheets["Project Comments"]) || []).map((r) => ({
+        id: String(r["Comment ID"] || crypto.randomUUID()),
+        projectId: r["Project ID"] ? String(r["Project ID"]) : null,
+        type: r["Type"] || "note",
+        text: r["Comment"] || "",
+        date: r["Date"] || new Date().toISOString().split("T")[0]
+      }))
 
-      setData({
-        clients,
-        partners,
-        products,
-        projects,
-        followups,
-        projectComments
-      })
+      setData({ clients, partners, products, projects, followups, projectComments })
     }
     input.click()
   }
@@ -191,12 +180,16 @@ export default function App() {
   const exportExcel = () => {
     const wb = XLSX.utils.book_new()
 
+    // === Clients ===
     const clientsFlat = (data.clients || []).flatMap((c) =>
       c.contacts && c.contacts.length
         ? c.contacts.map((ct) => ({
             "Client ID": String(c.id),
             "Client Name": c.name,
             Country: c.country,
+            Address: c.details?.address || "",
+            Notes: c.details?.notes || "",
+            Notebook: c.details?.notebook || "",
             "Contact Person": ct.contact,
             Email: ct.email,
             Phone: ct.phone
@@ -206,18 +199,18 @@ export default function App() {
               "Client ID": String(c.id),
               "Client Name": c.name,
               Country: c.country,
+              Address: c.details?.address || "",
+              Notes: c.details?.notes || "",
+              Notebook: c.details?.notebook || "",
               "Contact Person": "",
               Email: "",
               Phone: ""
             }
           ]
     )
-    XLSX.utils.book_append_sheet(
-      wb,
-      XLSX.utils.json_to_sheet(clientsFlat),
-      "Clients"
-    )
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(clientsFlat), "Clients")
 
+    // === Partners ===
     const partnersFlat = (data.partners || []).flatMap((p) =>
       p.contacts && p.contacts.length
         ? p.contacts.map((ct) => ({
@@ -237,24 +230,15 @@ export default function App() {
             }
           ]
     )
-    XLSX.utils.book_append_sheet(
-      wb,
-      XLSX.utils.json_to_sheet(partnersFlat),
-      "Partners"
-    )
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(partnersFlat), "Partners")
 
+    // === Products ===
     const productsFlat = (data.products || []).flatMap((p) =>
-      (p.items || []).map((prod) => ({
-        Partner: p.partner,
-        Product: prod
-      }))
+      (p.items || []).map((prod) => ({ Partner: p.partner, Product: prod }))
     )
-    XLSX.utils.book_append_sheet(
-      wb,
-      XLSX.utils.json_to_sheet(productsFlat),
-      "Products"
-    )
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(productsFlat), "Products")
 
+    // === Projects ===
     const projectsSheet = (data.projects || []).map((p) => ({
       "Project ID": String(p.id),
       "Project Name": p.name,
@@ -264,12 +248,9 @@ export default function App() {
       "Start Date": p.startDate,
       Status: p.status
     }))
-    XLSX.utils.book_append_sheet(
-      wb,
-      XLSX.utils.json_to_sheet(projectsSheet),
-      "Projects"
-    )
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(projectsSheet), "Projects")
 
+    // === Follow-ups ===
     const followupsSheet = (data.followups || []).map((f) => ({
       "Follow-Up ID": String(f.id),
       "Client ID": f.clientId,
@@ -279,12 +260,9 @@ export default function App() {
       "Next Date": f.nextDate,
       Action: f.action
     }))
-    XLSX.utils.book_append_sheet(
-      wb,
-      XLSX.utils.json_to_sheet(followupsSheet),
-      "Follow-ups"
-    )
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(followupsSheet), "Follow-ups")
 
+    // === Project Comments ===
     const commentsSheet = (data.projectComments || []).map((c) => ({
       "Comment ID": String(c.id),
       "Project ID": c.projectId,
@@ -292,11 +270,7 @@ export default function App() {
       Comment: c.text,
       Date: c.date
     }))
-    XLSX.utils.book_append_sheet(
-      wb,
-      XLSX.utils.json_to_sheet(commentsSheet),
-      "Project Comments"
-    )
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(commentsSheet), "Project Comments")
 
     XLSX.writeFile(wb, "crm_data.xlsx")
   }
@@ -312,9 +286,9 @@ export default function App() {
     URL.revokeObjectURL(url)
   }
 
+  // === UI ===
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
-      {/* === HEADER === */}
       <header
         style={{
           position: "sticky",
@@ -349,14 +323,7 @@ export default function App() {
             alt="Extrusion CRM"
             style={{ height: "36px", width: "36px", objectFit: "contain" }}
           />
-          <div
-            style={{
-              fontSize: "1.2rem",
-              fontWeight: 700,
-              color: "#fff",
-              letterSpacing: "0.4px"
-            }}
-          >
+          <div style={{ fontSize: "1.2rem", fontWeight: 700, color: "#fff", letterSpacing: "0.4px" }}>
             Partners & Projects <span style={{ color: "#fff" }}>CRM</span>
           </div>
         </div>
@@ -381,14 +348,13 @@ export default function App() {
         </button>
       </header>
 
-      {/* === BODY === */}
       <div style={{ display: "flex", flex: 1, minHeight: 0 }}>
-        {/* === SIDEBAR === */}
+        {/* Sidebar */}
         <aside
           style={{
             position: isMobile ? "fixed" : "static",
-            top: 0,
             left: isMobile ? (sidebarOpen ? "0" : "-200px") : "auto",
+            top: 0,
             height: isMobile ? "100vh" : "auto",
             width: "180px",
             background: "#000",
@@ -438,29 +404,15 @@ export default function App() {
             })}
           </div>
 
-          {/* === TOOLS === */}
           <div style={{ padding: "1rem 0.6rem" }}>
-            <button onClick={importExcel} style={toolBtn}>
-              📂 Import Excel
-            </button>
-            <button onClick={exportExcel} style={toolBtn}>
-              💾 Export Excel
-            </button>
-            <button onClick={downloadCalendar} style={toolBtn}>
-              📅 Export .ics
-            </button>
+            <button onClick={importExcel} style={toolBtn}>📂 Import Excel</button>
+            <button onClick={exportExcel} style={toolBtn}>💾 Export Excel</button>
+            <button onClick={downloadCalendar} style={toolBtn}>📅 Export .ics</button>
           </div>
         </aside>
 
-        {/* === MAIN === */}
-        <main
-          style={{
-            flex: 1,
-            overflowY: "auto",
-            background: "#111",
-            padding: "1rem"
-          }}
-        >
+        {/* Main */}
+        <main style={{ flex: 1, overflowY: "auto", background: "#111", padding: "1rem" }}>
           {tab === "dashboard" && <Dashboard data={data} />}
           {tab === "clients" && <Clients data={data} setData={setData} />}
           {tab === "partners" && <Partners data={data} setData={setData} />}

@@ -105,15 +105,17 @@ export default function Clients({ data, setData }) {
     cancelEdit()
   }
 
+  // ✅ FIXED — delete last contact removes client
   const deleteContact = (clientId, idx) => {
     if (!confirm("Delete this contact?")) return
-    const updated = (data.clients || []).map(c => {
+    let updatedClients = (data.clients || []).map(c => {
       if (c.id !== clientId) return c
       const contacts = [...(c.contacts || [])]
       contacts.splice(idx, 1)
       return { ...c, contacts }
     })
-    setData({ ...data, clients: updated })
+    updatedClients = updatedClients.filter(c => c.contacts && c.contacts.length > 0)
+    setData({ ...data, clients: updatedClients })
     cancelEdit()
   }
 
@@ -287,7 +289,7 @@ export default function Clients({ data, setData }) {
                       padding: "0.8rem"
                     }}
                   >
-                    {[
+                    {[ 
                       { key: "address", label: "Address", placeholder: "Street, postal code, city..." },
                       { key: "notes", label: "Notes (e.g. amount of presses)", placeholder: "Press capacity, extrusion lines, etc." },
                       { key: "notebook", label: "Meeting Notebook", placeholder: "Meeting notes or general comments..." }
@@ -297,11 +299,7 @@ export default function Clients({ data, setData }) {
                         <textarea
                           placeholder={placeholder}
                           value={client.details?.[key] || ""}
-                          onChange={(e) => {
-                            updateDetails(client.id, key, e.target.value)
-                            e.target.style.height = "auto"
-                            e.target.style.height = e.target.scrollHeight + "px"
-                          }}
+                          onChange={(e) => updateDetails(client.id, key, e.target.value)}
                           style={{
                             width: "100%",
                             background: "#e9e9e9",
@@ -311,8 +309,7 @@ export default function Clients({ data, setData }) {
                             padding: "0.4rem",
                             fontSize: "0.9rem",
                             lineHeight: 1.4,
-                            resize: "none",
-                            overflow: "hidden",
+                            resize: "vertical",
                             minHeight: key === "notebook" ? "80px" : "60px"
                           }}
                         />
