@@ -235,15 +235,7 @@ export default function Projects({ data, setData }) {
         <select
           value={filterClient}
           onChange={(e) => setFilterClient(e.target.value)}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-          style={{ ...inputStyle, width: "160px" }}
-=======
           style={inputStyle}
->>>>>>> Stashed changes
-=======
-          style={inputStyle}
->>>>>>> Stashed changes
         >
           <option value="">All Clients</option>
           {groupedBase.map((g) => (
@@ -256,15 +248,7 @@ export default function Projects({ data, setData }) {
         <select
           value={filterPartner}
           onChange={(e) => setFilterPartner(e.target.value)}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-          style={{ ...inputStyle, width: "160px" }}
-=======
           style={inputStyle}
->>>>>>> Stashed changes
-=======
-          style={inputStyle}
->>>>>>> Stashed changes
         >
           <option value="">All Partners</option>
           {(data.partners || []).map((p) => (
@@ -387,8 +371,6 @@ export default function Projects({ data, setData }) {
             >
               {g.client}
             </h3>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
             {/* TABLE CONTENT */}
             <table
@@ -557,14 +539,6 @@ export default function Projects({ data, setData }) {
                 })}
               </tbody>
             </table>
-=======
-            {/* table rendering stays identical */}
-            {/* ... */}
->>>>>>> Stashed changes
-=======
-            {/* table rendering stays identical */}
-            {/* ... */}
->>>>>>> Stashed changes
           </div>
         ))}
       </div>

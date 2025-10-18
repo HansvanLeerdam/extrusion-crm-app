@@ -105,7 +105,7 @@ export default function Partners({ data, setData }) {
     setEditing({ partnerId: partner.id, contactIndex: index })
   }
 
-  return (
+    return (
     <div className="card" style={{ textAlign: "left" }}>
       <SectionTitle icon={Handshake} title="Partners" />
 
@@ -114,24 +114,17 @@ export default function Partners({ data, setData }) {
         className="sticky-input-row"
         style={{
           display: "grid",
-          width: "100%",
-          boxSizing: "border-box",
-          gridTemplateColumns: "repeat(4, 1fr) 36px",
+          gridTemplateColumns: "1fr 1fr 1fr 1fr 36px",
           gap: "0.5rem",
           background: "#222",
           border: "1px solid #333",
           borderRadius: "6px",
           padding: "0.4rem",
-          marginBottom: "0.8rem"
+          marginBottom: "0.8rem",
+          width: "100%",
+          boxSizing: "border-box"
         }}
       >
-<<<<<<< Updated upstream
-        <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Partner" style={inputStyle} />
-        <input value={form.contact} onChange={(e) => setForm({ ...form, contact: e.target.value })} placeholder="Contact" style={inputStyle} />
-        <input value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder="Email" style={inputStyle} />
-        <input value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} placeholder="Phone" style={inputStyle} />
-        <button className="btn-icon" onClick={addOrUpdate} title="Save">{editing.partnerId !== null ? <Save size={ICON_SIZE} /> : "+"}</button>
-=======
         <input
           value={form.name}
           onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -157,9 +150,8 @@ export default function Partners({ data, setData }) {
           style={inputStyle}
         />
         <button className="btn-icon" onClick={addOrUpdate} title="Save">
-          {editing.partnerId !== null ? <Save size={ICON_SIZE} /> : "+"}
+          {editing?.partnerId !== null ? <Save size={ICON_SIZE} /> : "+"}
         </button>
->>>>>>> Stashed changes
       </div>
 
       {sortedPartners.map((p) => {
@@ -194,12 +186,33 @@ export default function Partners({ data, setData }) {
               }}
               aria-expanded={isOpen}
             >
-              <h3 style={{ color: "#fff", fontSize: "1.05rem", borderBottom: "1px solid #333", paddingBottom: "0.5rem", marginBottom: "0.6rem" }}>{p.name}</h3>
-              <span style={{ transform: `rotate(${isOpen ? 90 : 0}deg)`, transition: "transform 0.15s ease", color: "#ccc" }}>▶</span>
+              <h3
+                style={{
+                  color: "#fff",
+                  fontSize: "1.05rem",
+                  borderBottom: "1px solid #333",
+                  paddingBottom: "0.5rem",
+                  marginBottom: "0.6rem"
+                }}
+              >
+                {p.name}
+              </h3>
+              <span
+                style={{
+                  transform: `rotate(${isOpen ? 90 : 0}deg)`,
+                  transition: "transform 0.15s ease",
+                  color: "#ccc"
+                }}
+              >
+                ▶
+              </span>
             </button>
 
             {isOpen && (
-              <table className="partners-table table--has-actions" style={{ width: "100%", borderSpacing: 0 }}>
+              <table
+                className="partners-table table--has-actions"
+                style={{ width: "100%", borderSpacing: 0 }}
+              >
                 <thead>
                   <tr style={{ background: "#1f1f1f" }}>
                     <th>Contact</th>
@@ -217,12 +230,29 @@ export default function Partners({ data, setData }) {
                           <td>{ct.contact}</td>
                           <td>{ct.email}</td>
                           <td>{ct.phone}</td>
-                          <td className="actions" style={{ textAlign: "right" }}>
-                            <div style={{ display: "inline-flex", gap: 6, justifyContent: "flex-end" }}>
-                              <button title="Modify" style={BTN_STYLE} onClick={() => editContact(p, i)}>
+                          <td
+                            className="actions"
+                            style={{ textAlign: "right" }}
+                          >
+                            <div
+                              style={{
+                                display: "inline-flex",
+                                gap: 6,
+                                justifyContent: "flex-end"
+                              }}
+                            >
+                              <button
+                                title="Modify"
+                                style={BTN_STYLE}
+                                onClick={() => editContact(p, i)}
+                              >
                                 <Pencil size={ICON_SIZE} />
                               </button>
-                              <button title="Delete" style={BTN_STYLE} onClick={() => deleteContact(p.id, i)}>
+                              <button
+                                title="Delete"
+                                style={BTN_STYLE}
+                                onClick={() => deleteContact(p.id, i)}
+                              >
                                 <Trash2 size={ICON_SIZE} />
                               </button>
                             </div>
@@ -231,7 +261,14 @@ export default function Partners({ data, setData }) {
                       )
                     })
                   ) : (
-                    <tr><td colSpan={4} style={{ textAlign: "center", color: "#888" }}>No contacts yet</td></tr>
+                    <tr>
+                      <td
+                        colSpan={4}
+                        style={{ textAlign: "center", color: "#888" }}
+                      >
+                        No contacts yet
+                      </td>
+                    </tr>
                   )}
                 </tbody>
               </table>
@@ -244,13 +281,14 @@ export default function Partners({ data, setData }) {
 }
 
 const inputStyle = {
-  background: "#e6e6e6", // light grey
+  background: "#e6e6e6",
   border: "1px solid #ccc",
   borderRadius: "8px",
   padding: "0.35rem 0.5rem",
-  height: "30px", // slightly smaller than before
+  height: "30px",
   fontSize: "0.9rem",
   color: "#111",
   width: "100%",
   outline: "none"
 }
+

@@ -28,10 +28,9 @@ export default function Followups({ data, setData }) {
     border: "none",
     cursor: "pointer"
   }
+
   const ICON_SIZE = 14
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   const inputStyle = {
     background: "#e6e6e6",
     border: "1px solid #ccc",
@@ -45,17 +44,10 @@ export default function Followups({ data, setData }) {
     boxSizing: "border-box"
   }
 
-  const allClients = [...(data.clients || [])].sort((a, b) => a.name.localeCompare(b.name))
-  const allPartners = [...(data.partners || [])].sort((a, b) => a.name.localeCompare(b.name))
-  const allProducts = [...new Set((data.products || []).flatMap((p) => p.items || []))].sort((a, b) => a.localeCompare(b))
-  const allProjects = [...(data.projects || [])].sort((a, b) => a.name.localeCompare(b.name))
-
-=======
-=======
->>>>>>> Stashed changes
   const projectClientIds = Array.from(
     new Set((data.projects || []).map((p) => String(p.clientId)))
   )
+
   const clientsInProjects = (data.clients || [])
     .filter((c) => projectClientIds.includes(String(c.id)))
     .sort((a, b) => a.name.localeCompare(b.name))
@@ -79,12 +71,13 @@ export default function Followups({ data, setData }) {
   const displayedProducts =
     partnerProducts && partnerProducts.length > 0 ? partnerProducts : allProducts
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+  const allProjects = [...(data.projects || [])].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  )
+
   const addOrUpdate = () => {
-    if (!form.clientId || !form.partnerId) return alert("Client and Partner are required.")
+    if (!form.clientId || !form.partnerId)
+      return alert("Client and Partner are required.")
 
     const updated = [...(data.followups || [])]
     if (editing) {
@@ -119,25 +112,14 @@ export default function Followups({ data, setData }) {
     if (!confirm("Delete this follow-up?")) return
     setData({
       ...data,
-      followups: (data.followups || []).filter((f) => String(f.id) !== String(id))
+      followups: (data.followups || []).filter(
+        (f) => String(f.id) !== String(id)
+      )
     })
   }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   const getClientName = (id) =>
     (data.clients || []).find((c) => String(c.id) === String(id))?.name || ""
-=======
-=======
->>>>>>> Stashed changes
-  const sorted = [...(data.followups || [])]
-    .filter((f) => {
-      const okClient = !filterClient || String(f.clientId) === String(filterClient)
-      const okPartner = !filterPartner || String(f.partnerId) === String(filterPartner)
-      return okClient && okPartner
-    })
-    .sort((a, b) => new Date(a.nextDate) - new Date(b.nextDate))
->>>>>>> Stashed changes
 
   const getPartnerName = (id) =>
     (data.partners || []).find((p) => String(p.id) === String(id))?.name || ""
@@ -145,54 +127,10 @@ export default function Followups({ data, setData }) {
   const getProjectName = (id) =>
     (data.projects || []).find((p) => String(p.id) === String(id))?.name || ""
 
-<<<<<<< Updated upstream
- return (
-  <div className="card" style={{ textAlign: "left" }}>
-    <SectionTitle icon={CalendarDays} title="Follow-ups" />
+  return (
+    <div className="card" style={{ textAlign: "left" }}>
+      <SectionTitle icon={CalendarDays} title="Follow-ups" />
 
-{/* === FILTERS (same as Projects) === */}
-<div
-  style={{
-    display: "flex",
-    gap: "0.5rem",
-    marginBottom: "0.8rem",
-    alignItems: "center"
-  }}
->
-  {/* CLIENT FILTER */}
-  <select
-    value={filterClient}
-    onChange={(e) => setFilterClient(e.target.value)}
-    style={{
-      background: "#e6e6e6",
-      border: "1px solid #ccc",
-      borderRadius: "8px",
-      padding: "0.35rem 0.5rem",
-      height: "28px",
-      fontSize: "0.9rem",
-      color: "#111",
-      width: "180px",
-      outline: "none"
-    }}
-  >
-    <option value="">All Clients</option>
-    {[
-      ...new Set(
-        (data.followups || []).map((f) => f.clientId).filter(Boolean)
-      )
-    ]
-      .map((id) =>
-        (data.clients || []).find((c) => String(c.id) === String(id))
-      )
-      .filter(Boolean)
-      .sort((a, b) => a.name.localeCompare(b.name))
-      .map((c) => (
-        <option key={c.id} value={c.id}>
-          {c.name}
-        </option>
-      ))}
-  </select>
-=======
       {/* === FILTERS === */}
       <div
         style={{
@@ -227,65 +165,29 @@ export default function Followups({ data, setData }) {
             </option>
           ))}
         </select>
->>>>>>> Stashed changes
 
-  {/* PARTNER FILTER */}
-  <select
-    value={filterPartner}
-    onChange={(e) => setFilterPartner(e.target.value)}
-    style={{
-      background: "#e6e6e6",
-      border: "1px solid #ccc",
-      borderRadius: "8px",
-      padding: "0.35rem 0.5rem",
-      height: "28px",
-      fontSize: "0.9rem",
-      color: "#111",
-      width: "180px",
-      outline: "none"
-    }}
-  >
-    <option value="">All Partners</option>
-    {[
-      ...new Set(
-        (data.followups || []).map((f) => f.partnerId).filter(Boolean)
-      )
-    ]
-      .map((id) =>
-        (data.partners || []).find((p) => String(p.id) === String(id))
-      )
-      .filter(Boolean)
-      .sort((a, b) => a.name.localeCompare(b.name))
-      .map((p) => (
-        <option key={p.id} value={p.id}>
-          {p.name}
-        </option>
-      ))}
-  </select>
+        {(filterClient || filterPartner) && (
+          <button
+            onClick={() => {
+              setFilterClient("")
+              setFilterPartner("")
+            }}
+            title="Clear filters"
+            style={{
+              height: "28px",
+              background: "transparent",
+              border: "none",
+              color: "#444",
+              cursor: "pointer",
+              fontSize: "1rem"
+            }}
+          >
+            ✖
+          </button>
+        )}
+      </div>
 
-  {(filterClient || filterPartner) && (
-    <button
-      className="btn-icon"
-      onClick={() => {
-        setFilterClient("")
-        setFilterPartner("")
-      }}
-      title="Clear filters"
-      style={{
-        height: "28px",
-        background: "transparent",
-        border: "none",
-        color: "#444",
-        cursor: "pointer",
-        fontSize: "1rem"
-      }}
-    >
-      ✖
-    </button>
-  )}
-</div>
-
-      {/* Input row */}
+      {/* === Input Row === */}
       <div
         className="sticky-input-row"
         style={{
@@ -301,29 +203,28 @@ export default function Followups({ data, setData }) {
           marginBottom: "0.8rem"
         }}
       >
-<<<<<<< Updated upstream
-=======
-        <input
-          type="date"
-          value={form.date}
-          onChange={(e) => setForm({ ...form, date: e.target.value })}
-          style={inputStyle}
-        />
-
->>>>>>> Stashed changes
         <select
           value={form.clientId}
           onChange={(e) => setForm({ ...form, clientId: e.target.value })}
           style={inputStyle}
         >
           <option value="">Client</option>
-<<<<<<< Updated upstream
-          {allClients.map((c) => (
-            <option key={c.id} value={c.id}>{c.name}</option>
-=======
           {clientsInProjects.map((c) => (
             <option key={c.id} value={c.id}>
               {c.name}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={form.projectId}
+          onChange={(e) => setForm({ ...form, projectId: e.target.value })}
+          style={inputStyle}
+        >
+          <option value="">Project</option>
+          {allProjects.map((p) => (
+            <option key={p.id} value={p.id}>
+              {p.name}
             </option>
           ))}
         </select>
@@ -353,53 +254,8 @@ export default function Followups({ data, setData }) {
             <option key={idx} value={p}>
               {p}
             </option>
->>>>>>> Stashed changes
           ))}
         </select>
-
-        <select
-          value={form.projectId}
-          onChange={(e) => setForm({ ...form, projectId: e.target.value })}
-          style={inputStyle}
-        >
-          <option value="">Project</option>
-          {allProjects.map((p) => (
-            <option key={p.id} value={p.id}>{p.name}</option>
-          ))}
-        </select>
-
-        <select
-          value={form.partnerId}
-          onChange={(e) => setForm({ ...form, partnerId: e.target.value })}
-          style={inputStyle}
-        >
-          <option value="">Partner</option>
-          {allPartners.map((p) => (
-            <option key={p.id} value={p.id}>{p.name}</option>
-          ))}
-        </select>
-
-       <select
-  value={form.productId}
-  onChange={(e) => setForm({ ...form, productId: e.target.value })}
-  style={inputStyle}
->
-  <option value="">Product</option>
-  {(
-    ((data.products || []).find(
-      (p) =>
-        String(p.partnerId) === String(form.partnerId) ||
-        p.partner ===
-          (data.partners || []).find(
-            (x) => String(x.id) === String(form.partnerId)
-          )?.name
-    )?.items) || []
-  ).map((prod, i) => (
-    <option key={i} value={prod}>
-      {prod}
-    </option>
-  ))}
-</select>
 
         <input
           type="date"
@@ -412,23 +268,24 @@ export default function Followups({ data, setData }) {
           placeholder="Action"
           value={form.action}
           onChange={(e) => setForm({ ...form, action: e.target.value })}
-<<<<<<< Updated upstream
-=======
-          placeholder="Action"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
           style={inputStyle}
         />
 
-        <button className="btn-icon" onClick={addOrUpdate} title="Save follow-up">
+        <button
+          className="btn-icon"
+          onClick={addOrUpdate}
+          title="Save follow-up"
+          style={BTN_STYLE}
+        >
           {editing ? <Save size={ICON_SIZE} /> : "+"}
         </button>
       </div>
 
-      {/* Table */}
-      <table className="followups-table table--has-actions" style={{ width: "100%", borderCollapse: "collapse" }}>
+      {/* === Table === */}
+      <table
+        className="followups-table table--has-actions"
+        style={{ width: "100%", borderCollapse: "collapse" }}
+      >
         <thead>
           <tr style={{ color: "#ffa733", fontWeight: 600 }}>
             <th>Date</th>
@@ -440,11 +297,13 @@ export default function Followups({ data, setData }) {
             <th style={{ width: 80, textAlign: "right" }}>Actions</th>
           </tr>
         </thead>
-         <tbody>
+        <tbody>
           {(data.followups || [])
             .filter((f) => {
-              const okClient = !filterClient || String(f.clientId) === String(filterClient)
-              const okPartner = !filterPartner || String(f.partnerId) === String(filterPartner)
+              const okClient =
+                !filterClient || String(f.clientId) === String(filterClient)
+              const okPartner =
+                !filterPartner || String(f.partnerId) === String(filterPartner)
               return okClient && okPartner
             })
             .map((f) => (
@@ -457,10 +316,18 @@ export default function Followups({ data, setData }) {
                 <td>{f.action}</td>
                 <td style={{ textAlign: "right" }}>
                   <div style={{ display: "inline-flex", gap: 6 }}>
-                    <button title="Edit" style={BTN_STYLE} onClick={() => editFollowup(f)}>
+                    <button
+                      title="Edit"
+                      style={BTN_STYLE}
+                      onClick={() => editFollowup(f)}
+                    >
                       <Pencil size={ICON_SIZE} />
                     </button>
-                    <button title="Delete" style={BTN_STYLE} onClick={() => deleteFollowup(f.id)}>
+                    <button
+                      title="Delete"
+                      style={BTN_STYLE}
+                      onClick={() => deleteFollowup(f.id)}
+                    >
                       <Trash2 size={ICON_SIZE} />
                     </button>
                   </div>
@@ -479,24 +346,3 @@ export default function Followups({ data, setData }) {
     </div>
   )
 }
-
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-const inputStyle = {
-  background: "#e6e6e6",
-  border: "1px solid #ccc",
-  borderRadius: "8px",
-  padding: "0.35rem 0.5rem",
-  height: "30px",
-  fontSize: "0.9rem",
-  color: "#111",
-  width: "100%",
-  outline: "none"
-}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes

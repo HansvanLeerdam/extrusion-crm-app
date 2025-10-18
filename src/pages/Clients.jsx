@@ -25,6 +25,7 @@ export default function Clients({ data, setData }) {
     border: "none",
     cursor: "pointer"
   }
+
   const ICON_SIZE = 14
 
   const inputStyle = {
@@ -68,6 +69,7 @@ export default function Clients({ data, setData }) {
       ],
       details: { address: "", notes: "", notebook: "" }
     }
+
     setData({ ...data, clients: [...(data.clients || []), newClient] })
     setForm({ name: "", country: "", contact: "", email: "", phone: "" })
   }
@@ -105,27 +107,16 @@ export default function Clients({ data, setData }) {
     cancelEdit()
   }
 
-  // ✅ Delete contact (and remove client if no contacts remain)
   const deleteContact = (clientId, idx) => {
     if (!confirm("Delete this contact?")) return
-    let updatedClients = (data.clients || []).map(c => {
+    let updatedClients = (data.clients || []).map((c) => {
       if (c.id !== clientId) return c
       const contacts = [...(c.contacts || [])]
       contacts.splice(idx, 1)
       return { ...c, contacts }
     })
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    updatedClients = updatedClients.filter(c => c.contacts && c.contacts.length > 0)
+    updatedClients = updatedClients.filter((c) => c.contacts && c.contacts.length > 0)
     setData({ ...data, clients: updatedClients })
-=======
-    updated = updated.filter(c => (c.contacts && c.contacts.length > 0))
-    setData({ ...data, clients: updated })
->>>>>>> Stashed changes
-=======
-    updated = updated.filter(c => (c.contacts && c.contacts.length > 0))
-    setData({ ...data, clients: updated })
->>>>>>> Stashed changes
     cancelEdit()
   }
 
@@ -147,7 +138,6 @@ export default function Clients({ data, setData }) {
     setData({ ...data, clients: updated })
   }
 
-  // ✅ New: delete client completely
   const deleteClient = (clientId) => {
     if (!confirm("Are you sure you want to delete this client and all its data?")) return
     const updatedClients = (data.clients || []).filter(c => c.id !== clientId)
@@ -159,43 +149,6 @@ export default function Clients({ data, setData }) {
       <SectionTitle icon={User} title="Clients" />
 
       {/* === FILTERS === */}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1rem", alignItems: "center" }}>
-        <select
-          value={filterCountry}
-          onChange={(e) => setFilterCountry(e.target.value)}
-          style={{ ...inputStyle, width: "160px" }}
-        >
-          <option value="">All Countries</option>
-          {countries.map((country, i) => (
-            <option key={i} value={country}>{country}</option>
-          ))}
-        </select>
-        <input
-          type="text"
-          placeholder="Search..."
-          value={filterSearch}
-          onChange={(e) => setFilterSearch(e.target.value)}
-          style={{ ...inputStyle, width: "160px" }}
-        />
-        {(filterCountry || filterSearch) && (
-          <button
-            className="btn-icon"
-            onClick={() => { setFilterCountry(""); setFilterSearch(""); }}
-            title="Clear filters"
-            style={{
-              height: "32px", background: "transparent", border: "none", color: "#444",
-              cursor: "pointer", fontSize: "1rem"
-            }}
-          >
-            ✖
-          </button>
-        )}
-      </div>
-
-      {/* === INPUT ROW === */}
-=======
       <div
         className="table-filters"
         style={{
@@ -226,38 +179,6 @@ export default function Clients({ data, setData }) {
           style={inputStyle}
         />
 
-=======
-      <div
-        className="table-filters"
-        style={{
-          display: "flex",
-          gap: "0.5rem",
-          marginBottom: "1rem",
-          alignItems: "center"
-        }}
-      >
-        <select
-          value={filterCountry}
-          onChange={(e) => setFilterCountry(e.target.value)}
-          style={inputStyle}
-        >
-          <option value="">All Countries</option>
-          {countries.map((country, i) => (
-            <option key={i} value={country}>
-              {country}
-            </option>
-          ))}
-        </select>
-
-        <input
-          type="text"
-          placeholder="Search..."
-          value={filterSearch}
-          onChange={(e) => setFilterSearch(e.target.value)}
-          style={inputStyle}
-        />
-
->>>>>>> Stashed changes
         {(filterCountry || filterSearch) && (
           <button
             className="btn-icon"
@@ -280,8 +201,7 @@ export default function Clients({ data, setData }) {
         )}
       </div>
 
-      {/* INPUT ROW */}
->>>>>>> Stashed changes
+      {/* === INPUT ROW === */}
       <div
         className="sticky-input-row"
         style={{
@@ -292,7 +212,6 @@ export default function Clients({ data, setData }) {
           marginBottom: "0.8rem"
         }}
       >
-<<<<<<< Updated upstream
         <input placeholder="Client Name" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
         <input placeholder="Country" value={form.country} onChange={(e) => setForm({ ...form, country: e.target.value })} style={inputStyle} />
         <input placeholder="Contact" value={form.contact} onChange={(e) => setForm({ ...form, contact: e.target.value })} style={inputStyle} />
@@ -302,53 +221,10 @@ export default function Clients({ data, setData }) {
       </div>
 
       {/* === CLIENT LIST === */}
-=======
-        <input
-          placeholder="Client Name"
-          value={form.name}
-          onChange={(e) => setForm({ ...form, name: e.target.value })}
-          style={inputStyle}
-        />
-        <input
-          placeholder="Country"
-          value={form.country}
-          onChange={(e) => setForm({ ...form, country: e.target.value })}
-          style={inputStyle}
-        />
-        <input
-          placeholder="Contact"
-          value={form.contact}
-          onChange={(e) => setForm({ ...form, contact: e.target.value })}
-          style={inputStyle}
-        />
-        <input
-          placeholder="Email"
-          value={form.email}
-          onChange={(e) => setForm({ ...form, email: e.target.value })}
-          style={inputStyle}
-        />
-        <input
-          placeholder="Phone"
-          value={form.phone}
-          onChange={(e) => setForm({ ...form, phone: e.target.value })}
-          style={inputStyle}
-        />
-        <button className="btn-icon" onClick={addClient}>+</button>
-      </div>
-
-      {/* CLIENT LIST */}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       {filteredClients.map((client) => {
         const isOpen = !!openClients[client.id]
         const showDetails = !!detailsOpen[client.id]
         return (
-<<<<<<< Updated upstream
-          <div key={client.id} style={{ background: "#141414", borderRadius: "10px", padding: "0.8rem 1rem", marginBottom: "1rem", boxShadow: "0 0 6px rgba(0,0,0,0.4)" }}>
-            {/* Header with delete button */}
-=======
           <div
             key={client.id}
             style={{
@@ -359,45 +235,17 @@ export default function Clients({ data, setData }) {
               boxShadow: "0 0 6px rgba(0,0,0,0.4)"
             }}
           >
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center"
-              }}
-            >
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <div onClick={() => toggleClient(client.id)} style={{ flexGrow: 1, cursor: "pointer" }}>
                 <h3 style={{ color: "#fff", fontSize: "1.1rem", margin: 0 }}>{client.name}</h3>
                 <p style={{ color: "#aaa", margin: "0.2rem 0 0" }}>Country: {client.country || "—"}</p>
               </div>
 
               <div style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}>
-                <button
-                  title="Delete client"
-                  style={{ ...BTN_STYLE, width: 24, height: 24 }}
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    deleteClient(client.id)
-                  }}
-                >
+                <button title="Delete client" style={{ ...BTN_STYLE, width: 24, height: 24 }} onClick={(e) => { e.stopPropagation(); deleteClient(client.id) }}>
                   <Trash2 size={12} />
                 </button>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    toggleClient(client.id)
-                  }}
-                  style={{
-                    background: "transparent",
-                    border: "none",
-                    color: "#aaa",
-                    cursor: "pointer"
-                  }}
-                >
+                <button onClick={(e) => { e.stopPropagation(); toggleClient(client.id) }} style={{ background: "transparent", border: "none", color: "#aaa", cursor: "pointer" }}>
                   {isOpen ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
                 </button>
               </div>
@@ -448,45 +296,15 @@ export default function Clients({ data, setData }) {
                         </tr>
                       )
                     })}
-
-<<<<<<< Updated upstream
-                    {/* Add contact row */}
-                    <tr>
-                      <td><input placeholder="New contact" value={newContact.contact} onChange={(e) => setNewContact({ ...newContact, contact: e.target.value })} style={inputStyle} /></td>
-                      <td><input placeholder="Email" value={newContact.email} onChange={(e) => setNewContact({ ...newContact, email: e.target.value })} style={inputStyle} /></td>
-                      <td><input placeholder="Phone" value={newContact.phone} onChange={(e) => setNewContact({ ...newContact, phone: e.target.value })} style={inputStyle} /></td>
-                      <td style={{ textAlign: "right" }}>
-                        <button title="Add contact" style={BTN_STYLE} onClick={() => addContact(client.id)}>
-                          <Plus size={ICON_SIZE} />
-                        </button>
-                      </td>
-                    </tr>
                   </tbody>
                 </table>
 
-                {/* Expandable company details */}
-                <button
-                  onClick={() => toggleDetails(client.id)}
-                  style={{
-                    background: "none",
-                    color: "#ffa733",
-                    border: "none",
-                    cursor: "pointer",
-                    marginTop: "0.4rem"
-                  }}
-                >
+                <button onClick={() => toggleDetails(client.id)} style={{ background: "none", color: "#ffa733", border: "none", cursor: "pointer", marginTop: "0.4rem" }}>
                   {showDetails ? "Hide details ▲" : "Show company details ▼"}
                 </button>
 
                 {showDetails && (
-                  <div
-                    style={{
-                      marginTop: "0.6rem",
-                      background: "#1a1a1a",
-                      borderRadius: 8,
-                      padding: "0.8rem"
-                    }}
-                  >
+                  <div style={{ marginTop: "0.6rem", background: "#1a1a1a", borderRadius: 8, padding: "0.8rem" }}>
                     {[
                       { key: "address", label: "Address", placeholder: "Street, postal code, city..." },
                       { key: "notes", label: "Notes (e.g. amount of presses)", placeholder: "Press capacity, extrusion lines, etc." },
@@ -516,113 +334,10 @@ export default function Clients({ data, setData }) {
                   </div>
                 )}
               </>
-=======
-                    return (
-                      <tr key={rowKey}>
-                        {editing ? (
-                          <>
-                            <td>
-                              <input
-                                value={editContact.contact}
-                                onChange={(e) =>
-                                  setEditContact({ ...editContact, contact: e.target.value })
-                                }
-                                placeholder="Contact person"
-                                style={inputStyle}
-                              />
-                            </td>
-                            <td>
-                              <input
-                                value={editContact.email}
-                                onChange={(e) =>
-                                  setEditContact({ ...editContact, email: e.target.value })
-                                }
-                                placeholder="Email"
-                                style={inputStyle}
-                              />
-                            </td>
-                            <td>
-                              <input
-                                value={editContact.phone}
-                                onChange={(e) =>
-                                  setEditContact({ ...editContact, phone: e.target.value })
-                                }
-                                placeholder="Phone"
-                                style={inputStyle}
-                              />
-                            </td>
-                            <td style={{ textAlign: "right" }}>
-                              <div style={{ display: "inline-flex", gap: 6 }}>
-                                <button
-                                  title="Save"
-                                  style={BTN_STYLE}
-                                  onClick={() => saveEdit(client.id, i)}
-                                >
-                                  <Save size={ICON_SIZE} />
-                                </button>
-                                <button
-                                  title="Cancel"
-                                  style={BTN_STYLE}
-                                  onClick={cancelEdit}
-                                >
-                                  <X size={ICON_SIZE} />
-                                </button>
-                              </div>
-                            </td>
-                          </>
-                        ) : (
-                          <>
-                            <td>{ct.contact}</td>
-                            <td>{ct.email}</td>
-                            <td>{ct.phone}</td>
-                            <td style={{ textAlign: "right" }}>
-                              <div style={{ display: "inline-flex", gap: 6 }}>
-                                <button
-                                  title="Modify"
-                                  style={BTN_STYLE}
-                                  onClick={(e) => {
-                                    e.stopPropagation()
-                                    startEdit(client.id, i, ct)
-                                  }}
-                                >
-                                  <Pencil size={ICON_SIZE} />
-                                </button>
-                                <button
-                                  title="Delete"
-                                  style={BTN_STYLE}
-                                  onClick={(e) => {
-                                    e.stopPropagation()
-                                    deleteContact(client.id, i)
-                                  }}
-                                >
-                                  <Trash2 size={ICON_SIZE} />
-                                </button>
-                              </div>
-                            </td>
-                          </>
-                        )}
-                      </tr>
-                    )
-                  })}
-                </tbody>
-              </table>
->>>>>>> Stashed changes
             )}
           </div>
         )
       })}
     </div>
   )
-}
-
-const inputStyle = {
-  background: "#e6e6e6", // light grey
-  border: "1px solid #ccc",
-  borderRadius: "8px",
-  padding: "0.35rem 0.5rem",
-  height: "30px", // slightly smaller
-  fontSize: "0.9rem",
-  color: "#111",
-  width: "100%",
-  outline: "none"
 }
