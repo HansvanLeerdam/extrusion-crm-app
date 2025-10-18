@@ -24,7 +24,7 @@ export default function Products({ data, setData }) {
   const ICON_SIZE = 14
 
   const inputStyle = {
-    height: "30px",
+    height: "28px",
     background: "#e9e9e9",
     color: "#111",
     border: "1px solid #ccc",

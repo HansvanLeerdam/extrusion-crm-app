@@ -105,7 +105,7 @@ export default function Clients({ data, setData }) {
     cancelEdit()
   }
 
-  // ✅ FIXED — delete last contact removes client
+  // ✅ Delete contact (and remove client if no contacts remain)
   const deleteContact = (clientId, idx) => {
     if (!confirm("Delete this contact?")) return
     let updatedClients = (data.clients || []).map(c => {
@@ -135,6 +135,13 @@ export default function Clients({ data, setData }) {
       return { ...c, details: { ...c.details, [field]: value } }
     })
     setData({ ...data, clients: updated })
+  }
+
+  // ✅ New: delete client completely
+  const deleteClient = (clientId) => {
+    if (!confirm("Are you sure you want to delete this client and all its data?")) return
+    const updatedClients = (data.clients || []).filter(c => c.id !== clientId)
+    setData({ ...data, clients: updatedClients })
   }
 
   return (
@@ -200,11 +207,46 @@ export default function Clients({ data, setData }) {
         const showDetails = !!detailsOpen[client.id]
         return (
           <div key={client.id} style={{ background: "#141414", borderRadius: "10px", padding: "0.8rem 1rem", marginBottom: "1rem", boxShadow: "0 0 6px rgba(0,0,0,0.4)" }}>
-            <div onClick={() => toggleClient(client.id)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", cursor: "pointer" }}>
-              <h3 style={{ color: "#fff", fontSize: "1.1rem", margin: 0 }}>{client.name}</h3>
-              {isOpen ? <ChevronUp color="#aaa" size={18} /> : <ChevronDown color="#aaa" size={18} />}
+            {/* Header with delete button */}
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center"
+              }}
+            >
+              <div onClick={() => toggleClient(client.id)} style={{ flexGrow: 1, cursor: "pointer" }}>
+                <h3 style={{ color: "#fff", fontSize: "1.1rem", margin: 0 }}>{client.name}</h3>
+                <p style={{ color: "#aaa", margin: "0.2rem 0 0" }}>Country: {client.country || "—"}</p>
+              </div>
+
+              <div style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}>
+                <button
+                  title="Delete client"
+                  style={{ ...BTN_STYLE, width: 24, height: 24 }}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    deleteClient(client.id)
+                  }}
+                >
+                  <Trash2 size={12} />
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    toggleClient(client.id)
+                  }}
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "#aaa",
+                    cursor: "pointer"
+                  }}
+                >
+                  {isOpen ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
+                </button>
+              </div>
             </div>
-            <p style={{ color: "#aaa", margin: "0.2rem 0 0" }}>Country: {client.country || "—"}</p>
 
             {isOpen && (
               <>
@@ -289,7 +331,7 @@ export default function Clients({ data, setData }) {
                       padding: "0.8rem"
                     }}
                   >
-                    {[ 
+                    {[
                       { key: "address", label: "Address", placeholder: "Street, postal code, city..." },
                       { key: "notes", label: "Notes (e.g. amount of presses)", placeholder: "Press capacity, extrusion lines, etc." },
                       { key: "notebook", label: "Meeting Notebook", placeholder: "Meeting notes or general comments..." }
