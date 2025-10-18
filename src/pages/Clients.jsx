@@ -115,8 +115,13 @@ export default function Clients({ data, setData }) {
       return { ...c, contacts }
     })
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     updatedClients = updatedClients.filter(c => c.contacts && c.contacts.length > 0)
     setData({ ...data, clients: updatedClients })
+=======
+    updated = updated.filter(c => (c.contacts && c.contacts.length > 0))
+    setData({ ...data, clients: updated })
+>>>>>>> Stashed changes
 =======
     updated = updated.filter(c => (c.contacts && c.contacts.length > 0))
     setData({ ...data, clients: updated })
@@ -154,6 +159,7 @@ export default function Clients({ data, setData }) {
       <SectionTitle icon={User} title="Clients" />
 
       {/* === FILTERS === */}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1rem", alignItems: "center" }}>
         <select
@@ -220,6 +226,38 @@ export default function Clients({ data, setData }) {
           style={inputStyle}
         />
 
+=======
+      <div
+        className="table-filters"
+        style={{
+          display: "flex",
+          gap: "0.5rem",
+          marginBottom: "1rem",
+          alignItems: "center"
+        }}
+      >
+        <select
+          value={filterCountry}
+          onChange={(e) => setFilterCountry(e.target.value)}
+          style={inputStyle}
+        >
+          <option value="">All Countries</option>
+          {countries.map((country, i) => (
+            <option key={i} value={country}>
+              {country}
+            </option>
+          ))}
+        </select>
+
+        <input
+          type="text"
+          placeholder="Search..."
+          value={filterSearch}
+          onChange={(e) => setFilterSearch(e.target.value)}
+          style={inputStyle}
+        />
+
+>>>>>>> Stashed changes
         {(filterCountry || filterSearch) && (
           <button
             className="btn-icon"
@@ -299,6 +337,9 @@ export default function Clients({ data, setData }) {
       </div>
 
       {/* CLIENT LIST */}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       {filteredClients.map((client) => {
         const isOpen = !!openClients[client.id]
@@ -318,6 +359,9 @@ export default function Clients({ data, setData }) {
               boxShadow: "0 0 6px rgba(0,0,0,0.4)"
             }}
           >
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             <div
               style={{

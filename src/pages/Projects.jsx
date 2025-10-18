@@ -236,7 +236,11 @@ export default function Projects({ data, setData }) {
           value={filterClient}
           onChange={(e) => setFilterClient(e.target.value)}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           style={{ ...inputStyle, width: "160px" }}
+=======
+          style={inputStyle}
+>>>>>>> Stashed changes
 =======
           style={inputStyle}
 >>>>>>> Stashed changes
@@ -253,7 +257,11 @@ export default function Projects({ data, setData }) {
           value={filterPartner}
           onChange={(e) => setFilterPartner(e.target.value)}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           style={{ ...inputStyle, width: "160px" }}
+=======
+          style={inputStyle}
+>>>>>>> Stashed changes
 =======
           style={inputStyle}
 >>>>>>> Stashed changes
@@ -379,6 +387,7 @@ export default function Projects({ data, setData }) {
             >
               {g.client}
             </h3>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
             {/* TABLE CONTENT */}
@@ -548,6 +557,10 @@ export default function Projects({ data, setData }) {
                 })}
               </tbody>
             </table>
+=======
+            {/* table rendering stays identical */}
+            {/* ... */}
+>>>>>>> Stashed changes
 =======
             {/* table rendering stays identical */}
             {/* ... */}

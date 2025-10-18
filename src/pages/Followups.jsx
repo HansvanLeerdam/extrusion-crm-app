@@ -31,6 +31,7 @@ export default function Followups({ data, setData }) {
   const ICON_SIZE = 14
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   const inputStyle = {
     background: "#e6e6e6",
     border: "1px solid #ccc",
@@ -50,6 +51,8 @@ export default function Followups({ data, setData }) {
   const allProjects = [...(data.projects || [])].sort((a, b) => a.name.localeCompare(b.name))
 
 =======
+=======
+>>>>>>> Stashed changes
   const projectClientIds = Array.from(
     new Set((data.projects || []).map((p) => String(p.clientId)))
   )
@@ -76,6 +79,9 @@ export default function Followups({ data, setData }) {
   const displayedProducts =
     partnerProducts && partnerProducts.length > 0 ? partnerProducts : allProducts
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   const addOrUpdate = () => {
     if (!form.clientId || !form.partnerId) return alert("Client and Partner are required.")
@@ -118,9 +124,12 @@ export default function Followups({ data, setData }) {
   }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   const getClientName = (id) =>
     (data.clients || []).find((c) => String(c.id) === String(id))?.name || ""
 =======
+=======
+>>>>>>> Stashed changes
   const sorted = [...(data.followups || [])]
     .filter((f) => {
       const okClient = !filterClient || String(f.clientId) === String(filterClient)
@@ -406,6 +415,9 @@ export default function Followups({ data, setData }) {
 <<<<<<< Updated upstream
 =======
           placeholder="Action"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           style={inputStyle}
         />
@@ -469,7 +481,10 @@ export default function Followups({ data, setData }) {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 const inputStyle = {
   background: "#e6e6e6",
   border: "1px solid #ccc",
@@ -481,4 +496,7 @@ const inputStyle = {
   width: "100%",
   outline: "none"
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
