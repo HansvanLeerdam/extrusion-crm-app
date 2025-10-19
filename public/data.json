@@ -34,7 +34,7 @@
         }
       ],
       "details": {
-        "address": "Zona Industrial da Lameira\r\r\r\r\nLote 1/15, 4820-840 Rego\r\r\r\r\nCelorico de Basto, Portugal",
+        "address": "Zona Industrial da Lameira\nLote 1/15, 4820-840 Rego\nCelorico de Basto, Portugal",
         "notes": "2500, 2600",
         "notebook": ""
       }
@@ -61,7 +61,7 @@
         }
       ],
       "details": {
-        "address": "Av. de Laviana, s/n\r\r\r\r\n33900 Ciaño – Langreo\r\r\r\r\nAsturias, Spain",
+        "address": "Av. de Laviana, s/n\n33900 Ciaño – Langreo\nAsturias, Spain",
         "notes": "1800, 2500, 3500",
         "notebook": ""
       }
@@ -103,7 +103,7 @@
         }
       ],
       "details": {
-        "address": "Second Industrial Zone\r\r\r\r\n9700 Shumen\r\r\r\r\nBulgaria",
+        "address": "Second Industrial Zone\n9700 Shumen\nBulgaria",
         "notes": "600, 1300, 1800, 2000, 2500, 4000",
         "notebook": ""
       }
@@ -142,7 +142,7 @@
         }
       ],
       "details": {
-        "address": "ul. Wacława Moritza 3\r\r\r\r\n20-276 Lublin\r\r\r\r\nPoland",
+        "address": "ul. Wacława Moritza 3\n20-276 Lublin\nPoland",
         "notes": "",
         "notebook": ""
       }
@@ -209,7 +209,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\r\r\n45007 Toledo, Spain",
+        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\n45007 Toledo, Spain",
         "notes": "1800 (2), 2200",
         "notebook": ""
       }
@@ -226,7 +226,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\r\r\n38509 Candelaria, Santa Cruz de Tenerife\r\r\r\nSpain",
+        "address": "P. I. Valle de Güímar – Parcs. 13/15\n38509 Candelaria, Santa Cruz de Tenerife\nSpain",
         "notes": "1800, 2200",
         "notebook": ""
       }
@@ -243,7 +243,7 @@
         }
       ],
       "details": {
-        "address": "Ctra. Viveros, km. 1\r\r\r\r\n02340 El Robledo\r\r\r\r\nAlbacete, Spain",
+        "address": "Ctra. Viveros, km. 1\n02340 El Robledo\nAlbacete, Spain",
         "notes": "1800, 2000",
         "notebook": ""
       }
@@ -260,7 +260,7 @@
         }
       ],
       "details": {
-        "address": "P.I. El Sequero, Parcels 169-176\r\r\r\r\n26151 Arrúbal, La Rioja\r\r\r\r\nSpain",
+        "address": "P.I. El Sequero, Parcels 169-176\n26151 Arrúbal, La Rioja\nSpain",
         "notes": "1800, 2000",
         "notebook": ""
       }
@@ -287,7 +287,7 @@
         }
       ],
       "details": {
-        "address": "Carretera N-IV, S/N, Km 32.400\r\r\r\r\n28350 Ciempozuelos, Madrid\r\r\r\r\nSpain",
+        "address": "Carretera N-IV, S/N, Km 32.400\n28350 Ciempozuelos, Madrid\nSpain",
         "notes": "1600, 1800, 2200",
         "notebook": ""
       }
@@ -309,7 +309,7 @@
         }
       ],
       "details": {
-        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\r\r\r\n41700 Dos Hermanas, Sevilla\r\r\r\r\nSpain",
+        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\n41700 Dos Hermanas, Sevilla\nSpain",
         "notes": "1800, 2500, 4800",
         "notebook": ""
       }
@@ -326,7 +326,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\r\r\r\n40400 El Espinar, Segovia\r\r\r\r\nSpain",
+        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\n40400 El Espinar, Segovia\nSpain",
         "notes": "1800, 1800",
         "notebook": ""
       }
@@ -354,7 +354,7 @@
         }
       ],
       "details": {
-        "address": "Duizeldonksestraat 20\r\r\r\r\n5705 CA Helmond\r\r\r\r\nNetherlands",
+        "address": "Duizeldonksestraat 20\n5705 CA Helmond\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -410,7 +410,7 @@
         }
       ],
       "details": {
-        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\r\r\r\n08403 Granollers, Barcelona\r\r\r\r\nSpain",
+        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\n08403 Granollers, Barcelona\nSpain",
         "notes": 2500,
         "notebook": ""
       }
@@ -495,7 +495,7 @@
         }
       ],
       "details": {
-        "address": "First Industrial City, Street 38, Building 7244\r\r\r\nDammam, Eastern Province 31451\r\r\r\nSaudi Arabia",
+        "address": "First Industrial City, Street 38, Building 7244\nDammam, Eastern Province 31451\nSaudi Arabia",
         "notes": "",
         "notebook": ""
       }
@@ -506,7 +506,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Uelzener Weg 36\r\r\r\r\n59425 Unna, Germany",
+        "address": "Uelzener Weg 36\n59425 Unna, Germany",
         "notes": "",
         "notebook": ""
       }
