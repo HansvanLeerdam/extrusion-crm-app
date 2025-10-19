@@ -3095,6 +3095,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760890866642",
+      "name": "Nevaluz Sevilla",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Joaquín Noguera Rodríguez",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Polígono Industrial Maza y Marín, nave 16 - 41400 Écija, Sevilla",
+        "notes": "1600, 2500",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
