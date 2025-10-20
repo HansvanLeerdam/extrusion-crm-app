@@ -2085,7 +2085,7 @@
       "contacts": [
         {
           "contact": "Paulo Sampaio",
-          "email": "",
+          "email": "paulo.sampaio@lingote.com",
           "phone": ""
         }
       ],
@@ -3112,6 +3112,23 @@
         "notes": "1600, 2500",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1760973941354",
+      "name": "Mejo",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "Ute von Chamier",
+          "email": "ute.vonchamier@mejo.de",
+          "phone": "+49 2162 3617816"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -3625,15 +3642,6 @@
       "status": "Follow up "
     },
     {
-      "id": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
-      "name": "Safety Door Flap",
-      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
-      "partnerId": "10",
-      "productId": "Safety Door Flap",
-      "startDate": "2025-07-23",
-      "status": "Ongoing"
-    },
-    {
       "id": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
       "name": "Profile Cooling",
       "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
@@ -3833,10 +3841,10 @@
     },
     {
       "id": "31",
-      "name": "Quench Tunnel",
+      "name": "25 MN Extrusion Press",
       "clientId": "63265847-f578-4a25-8af3-881ce025131b",
       "partnerId": "3",
-      "productId": "Quench Cooling Tunnel",
+      "productId": "Extrusion Press Line",
       "startDate": "2025-09-20",
       "status": "Check with Nacho"
     },
@@ -3857,15 +3865,6 @@
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-10",
       "status": "In review"
-    },
-    {
-      "id": "32",
-      "name": "Billet Casting",
-      "clientId": "63265847-f578-4a25-8af3-881ce025131b",
-      "partnerId": "3",
-      "productId": "Billet Casting Line",
-      "startDate": "2025-09-20",
-      "status": "Check with Nacho"
     },
     {
       "id": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
@@ -4253,6 +4252,24 @@
       "productId": "Consulting",
       "startDate": "2025-10-17",
       "status": "Ongoing"
+    },
+    {
+      "id": "project-ebebb0e5-20c4-47a0-94aa-6bc48602f8f5",
+      "name": "Safet Flap",
+      "clientId": "e5e9f07e-4d14-47a1-b3cf-348a7143ed11",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "startDate": "2025-09-26",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-36bda936-aa21-439c-ab18-db161eb3f926",
+      "name": "DS Machine",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-10-20",
+      "status": "Contact Paulo"
     }
   ],
   "followups": [
@@ -4280,7 +4297,7 @@
       "projectId": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4298,7 +4315,7 @@
       "projectId": "project-15e9ba55-cea3-46d7-91b5-52d8918a8ff8",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4307,7 +4324,7 @@
       "projectId": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-27",
       "action": "Ask Jason for feedback"
     },
     {
@@ -4325,7 +4342,7 @@
       "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
       "partnerId": "3",
       "productId": "Extrusion Equipment",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-22",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4370,17 +4387,8 @@
       "projectId": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
-      "action": "Initial follow-up for new project"
-    },
-    {
-      "id": "54726a55-a13f-46c0-b4c8-97810e344ce8",
-      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
-      "projectId": "2c5cf93d-2585-45b1-a51e-4996359b8d02",
-      "partnerId": "10",
-      "productId": "Safety Door Flap",
-      "nextDate": "2025-10-20",
-      "action": "Follow up"
+      "nextDate": "2025-10-22",
+      "action": "Contact Simón"
     },
     {
       "id": "followup-e2d06445-1c2f-4818-87cb-f62c82c83d5f",
@@ -4397,7 +4405,7 @@
       "projectId": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
       "partnerId": "10",
       "productId": "Air Cooling Installation",
-      "nextDate": "2025-10-20",
+      "nextDate": "2026-06-29",
       "action": "Follow up"
     },
     {
@@ -4406,8 +4414,8 @@
       "projectId": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
       "partnerId": "10",
       "productId": "Safety Door Flap",
-      "nextDate": "2025-10-20",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-06-29",
+      "action": "Follow up"
     },
     {
       "id": "cf29c298-86e6-4523-b2d2-3380b300e1cc",
@@ -4424,7 +4432,7 @@
       "projectId": "6",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-22",
       "action": "Contact Simón"
     },
     {
@@ -4469,8 +4477,8 @@
       "projectId": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-20",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2025-10-27",
+      "action": "Contact Paulo"
     },
     {
       "id": "followup-8087cd87-3f0c-4b26-9318-8b3eead41b38",
@@ -4478,8 +4486,8 @@
       "projectId": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2025-10-22",
+      "action": "Contact Simón"
     },
     {
       "id": "80344f02-890a-4b00-a122-d037018e801d",
@@ -4487,17 +4495,8 @@
       "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
       "partnerId": "3",
       "productId": "Handling Table",
-      "nextDate": "2025-10-20",
+      "nextDate": "2026-03-20",
       "action": "Contact Nacho"
-    },
-    {
-      "id": "followup-dd0d71f0-61cc-4796-b077-030fd17758d5",
-      "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
-      "projectId": "project-0f794d56-1843-46a4-858d-2d947ac28263",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "nextDate": "2025-10-20",
-      "action": "Contact Maintenenance Manager"
     },
     {
       "id": "followup-1fde4034-a835-488c-8956-65c36b37e903",
@@ -4514,7 +4513,7 @@
       "projectId": "1",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-31",
       "action": "Contact Robert"
     },
     {
@@ -4550,8 +4549,8 @@
       "projectId": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2025-10-22",
+      "action": "Contact Simón"
     },
     {
       "id": "followup-da2ed5f7-6395-4530-b8f3-2680b2309ac5",
@@ -4586,7 +4585,7 @@
       "projectId": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-22",
       "action": "Call Rodolfo"
     },
     {
@@ -4595,7 +4594,7 @@
       "projectId": "19",
       "partnerId": "3",
       "productId": "Air Cooling Installation",
-      "nextDate": "2025-10-20",
+      "nextDate": "2026-03-20",
       "action": "Contact Nacho"
     },
     {
@@ -4802,7 +4801,7 @@
       "projectId": "project-cabe091f-c284-4dcb-ae51-c179100df4bf",
       "partnerId": "3",
       "productId": "Billet Casting Line",
-      "nextDate": "2025-10-24",
+      "nextDate": "2026-03-20",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4849,6 +4848,42 @@
       "productId": "Consulting",
       "nextDate": "2025-10-24",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-76eb6598-4c00-410a-acfd-32acced47542",
+      "clientId": "e5e9f07e-4d14-47a1-b3cf-348a7143ed11",
+      "projectId": "project-ebebb0e5-20c4-47a0-94aa-6bc48602f8f5",
+      "partnerId": "10",
+      "productId": "Safety Door Flap",
+      "nextDate": "2025-10-22",
+      "action": "Contact Paulo"
+    },
+    {
+      "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
+      "projectId": "19",
+      "partnerId": "3",
+      "productId": "Air Cooling Installation",
+      "nextDate": "2026-06-29",
+      "action": "Follow up",
+      "id": "followup-9edce28f-c310-4969-b476-9fefa388eba7"
+    },
+    {
+      "id": "followup-08debbf4-fd41-41d8-ae51-f25d604bcd33",
+      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
+      "projectId": "project-36bda936-aa21-439c-ab18-db161eb3f926",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-10-27",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "clientId": "63265847-f578-4a25-8af3-881ce025131b",
+      "projectId": "31",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "nextDate": "2026-03-20",
+      "action": "Follow up with Nacho",
+      "id": "followup-e5584caf-47cf-45c4-8b7e-c1a35fdc5b40"
     }
   ],
   "projectComments": [
@@ -4972,13 +5007,6 @@
       "date": "2025-10-12"
     },
     {
-      "id": "comment-17cf46de-886a-41b7-9ad7-0992c5eddf01",
-      "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
-      "type": "offer",
-      "text": "Offer has been send to Enrique on the 13/10",
-      "date": "2025-10-13"
-    },
-    {
       "id": "comment-df22ecff-e6ff-48e4-8c08-51a5c105f2b2",
       "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
       "type": "email",
@@ -5089,6 +5117,153 @@
       "type": "note",
       "text": "Offer is with the end client, Nathan told me - 15/10/25",
       "date": "2025-10-17"
+    },
+    {
+      "id": "comment-44256be9-3d97-41af-a04a-7485b384f9fd",
+      "projectId": "28",
+      "type": "email",
+      "text": "Sent an email to Paulo asking for a update - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-3aa5d094-7546-4941-a12d-7160aeb1f2ca",
+      "projectId": "project-0f794d56-1843-46a4-858d-2d947ac28263",
+      "type": "email",
+      "text": "Sent Eric an email asking for reply - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-81ca6032-ea79-4f73-91c2-b6781bafafe2",
+      "projectId": "project-be913dcc-1a54-45d5-b460-5adea61ca172",
+      "type": "email",
+      "text": "Jason commented on the offer, telling us he prefers Infra Red Die Heating Ovens. After Mehmet´s reply, I asked him why he believes this to be the better option - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-f7906ee3-abfb-4818-9953-4c82981b1111",
+      "projectId": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
+      "type": "email",
+      "text": "Sent an email asking for ok on offer and availability in week 48/49 - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-38560494-1410-4994-a06c-8cf994483862",
+      "projectId": "41",
+      "type": "email",
+      "text": "Sent an email asking for feedback on the die oven and press offer to Karthik - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-3d22a603-9f21-484e-8851-9358b3af623a",
+      "projectId": "project-ebebb0e5-20c4-47a0-94aa-6bc48602f8f5",
+      "type": "email",
+      "text": "Sent email to Paulo asking for feedback - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-a75ff891-0600-4bff-9795-eb12fd8dba36",
+      "projectId": "1",
+      "type": "note",
+      "text": "Robert is discussing the offer with his team and will come back to us - 25/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-29d5d3aa-9ffc-4330-ba6d-593528ca69a5",
+      "projectId": "35",
+      "type": "email",
+      "text": "Replied to email from Fabio regarding the se-up of the training - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-980231cf-c06d-425b-8193-13e1d80fb929",
+      "projectId": "f0e73179-1cfb-4900-996f-8e6c98955543",
+      "type": "email",
+      "text": "Sent email to Pere and Albert asking for their feedback regarding the offer - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-47a2c620-925f-4752-8d0b-556099d99d3c",
+      "projectId": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
+      "type": "email",
+      "text": "Sent email to Pere and Albert asking for their feedback regarding the offer - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-fb19c7b9-44f3-4480-8aca-a9418ce91db0",
+      "projectId": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
+      "type": "email",
+      "text": "Sent email to Pere and Albert asking for their feedback regarding the offer - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-c765101c-48b0-4eee-b81e-05938e39bd84",
+      "projectId": "project-36bda936-aa21-439c-ab18-db161eb3f926",
+      "type": "email",
+      "text": "Sent an email to Paulo asking for feedback - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-d382c767-dc49-4735-9b1a-e710dfeb8f89",
+      "projectId": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
+      "type": "note",
+      "text": "Reply from Pere: no new investments will be made in 2026 in Santa Oliva - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-d06b4c27-a362-4420-95d6-a4232fddc961",
+      "projectId": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
+      "type": "note",
+      "text": "Reply from Pere: no new investments will be made in 2026 in Santa Oliva - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-eab36b46-7fa8-42d6-bdb3-0cfb562ef551",
+      "projectId": "f0e73179-1cfb-4900-996f-8e6c98955543",
+      "type": "note",
+      "text": "Reply from Pere: no new investments will be made in 2026 in Santa Oliva - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-400957cb-35ad-4a2e-9493-e68d09e539ce",
+      "projectId": "19",
+      "type": "note",
+      "text": "Nacho told me that every new equipment seems expensive to Alucansa - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-7f2d9609-165a-4532-88bc-0e725c0ac251",
+      "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
+      "type": "note",
+      "text": "Nacho told me that every new equipment seems expensive to Alucansa - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-d9821b1b-2cb9-45d5-8867-ce13eef40003",
+      "projectId": "project-5614dc26-e7d9-4204-98f4-b7d8c6f6431c",
+      "type": "note",
+      "text": "Agustin told me that there is still interest but they have no idea when - 25/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-ddf6e49f-ec4e-458d-a8de-ed383f5422dd",
+      "projectId": "project-cabe091f-c284-4dcb-ae51-c179100df4bf",
+      "type": "note",
+      "text": "Nacho has no feedback yet from the client - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-f6c247e4-6de6-4827-ab70-d1cb3f0edfb0",
+      "projectId": "34",
+      "type": "note",
+      "text": "Nacho has no feedback yet from the client - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-b1f46a9f-8ec9-4564-bef8-4df86d5ee006",
+      "projectId": "31",
+      "type": "note",
+      "text": "Nacho has no feedback yet from the client - 20/10/25",
+      "date": "2025-10-20"
     }
   ]
 }
