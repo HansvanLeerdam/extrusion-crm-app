@@ -34,7 +34,7 @@
         }
       ],
       "details": {
-        "address": "Zona Industrial da Lameira\nLote 1/15, 4820-840 Rego\nCelorico de Basto, Portugal",
+        "address": "Zona Industrial da Lameira\r\nLote 1/15, 4820-840 Rego\r\nCelorico de Basto, Portugal",
         "notes": "2500, 2600",
         "notebook": ""
       }
@@ -61,7 +61,7 @@
         }
       ],
       "details": {
-        "address": "Av. de Laviana, s/n\n33900 Ciaño – Langreo\nAsturias, Spain",
+        "address": "Av. de Laviana, s/n\r\n33900 Ciaño – Langreo\r\nAsturias, Spain",
         "notes": "1800, 2500, 3500",
         "notebook": ""
       }
@@ -103,7 +103,7 @@
         }
       ],
       "details": {
-        "address": "Second Industrial Zone\n9700 Shumen\nBulgaria",
+        "address": "Second Industrial Zone\r\n9700 Shumen\r\nBulgaria",
         "notes": "600, 1300, 1800, 2000, 2500, 4000",
         "notebook": ""
       }
@@ -142,7 +142,7 @@
         }
       ],
       "details": {
-        "address": "ul. Wacława Moritza 3\n20-276 Lublin\nPoland",
+        "address": "ul. Wacława Moritza 3\r\n20-276 Lublin\r\nPoland",
         "notes": "",
         "notebook": ""
       }
@@ -209,7 +209,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\n45007 Toledo, Spain",
+        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\n45007 Toledo, Spain",
         "notes": "1800 (2), 2200",
         "notebook": ""
       }
@@ -226,7 +226,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Valle de Güímar – Parcs. 13/15\n38509 Candelaria, Santa Cruz de Tenerife\nSpain",
+        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\n38509 Candelaria, Santa Cruz de Tenerife\r\nSpain",
         "notes": "1800, 2200",
         "notebook": ""
       }
@@ -243,7 +243,7 @@
         }
       ],
       "details": {
-        "address": "Ctra. Viveros, km. 1\n02340 El Robledo\nAlbacete, Spain",
+        "address": "Ctra. Viveros, km. 1\r\n02340 El Robledo\r\nAlbacete, Spain",
         "notes": "1800, 2000",
         "notebook": ""
       }
@@ -260,7 +260,7 @@
         }
       ],
       "details": {
-        "address": "P.I. El Sequero, Parcels 169-176\n26151 Arrúbal, La Rioja\nSpain",
+        "address": "P.I. El Sequero, Parcels 169-176\r\n26151 Arrúbal, La Rioja\r\nSpain",
         "notes": "1800, 2000",
         "notebook": ""
       }
@@ -287,7 +287,7 @@
         }
       ],
       "details": {
-        "address": "Carretera N-IV, S/N, Km 32.400\n28350 Ciempozuelos, Madrid\nSpain",
+        "address": "Carretera N-IV, S/N, Km 32.400\r\n28350 Ciempozuelos, Madrid\r\nSpain",
         "notes": "1600, 1800, 2200",
         "notebook": ""
       }
@@ -309,7 +309,7 @@
         }
       ],
       "details": {
-        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\n41700 Dos Hermanas, Sevilla\nSpain",
+        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\n41700 Dos Hermanas, Sevilla\r\nSpain",
         "notes": "1800, 2500, 4800",
         "notebook": ""
       }
@@ -326,7 +326,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\n40400 El Espinar, Segovia\nSpain",
+        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\n40400 El Espinar, Segovia\r\nSpain",
         "notes": "1800, 1800",
         "notebook": ""
       }
@@ -354,7 +354,7 @@
         }
       ],
       "details": {
-        "address": "Duizeldonksestraat 20\n5705 CA Helmond\nNetherlands",
+        "address": "Duizeldonksestraat 20\r\n5705 CA Helmond\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -388,7 +388,7 @@
         }
       ],
       "details": {
-        "address": "Thessi Megali Rachi\r\r\r\r\n32011 Inofita, Viotia\r\r\r\r\nGreece",
+        "address": "Thessi Megali Rachi\r\r\r\r\r\n32011 Inofita, Viotia\r\r\r\r\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -410,7 +410,7 @@
         }
       ],
       "details": {
-        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\n08403 Granollers, Barcelona\nSpain",
+        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\n08403 Granollers, Barcelona\r\nSpain",
         "notes": 2500,
         "notebook": ""
       }
@@ -495,7 +495,7 @@
         }
       ],
       "details": {
-        "address": "First Industrial City, Street 38, Building 7244\nDammam, Eastern Province 31451\nSaudi Arabia",
+        "address": "First Industrial City, Street 38, Building 7244\r\nDammam, Eastern Province 31451\r\nSaudi Arabia",
         "notes": "",
         "notebook": ""
       }
@@ -506,7 +506,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Uelzener Weg 36\n59425 Unna, Germany",
+        "address": "Uelzener Weg 36\r\n59425 Unna, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -617,7 +617,7 @@
         }
       ],
       "details": {
-        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\r\r\r\nKırklareli, Turkey",
+        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\r\r\r\r\nKırklareli, Turkey",
         "notes": "",
         "notebook": ""
       }
@@ -707,7 +707,7 @@
         }
       ],
       "details": {
-        "address": "Hondert Margen 12\r\r\r\n2678 AC De Lier\r\r\r\nNetherlands",
+        "address": "Hondert Margen 12\r\r\r\r\n2678 AC De Lier\r\r\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -729,7 +729,7 @@
         }
       ],
       "details": {
-        "address": "Ashby Road East\r\r\r\nShepshed\r\r\r\nLoughborough\r\r\r\nLeicestershire LE12 9BS\r\r\r\nUnited Kingdom",
+        "address": "Ashby Road East\r\r\r\r\nShepshed\r\r\r\r\nLoughborough\r\r\r\r\nLeicestershire LE12 9BS\r\r\r\r\nUnited Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -751,7 +751,7 @@
         }
       ],
       "details": {
-        "address": "2/170 CPC Industrial Park\r\r\r\nNorthern Extensions, Industrial Area #4\r\r\r\n6th October City\r\r\r\n12573 Giza, Egypt",
+        "address": "2/170 CPC Industrial Park\r\r\r\r\nNorthern Extensions, Industrial Area #4\r\r\r\r\n6th October City\r\r\r\r\n12573 Giza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -796,7 +796,7 @@
         }
       ],
       "details": {
-        "address": "Alusingen Platz 1\r\r\r\r\n78224 Singen, Germany",
+        "address": "Alusingen Platz 1\r\r\r\r\r\n78224 Singen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -813,7 +813,7 @@
         }
       ],
       "details": {
-        "address": "8th km National Road Larissa-Athens, Nikea Intersection\r\r\r\nLarissa, 41110\r\r\r\nGreece",
+        "address": "8th km National Road Larissa-Athens, Nikea Intersection\r\r\r\r\nLarissa, 41110\r\r\r\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -830,7 +830,7 @@
         }
       ],
       "details": {
-        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\r\r\r\n6th of October City\r\r\r\nGiza, Egypt",
+        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\r\r\r\r\n6th of October City\r\r\r\r\nGiza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -847,7 +847,7 @@
         }
       ],
       "details": {
-        "address": "De Trompet 1205\r\r\r\n1967 DA Heemskerk\r\r\r\nNetherlands",
+        "address": "De Trompet 1205\r\r\r\r\n1967 DA Heemskerk\r\r\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -864,7 +864,7 @@
         }
       ],
       "details": {
-        "address": "Büyükdere Caddesi No: 2\r\r\r\nSarıyer, Istanbul\r\r\r\nTurkey",
+        "address": "Büyükdere Caddesi No: 2\r\r\r\r\nSarıyer, Istanbul\r\r\r\r\nTurkey",
         "notes": "",
         "notebook": ""
       }
@@ -925,7 +925,7 @@
         }
       ],
       "details": {
-        "address": "101 El Amal Shourta Buildings\r\r\r\nAutostrad Road, New Maadi\r\r\r\nCairo, Egypt",
+        "address": "101 El Amal Shourta Buildings\r\r\r\r\nAutostrad Road, New Maadi\r\r\r\r\nCairo, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -986,7 +986,7 @@
         }
       ],
       "details": {
-        "address": "Siemenslaan 8\r\r\r\n3650 Dilsen-Stokkem\r\r\r\nBelgium",
+        "address": "Siemenslaan 8\r\r\r\r\n3650 Dilsen-Stokkem\r\r\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -1003,7 +1003,7 @@
         }
       ],
       "details": {
-        "address": "Drieslaan 29\r\r\r\n8560 Moorsele-Wevelgem\r\r\r\nBelgium",
+        "address": "Drieslaan 29\r\r\r\r\n8560 Moorsele-Wevelgem\r\r\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -1124,7 +1124,7 @@
         }
       ],
       "details": {
-        "address": "Iroon Polytechneiou 4\r\r\r\nMagoula, Greece",
+        "address": "Iroon Polytechneiou 4\r\r\r\r\nMagoula, Greece",
         "notes": "",
         "notebook": ""
       }
@@ -1146,7 +1146,7 @@
       "country": "Spain",
       "contacts": [],
       "details": {
-        "address": "Camino del Puente Viejo, 32\r\r\r\n28500 Arganda del Rey, Madrid\r\r\r\nSpain",
+        "address": "Camino del Puente Viejo, 32\r\r\r\r\n28500 Arganda del Rey, Madrid\r\r\r\r\nSpain",
         "notes": 1800,
         "notebook": ""
       }
@@ -1304,7 +1304,7 @@
         }
       ],
       "details": {
-        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\r\r\r\n30820 Alcantarilla, Murcia\r\r\r\nSpain",
+        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\r\r\r\r\n30820 Alcantarilla, Murcia\r\r\r\r\nSpain",
         "notes": "1800, 2800",
         "notebook": ""
       }
@@ -1531,7 +1531,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Nürnberger Straße 57\r\r\r\r\n91781 Weißenburg i. Bay., Germany",
+        "address": "Nürnberger Straße 57\r\r\r\r\r\n91781 Weißenburg i. Bay., Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1548,7 +1548,7 @@
         }
       ],
       "details": {
-        "address": "Niederbergheimer Straße 181\r\r\r\r\n59494 Soest, Germany",
+        "address": "Niederbergheimer Straße 181\r\r\r\r\r\n59494 Soest, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -1599,7 +1599,7 @@
         }
       ],
       "details": {
-        "address": "Loher Straße 9\r\r\r\r\n58511 Lüdenscheid, Germany",
+        "address": "Loher Straße 9\r\r\r\r\r\n58511 Lüdenscheid, Germany",
         "notes": "2500, 5500",
         "notebook": ""
       }
@@ -1666,7 +1666,7 @@
         }
       ],
       "details": {
-        "address": "Am Mühlholz 1\r\r\r\r\n89287 Bellenberg, Germany",
+        "address": "Am Mühlholz 1\r\r\r\r\r\n89287 Bellenberg, Germany",
         "notes": 2200,
         "notebook": ""
       }
@@ -1768,7 +1768,7 @@
         }
       ],
       "details": {
-        "address": "Industriestraße 1\r\r\r\r\n6710 Nenzing, Austria",
+        "address": "Industriestraße 1\r\r\r\r\r\n6710 Nenzing, Austria",
         "notes": "1600, 1800, 2200, 4000",
         "notebook": ""
       }
@@ -1785,7 +1785,7 @@
         }
       ],
       "details": {
-        "address": "Industriestraße 10\r\r\r\r\n77656 Offenburg, Germany",
+        "address": "Industriestraße 10\r\r\r\r\r\n77656 Offenburg, Germany",
         "notes": "1200, 2000",
         "notebook": ""
       }
@@ -1836,7 +1836,7 @@
         }
       ],
       "details": {
-        "address": "Am Wasserwerk 1\r\r\r\r\n04519 Rackwitz, Germany",
+        "address": "Am Wasserwerk 1\r\r\r\r\r\n04519 Rackwitz, Germany",
         "notes": 2200,
         "notebook": ""
       }
@@ -1870,7 +1870,7 @@
         }
       ],
       "details": {
-        "address": "Uphuser Heerstraße 7\r\r\r\r\n28832 Achim, Germany",
+        "address": "Uphuser Heerstraße 7\r\r\r\r\r\n28832 Achim, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2138,10 +2138,15 @@
           "contact": "Stephan Josten",
           "email": "stephan.josten@mejo.de",
           "phone": "+49 021199880"
+        },
+        {
+          "contact": "Ute von Chamier",
+          "email": "ute.vonchamier@mejo.de",
+          "phone": "+49 2162 3617816"
         }
       ],
       "details": {
-        "address": "Bublitzer Straße 23\r\r\n40599 Düsseldorf\r\r\nGermany",
+        "address": "Bublitzer Straße 23\n40599 Düsseldorf\nGermany",
         "notes": "",
         "notebook": ""
       }
@@ -2370,7 +2375,7 @@
       "country": "Germany",
       "contacts": [],
       "details": {
-        "address": "Derschlager Straße 26\r\r\r\r\n58540 Meinerzhagen, Germany",
+        "address": "Derschlager Straße 26\r\r\r\r\r\n58540 Meinerzhagen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2751,7 +2756,7 @@
         }
       ],
       "details": {
-        "address": "Devillestraße 2\r\r\r\r\n06749 Bitterfeld, Germany",
+        "address": "Devillestraße 2\r\r\r\r\r\n06749 Bitterfeld, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2768,7 +2773,7 @@
         }
       ],
       "details": {
-        "address": "Friedrich-Wöhler-Straße 2\r\r\r\r\n53117 Bonn, Germany",
+        "address": "Friedrich-Wöhler-Straße 2\r\r\r\r\r\n53117 Bonn, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2802,7 +2807,7 @@
         }
       ],
       "details": {
-        "address": "Lichtlöcherberg 40\r\r\r\r\n88267 Vogt, Germany",
+        "address": "Lichtlöcherberg 40\r\r\r\r\r\n88267 Vogt, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2946,7 +2951,7 @@
         }
       ],
       "details": {
-        "address": "Am Osthafen 5\r\r\r\r\n32423 Minden, Germany",
+        "address": "Am Osthafen 5\r\r\r\r\r\n32423 Minden, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -3110,23 +3115,6 @@
       "details": {
         "address": "Polígono Industrial Maza y Marín, nave 16 - 41400 Écija, Sevilla",
         "notes": "1600, 2500",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "client-1760973941354",
-      "name": "Mejo",
-      "country": "Germany",
-      "contacts": [
-        {
-          "contact": "Ute von Chamier",
-          "email": "ute.vonchamier@mejo.de",
-          "phone": "+49 2162 3617816"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
         "notebook": ""
       }
     }
@@ -3317,7 +3305,6 @@
   ],
   "products": [
     {
-      "partnerId": "",
       "partner": "Al Solutions",
       "items": [
         "Audit",
@@ -3328,14 +3315,12 @@
       ]
     },
     {
-      "partnerId": "",
       "partner": "Avanzate",
       "items": [
         "Software"
       ]
     },
     {
-      "partnerId": "",
       "partner": "EGE+Endustri",
       "items": [
         "Ageing Oven",
@@ -3353,21 +3338,18 @@
       ]
     },
     {
-      "partnerId": "",
       "partner": "Eroga Die",
       "items": [
         "Dies"
       ]
     },
     {
-      "partnerId": "",
       "partner": "Extrugasa",
       "items": [
         "Extrusion"
       ]
     },
     {
-      "partnerId": "",
       "partner": "LBB Systems",
       "items": [
         "Container Relining",
@@ -3375,28 +3357,24 @@
       ]
     },
     {
-      "partnerId": "",
       "partner": "Pafer",
       "items": [
         "Consumables"
       ]
     },
     {
-      "partnerId": "",
       "partner": "PX Automation",
       "items": [
         "Press Optimization"
       ]
     },
     {
-      "partnerId": "",
       "partner": "Saylan Teknik",
       "items": [
         "Die Cleaning Machine"
       ]
     },
     {
-      "partnerId": "",
       "partner": "Unterschütz",
       "items": [
         "Air Cooling Installation",
@@ -3408,7 +3386,6 @@
       ]
     },
     {
-      "partnerId": "",
       "partner": "WEFA",
       "items": [
         "CVD Coated Dies"
@@ -4859,13 +4836,13 @@
       "action": "Contact Paulo"
     },
     {
+      "id": "followup-9edce28f-c310-4969-b476-9fefa388eba7",
       "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "projectId": "19",
       "partnerId": "3",
       "productId": "Air Cooling Installation",
       "nextDate": "2026-06-29",
-      "action": "Follow up",
-      "id": "followup-9edce28f-c310-4969-b476-9fefa388eba7"
+      "action": "Follow up"
     },
     {
       "id": "followup-08debbf4-fd41-41d8-ae51-f25d604bcd33",
@@ -4877,13 +4854,13 @@
       "action": "Initial follow-up for new project"
     },
     {
+      "id": "followup-e5584caf-47cf-45c4-8b7e-c1a35fdc5b40",
       "clientId": "63265847-f578-4a25-8af3-881ce025131b",
       "projectId": "31",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
       "nextDate": "2026-03-20",
-      "action": "Follow up with Nacho",
-      "id": "followup-e5584caf-47cf-45c4-8b7e-c1a35fdc5b40"
+      "action": "Follow up with Nacho"
     }
   ],
   "projectComments": [
