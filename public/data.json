@@ -4535,8 +4535,8 @@
       "projectId": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-10-20",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-03-20",
+      "action": "Follow up"
     },
     {
       "id": "followup-4285751f-4e44-4438-8947-a489dc8c3fd6",
@@ -4590,7 +4590,7 @@
       "partnerId": "3",
       "productId": "Die Oven",
       "nextDate": "2025-10-27",
-      "action": "Initial follow-up for new project"
+      "action": "Contact Justin"
     },
     {
       "id": "followup-caa95670-aaa7-4a52-be85-23fe12f61ee5",
@@ -4598,8 +4598,8 @@
       "projectId": "project-5668521e-3050-40e9-b956-00bd18aff1d4",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-27",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-03-20",
+      "action": "Follow up"
     },
     {
       "id": "followup-b6022cdf-d325-48ee-a926-50e25ab73fe9",
@@ -4616,8 +4616,8 @@
       "projectId": "26",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-20",
-      "action": "Contact Ume"
+      "nextDate": "2025-10-27",
+      "action": "Contact Ute"
     },
     {
       "id": "followup-9fbcc187-f282-42cd-a4c0-a80fd79e43a2",
@@ -5240,6 +5240,27 @@
       "projectId": "31",
       "type": "note",
       "text": "Nacho has no feedback yet from the client - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-9021a519-858c-4563-bf43-02451e82ae19",
+      "projectId": "26",
+      "type": "email",
+      "text": "Sent an email to Ute (copy to Stephan) asking if there is still interest in a training - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-1c2f1bd5-fd06-4fc2-98a8-3c3d8f46429a",
+      "projectId": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
+      "type": "note",
+      "text": "Justin told me that he hopes to include it in the CAPEX for 2026 - 20/10/25",
+      "date": "2025-10-20"
+    },
+    {
+      "id": "comment-1dc9e13a-bca8-4fcd-92a3-acdbac1f9e45",
+      "projectId": "project-5668521e-3050-40e9-b956-00bd18aff1d4",
+      "type": "note",
+      "text": "Justin told me that he hopes to include it in the CAPEX for 2026 - 20/10/25",
       "date": "2025-10-20"
     }
   ]
