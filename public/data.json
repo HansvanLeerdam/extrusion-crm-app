@@ -4247,6 +4247,15 @@
       "productId": "Die Splitting Machine",
       "startDate": "2025-10-20",
       "status": "Contact Paulo"
+    },
+    {
+      "id": "project-7d46176f-a6d5-4bc1-8cba-696d8cc5ffb8",
+      "name": "Quench Cooling",
+      "clientId": "c7e36b44-dc5e-4f60-a0e2-7b4b4b9d73ed",
+      "partnerId": "3",
+      "productId": "Quench Cooling Installation",
+      "startDate": "2025-05-28",
+      "status": "Contact Luc"
     }
   ],
   "followups": [
@@ -4310,7 +4319,7 @@
       "projectId": "11",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-22",
       "action": "Ask Evgenij if visit has been planned"
     },
     {
@@ -4366,15 +4375,6 @@
       "productId": "Die Oven",
       "nextDate": "2025-10-22",
       "action": "Contact Simón"
-    },
-    {
-      "id": "followup-e2d06445-1c2f-4818-87cb-f62c82c83d5f",
-      "clientId": "c7e36b44-dc5e-4f60-a0e2-7b4b4b9d73ed",
-      "projectId": "project-53a1b198-50f2-46b3-88a0-5f9d68a53ad6",
-      "partnerId": "3",
-      "productId": "Air Cooling Installation",
-      "nextDate": "2025-10-20",
-      "action": "Follow up"
     },
     {
       "id": "followup-513a31a5-53e0-44ec-b0a1-b29343018dc7",
@@ -4499,7 +4499,7 @@
       "projectId": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-24",
       "action": "Week 47 - Check with Carlos"
     },
     {
@@ -4508,7 +4508,7 @@
       "projectId": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-22",
       "action": "Ask Juan if meeting has been set"
     },
     {
@@ -4553,7 +4553,7 @@
       "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-24",
       "action": "Follow up"
     },
     {
@@ -4607,7 +4607,7 @@
       "projectId": "42",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-11-03",
       "action": "Contact Luc"
     },
     {
@@ -4861,6 +4861,15 @@
       "productId": "Extrusion Press Line",
       "nextDate": "2026-03-20",
       "action": "Follow up with Nacho"
+    },
+    {
+      "id": "followup-39cd1a41-f4db-4cfa-90bf-43bfdb209464",
+      "clientId": "c7e36b44-dc5e-4f60-a0e2-7b4b4b9d73ed",
+      "projectId": "project-7d46176f-a6d5-4bc1-8cba-696d8cc5ffb8",
+      "partnerId": "3",
+      "productId": "Quench Cooling Installation",
+      "nextDate": "2025-11-03",
+      "action": "Contact Luc"
     }
   ],
   "projectComments": [
