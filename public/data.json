@@ -4870,6 +4870,15 @@
       "productId": "Quench Cooling Installation",
       "nextDate": "2025-11-03",
       "action": "Contact Luc"
+    },
+    {
+      "clientId": "5444d9fb-b9c9-49a4-8d5b-a7118012d932",
+      "projectId": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "nextDate": "2025-10-23",
+      "action": "Call Bart",
+      "id": "followup-6b0133a7-f2d5-4107-b440-9deb1fa722f4"
     }
   ],
   "projectComments": [
