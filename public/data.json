@@ -4283,8 +4283,8 @@
       "projectId": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-10-24",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-01-26",
+      "action": "Contact Paulo"
     },
     {
       "id": "followup-7cb2a855-f0c2-4300-83ee-35ea1c3ab09f",
@@ -4294,15 +4294,6 @@
       "productId": "Die Splitting Machine",
       "nextDate": "2025-11-10",
       "action": "In review for 2026"
-    },
-    {
-      "id": "followup-2d64a5c8-f123-4aaa-bc30-e1638c32de1e",
-      "clientId": "59",
-      "projectId": "project-15e9ba55-cea3-46d7-91b5-52d8918a8ff8",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "nextDate": "2025-10-24",
-      "action": "Initial follow-up for new project"
     },
     {
       "id": "followup-1731c215-0ddb-4b9b-b361-5fffc826dd4b",
@@ -4455,7 +4446,7 @@
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "nextDate": "2025-10-27",
-      "action": "Contact Paulo"
+      "action": "Contact Tiago"
     },
     {
       "id": "followup-8087cd87-3f0c-4b26-9318-8b3eead41b38",
@@ -4481,8 +4472,8 @@
       "projectId": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
-      "action": "Ask Michel for feedback"
+      "nextDate": "2025-10-24",
+      "action": "Send quotation"
     },
     {
       "id": "2",
@@ -4526,7 +4517,7 @@
       "projectId": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-22",
+      "nextDate": "2025-10-29",
       "action": "Contact Simón"
     },
     {
@@ -4544,7 +4535,7 @@
       "projectId": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-20",
+      "nextDate": "2025-10-24",
       "action": "Send promotion email"
     },
     {
@@ -4562,8 +4553,8 @@
       "projectId": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-22",
-      "action": "Call Rodolfo"
+      "nextDate": "2025-10-24",
+      "action": "Book flights - Car"
     },
     {
       "id": "followup-90c8a93c-a839-48ed-ad82-7c223bc0051c",
@@ -4829,7 +4820,7 @@
     {
       "id": "followup-76eb6598-4c00-410a-acfd-32acced47542",
       "clientId": "e5e9f07e-4d14-47a1-b3cf-348a7143ed11",
-      "projectId": "project-ebebb0e5-20c4-47a0-94aa-6bc48602f8f5",
+      "projectId": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
       "partnerId": "10",
       "productId": "Safety Door Flap",
       "nextDate": "2025-10-22",
@@ -4843,15 +4834,6 @@
       "productId": "Air Cooling Installation",
       "nextDate": "2026-06-29",
       "action": "Follow up"
-    },
-    {
-      "id": "followup-08debbf4-fd41-41d8-ae51-f25d604bcd33",
-      "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
-      "projectId": "project-36bda936-aa21-439c-ab18-db161eb3f926",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-27",
-      "action": "Initial follow-up for new project"
     },
     {
       "id": "followup-e5584caf-47cf-45c4-8b7e-c1a35fdc5b40",
@@ -4876,8 +4858,8 @@
       "projectId": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-23",
-      "action": "Call Bart",
+      "nextDate": "2025-10-29",
+      "action": "Set Teams Meeting",
       "id": "followup-6b0133a7-f2d5-4107-b440-9deb1fa722f4"
     }
   ],
@@ -5280,6 +5262,41 @@
       "type": "note",
       "text": "Justin told me that he hopes to include it in the CAPEX for 2026 - 20/10/25",
       "date": "2025-10-20"
+    },
+    {
+      "id": "comment-4b57fda6-45ca-4fb9-9c1d-8c14c85cf4e5",
+      "projectId": "42",
+      "type": "email",
+      "text": "Send email to Michel asking for feedback - 23/10/25",
+      "date": "2025-10-23"
+    },
+    {
+      "id": "comment-ddf47c32-6de8-423c-9bb0-04c304ef3d16",
+      "projectId": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
+      "type": "note",
+      "text": "Training accepted for week 48 (26-28/22) on 22/10/25",
+      "date": "2025-10-23"
+    },
+    {
+      "id": "comment-e4c63a22-bc0d-41c9-acd1-45f36e60727a",
+      "projectId": "28",
+      "type": "note",
+      "text": "Reply from Paulo - Some internal changes; will decided later - 23/10/25",
+      "date": "2025-10-23"
+    },
+    {
+      "id": "comment-9b76be59-1347-4e60-88df-90b39c9651af",
+      "projectId": "25",
+      "type": "call",
+      "text": "Had a call with Bart - we will have a Teams meeting in week 45 - 23/10/25",
+      "date": "2025-10-23"
+    },
+    {
+      "id": "comment-ce2b805b-981f-4d65-a1ed-f116cd58e36c",
+      "projectId": "42",
+      "type": "note",
+      "text": "Michel was asking for a price indication - I will send the quotation - 23/10/25",
+      "date": "2025-10-23"
     }
   ]
 }
