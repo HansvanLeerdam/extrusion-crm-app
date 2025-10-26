@@ -4265,7 +4265,7 @@
       "projectId": "2",
       "partnerId": "3",
       "productId": "Quench Cooling Installation",
-      "nextDate": "2025-10-26",
+      "nextDate": "2025-11-03",
       "action": "Contact Mutassem"
     },
     {
@@ -4274,7 +4274,7 @@
       "projectId": "5",
       "partnerId": "3",
       "productId": "Billet Oven",
-      "nextDate": "2025-10-26",
+      "nextDate": "2025-11-03",
       "action": "Contact Mutassem"
     },
     {
@@ -4301,7 +4301,7 @@
       "projectId": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-27",
+      "nextDate": "2025-11-04",
       "action": "Ask Jason for feedback"
     },
     {
@@ -4310,7 +4310,7 @@
       "projectId": "11",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-22",
+      "nextDate": "2025-10-31",
       "action": "Ask Evgenij if visit has been planned"
     },
     {
@@ -4319,7 +4319,7 @@
       "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
       "partnerId": "3",
       "productId": "Extrusion Equipment",
-      "nextDate": "2025-10-23",
+      "nextDate": "2025-10-28",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4328,7 +4328,7 @@
       "projectId": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-04",
       "action": "Follow up"
     },
     {
@@ -4337,7 +4337,7 @@
       "projectId": "3",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-10-31",
       "action": "Contact Ivan"
     },
     {
@@ -4346,7 +4346,7 @@
       "projectId": "9",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-10-31",
       "action": "Call Ivan"
     },
     {
@@ -4445,7 +4445,7 @@
       "projectId": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-27",
+      "nextDate": "2025-11-04",
       "action": "Contact Tiago"
     },
     {
@@ -4467,15 +4467,6 @@
       "action": "Contact Nacho"
     },
     {
-      "id": "followup-1fde4034-a835-488c-8956-65c36b37e903",
-      "clientId": "5eeb094d-b7e1-4dd8-a116-a68cc5541f66",
-      "projectId": "project-971a2144-9cf3-45f8-8b7a-afde6f2fd21e",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "nextDate": "2025-10-24",
-      "action": "Send quotation"
-    },
-    {
       "id": "2",
       "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
       "projectId": "1",
@@ -4490,7 +4481,7 @@
       "projectId": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-03",
       "action": "Week 47 - Check with Carlos"
     },
     {
@@ -4499,7 +4490,7 @@
       "projectId": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-10-22",
+      "nextDate": "2025-11-07",
       "action": "Ask Juan if meeting has been set"
     },
     {
@@ -4535,7 +4526,7 @@
       "projectId": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-06",
       "action": "Send promotion email"
     },
     {
@@ -4544,7 +4535,7 @@
       "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-10-31",
       "action": "Follow up"
     },
     {
@@ -4553,7 +4544,7 @@
       "projectId": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-10-28",
       "action": "Book flights - Car"
     },
     {
@@ -4571,7 +4562,7 @@
       "projectId": "33",
       "partnerId": "3",
       "productId": "Ageing Oven",
-      "nextDate": "2025-10-22",
+      "nextDate": "2025-11-03",
       "action": "Contact Mutassem"
     },
     {
@@ -4616,7 +4607,7 @@
       "projectId": "project-cde3f8b1-c38c-40d8-8406-f67f1bacf07c",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-04",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4643,7 +4634,7 @@
       "projectId": "project-09af5a4d-05a0-47ee-8261-95ee9d80648b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-13",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4724,7 +4715,7 @@
       "projectId": "project-61b7b8ca-cd64-43bf-a641-6e977127f7e5",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-05",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4733,7 +4724,7 @@
       "projectId": "project-07d43716-c1dc-446b-85fd-a853beb0b3b1",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-03",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4742,7 +4733,7 @@
       "projectId": "project-a9b0103f-b882-4c2a-af33-9096f2493196",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-06",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4751,7 +4742,7 @@
       "projectId": "project-00a2ea2e-3ef3-4b4e-954a-9f07bb108bd7",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-10-24",
+      "nextDate": "2025-11-04",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4778,7 +4769,7 @@
       "projectId": "project-2ee8cb32-f9eb-4b6f-90ce-b8dd423b1c83",
       "partnerId": "3",
       "productId": "Billet Oven",
-      "nextDate": "2025-10-24",
+      "nextDate": "2026-02-09",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4787,7 +4778,7 @@
       "projectId": "project-fa8fea8d-be3b-4da5-908b-d2aa63b1e012",
       "partnerId": "3",
       "productId": "Quench Cooling Installation",
-      "nextDate": "2025-10-24",
+      "nextDate": "2026-01-19",
       "action": "Initial follow-up for new project"
     },
     {
