@@ -4256,6 +4256,15 @@
       "productId": "Quench Cooling Installation",
       "startDate": "2025-05-28",
       "status": "Contact Luc"
+    },
+    {
+      "id": "project-821584b3-748d-4178-80c3-b191f18b2716",
+      "name": "Training",
+      "clientId": "eab834fb-a62e-4b5e-ac0a-41b6444e3ab5",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-10-29",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -4319,7 +4328,7 @@
       "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
       "partnerId": "3",
       "productId": "Extrusion Equipment",
-      "nextDate": "2025-10-28",
+      "nextDate": "2025-10-31",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4364,7 +4373,7 @@
       "projectId": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-27",
+      "nextDate": "2025-11-03",
       "action": "Contact Simón"
     },
     {
@@ -4400,7 +4409,7 @@
       "projectId": "6",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-27",
+      "nextDate": "2025-11-03",
       "action": "Contact Simón"
     },
     {
@@ -4454,7 +4463,7 @@
       "projectId": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-27",
+      "nextDate": "2025-11-03",
       "action": "Contact Simón"
     },
     {
@@ -4571,7 +4580,7 @@
       "projectId": "project-88a55c9e-04ca-4835-8496-43300fd0b4de",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-27",
+      "nextDate": "2025-11-05",
       "action": "Contact Justin"
     },
     {
@@ -4598,7 +4607,7 @@
       "projectId": "26",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-27",
+      "nextDate": "2025-11-04",
       "action": "Contact Ute"
     },
     {
@@ -4852,6 +4861,15 @@
       "nextDate": "2025-10-29",
       "action": "Set Teams Meeting",
       "id": "followup-6b0133a7-f2d5-4107-b440-9deb1fa722f4"
+    },
+    {
+      "id": "followup-cb201cc8-87de-419b-899f-e52371dfcab6",
+      "clientId": "eab834fb-a62e-4b5e-ac0a-41b6444e3ab5",
+      "projectId": "project-821584b3-748d-4178-80c3-b191f18b2716",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-10-31",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -5288,6 +5306,13 @@
       "type": "note",
       "text": "Michel was asking for a price indication - I will send the quotation - 23/10/25",
       "date": "2025-10-23"
+    },
+    {
+      "id": "comment-5d68fe84-b92e-4033-90bb-0d172f121d9f",
+      "projectId": "35",
+      "type": "note",
+      "text": "Training done. Maybe another training or audit will be needed in the future - 28/10/25",
+      "date": "2025-10-29"
     }
   ]
 }
