@@ -4265,6 +4265,15 @@
       "productId": "Training",
       "startDate": "2025-10-29",
       "status": "Follow up"
+    },
+    {
+      "id": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
+      "name": "Optimization",
+      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2025-10-29",
+      "status": "Analyse"
     }
   ],
   "followups": [
@@ -4329,7 +4338,7 @@
       "partnerId": "3",
       "productId": "Extrusion Equipment",
       "nextDate": "2025-10-31",
-      "action": "Initial follow-up for new project"
+      "action": "Contact Karthik"
     },
     {
       "id": "db773eda-5204-49b0-afaf-727232ea0dc0",
@@ -4870,6 +4879,15 @@
       "productId": "Training",
       "nextDate": "2025-10-31",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-833fa0f7-35b0-4a27-ace3-8020e041e243",
+      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
+      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "nextDate": "2025-11-05",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -5312,6 +5330,41 @@
       "projectId": "35",
       "type": "note",
       "text": "Training done. Maybe another training or audit will be needed in the future - 28/10/25",
+      "date": "2025-10-29"
+    },
+    {
+      "id": "comment-e71ed61b-f394-4947-832e-9512a54b0957",
+      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
+      "type": "note",
+      "text": "Festo profile - pick-ups on the outside of the profile. Check the gas N2 if this could provoke the problem  - 29/10/25",
+      "date": "2025-10-29"
+    },
+    {
+      "id": "comment-f6ebb64f-f9b6-45e7-8a45-294990407869",
+      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
+      "type": "note",
+      "text": "118355 232mm wide profile - is completely tearing on the outside part of the profile, during some meters and then it´s ok again. Billet quality or not using cleaning block could be the root cause?",
+      "date": "2025-10-29"
+    },
+    {
+      "id": "comment-68ae8d6f-caf2-48cc-9474-67374e67161b",
+      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
+      "type": "note",
+      "text": "Flugzeug profile - very low extrusion speed due to very thin wall thickness (1mm) and hard alloy (6082). Do not accept radius below R1 on hard alloy profiles!!",
+      "date": "2025-10-29"
+    },
+    {
+      "id": "comment-4b27da0d-67f1-4f80-ad90-6a83e2aa1ca2",
+      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
+      "type": "note",
+      "text": "Profile 805437 - profile is tearing every time after nitriding. Could the shut-off (if there is one) be the cause of the problem?",
+      "date": "2025-10-29"
+    },
+    {
+      "id": "comment-6870f1d2-d864-464f-adc2-c414a9cde40b",
+      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
+      "type": "note",
+      "text": "Schlotterer 128784 & 100235 - First profile very tight tolerances & second profile thin wall thickness - Both difficult to extrude on an 8-inch press in 4-cavities",
       "date": "2025-10-29"
     }
   ]
