@@ -4274,6 +4274,15 @@
       "productId": "Consulting",
       "startDate": "2025-10-29",
       "status": "Analyse"
+    },
+    {
+      "id": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
+      "name": "Audit",
+      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2025-10-29",
+      "status": "Send audit results"
     }
   ],
   "followups": [
@@ -4888,6 +4897,15 @@
       "productId": "Consulting",
       "nextDate": "2025-11-05",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-8b49a072-6b81-4e02-9988-17a5a8e8012e",
+      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
+      "projectId": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
+      "partnerId": "1",
+      "productId": "Audit",
+      "nextDate": "2025-11-05",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -5365,6 +5383,20 @@
       "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
       "type": "note",
       "text": "Schlotterer 128784 & 100235 - First profile very tight tolerances & second profile thin wall thickness - Both difficult to extrude on an 8-inch press in 4-cavities",
+      "date": "2025-10-29"
+    },
+    {
+      "id": "comment-3b905546-5900-4a07-af9c-56aaf29566af",
+      "projectId": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
+      "type": "note",
+      "text": "Billet quality, profiles tearing in extrusion, butt-end first billet P1 very small, dummy block quality (Castool), feasability new profiles (radius),",
+      "date": "2025-10-29"
+    },
+    {
+      "id": "comment-63388184-f7af-460f-992d-7ea96d5ecaaf",
+      "projectId": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
+      "type": "note",
+      "text": "Cleaning actions needed - people not doing anything during extrusion at low speed",
       "date": "2025-10-29"
     }
   ]
