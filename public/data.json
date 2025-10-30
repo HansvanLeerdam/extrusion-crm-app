@@ -4283,6 +4283,15 @@
       "productId": "Audit",
       "startDate": "2025-10-29",
       "status": "Send audit results"
+    },
+    {
+      "id": "project-6aad5073-7690-4abb-ae22-376bcdad6a3a",
+      "name": "Dieshop Optimization",
+      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2025-10-30",
+      "status": "Create plan for February"
     }
   ],
   "followups": [
@@ -4906,6 +4915,15 @@
       "productId": "Audit",
       "nextDate": "2025-11-05",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-eb59e8d3-443a-4a82-ae2e-4655a9647e50",
+      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
+      "projectId": "project-6aad5073-7690-4abb-ae22-376bcdad6a3a",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "nextDate": "2025-11-06",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -5397,6 +5415,13 @@
       "projectId": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
       "type": "note",
       "text": "Cleaning actions needed - people not doing anything during extrusion at low speed or during downtime",
+      "date": "2025-10-30"
+    },
+    {
+      "id": "comment-6c19e704-c62d-450a-bc7e-b0dbe8f04bfa",
+      "projectId": "project-6aad5073-7690-4abb-ae22-376bcdad6a3a",
+      "type": "note",
+      "text": "Make plan to optimize dieshop processes and create training plan for personel not related to the dieshop",
       "date": "2025-10-30"
     }
   ]
