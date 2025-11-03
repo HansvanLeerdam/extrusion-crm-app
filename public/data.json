@@ -3664,15 +3664,6 @@
       "status": "Follow up"
     },
     {
-      "id": "15",
-      "name": "Training Nedal",
-      "clientId": "b416f3ec-b564-494b-8c5f-f5752d6be527",
-      "partnerId": "1",
-      "productId": "Training",
-      "startDate": "2025-10-07",
-      "status": "Follow up"
-    },
-    {
       "id": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
       "name": "New exit and handling table",
       "clientId": "43",
@@ -4232,7 +4223,7 @@
     },
     {
       "id": "project-ebebb0e5-20c4-47a0-94aa-6bc48602f8f5",
-      "name": "Safet Flap",
+      "name": "Safety Flap",
       "clientId": "e5e9f07e-4d14-47a1-b3cf-348a7143ed11",
       "partnerId": "10",
       "productId": "Safety Door Flap",
@@ -4366,15 +4357,6 @@
       "productId": "Die Splitting Machine",
       "nextDate": "2025-11-08",
       "action": "Ask Evgenij if visit has been planned"
-    },
-    {
-      "id": "followup-3813025b-3c40-49b7-8fa5-f3c997c72324",
-      "clientId": "b416f3ec-b564-494b-8c5f-f5752d6be527",
-      "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
-      "partnerId": "3",
-      "productId": "Extrusion Equipment",
-      "nextDate": "2025-11-08",
-      "action": "Contact Karthik"
     },
     {
       "id": "db773eda-5204-49b0-afaf-727232ea0dc0",
@@ -5441,6 +5423,20 @@
       "type": "note",
       "text": "Make plan to optimize dieshop processes and create training plan for personel not related to the dieshop",
       "date": "2025-10-30"
+    },
+    {
+      "id": "comment-9af3cc49-01b7-44d7-9712-4e8297b2249c",
+      "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
+      "type": "note",
+      "text": "Jan-Willem sent me an email showing NO interest in equiment - 03/11/25",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "comment-15d25911-314a-419a-a18f-cd8ea88d9f08",
+      "projectId": "41",
+      "type": "note",
+      "text": "Jan-Willem sent me an email showing NO interest in equiment - 03/11/25",
+      "date": "2025-11-03"
     }
   ]
 }
