@@ -4445,7 +4445,7 @@
       "projectId": "13",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-11-08",
+      "nextDate": "2026-01-19",
       "action": "Follow up offer Nathan"
     },
     {
@@ -5450,6 +5450,27 @@
       "projectId": "13",
       "type": "note",
       "text": "Nathan told me that the project will proceed in Jan 2026 - 03/11/25",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "comment-d30cfc16-0ca9-4745-af31-78525fb5c294",
+      "projectId": "2",
+      "type": "note",
+      "text": "Mutassem told me that they are thinking of investing in a completely new press line - 03/11/25",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "comment-a65385d3-9cb6-496a-bd79-6c6d267c1d02",
+      "projectId": "5",
+      "type": "note",
+      "text": "Mutassem told me that they are thinking of investing in a completely new press line - 03/11/25",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "comment-95ecab46-9add-46cc-b670-02d0508bfd58",
+      "projectId": "33",
+      "type": "note",
+      "text": "Mutassem told me that they are thinking of investing in a completely new press line - 03/11/25",
       "date": "2025-11-03"
     }
   ]
