@@ -4237,7 +4237,7 @@
       "partnerId": "10",
       "productId": "Safety Door Flap",
       "startDate": "2025-09-26",
-      "status": "Follow up"
+      "status": "Contact Paulo"
     },
     {
       "id": "project-36bda936-aa21-439c-ab18-db161eb3f926",
@@ -4292,6 +4292,24 @@
       "productId": "Consulting",
       "startDate": "2025-10-30",
       "status": "Create plan for February"
+    },
+    {
+      "id": "project-86019d82-5ccc-4842-962a-7f0c51559c57",
+      "name": "Die oven - Maimbar",
+      "clientId": "8ba88972-5226-47a4-abea-23898bca53d7",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2025-11-03",
+      "status": "Follow up with Simon"
+    },
+    {
+      "id": "project-01db9e28-1514-4cff-9227-fb1ee4537ac7",
+      "name": "DS Machine",
+      "clientId": "e5e9f07e-4d14-47a1-b3cf-348a7143ed11",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2025-11-03",
+      "status": "Contact Tiago"
     }
   ],
   "followups": [
@@ -4346,7 +4364,7 @@
       "projectId": "11",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-08",
       "action": "Ask Evgenij if visit has been planned"
     },
     {
@@ -4355,7 +4373,7 @@
       "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
       "partnerId": "3",
       "productId": "Extrusion Equipment",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-08",
       "action": "Contact Karthik"
     },
     {
@@ -4373,7 +4391,7 @@
       "projectId": "3",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-09",
       "action": "Contact Ivan"
     },
     {
@@ -4382,7 +4400,7 @@
       "projectId": "9",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-09",
       "action": "Call Ivan"
     },
     {
@@ -4391,7 +4409,7 @@
       "projectId": "14",
       "partnerId": "9",
       "productId": "Die Cleaning Machine",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-09",
       "action": "Contact Ivan"
     },
     {
@@ -4445,7 +4463,7 @@
       "projectId": "13",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-08",
       "action": "Follow up offer Nathan"
     },
     {
@@ -4454,7 +4472,7 @@
       "projectId": "37",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-08",
       "action": "Follow up offer David"
     },
     {
@@ -4508,7 +4526,7 @@
       "projectId": "1",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-08",
       "action": "Contact Robert"
     },
     {
@@ -4539,15 +4557,6 @@
       "action": "Initial follow-up for new project"
     },
     {
-      "id": "followup-c562fdf5-0206-46d1-94fe-e777f66c80fa",
-      "clientId": "8ba88972-5226-47a4-abea-23898bca53d7",
-      "projectId": "project-385a33c3-6527-41b7-8f1a-c78005270dba",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "nextDate": "2025-10-29",
-      "action": "Contact Simón"
-    },
-    {
       "id": "followup-da2ed5f7-6395-4530-b8f3-2680b2309ac5",
       "clientId": "e86d430d-ed9a-4c79-8e7e-18dec9fbd451",
       "projectId": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
@@ -4571,7 +4580,7 @@
       "projectId": "project-758bd224-85db-4280-bdba-0252d355cd71",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-08",
       "action": "Follow up"
     },
     {
@@ -4580,7 +4589,7 @@
       "projectId": "project-5fe5a305-6cf3-49ce-bb04-05b3c95b527a",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-28",
+      "nextDate": "2025-11-04",
       "action": "Book flights - Car"
     },
     {
@@ -4841,7 +4850,7 @@
       "projectId": "project-97b01ef0-205c-4c9a-89d7-633e373affc8",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2025-11-06",
+      "nextDate": "2025-11-27",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4850,7 +4859,7 @@
       "projectId": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
       "partnerId": "10",
       "productId": "Safety Door Flap",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-09",
       "action": "Contact Paulo"
     },
     {
@@ -4881,21 +4890,12 @@
       "action": "Contact Luc"
     },
     {
-      "clientId": "5444d9fb-b9c9-49a4-8d5b-a7118012d932",
-      "projectId": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
-      "partnerId": "11",
-      "productId": "Extrusion",
-      "nextDate": "2025-10-29",
-      "action": "Set Teams Meeting",
-      "id": "followup-6b0133a7-f2d5-4107-b440-9deb1fa722f4"
-    },
-    {
       "id": "followup-cb201cc8-87de-419b-899f-e52371dfcab6",
       "clientId": "eab834fb-a62e-4b5e-ac0a-41b6444e3ab5",
       "projectId": "project-821584b3-748d-4178-80c3-b191f18b2716",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-10-31",
+      "nextDate": "2025-11-07",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4923,6 +4923,24 @@
       "partnerId": "1",
       "productId": "Consulting",
       "nextDate": "2025-11-06",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-66994bc3-865b-428f-85cd-607fd73f4912",
+      "clientId": "8ba88972-5226-47a4-abea-23898bca53d7",
+      "projectId": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2025-11-10",
+      "action": "Contact Simon"
+    },
+    {
+      "id": "followup-1425072c-a254-4631-9b3c-2865eb8f9605",
+      "clientId": "e5e9f07e-4d14-47a1-b3cf-348a7143ed11",
+      "projectId": "project-01db9e28-1514-4cff-9227-fb1ee4537ac7",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2025-11-10",
       "action": "Initial follow-up for new project"
     }
   ],
