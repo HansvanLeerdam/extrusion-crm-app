@@ -4635,7 +4635,7 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2025-11-04",
-      "action": "Initial follow-up for new project"
+      "action": "Set date with Jack"
     },
     {
       "id": "followup-afeb5c1d-9881-45c2-9110-ed44d075c140",
@@ -5436,6 +5436,13 @@
       "projectId": "41",
       "type": "note",
       "text": "Jan-Willem sent me an email showing NO interest in equiment - 03/11/25",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "comment-2465cbdf-828f-4f02-a8b7-4b627ee0bc0c",
+      "projectId": "project-cde3f8b1-c38c-40d8-8406-f67f1bacf07c",
+      "type": "note",
+      "text": "Training is set probably for the week of the 15th - 03/11/25",
       "date": "2025-11-03"
     }
   ]
