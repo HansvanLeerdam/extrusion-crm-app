@@ -4481,7 +4481,7 @@
       "projectId": "project-c8b5d25d-9a25-4a26-a2a9-be325decb9fc",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-11-04",
+      "nextDate": "2025-11-09",
       "action": "Contact Tiago"
     },
     {
@@ -4517,7 +4517,7 @@
       "projectId": "project-44ffb35a-7357-491a-803f-d6e0efe367a7",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-03",
+      "nextDate": "2025-11-07",
       "action": "Week 47 - Check with Carlos"
     },
     {
@@ -4535,8 +4535,8 @@
       "projectId": "project-38ad1d7f-7aa0-4645-b0ef-515d34d52141",
       "partnerId": "7",
       "productId": "CVD Coated Dies",
-      "nextDate": "2025-10-31",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2025-11-12",
+      "action": "Prepare email"
     },
     {
       "id": "followup-da2ed5f7-6395-4530-b8f3-2680b2309ac5",
@@ -4589,7 +4589,7 @@
       "projectId": "project-88a55c9e-04ca-4835-8496-43300fd0b4de",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-11-05",
+      "nextDate": "2025-11-19",
       "action": "Contact Justin"
     },
     {
@@ -4634,7 +4634,7 @@
       "projectId": "project-04df98a7-2441-42e5-b4ab-723f448e9f74",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-04",
+      "nextDate": "2025-11-13",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4652,7 +4652,7 @@
       "projectId": "project-09af5a4d-05a0-47ee-8261-95ee9d80648b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-11-13",
+      "nextDate": "2025-11-27",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4661,7 +4661,7 @@
       "projectId": "project-d6031831-a3fe-4691-917a-951383da0cb9",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-04",
+      "nextDate": "2025-11-27",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4733,7 +4733,7 @@
       "projectId": "project-61b7b8ca-cd64-43bf-a641-6e977127f7e5",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-11-05",
+      "nextDate": "2025-11-27",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4760,7 +4760,7 @@
       "projectId": "project-00a2ea2e-3ef3-4b4e-954a-9f07bb108bd7",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-11-04",
+      "nextDate": "2025-11-27",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4805,8 +4805,8 @@
       "projectId": "project-7bbf6927-652a-464f-b91c-d4fe1cabbd11",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2025-11-06",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2025-11-20",
+      "action": "Session 6"
     },
     {
       "id": "followup-0c3c4843-09a5-4a63-8515-58ebde38ecde",
@@ -5445,6 +5445,34 @@
       "type": "note",
       "text": "Mutassem told me that they are thinking of investing in a completely new press line - 03/11/25",
       "date": "2025-11-03"
+    },
+    {
+      "id": "comment-7bdc0423-b64e-45f9-a509-9f217c540756",
+      "projectId": "project-04df98a7-2441-42e5-b4ab-723f448e9f74",
+      "type": "email",
+      "text": "Sent email to Pablo with the topics - 06/11/25",
+      "date": "2025-11-06"
+    },
+    {
+      "id": "comment-f342b066-3ee9-43e6-9bb7-a98964af378a",
+      "projectId": "project-09af5a4d-05a0-47ee-8261-95ee9d80648b",
+      "type": "email",
+      "text": "Sent email to Colin asking for update - 06/11/25",
+      "date": "2025-11-06"
+    },
+    {
+      "id": "comment-4fd62141-b6c5-4451-865a-c71a6c9c3f72",
+      "projectId": "project-d6031831-a3fe-4691-917a-951383da0cb9",
+      "type": "email",
+      "text": "Sent email to Colin asking for update - 06/11/25",
+      "date": "2025-11-06"
+    },
+    {
+      "id": "comment-7216849d-f4cd-4cfb-a7c5-4e024b3dceb1",
+      "projectId": "project-00a2ea2e-3ef3-4b4e-954a-9f07bb108bd7",
+      "type": "email",
+      "text": "Sent email to Colin asking for update - 06/11/25",
+      "date": "2025-11-06"
     }
   ]
 }
