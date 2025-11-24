@@ -1,4 +1,4 @@
-export const handler = async () => {
+exports.handler = async () => {
   try {
     const REPO = "HansvanLeerdam/extrusion-crm-app"
     const FILE_PATH = "public/data.json"

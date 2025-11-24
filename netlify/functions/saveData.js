@@ -1,4 +1,4 @@
-export const handler = async (event) => {
+exports.handler = async (event) => {
   try {
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN
     const REPO = "HansvanLeerdam/extrusion-crm-app"
@@ -13,10 +13,10 @@ export const handler = async (event) => {
 
     const body = JSON.parse(event.body || "{}")
 
-    // === Get current SHA of the data.json ===
+    // === Get current SHA ===
     const getRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
       headers: {
-Authorization: `Bearer ${GITHUB_TOKEN}`
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
         Accept: "application/vnd.github.v3+json"
       }
     })
@@ -29,11 +29,11 @@ Authorization: `Bearer ${GITHUB_TOKEN}`
     const fileData = await getRes.json()
     const sha = fileData.sha
 
-    // === Update the file on GitHub ===
+    // === Update file on GitHub ===
     const commitRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
       method: "PUT",
       headers: {
-Authorization: `Bearer ${GITHUB_TOKEN}`
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
