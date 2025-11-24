@@ -1,6 +1,7 @@
 exports.handler = async (event) => {
   try {
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN
+console.log("TOKEN PRESENT:", !!GITHUB_TOKEN, "LENGTH:", GITHUB_TOKEN?.length)
     const REPO = "HansvanLeerdam/extrusion-crm-app"
     const FILE_PATH = "public/data.json"
 
