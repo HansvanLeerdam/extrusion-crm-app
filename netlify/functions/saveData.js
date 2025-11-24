@@ -16,7 +16,7 @@ export const handler = async (event) => {
     // === Get current SHA of the data.json ===
     const getRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
       headers: {
-        Authorization: `token ${GITHUB_TOKEN}`,
+Authorization: `Bearer ${GITHUB_TOKEN}`
         Accept: "application/vnd.github.v3+json"
       }
     })
@@ -33,7 +33,7 @@ export const handler = async (event) => {
     const commitRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
       method: "PUT",
       headers: {
-        Authorization: `token ${GITHUB_TOKEN}`,
+Authorization: `Bearer ${GITHUB_TOKEN}`
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
