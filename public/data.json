@@ -4310,6 +4310,15 @@
       "productId": "Die Splitting Machine",
       "startDate": "2025-11-24",
       "status": "Send offer to Toni"
+    },
+    {
+      "id": "project-23e5bab5-8cb7-4b05-a08d-dcb90ab57b46",
+      "name": "Collaboration",
+      "clientId": "4a303865-69b7-4464-ae3f-cf7fcd7e0f99",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2025-11-25",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -4607,7 +4616,7 @@
       "projectId": "26",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-25",
+      "nextDate": "2025-12-02",
       "action": "Contact Ute"
     },
     {
@@ -4625,7 +4634,7 @@
       "projectId": "project-b4b32ec4-1851-46d4-891d-041087fb41ad",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-27",
+      "nextDate": "2025-12-01",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4679,7 +4688,7 @@
       "projectId": "project-99132134-259f-437f-8d13-3f221790ee4d",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-25",
+      "nextDate": "2025-12-02",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4887,6 +4896,15 @@
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "nextDate": "2025-12-01",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-1639937b-fd60-4ea4-a0ee-e6a7880d9a9f",
+      "clientId": "4a303865-69b7-4464-ae3f-cf7fcd7e0f99",
+      "projectId": "project-23e5bab5-8cb7-4b05-a08d-dcb90ab57b46",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2025-12-02",
       "action": "Initial follow-up for new project"
     }
   ],
@@ -5471,6 +5489,13 @@
       "type": "email",
       "text": "Sent email to Pablo with the explanation of content of training - 24/11/25",
       "date": "2025-11-24"
+    },
+    {
+      "id": "comment-352b7e20-957e-435c-a445-37bd4f1755cb",
+      "projectId": "project-23e5bab5-8cb7-4b05-a08d-dcb90ab57b46",
+      "type": "email",
+      "text": "Sent an email to Semih and Piotr to see if there is interest in training - 25/11/2025",
+      "date": "2025-11-25"
     }
   ]
 }
