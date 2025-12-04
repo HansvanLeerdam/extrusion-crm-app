@@ -4328,7 +4328,7 @@
       "projectId": "2",
       "partnerId": "3",
       "productId": "Quench Cooling Installation",
-      "nextDate": "2025-12-01",
+      "nextDate": "2025-12-10",
       "action": "Contact Mutassem"
     },
     {
@@ -4337,7 +4337,7 @@
       "projectId": "5",
       "partnerId": "3",
       "productId": "Billet Oven",
-      "nextDate": "2025-12-01",
+      "nextDate": "2025-12-10",
       "action": "Contact Mutassem"
     },
     {
@@ -4364,7 +4364,7 @@
       "projectId": "project-64a29f9e-6b1e-4e80-8df1-068f23eafaf4",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-12-02",
+      "nextDate": "2025-12-10",
       "action": "Ask Jason for feedback"
     },
     {
@@ -4382,7 +4382,7 @@
       "projectId": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-12-02",
+      "nextDate": "2025-12-11",
       "action": "Follow up"
     },
     {
@@ -4391,7 +4391,7 @@
       "projectId": "3",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-12-03",
+      "nextDate": "2025-12-18",
       "action": "Contact Ivan"
     },
     {
@@ -4418,7 +4418,7 @@
       "projectId": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-12-03",
+      "nextDate": "2025-12-11",
       "action": "Contact Simón"
     },
     {
@@ -4472,7 +4472,7 @@
       "projectId": "project-2f889a34-3bdf-4eb2-91fe-6f817ff6e8b9",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-12-03",
+      "nextDate": "2025-12-05",
       "action": "Follow up"
     },
     {
@@ -4499,7 +4499,7 @@
       "projectId": "project-3537b4bd-895a-41d5-9f44-b5c723ba5f14",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-12-02",
+      "nextDate": "2025-12-11",
       "action": "Contact Simón"
     },
     {
@@ -4526,7 +4526,7 @@
       "projectId": "project-04739189-09a6-4f96-84c1-f5f018178fd9",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-12-04",
+      "nextDate": "2026-01-26",
       "action": "Ask Juan for update"
     },
     {
@@ -4546,15 +4546,6 @@
       "productId": "Software",
       "nextDate": "2026-03-20",
       "action": "Follow up"
-    },
-    {
-      "id": "followup-4285751f-4e44-4438-8947-a489dc8c3fd6",
-      "clientId": "ec548303-0678-449f-9dd8-45a1041446b7",
-      "projectId": "project-03df5399-92bc-452b-80ef-8cf62d22ab88",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "nextDate": "2025-12-04",
-      "action": "Send promotion email"
     },
     {
       "id": "followup-652f9f40-9e02-4ce3-a99a-80d94d2f2eb1",
@@ -4607,7 +4598,7 @@
       "projectId": "42",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-12-08",
+      "nextDate": "2026-01-12",
       "action": "Contact Luc"
     },
     {
@@ -4616,7 +4607,7 @@
       "projectId": "26",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-12-02",
+      "nextDate": "2025-12-08",
       "action": "Contact Ute"
     },
     {
@@ -4625,8 +4616,8 @@
       "projectId": "project-04df98a7-2441-42e5-b4ab-723f448e9f74",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-28",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-01-12",
+      "action": "Contact Pablo"
     },
     {
       "id": "followup-5fee6c1c-69b2-4675-bf0e-0ebece761a00",
@@ -4634,8 +4625,8 @@
       "projectId": "project-b4b32ec4-1851-46d4-891d-041087fb41ad",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-12-01",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-01-12",
+      "action": "Contact Sagar"
     },
     {
       "id": "followup-8a7ec478-2696-45e2-8ac0-0aeb422e23c3",
@@ -4652,7 +4643,7 @@
       "projectId": "project-d6031831-a3fe-4691-917a-951383da0cb9",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-27",
+      "nextDate": "2026-01-13",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4661,8 +4652,8 @@
       "projectId": "project-ae1854a4-6f2c-491a-8973-34955db4be18",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-11-25",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2025-12-08",
+      "action": "Contact Jeroen"
     },
     {
       "id": "followup-2d854ccf-f354-4639-93e6-56e00fbc0bd2",
@@ -4671,7 +4662,7 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2026-01-12",
-      "action": "Initial follow-up for new project"
+      "action": "Contact Pedro"
     },
     {
       "id": "followup-9b22db08-4abf-4d0c-bc6b-d035c6264e2d",
@@ -4679,7 +4670,7 @@
       "projectId": "project-09ea0283-d3d3-4341-98fa-de6932f45e65",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-12-08",
+      "nextDate": "2026-01-14",
       "action": "Contact Jason"
     },
     {
@@ -4697,7 +4688,7 @@
       "projectId": "project-2d1cdee0-2393-49a3-a6a7-c0fd6816b241",
       "partnerId": "1",
       "productId": "Audit",
-      "nextDate": "2025-12-03",
+      "nextDate": "2025-12-10",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4715,7 +4706,7 @@
       "projectId": "project-3cf4b518-5c01-4b6a-ae00-fba2fae3716f",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-11-27",
+      "nextDate": "2025-12-11",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4733,7 +4724,7 @@
       "projectId": "project-07d43716-c1dc-446b-85fd-a853beb0b3b1",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-11-27",
+      "nextDate": "2025-12-11",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4742,7 +4733,7 @@
       "projectId": "project-a9b0103f-b882-4c2a-af33-9096f2493196",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-11-27",
+      "nextDate": "2025-12-08",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4760,7 +4751,7 @@
       "projectId": "project-dd6df8e8-de86-46b3-a50b-13f1052d3bf1",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-12-26",
+      "nextDate": "2025-12-11",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4823,7 +4814,7 @@
       "projectId": "project-92ee8d54-ef97-42f7-8bdc-0c79c655d1a1",
       "partnerId": "10",
       "productId": "Safety Door Flap",
-      "nextDate": "2025-12-03",
+      "nextDate": "2026-01-07",
       "action": "Contact Paulo"
     },
     {
@@ -4904,7 +4895,7 @@
       "projectId": "project-23e5bab5-8cb7-4b05-a08d-dcb90ab57b46",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-12-02",
+      "nextDate": "2025-12-09",
       "action": "Initial follow-up for new project"
     }
   ],
