@@ -3117,6 +3117,23 @@
         "notes": "1600, 2500",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1765659494752",
+      "name": "Al Solutions",
+      "country": "Spain",
+      "contacts": [
+        {
+          "contact": "Hans",
+          "email": "hans@al-solutions.es",
+          "phone": "677243909"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -4319,6 +4336,15 @@
       "productId": "Training",
       "startDate": "2025-11-25",
       "status": "Follow up"
+    },
+    {
+      "id": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
+      "name": "PDC Application",
+      "clientId": "client-1765659494752",
+      "partnerId": "1",
+      "productId": "Product Promotion",
+      "startDate": "2025-12-13",
+      "status": "Update"
     }
   ],
   "followups": [
@@ -4851,6 +4877,15 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2025-12-23",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-87649064-5b9e-4b06-8402-355d521a7898",
+      "clientId": "client-1765659494752",
+      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
+      "partnerId": "1",
+      "productId": "Product Promotion",
+      "nextDate": "2025-12-20",
       "action": "Initial follow-up for new project"
     }
   ],
@@ -5442,6 +5477,48 @@
       "type": "email",
       "text": "Sent an email to Semih and Piotr to see if there is interest in training - 25/11/2025",
       "date": "2025-11-25"
+    },
+    {
+      "id": "comment-76efbda9-1b07-45fe-9a50-4ea71e83796f",
+      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
+      "type": "note",
+      "text": "Make the rows adjust in Factor Score when Explanations go double line in UI",
+      "date": "2025-12-13"
+    },
+    {
+      "id": "comment-7b5be1b8-375a-44a2-a1fc-f019f65163d4",
+      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
+      "type": "note",
+      "text": "Check the Wall Thickness Calculator",
+      "date": "2025-12-13"
+    },
+    {
+      "id": "comment-c9351d13-cb24-416e-bf38-0e0daa1ec94b",
+      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
+      "type": "note",
+      "text": "Check all the text in DE",
+      "date": "2025-12-13"
+    },
+    {
+      "id": "comment-61e3cfae-4b38-4fdc-8b5e-f4dffb3dbd25",
+      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
+      "type": "note",
+      "text": "Check all the text in NL",
+      "date": "2025-12-13"
+    },
+    {
+      "id": "comment-5a34643c-51c9-43d0-ae87-754374631818",
+      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
+      "type": "note",
+      "text": "Check all the text in ES",
+      "date": "2025-12-13"
+    },
+    {
+      "id": "comment-a7cb0b2e-0fb0-40be-870c-2beef0a2d4f5",
+      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
+      "type": "note",
+      "text": "Check all the text in EN",
+      "date": "2025-12-13"
     }
   ]
 }
