@@ -3134,6 +3134,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1767954405180",
+      "name": "Lenox Aluminium Systems",
+      "country": "Bulgaria",
+      "contacts": [
+        {
+          "contact": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Stryama 4142,\n82 Vasil Levski Str.\nBulgaria",
+        "notes": "Two extrusion presses (1460 UST and 2100 UST), a vertical powder coating line, and a machine for wood imitation through sublimation.\nAnnual capacity is 12 000 tons, and daily capacity is 35 tons",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -4354,7 +4371,7 @@
       "projectId": "2",
       "partnerId": "3",
       "productId": "Quench Cooling Installation",
-      "nextDate": "2026-01-05",
+      "nextDate": "2026-01-23",
       "action": "Contact Mutassem"
     },
     {
@@ -4363,7 +4380,7 @@
       "projectId": "5",
       "partnerId": "3",
       "productId": "Billet Oven",
-      "nextDate": "2026-01-05",
+      "nextDate": "2026-01-23",
       "action": "Contact Mutassem"
     },
     {
@@ -4408,7 +4425,7 @@
       "projectId": "3",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-12-18",
+      "nextDate": "2026-01-30",
       "action": "Contact Ivan"
     },
     {
@@ -4417,7 +4434,7 @@
       "projectId": "9",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-12-18",
+      "nextDate": "2026-01-30",
       "action": "Call Ivan"
     },
     {
@@ -4426,7 +4443,7 @@
       "projectId": "14",
       "partnerId": "9",
       "productId": "Die Cleaning Machine",
-      "nextDate": "2025-12-19",
+      "nextDate": "2026-01-30",
       "action": "Contact Ivan"
     },
     {
@@ -4435,7 +4452,7 @@
       "projectId": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2025-12-19",
+      "nextDate": "2026-01-16",
       "action": "Contact Simón"
     },
     {
@@ -4561,7 +4578,7 @@
       "projectId": "33",
       "partnerId": "3",
       "productId": "Ageing Oven",
-      "nextDate": "2025-12-23",
+      "nextDate": "2026-01-23",
       "action": "Contact Mutassem"
     },
     {
@@ -4714,7 +4731,7 @@
       "projectId": "project-07d43716-c1dc-446b-85fd-a853beb0b3b1",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-12-23",
+      "nextDate": "2026-02-02",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4885,7 +4902,7 @@
       "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
       "partnerId": "1",
       "productId": "Product Promotion",
-      "nextDate": "2025-12-20",
+      "nextDate": "2026-01-16",
       "action": "Initial follow-up for new project"
     }
   ],
