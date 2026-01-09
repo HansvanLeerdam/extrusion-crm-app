@@ -3151,6 +3151,23 @@
         "notes": "Two extrusion presses (1460 UST and 2100 UST), a vertical powder coating line, and a machine for wood imitation through sublimation.\nAnnual capacity is 12 000 tons, and daily capacity is 35 tons",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1767954750575",
+      "name": "Royal Profil",
+      "country": "Bulgaria",
+      "contacts": [
+        {
+          "contact": "Vladimir Vladimirov",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
