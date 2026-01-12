@@ -4648,7 +4648,7 @@
       "projectId": "26",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-01-12",
+      "nextDate": "2026-01-26",
       "action": "Contact Ute"
     },
     {
@@ -4729,7 +4729,7 @@
       "projectId": "project-2d1cdee0-2393-49a3-a6a7-c0fd6816b241",
       "partnerId": "1",
       "productId": "Audit",
-      "nextDate": "2025-12-22",
+      "nextDate": "2026-01-28",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4747,7 +4747,7 @@
       "projectId": "project-3cf4b518-5c01-4b6a-ae00-fba2fae3716f",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-12-22",
+      "nextDate": "2026-02-19",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4792,7 +4792,7 @@
       "projectId": "project-dd6df8e8-de86-46b3-a50b-13f1052d3bf1",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-01-05",
+      "nextDate": "2026-01-15",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4810,7 +4810,7 @@
       "projectId": "project-2ee8cb32-f9eb-4b6f-90ce-b8dd423b1c83",
       "partnerId": "3",
       "productId": "Billet Oven",
-      "nextDate": "2026-02-09",
+      "nextDate": "2026-03-02",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4819,7 +4819,7 @@
       "projectId": "project-fa8fea8d-be3b-4da5-908b-d2aa63b1e012",
       "partnerId": "3",
       "productId": "Quench Cooling Installation",
-      "nextDate": "2026-01-05",
+      "nextDate": "2026-03-02",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4837,7 +4837,7 @@
       "projectId": "project-695314a9-dcea-4ec8-ac20-a4abb46e2f2b",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2025-12-15",
+      "nextDate": "2026-02-18",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4900,7 +4900,7 @@
       "projectId": "project-6aad5073-7690-4abb-ae22-376bcdad6a3a",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2026-01-14",
+      "nextDate": "2026-01-28",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4913,21 +4913,12 @@
       "action": "Initial follow-up for new project"
     },
     {
-      "id": "followup-eb63c335-0c4e-40d1-85f6-2221824b6e50",
-      "clientId": "434fda5e-58b1-4273-b29c-9c912323d910",
-      "projectId": "project-16f68f41-488e-49f0-a3bd-dbdd3d9725ea",
-      "partnerId": "8",
-      "productId": "Die Splitting Machine",
-      "nextDate": "2025-12-15",
-      "action": "Initial follow-up for new project"
-    },
-    {
       "id": "followup-1639937b-fd60-4ea4-a0ee-e6a7880d9a9f",
       "clientId": "4a303865-69b7-4464-ae3f-cf7fcd7e0f99",
       "projectId": "project-23e5bab5-8cb7-4b05-a08d-dcb90ab57b46",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-12-23",
+      "nextDate": "2026-01-28",
       "action": "Initial follow-up for new project"
     },
     {
