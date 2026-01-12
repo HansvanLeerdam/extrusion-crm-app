@@ -4450,7 +4450,7 @@
       "projectId": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2025-12-15",
+      "nextDate": "2026-01-27",
       "action": "Follow up"
     },
     {
@@ -4576,7 +4576,7 @@
       "projectId": "1",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2025-12-15",
+      "nextDate": "2026-01-16",
       "action": "Contact Robert"
     },
     {
@@ -4693,7 +4693,7 @@
       "projectId": "project-ae1854a4-6f2c-491a-8973-34955db4be18",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-01-05",
+      "nextDate": "2026-01-15",
       "action": "Contact Jeroen"
     },
     {
@@ -4720,7 +4720,7 @@
       "projectId": "project-99132134-259f-437f-8d13-3f221790ee4d",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-12-15",
+      "nextDate": "2026-01-26",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4828,7 +4828,7 @@
       "projectId": "project-7bbf6927-652a-464f-b91c-d4fe1cabbd11",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2025-12-15",
+      "nextDate": "2026-02-16",
       "action": "Session 6"
     },
     {
@@ -4891,7 +4891,7 @@
       "projectId": "project-821584b3-748d-4178-80c3-b191f18b2716",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2025-12-19",
+      "nextDate": "2026-01-14",
       "action": "Initial follow-up for new project"
     },
     {
@@ -5570,6 +5570,20 @@
       "type": "note",
       "text": "Check all the text in EN",
       "date": "2025-12-13"
+    },
+    {
+      "id": "comment-c0d9c7e1-dec1-4059-834a-ce7b75823449",
+      "projectId": "1",
+      "type": "email",
+      "text": "Sent email to Robert, asking for an update - 12/01/2026",
+      "date": "2026-01-12"
+    },
+    {
+      "id": "comment-2792fab5-5b9f-452e-98b5-470fea974e77",
+      "projectId": "project-99132134-259f-437f-8d13-3f221790ee4d",
+      "type": "email",
+      "text": "Sent email asking for reply - 12/01/2026",
+      "date": "2026-01-12"
     }
   ]
 }
