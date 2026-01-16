@@ -4396,6 +4396,33 @@
       "productId": "Product Promotion",
       "startDate": "2025-12-13",
       "status": "Update"
+    },
+    {
+      "id": "project-983a088e-5235-4cfd-a845-e2fba82eed33",
+      "name": "Die Splitting Machine",
+      "clientId": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2026-01-16",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-941114d2-a081-4f0d-9d67-044f5b7e939b",
+      "name": "Die Separator",
+      "clientId": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "startDate": "2026-01-16",
+      "status": "Follow up"
+    },
+    {
+      "id": "project-d89234d4-cf88-4d7d-8795-f2e27c6d1f79",
+      "name": "APS",
+      "clientId": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-01-16",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -4928,6 +4955,33 @@
       "partnerId": "1",
       "productId": "Product Promotion",
       "nextDate": "2026-01-16",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-d03a1cd3-3fda-4f77-9641-83058bdefc17",
+      "clientId": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "projectId": "project-983a088e-5235-4cfd-a845-e2fba82eed33",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2026-01-23",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-f6a2aab0-9511-4b5f-88d6-1d3b9a327ca6",
+      "clientId": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "projectId": "project-941114d2-a081-4f0d-9d67-044f5b7e939b",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "nextDate": "2026-01-23",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-e504856b-edbc-411b-975b-7a0bb92fbda5",
+      "clientId": "3b385ffd-6d34-4cc7-91e1-27415938504c",
+      "projectId": "project-d89234d4-cf88-4d7d-8795-f2e27c6d1f79",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-01-23",
       "action": "Initial follow-up for new project"
     }
   ],
