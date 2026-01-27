@@ -4423,6 +4423,15 @@
       "productId": "Software",
       "startDate": "2026-01-16",
       "status": "Follow up"
+    },
+    {
+      "id": "project-805e89fc-776c-44c1-af41-3efad43e7687",
+      "name": "Die KO Project",
+      "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
+      "partnerId": "1",
+      "productId": "Audit",
+      "startDate": "2026-01-27",
+      "status": "Follow up with Robert"
     }
   ],
   "followups": [
@@ -4603,7 +4612,7 @@
       "projectId": "1",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2026-01-16",
+      "nextDate": "2026-02-02",
       "action": "Contact Robert"
     },
     {
@@ -4720,7 +4729,7 @@
       "projectId": "project-ae1854a4-6f2c-491a-8973-34955db4be18",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-01-15",
+      "nextDate": "2026-01-20",
       "action": "Contact Jeroen"
     },
     {
@@ -4819,7 +4828,7 @@
       "projectId": "project-dd6df8e8-de86-46b3-a50b-13f1052d3bf1",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-01-15",
+      "nextDate": "2026-01-28",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4963,7 +4972,7 @@
       "projectId": "project-983a088e-5235-4cfd-a845-e2fba82eed33",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2026-01-23",
+      "nextDate": "2026-01-28",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4972,7 +4981,7 @@
       "projectId": "project-941114d2-a081-4f0d-9d67-044f5b7e939b",
       "partnerId": "3",
       "productId": "Extrusion Equipment",
-      "nextDate": "2026-01-23",
+      "nextDate": "2026-01-28",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4981,7 +4990,16 @@
       "projectId": "project-d89234d4-cf88-4d7d-8795-f2e27c6d1f79",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-01-23",
+      "nextDate": "2026-01-28",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-a6a2d6a8-d897-4782-a412-45a95444a563",
+      "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
+      "projectId": "project-805e89fc-776c-44c1-af41-3efad43e7687",
+      "partnerId": "1",
+      "productId": "Audit",
+      "nextDate": "2026-02-03",
       "action": "Initial follow-up for new project"
     }
   ],
@@ -5629,6 +5647,13 @@
       "type": "email",
       "text": "Sent email asking for reply - 12/01/2026",
       "date": "2026-01-12"
+    },
+    {
+      "id": "comment-a23a17e2-e2bf-42b0-b7e6-37abe7857340",
+      "projectId": "project-805e89fc-776c-44c1-af41-3efad43e7687",
+      "type": "email",
+      "text": "I have send Robert a proposal on the 27/01/26",
+      "date": "2026-01-27"
     }
   ]
 }
