@@ -4468,7 +4468,7 @@
       "projectId": "9",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2025-12-15",
+      "nextDate": "2026-02-12",
       "action": "In review for 2026"
     },
     {
@@ -4517,15 +4517,6 @@
       "action": "Contact Ivan"
     },
     {
-      "id": "followup-0fe4e6f2-9598-494c-a3c1-91fc4efb2970",
-      "clientId": "54e49a10-2b03-47e5-9f7d-9ca06e48d733",
-      "projectId": "project-ac5f11e8-6f13-4f9a-8d19-25cf679283c6",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "nextDate": "2026-01-16",
-      "action": "Contact Simón"
-    },
-    {
       "id": "followup-513a31a5-53e0-44ec-b0a1-b29343018dc7",
       "clientId": "760f9ff3-ab47-4f6f-a04f-ddb56f713864",
       "projectId": "project-363c8bd3-7532-4ce6-9b10-31124c839dab",
@@ -4558,7 +4549,7 @@
       "projectId": "13",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2026-01-19",
+      "nextDate": "2026-02-19",
       "action": "Follow up offer Nathan"
     },
     {
@@ -4567,7 +4558,7 @@
       "projectId": "37",
       "partnerId": "11",
       "productId": "Extrusion",
-      "nextDate": "2026-01-19",
+      "nextDate": "2026-02-19",
       "action": "Follow up offer David"
     },
     {
@@ -4756,7 +4747,7 @@
       "projectId": "project-99132134-259f-437f-8d13-3f221790ee4d",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-01-26",
+      "nextDate": "2026-05-26",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4920,24 +4911,6 @@
       "productId": "Quench Cooling Installation",
       "nextDate": "2026-01-19",
       "action": "Contact Luc"
-    },
-    {
-      "id": "followup-cb201cc8-87de-419b-899f-e52371dfcab6",
-      "clientId": "eab834fb-a62e-4b5e-ac0a-41b6444e3ab5",
-      "projectId": "project-821584b3-748d-4178-80c3-b191f18b2716",
-      "partnerId": "1",
-      "productId": "Training",
-      "nextDate": "2026-01-14",
-      "action": "Initial follow-up for new project"
-    },
-    {
-      "id": "followup-eb59e8d3-443a-4a82-ae2e-4655a9647e50",
-      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
-      "projectId": "project-6aad5073-7690-4abb-ae22-376bcdad6a3a",
-      "partnerId": "1",
-      "productId": "Consulting",
-      "nextDate": "2026-01-28",
-      "action": "Initial follow-up for new project"
     },
     {
       "id": "followup-1425072c-a254-4631-9b3c-2865eb8f9605",
