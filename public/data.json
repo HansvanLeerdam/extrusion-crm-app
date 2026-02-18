@@ -3272,6 +3272,23 @@
         "notes": "5-inch  - 1000TN - SKM\r\n5-inch  - 1000TN - SKM\r\n7-inch  - 2000TN - SKM\r\n7-inch  - 2000TN - SKM\r\n7-Inch  - 2000TN - Presezzi\r\n11-inch - 4000TN - Presezzi",
         "notebook": "BENKAM 10-15 November\r\n\r\nContact Unterschütz / EGE / Eroga Die xxx\r\nSend Profile Defects Manual xxx\r\nSend info dummy block Castool xxx\r\nSend info containers Castool xxx\r\nSend info critical tongues and die-steel xxx\r\nUsing taper in extrusion\r\nBlister - contamination in profiles - Reason? xxx\r\nMarkings of contamination accuring in extrusion and showing after anodising\r\nMaximum inlet in the dies and die-holders (or depth of feeder) provoking surface quality problems?\r\nNitriding table xxx\r\nEN-486 xxx\r\nDie Information Form xxx\r\nPDF xxx\r\nCalculators\r\nSend CV xxx\r\nSend KPI Excel\r\nAPS xxx\r\nBillet shear % xxx\r\n\r\nButt-end 13mm instead of 36mm (909mm billet) \r\nExtrusion speed 1,3mm/sec on 900g/m (2 cav.) on 4000 UST press - productivity 800 Kg/h\r\n\r\nSmall profiles being extruded on the bigger press due to capacity problems.\r\nBillet quality problems? Skin layer doesn´t seem to be correct.\r\nManagers not giving good example regarding the wearing of PPE.\r\nNo collaboration between the different departments. They all seem eager to put the blame somewhere else instead of looking for the issues in their own departments.\r\n\r\nDe life - net kilos (EMS?)\r\nNo recipes?\r\nSend CV - Action Plan - Collaboration Plan\r\nBillet shear lubrication?\r\nMagnetized dies\r\nBaffle ring with 15º inlet?\r\nLack of feeding in the dies?\r\n"
       }
+    },
+    {
+      "id": "client-1771403260040",
+      "name": "Hindalco Aluminium",
+      "country": "India",
+      "contacts": [
+        {
+          "contact": "Akhilesh Gupta",
+          "email": "Akhilesh.gupta@adityabirla.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -4519,6 +4536,15 @@
       "productId": "Audit",
       "startDate": "2026-01-27",
       "status": "Follow up with Robert"
+    },
+    {
+      "id": "project-484c9832-9746-470b-bed0-8adee234fe32",
+      "name": "Tool Room training",
+      "clientId": "client-1771403260040",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-02-18",
+      "status": "Offer sent"
     }
   ],
   "followups": [
@@ -5061,6 +5087,15 @@
       "productId": "Audit",
       "nextDate": "2026-02-25",
       "action": "Follow up with Paulo"
+    },
+    {
+      "id": "followup-e9e00759-92ce-4eea-83c7-9c1723cb3207",
+      "clientId": "client-1771403260040",
+      "projectId": "project-484c9832-9746-470b-bed0-8adee234fe32",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-02-25",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
