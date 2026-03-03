@@ -3289,6 +3289,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1772538626956",
+      "name": "WAREMA Renkhoff SE",
+      "country": "Germany",
+      "contacts": [
+        {
+          "contact": "Michael Rothenbucher",
+          "email": "michael.rothenbucher@warema.de",
+          "phone": "+49 9391 20-5723"
+        }
+      ],
+      "details": {
+        "address": "Hans-Wilhelm-Renkhoff-Straße 2, 97828 Marktheidenfeld, Deutschland",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
