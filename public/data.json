@@ -4562,6 +4562,15 @@
       "productId": "Training",
       "startDate": "2026-02-18",
       "status": "Offer sent"
+    },
+    {
+      "id": "project-32d6e4c2-272c-48da-9492-ff6855130502",
+      "name": "DieShop Manager",
+      "clientId": "ec548303-0678-449f-9dd8-45a1041446b7",
+      "partnerId": "1",
+      "productId": "Product Promotion",
+      "startDate": "2026-03-17",
+      "status": "Ongoing"
     }
   ],
   "followups": [
@@ -4589,7 +4598,7 @@
       "projectId": "project-01494ddb-92b0-4fd8-9a51-3470344f4049",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-02-25",
+      "nextDate": "2026-04-17",
       "action": "Contact Paulo"
     },
     {
@@ -4616,7 +4625,7 @@
       "projectId": "ee3ebd8b-4805-4389-8d13-04bcf8c72aa2",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-02-25",
+      "nextDate": "2026-04-17",
       "action": "Follow up"
     },
     {
@@ -4724,7 +4733,7 @@
       "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
       "partnerId": "3",
       "productId": "Handling Table",
-      "nextDate": "2026-03-20",
+      "nextDate": "2026-05-22",
       "action": "Contact Nacho"
     },
     {
@@ -4760,7 +4769,7 @@
       "projectId": "19",
       "partnerId": "3",
       "productId": "Air Cooling Installation",
-      "nextDate": "2026-04-13",
+      "nextDate": "2026-05-22",
       "action": "Contact Nacho"
     },
     {
@@ -4958,7 +4967,7 @@
       "projectId": "project-2ee8cb32-f9eb-4b6f-90ce-b8dd423b1c83",
       "partnerId": "3",
       "productId": "Billet Oven",
-      "nextDate": "2026-03-02",
+      "nextDate": "2026-05-22",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4967,7 +4976,7 @@
       "projectId": "project-fa8fea8d-be3b-4da5-908b-d2aa63b1e012",
       "partnerId": "3",
       "productId": "Quench Cooling Installation",
-      "nextDate": "2026-03-02",
+      "nextDate": "2026-05-22",
       "action": "Initial follow-up for new project"
     },
     {
@@ -5021,7 +5030,7 @@
       "projectId": "31",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2026-03-20",
+      "nextDate": "2026-05-22",
       "action": "Follow up with Nacho"
     },
     {
@@ -5075,7 +5084,7 @@
       "projectId": "project-941114d2-a081-4f0d-9d67-044f5b7e939b",
       "partnerId": "3",
       "productId": "Extrusion Equipment",
-      "nextDate": "2026-02-19",
+      "nextDate": "2026-04-17",
       "action": "Initial follow-up for new project"
     },
     {
@@ -5084,7 +5093,7 @@
       "projectId": "project-d89234d4-cf88-4d7d-8795-f2e27c6d1f79",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-02-19",
+      "nextDate": "2026-03-27",
       "action": "Initial follow-up for new project"
     },
     {
@@ -5112,6 +5121,15 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2026-02-25",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-2e3cd521-ecd5-4e07-b073-4f14bed1dfc5",
+      "clientId": "ec548303-0678-449f-9dd8-45a1041446b7",
+      "projectId": "project-32d6e4c2-272c-48da-9492-ff6855130502",
+      "partnerId": "1",
+      "productId": "Product Promotion",
+      "nextDate": "2026-03-24",
       "action": "Initial follow-up for new project"
     }
   ],
