@@ -4765,7 +4765,7 @@
       "projectId": "project-4ee7787d-0600-4b3c-b93c-035968e98790",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-03-20",
+      "nextDate": "2026-06-01",
       "action": "Follow up"
     },
     {
@@ -4792,7 +4792,7 @@
       "projectId": "project-88a55c9e-04ca-4835-8496-43300fd0b4de",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2026-03-25",
+      "nextDate": "2026-06-01",
       "action": "Contact Justin"
     },
     {
@@ -4801,7 +4801,7 @@
       "projectId": "project-5668521e-3050-40e9-b956-00bd18aff1d4",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2026-03-20",
+      "nextDate": "2026-06-01",
       "action": "Follow up"
     },
     {
@@ -4819,7 +4819,7 @@
       "projectId": "26",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-02-26",
+      "nextDate": "2026-04-13",
       "action": "Contact Ute"
     },
     {
@@ -4828,8 +4828,8 @@
       "projectId": "project-04df98a7-2441-42e5-b4ab-723f448e9f74",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-02-16",
-      "action": "Contact Pablo"
+      "nextDate": "2026-03-20",
+      "action": "Contact David"
     },
     {
       "id": "followup-5fee6c1c-69b2-4675-bf0e-0ebece761a00",
@@ -4837,7 +4837,7 @@
       "projectId": "project-b4b32ec4-1851-46d4-891d-041087fb41ad",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-02-26",
+      "nextDate": "2026-04-06",
       "action": "Contact Sagar"
     },
     {
@@ -4864,7 +4864,7 @@
       "projectId": "project-ae1854a4-6f2c-491a-8973-34955db4be18",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-02-23",
+      "nextDate": "2026-04-13",
       "action": "Contact Jeroen"
     },
     {
@@ -4873,7 +4873,7 @@
       "projectId": "project-09ea0283-d3d3-4341-98fa-de6932f45e65",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-03-23",
+      "nextDate": "2026-06-01",
       "action": "Contact Jason"
     },
     {
@@ -4954,7 +4954,7 @@
       "projectId": "project-dd6df8e8-de86-46b3-a50b-13f1052d3bf1",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-02-19",
+      "nextDate": "2026-05-04",
       "action": "Initial follow-up for new project"
     },
     {
@@ -4985,21 +4985,12 @@
       "action": "Initial follow-up for new project"
     },
     {
-      "id": "followup-b93c0524-392c-4991-a42d-835d39b76aa3",
-      "clientId": "c6bdbec9-a82a-404c-9333-af0dc22dd433",
-      "projectId": "project-7bbf6927-652a-464f-b91c-d4fe1cabbd11",
-      "partnerId": "1",
-      "productId": "Consulting",
-      "nextDate": "2026-02-16",
-      "action": "Session 6"
-    },
-    {
       "id": "followup-0c3c4843-09a5-4a63-8515-58ebde38ecde",
       "clientId": "434fda5e-58b1-4273-b29c-9c912323d910",
       "projectId": "project-695314a9-dcea-4ec8-ac20-a4abb46e2f2b",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2026-02-18",
+      "nextDate": "2026-04-27",
       "action": "Initial follow-up for new project"
     },
     {
@@ -5102,15 +5093,6 @@
       "action": "Initial follow-up for new project"
     },
     {
-      "id": "followup-a6a2d6a8-d897-4782-a412-45a95444a563",
-      "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
-      "projectId": "project-805e89fc-776c-44c1-af41-3efad43e7687",
-      "partnerId": "1",
-      "productId": "Audit",
-      "nextDate": "2026-02-26",
-      "action": "Initial follow-up for new project"
-    },
-    {
       "id": "followup-9bf28d23-da6b-4ae1-8fa1-2fa7aa874d26",
       "clientId": "53971e91-dd57-46a0-b910-9c0e60fe7810",
       "projectId": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
@@ -5125,16 +5107,7 @@
       "projectId": "project-484c9832-9746-470b-bed0-8adee234fe32",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-02-25",
-      "action": "Initial follow-up for new project"
-    },
-    {
-      "id": "followup-2e3cd521-ecd5-4e07-b073-4f14bed1dfc5",
-      "clientId": "ec548303-0678-449f-9dd8-45a1041446b7",
-      "projectId": "project-32d6e4c2-272c-48da-9492-ff6855130502",
-      "partnerId": "1",
-      "productId": "Product Promotion",
-      "nextDate": "2026-03-24",
+      "nextDate": "2026-04-13",
       "action": "Initial follow-up for new project"
     }
   ],
