@@ -3311,6 +3311,23 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1775833644830",
+      "name": "Architectural & Metal Systems (AMS)",
+      "country": "Ireland",
+      "contacts": [
+        {
+          "contact": "Pat O’Hara",
+          "email": "pohara@ams.ie",
+          "phone": "+353 87 2564504"
+        }
+      ],
+      "details": {
+        "address": "Wallingstown,Little Island\nCo. Cork, T45 VP40\nIreland",
+        "notes": "15,000 tonnes\n\n3 aluminium extrusion presses\n3 powder coating lines\nFully automated anodising plant",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
