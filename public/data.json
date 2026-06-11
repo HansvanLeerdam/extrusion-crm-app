@@ -4575,7 +4575,7 @@
       "projectId": "2",
       "partnerId": "3",
       "productId": "Quench Cooling Installation",
-      "nextDate": "2026-06-02",
+      "nextDate": "2026-07-06",
       "action": "Contact Mutassem"
     },
     {
@@ -4584,7 +4584,7 @@
       "projectId": "5",
       "partnerId": "3",
       "productId": "Billet Oven",
-      "nextDate": "2026-06-02",
+      "nextDate": "2026-07-06",
       "action": "Contact Mutassem"
     },
     {
@@ -4620,7 +4620,7 @@
       "projectId": "3",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2026-06-05",
+      "nextDate": "2026-06-22",
       "action": "Contact Ivan"
     },
     {
@@ -4629,7 +4629,7 @@
       "projectId": "9",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2026-06-17",
+      "nextDate": "2026-06-22",
       "action": "Call Ivan"
     },
     {
@@ -4638,7 +4638,7 @@
       "projectId": "14",
       "partnerId": "9",
       "productId": "Die Cleaning Machine",
-      "nextDate": "2026-06-11",
+      "nextDate": "2026-06-22",
       "action": "Contact Ivan"
     },
     {
@@ -4705,15 +4705,6 @@
       "action": "Contact Tiago"
     },
     {
-      "id": "80344f02-890a-4b00-a122-d037018e801d",
-      "clientId": "43",
-      "projectId": "0cc999a0-9a9e-43d1-99a5-ca26d1ee7d45",
-      "partnerId": "3",
-      "productId": "Handling Table",
-      "nextDate": "2026-06-26",
-      "action": "Contact Nacho"
-    },
-    {
       "id": "2",
       "clientId": "53bc986e-d96f-4415-a802-bab53d054b94",
       "projectId": "1",
@@ -4741,21 +4732,12 @@
       "action": "Follow up"
     },
     {
-      "id": "followup-90c8a93c-a839-48ed-ad82-7c223bc0051c",
-      "clientId": "43",
-      "projectId": "19",
-      "partnerId": "3",
-      "productId": "Air Cooling Installation",
-      "nextDate": "2026-05-22",
-      "action": "Contact Nacho"
-    },
-    {
       "id": "followup-bf923175-cb50-4b0e-94fd-565ca78036a8",
       "clientId": "12594930-a679-4ff1-b8a3-612dfdc26ef1",
       "projectId": "33",
       "partnerId": "3",
       "productId": "Ageing Oven",
-      "nextDate": "2026-06-02",
+      "nextDate": "2026-07-06",
       "action": "Contact Mutassem"
     },
     {
@@ -4764,7 +4746,7 @@
       "projectId": "project-88a55c9e-04ca-4835-8496-43300fd0b4de",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2026-06-01",
+      "nextDate": "2026-11-04",
       "action": "Contact Justin"
     },
     {
@@ -4800,7 +4782,7 @@
       "projectId": "project-04df98a7-2441-42e5-b4ab-723f448e9f74",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-06-20",
+      "nextDate": "2026-06-22",
       "action": "Contact David"
     },
     {
@@ -4836,7 +4818,7 @@
       "projectId": "project-ae1854a4-6f2c-491a-8973-34955db4be18",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-06-16",
+      "nextDate": "2026-06-15",
       "action": "Contact Jeroen"
     },
     {
@@ -4858,15 +4840,6 @@
       "action": "Initial follow-up for new project"
     },
     {
-      "id": "followup-87eb74b2-65bd-4ddd-904d-37c2ac340133",
-      "clientId": "client-1760697988389",
-      "projectId": "project-5614dc26-e7d9-4204-98f4-b7d8c6f6431c",
-      "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "nextDate": "2026-06-25",
-      "action": "Initial follow-up for new project"
-    },
-    {
       "id": "followup-565744e2-fb4a-47ab-94ae-ed01b202f153",
       "clientId": "9dfe30f7-7978-4a3a-b2bc-047c4e0092a8",
       "projectId": "project-3cf4b518-5c01-4b6a-ae00-fba2fae3716f",
@@ -4882,15 +4855,6 @@
       "partnerId": "8",
       "productId": "Die Splitting Machine",
       "nextDate": "2026-07-21",
-      "action": "Initial follow-up for new project"
-    },
-    {
-      "id": "followup-75bf1f8f-7cc3-4823-bec1-daa1a163d71d",
-      "clientId": "client-1760698341529",
-      "projectId": "project-07d43716-c1dc-446b-85fd-a853beb0b3b1",
-      "partnerId": "3",
-      "productId": "Extrusion Press Line",
-      "nextDate": "2026-06-17",
       "action": "Initial follow-up for new project"
     },
     {
