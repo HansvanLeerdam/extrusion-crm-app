@@ -3740,15 +3740,6 @@
       "status": "In review"
     },
     {
-      "id": "35",
-      "name": "Workshop Landau",
-      "clientId": "d7e2d8eb-0559-4198-b5c0-38d6170c31a3",
-      "partnerId": "1",
-      "productId": "Training",
-      "startDate": "2025-10-27",
-      "status": "Week 44"
-    },
-    {
       "id": "11",
       "name": "Die Splitter",
       "clientId": "924a9c40-a31c-4a23-af53-8f07288774ff",
@@ -4226,15 +4217,6 @@
       "status": "Send information to Justin"
     },
     {
-      "id": "project-cde3f8b1-c38c-40d8-8406-f67f1bacf07c",
-      "name": "Workshop",
-      "clientId": "3c69e3a7-2122-4f0c-b3b2-5ed36361d547",
-      "partnerId": "1",
-      "productId": "Training",
-      "startDate": "2025-10-17",
-      "status": "Follow up"
-    },
-    {
       "id": "project-04df98a7-2441-42e5-b4ab-723f448e9f74",
       "name": "Dieshop Training",
       "clientId": "48c8e1b8-6b36-4f60-a087-84045937e670",
@@ -4478,24 +4460,6 @@
       "status": "Analyse"
     },
     {
-      "id": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
-      "name": "Audit",
-      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
-      "partnerId": "1",
-      "productId": "Audit",
-      "startDate": "2025-10-29",
-      "status": "Send audit results"
-    },
-    {
-      "id": "project-6aad5073-7690-4abb-ae22-376bcdad6a3a",
-      "name": "Dieshop Optimization",
-      "clientId": "11a3db4f-443b-4224-b3db-756b927367b1",
-      "partnerId": "1",
-      "productId": "Consulting",
-      "startDate": "2025-10-30",
-      "status": "Create plan for February"
-    },
-    {
       "id": "project-86019d82-5ccc-4842-962a-7f0c51559c57",
       "name": "Die oven - Maimbar",
       "clientId": "8ba88972-5226-47a4-abea-23898bca53d7",
@@ -4530,15 +4494,6 @@
       "productId": "Training",
       "startDate": "2025-11-25",
       "status": "Follow up"
-    },
-    {
-      "id": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
-      "name": "PDC Application",
-      "clientId": "client-1765659494752",
-      "partnerId": "1",
-      "productId": "Product Promotion",
-      "startDate": "2025-12-13",
-      "status": "Update"
     },
     {
       "id": "project-983a088e-5235-4cfd-a845-e2fba82eed33",
@@ -4602,6 +4557,15 @@
       "productId": "Training",
       "startDate": "2026-03-17",
       "status": "Email sent"
+    },
+    {
+      "id": "project-5612675d-d6d4-4fe5-b596-51978a223561",
+      "name": "APS",
+      "clientId": "client-1775833644830",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-05-29",
+      "status": "Testing Demo"
     }
   ],
   "followups": [
@@ -5063,6 +5027,15 @@
       "productId": "Training",
       "nextDate": "2026-07-01",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-f6147564-5f3e-49b5-9b7b-216b956207cd",
+      "clientId": "client-1775833644830",
+      "projectId": "project-5612675d-d6d4-4fe5-b596-51978a223561",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-06-18",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -5347,13 +5320,6 @@
       "date": "2025-10-20"
     },
     {
-      "id": "comment-29d5d3aa-9ffc-4330-ba6d-593528ca69a5",
-      "projectId": "35",
-      "type": "email",
-      "text": "Replied to email from Fabio regarding the se-up of the training - 20/10/25",
-      "date": "2025-10-20"
-    },
-    {
       "id": "comment-980231cf-c06d-425b-8193-13e1d80fb929",
       "projectId": "f0e73179-1cfb-4900-996f-8e6c98955543",
       "type": "email",
@@ -5501,69 +5467,6 @@
       "date": "2025-10-23"
     },
     {
-      "id": "comment-5d68fe84-b92e-4033-90bb-0d172f121d9f",
-      "projectId": "35",
-      "type": "note",
-      "text": "Training done. Maybe another training or audit will be needed in the future - 28/10/25",
-      "date": "2025-10-29"
-    },
-    {
-      "id": "comment-e71ed61b-f394-4947-832e-9512a54b0957",
-      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
-      "type": "note",
-      "text": "Festo profile - pick-ups on the outside of the profile. Check the gas N2 if this could provoke the problem  - 29/10/25",
-      "date": "2025-10-29"
-    },
-    {
-      "id": "comment-f6ebb64f-f9b6-45e7-8a45-294990407869",
-      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
-      "type": "note",
-      "text": "118355 232mm wide profile - is completely tearing on the outside part of the profile, during some meters and then it´s ok again. Billet quality or not using cleaning block could be the root cause?",
-      "date": "2025-10-29"
-    },
-    {
-      "id": "comment-68ae8d6f-caf2-48cc-9474-67374e67161b",
-      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
-      "type": "note",
-      "text": "Flugzeug profile - very low extrusion speed due to very thin wall thickness (1mm) and hard alloy (6082). Do not accept radius below R1 on hard alloy profiles!!",
-      "date": "2025-10-29"
-    },
-    {
-      "id": "comment-4b27da0d-67f1-4f80-ad90-6a83e2aa1ca2",
-      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
-      "type": "note",
-      "text": "Profile 805437 - profile is tearing every time after nitriding. Could the shut-off (if there is one) be the cause of the problem?",
-      "date": "2025-10-29"
-    },
-    {
-      "id": "comment-6870f1d2-d864-464f-adc2-c414a9cde40b",
-      "projectId": "project-c83e4306-7866-436f-a0ee-8e7f2619baef",
-      "type": "note",
-      "text": "Schlotterer 128784 & 100235 - First profile very tight tolerances & second profile thin wall thickness - Both difficult to extrude on an 8-inch press in 4-cavities",
-      "date": "2025-10-29"
-    },
-    {
-      "id": "comment-3b905546-5900-4a07-af9c-56aaf29566af",
-      "projectId": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
-      "type": "note",
-      "text": "Billet quality, profiles tearing in extrusion, butt-end first billet P1 very small, dummy block quality (Castool), feasability new profiles (radius),",
-      "date": "2025-10-29"
-    },
-    {
-      "id": "comment-463e7445-5176-4994-bc01-6d30a4821c46",
-      "projectId": "project-c1096948-3859-4e1e-8ed1-5ddb08e8a063",
-      "type": "note",
-      "text": "Cleaning actions needed - people not doing anything during extrusion at low speed or during downtime",
-      "date": "2025-10-30"
-    },
-    {
-      "id": "comment-6c19e704-c62d-450a-bc7e-b0dbe8f04bfa",
-      "projectId": "project-6aad5073-7690-4abb-ae22-376bcdad6a3a",
-      "type": "note",
-      "text": "Make plan to optimize dieshop processes and create training plan for personel not related to the dieshop",
-      "date": "2025-10-30"
-    },
-    {
       "id": "comment-9af3cc49-01b7-44d7-9712-4e8297b2249c",
       "projectId": "project-5ac8e078-59eb-41a2-9fd5-ff99f8e71fd0",
       "type": "note",
@@ -5575,13 +5478,6 @@
       "projectId": "41",
       "type": "note",
       "text": "Jan-Willem sent me an email showing NO interest in equiment - 03/11/25",
-      "date": "2025-11-03"
-    },
-    {
-      "id": "comment-2465cbdf-828f-4f02-a8b7-4b627ee0bc0c",
-      "projectId": "project-cde3f8b1-c38c-40d8-8406-f67f1bacf07c",
-      "type": "note",
-      "text": "Training is set probably for the week of the 15th - 03/11/25",
       "date": "2025-11-03"
     },
     {
@@ -5655,48 +5551,6 @@
       "date": "2025-11-25"
     },
     {
-      "id": "comment-76efbda9-1b07-45fe-9a50-4ea71e83796f",
-      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
-      "type": "note",
-      "text": "Make the rows adjust in Factor Score when Explanations go double line in UI",
-      "date": "2025-12-13"
-    },
-    {
-      "id": "comment-7b5be1b8-375a-44a2-a1fc-f019f65163d4",
-      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
-      "type": "note",
-      "text": "Check the Wall Thickness Calculator",
-      "date": "2025-12-13"
-    },
-    {
-      "id": "comment-c9351d13-cb24-416e-bf38-0e0daa1ec94b",
-      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
-      "type": "note",
-      "text": "Check all the text in DE",
-      "date": "2025-12-13"
-    },
-    {
-      "id": "comment-61e3cfae-4b38-4fdc-8b5e-f4dffb3dbd25",
-      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
-      "type": "note",
-      "text": "Check all the text in NL",
-      "date": "2025-12-13"
-    },
-    {
-      "id": "comment-5a34643c-51c9-43d0-ae87-754374631818",
-      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
-      "type": "note",
-      "text": "Check all the text in ES",
-      "date": "2025-12-13"
-    },
-    {
-      "id": "comment-a7cb0b2e-0fb0-40be-870c-2beef0a2d4f5",
-      "projectId": "project-07033327-ad00-4ad1-8502-2db9cfdedca0",
-      "type": "note",
-      "text": "Check all the text in EN",
-      "date": "2025-12-13"
-    },
-    {
       "id": "comment-c0d9c7e1-dec1-4059-834a-ce7b75823449",
       "projectId": "1",
       "type": "email",
@@ -5716,6 +5570,13 @@
       "type": "email",
       "text": "I have send Robert a proposal on the 27/01/26",
       "date": "2026-01-27"
+    },
+    {
+      "id": "comment-2796f0d1-2afb-4592-aa91-47a3205be409",
+      "projectId": "28",
+      "type": "email",
+      "text": "Sent an email with the last updates. Juan told me that Pedro told him that they made something by themself - 11/06/2026",
+      "date": "2026-06-11"
     }
   ]
 }
