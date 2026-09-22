@@ -10329,6 +10329,30 @@
         "notes": "5-inch  - 1000TN - SKM\r\r\r\r\n5-inch  - 1000TN - SKM\r\r\r\r\n7-inch  - 2000TN - SKM\r\r\r\r\n7-inch  - 2000TN - SKM\r\r\r\r\n7-Inch  - 2000TN - Presezzi\r\r\r\r\n11-inch - 4000TN - Presezzi",
         "notebook": "Invited"
       }
+    },
+    {
+      "id": "client-1790077673712",
+      "name": "McKechnie Aluminium Solutions Ltd",
+      "country": "New Zealand",
+      "contacts": [
+        {
+          "contact": "Dave Slomp",
+          "position": "Managing Director",
+          "email": "dave.slomp@mckechnie.co.nz",
+          "phone": ""
+        },
+        {
+          "contact": "Tania Dubois",
+          "position": "Design/ Development Manager",
+          "email": "Tania.Dubois@mckechnie.co.nz",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
