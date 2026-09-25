@@ -11371,13 +11371,13 @@
           "contact": "Erik Wilms",
           "position": "Zaakvoerder",
           "email": "wilms@wilms.be",
-          "phone": ""
+          "phone": "+32 14 36 99 75"
         }
       ],
       "details": {
         "address": "",
         "notes": "https://www.wilms.be/",
-        "notebook": ""
+        "notebook": "25/09/26\nDag Hans\n\nUw voorstel werd hier intern besproken. Momenteel is er echter geen ruimte in onze opleidingskalender.\nWe houden het wel in ons achterhoofd.\n\nGroeten\nWouter Douwen\n"
       }
     },
     {
@@ -11866,6 +11866,25 @@
           "position": "CEO",
           "email": "diederik.schodts@jonckheeresub.com",
           "phone": "+32 51 23 28 04"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1790349129206",
+      "name": "Maarten Dutry BVBA",
+      "country": "Belgiium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Maarten Dutry",
+          "position": "Zaakvoerder",
+          "email": "maarten@maartendutry.be",
+          "phone": ""
         }
       ],
       "details": {
