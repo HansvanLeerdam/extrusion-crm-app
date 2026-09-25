@@ -11093,6 +11093,24 @@
       "productId": "Software",
       "startDate": "2026-09-25",
       "status": "In Progress"
+    },
+    {
+      "id": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
+      "name": "Die Ovens",
+      "clientId": "347",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "startDate": "2026-09-29",
+      "status": "Visit client"
+    },
+    {
+      "id": "project-c819c91a-7571-41a9-b981-5f546e748c8d",
+      "name": "APS",
+      "clientId": "426",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-09-25",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -11100,6 +11118,24 @@
       "id": "followup-a18046c8-2687-42e6-b8d6-01805b02d870",
       "clientId": "154",
       "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-02",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-4fb7ee96-00b8-4ee2-9be3-f6d1d25f0151",
+      "clientId": "347",
+      "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
+      "partnerId": "3",
+      "productId": "Die Oven",
+      "nextDate": "2026-10-02",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-ceb71e6a-aec1-406c-89e6-b0901149b9a0",
+      "clientId": "426",
+      "projectId": "project-c819c91a-7571-41a9-b981-5f546e748c8d",
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-02",
