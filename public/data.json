@@ -12285,5 +12285,27 @@
       "action": "Initial follow-up for new project"
     }
   ],
-  "projectComments": []
+  "projectComments": [
+    {
+      "id": "comment-5c5294b6-1334-493b-8f0a-3f4b81b2bb6b",
+      "projectId": "project-3aff5c62-b94a-462e-915b-13fd077bfd91",
+      "type": "note",
+      "text": "Waiting for confirmation on my offer - 23/09/26",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "comment-8d68df26-9470-4275-a659-504da472c0f9",
+      "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
+      "type": "visit",
+      "text": "Visit on the 29/09/26 to discuss the die ovens with Paco",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "comment-93febab3-3b5a-4685-ae67-c97f85bf8791",
+      "projectId": "project-57837028-d87d-44d0-92a3-1d140a66c83a",
+      "type": "note",
+      "text": "Waiting for response from Rudi - 14/09/26",
+      "date": "2026-09-25"
+    }
+  ]
 }
