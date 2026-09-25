@@ -11084,7 +11084,27 @@
       ]
     }
   ],
-  "projects": [],
-  "followups": [],
+  "projects": [
+    {
+      "id": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
+      "name": "APS",
+      "clientId": "154",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-09-25",
+      "status": "In Progress"
+    }
+  ],
+  "followups": [
+    {
+      "id": "followup-a18046c8-2687-42e6-b8d6-01805b02d870",
+      "clientId": "154",
+      "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-02",
+      "action": "Initial follow-up for new project"
+    }
+  ],
   "projectComments": []
 }
