@@ -4043,7 +4043,7 @@
       "id": "1",
       "name": "ABC Aluminium Solutions",
       "country": "Mexico",
-      "clientType": "",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Wadih Kuri",
