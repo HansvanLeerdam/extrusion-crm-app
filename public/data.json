@@ -481,7 +481,7 @@
         }
       ],
       "details": {
-        "address": "Industriestraße 1\r\r\r\r\r\r\r\r\r\r\n6710 Nenzing, Austria",
+        "address": "Industriestraße 1\r\r\r\r\r\r\r\r\r\r\r\n6710 Nenzing, Austria",
         "notes": "1600, 1800, 2200, 4000",
         "notebook": ""
       }
@@ -643,7 +643,7 @@
         }
       ],
       "details": {
-        "address": "Siemenslaan 8\r\r\r\r\r\r\r\r\r\n3650 Dilsen-Stokkem\r\r\r\r\r\r\r\r\r\nBelgium",
+        "address": "Siemenslaan 8\r\r\r\r\r\r\r\r\r\r\n3650 Dilsen-Stokkem\r\r\r\r\r\r\r\r\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -662,7 +662,7 @@
         }
       ],
       "details": {
-        "address": "Siemenslaan 8\r\r\r\r\r\r\r\r\r\n3650 Dilsen-Stokkem\r\r\r\r\r\r\r\r\r\nBelgium",
+        "address": "Siemenslaan 8\r\r\r\r\r\r\r\r\r\r\n3650 Dilsen-Stokkem\r\r\r\r\r\r\r\r\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -681,7 +681,7 @@
         }
       ],
       "details": {
-        "address": "Drieslaan 29\r\r\r\r\r\r\r\r\r\n8560 Moorsele-Wevelgem\r\r\r\r\r\r\r\r\r\nBelgium",
+        "address": "Drieslaan 29\r\r\r\r\r\r\r\r\r\r\n8560 Moorsele-Wevelgem\r\r\r\r\r\r\r\r\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -700,7 +700,7 @@
         }
       ],
       "details": {
-        "address": "Drieslaan 29\r\r\r\r\r\r\r\r\r\n8560 Moorsele-Wevelgem\r\r\r\r\r\r\r\r\r\nBelgium",
+        "address": "Drieslaan 29\r\r\r\r\r\r\r\r\r\r\n8560 Moorsele-Wevelgem\r\r\r\r\r\r\r\r\r\r\nBelgium",
         "notes": "",
         "notebook": ""
       }
@@ -839,6 +839,550 @@
       ],
       "details": {
         "address": "A. Stocletlaan 87 B, 2570 Duffel, Belgium",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "847",
+      "name": "Group Ceyssens",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / HR / Operations",
+          "position": "Beslisser technische opleidingen",
+          "email": "info@groupceyssens.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Mijnwerkerslaan 35, 3550 Heusden-Zolder",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "848",
+      "name": "Beneens Alucon",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Productie / Engineering",
+          "position": "Beslisser technische opleidingen",
+          "email": "info@beneensalucon.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Stadsestraat 43/D, 2250 Olen",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "849",
+      "name": "Aluvano",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Eddy Vanoverschelde",
+          "position": "Zaakvoerder",
+          "email": "info@aluvano.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Driemastenstraat 3, 8880 Sint-Eloois-Winkel",
+        "notes": "https://www.aluvano.be/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "850",
+      "name": "Viewworks",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Verkoop / Productie",
+          "position": "Beslisser techniek en verkoop",
+          "email": "verkoop@viewworks.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Grote Steenweg 32, 2550 Kontich",
+        "notes": "https://viewworks.be/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "851",
+      "name": "Building Windows",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Mathieu Suys",
+          "position": "Zaakvoerder",
+          "email": "info@buildingwindows.be",
+          "phone": ""
+        },
+        {
+          "contact": "Patrick Vermeersch",
+          "position": "",
+          "email": "patrick.vermeersch@buildingwindows.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Grote Leiestraat 205, 8570 Anzegem",
+        "notes": "https://buildingwindows.be/over-ons/",
+        "notebook": "25/09/26\r\nBeste Hans,\r\n\r\nWe hebben geen nood aan dergelijke training gezien we ten eerste al jaren in de stiel zitten en al verschillende opleidingen/updates gekregen hebben van onze leveranciers.\r\n\r\nMet vriendelijke groeten,\r\n \r\nPatrick Vermeersch\r\n"
+      }
+    },
+    {
+      "id": "852",
+      "name": "Oben",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Productie / Engineering",
+          "position": "Beslisser technische opleidingen",
+          "email": "info@oben.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Wijerstraat 6, 3520 Zonhoven",
+        "notes": "https://www.oben.be/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "853",
+      "name": "Pauwels Glassprojects",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Project- en engineeringmanagement",
+          "position": "Beslisser technische opleidingen",
+          "email": "info@glassprojects.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Brakelsesteenweg 462, 9400 Ninove",
+        "notes": "https://www.fac-belgium.eu/leden/leden-overzicht/fac-leden/Pauwels-Glassprojects",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "854",
+      "name": "Allaert Aluminium",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Catharina Allaert",
+          "position": "Zaakvoerder",
+          "email": "catharina.allaert@allaertaluminium.com'",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Boerderijstraat 40, 8530 Harelbeke",
+        "notes": "https://www.fac-belgium.eu/leden/leden-overzicht/fac-leden/allaert-aluminium",
+        "notebook": "25/09/26\r\nBeste,  \r\n\r\nBedankt, maar ik heb geen interesse. U mag mijn email adres uit uw mailinglijst verwijderen. \r\n\r\nMvg\r\n"
+      }
+    },
+    {
+      "id": "855",
+      "name": "ALU2+",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Chris Lowies",
+          "position": "Zaakvoerder",
+          "email": "chris.lowies@alu2.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Lichtenberglaan 2029, 3800 Sint-Truiden",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "856",
+      "name": "Brustor",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Lieven Brutsaert",
+          "position": "Zaakvoerder",
+          "email": "jobs@brustor.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Muizelstraat 20, 8560 Gullegem",
+        "notes": "https://www.brustor.com/nl-be/contact",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "857",
+      "name": "Harol",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Personeelsdienst / Operations",
+          "position": "Beslisser opleidingen en productie",
+          "email": "jobs@harol.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Itselaarlaan 11, 3290 Diest",
+        "notes": "https://www.harol.com/nl/contact/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "858",
+      "name": "Wilms",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Erik Wilms",
+          "position": "Zaakvoerder",
+          "email": "wilms@wilms.be",
+          "phone": "+32 14 36 99 75"
+        }
+      ],
+      "details": {
+        "address": "Molsebaan 20, 2450 Meerhout",
+        "notes": "https://www.wilms.be/",
+        "notebook": "25/09/26\r\nDag Hans\r\n\r\nUw voorstel werd hier intern besproken. Momenteel is er echter geen ruimte in onze opleidingskalender.\r\nWe houden het wel in ons achterhoofd.\r\n\r\nGroeten\r\nWouter Douwen\r\n"
+      }
+    },
+    {
+      "id": "859",
+      "name": "DUCO Ventilation & Sun Control",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Marthe Depuydt",
+          "position": "HR Manager",
+          "email": "info@duco.eu",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Handelsstraat 19, 8630 Veurne",
+        "notes": "https://database.passivehouse.com/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "860",
+      "name": "IMS Belgium",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Commercieel management / Aluminiumteam",
+          "position": "Beslisser productkennis en verkoop",
+          "email": "info@ims-belgium.biz",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Oudemanstraat 17, 1840 Londerzeel",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "861",
+      "name": "Cupro",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Verkoop",
+          "position": "Beslisser productkennis en verkoop",
+          "email": "admin@cupro.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Wijngaardveld 16, 9300 Aalst",
+        "notes": "https://www.cupro.be/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "862",
+      "name": "Dejond Metals",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Metals-team / Salesmanager",
+          "position": "Beslisser productkennis en verkoop",
+          "email": "metals@dejond.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Terbekehofdreef 55-59, 2610 Wilrijk",
+        "notes": "https://www.dejond.com/nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "868",
+      "name": "Lootens",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Sylvia Vercruysse",
+          "position": "HR en contact voor dienstverleners",
+          "email": "sylvia@lootens.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "John F. Kennedylaan 59, 5555 XC Valkenswaard",
+        "notes": "https://www.lootens.com/jobs/spontane-sollicitatie",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "869",
+      "name": "Winsol",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Christel Waerie",
+          "position": "HR Manager",
+          "email": "hr@winsol.eu",
+          "phone": ""
+        },
+        {
+          "contact": "Jason Alleman",
+          "position": "",
+          "email": "jason.alleman@winsol.eu",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Zwerusstraat 3, 7951 CZ Staphorst",
+        "notes": "https://winsol-group.talentlyft.com/",
+        "notebook": "25/09/26\r\nDag Hans!\r\n\r\nMomenteel niet direct aanvraag hiernaar, maar toch bedankt voor je opvolging.\r\n\r\nMet vriendelijke groeten, Cordialement, Kind regards\r\nJason Alleman \r\n"
+      }
+    },
+    {
+      "id": "870",
+      "name": "LAG Trailers",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Rob Ramaekers",
+          "position": "CEO",
+          "email": "rob.ramaekers@lag.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Kanaallaan 54, 3960 Bree",
+        "notes": "https://www.lag.eu/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "871",
+      "name": "Hegge Toelevering / Aluwing",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Andy Coninx",
+          "position": "Eigenaar",
+          "email": "andy.coninx@hegge.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Bosstraat 137, 3930 Hamont-Achel",
+        "notes": "https://www.hegge.be/en/contact/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "873",
+      "name": "Renson",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Evi Thielemans",
+          "position": "HR Manager Operations",
+          "email": "evi.thielemans@renson.be",
+          "phone": "+32 498 46 47 73"
+        }
+      ],
+      "details": {
+        "address": "Maalbeekstraat 10, 8790 Waregem",
+        "notes": "https://renson.net/en-us/contact",
+        "notebook": "25/09/26\r\nGoedemorgen, \r\n\r\nMomenteel geen interesse of noodzaak. \r\nWij houden wel jullie gegevens bij, wie weet voor in de toekomst. \r\n\r\nMVg, Evi \r\n"
+      }
+    },
+    {
+      "id": "874",
+      "name": "ASCO Industries",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Katrien Van Durme",
+          "position": "Group HR Director",
+          "email": "asco@ascoindustries.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Weiveldlaan 2, 1930 Zaventem",
+        "notes": "https://www.asco.be/about/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "875",
+      "name": "SABCA",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Vinciane Moies / Thierry Coune",
+          "position": "HR Director / Integrated Assemblies",
+          "email": "info@sabca.be / thierry.coune@sabca.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Chaussée de Haecht 1470, 1130 Brussel",
+        "notes": "https://sabca2.3lp.be/contact",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "880",
+      "name": "Almec",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / verantwoordelijke productie en engineering",
+          "position": "Directie / productie / engineering",
+          "email": "info@almec.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Nieuwpoortlaan 12, 3600 Genk",
+        "notes": "https://www.almec.be/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "881",
+      "name": "Alinco",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Productieverantwoordelijke / lasingenieur",
+          "position": "Productie / lassen",
+          "email": "info@alinco.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Industriepark-West 53, 9100 Sint-Niklaas",
+        "notes": "https://alinco.be/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "882",
+      "name": "Vorsselmans",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "HR / verantwoordelijke productieatelier",
+          "position": "HR / productie",
+          "email": "info@vorsselmans.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Wuustwezelseweg 95, 2990 Loenhout",
+        "notes": "https://www.vorsselmans.be/en/about-us/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1790349042021",
+      "name": "Jonckheere subcontracting",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Diederik Schodts",
+          "position": "CEO",
+          "email": "diederik.schodts@jonckheeresub.com",
+          "phone": "+32 51 23 28 04"
+        }
+      ],
+      "details": {
+        "address": "Henri Jonckheerestraat 5, 8800 Roeselare",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1790349129206",
+      "name": "Maarten Dutry BVBA",
+      "country": "Belgium",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Maarten Dutry",
+          "position": "Zaakvoerder",
+          "email": "maarten@maartendutry.be",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Schardauwstraat 2, 8880 Sint-Eloois-Winkel",
         "notes": "",
         "notebook": ""
       }
@@ -987,7 +1531,7 @@
         }
       ],
       "details": {
-        "address": "Second Industrial Zone\r\r\r\r\r\r\n9700 Shumen\r\r\r\r\r\r\nBulgaria",
+        "address": "Second Industrial Zone\r\r\r\r\r\r\r\n9700 Shumen\r\r\r\r\r\r\r\nBulgaria",
         "notes": "600, 1300, 1800, 2000, 2500, 4000",
         "notebook": ""
       }
@@ -1037,7 +1581,7 @@
         }
       ],
       "details": {
-        "address": "Stryama 4142,\r\r\r\r\r\n82 Vasil Levski Str.\r\r\r\r\r\nBulgaria",
+        "address": "Stryama 4142,\r\r\r\r\r\r\n82 Vasil Levski Str.\r\r\r\r\r\r\nBulgaria",
         "notes": "Two extrusion presses (1460 UST and 2100 UST)",
         "notebook": ""
       }
@@ -1640,7 +2184,7 @@
         }
       ],
       "details": {
-        "address": "2/170 CPC Industrial Park\r\r\r\r\r\r\r\r\r\nNorthern Extensions, Industrial Area #4\r\r\r\r\r\r\r\r\r\n6th October City\r\r\r\r\r\r\r\r\r\n12573 Giza, Egypt",
+        "address": "2/170 CPC Industrial Park\r\r\r\r\r\r\r\r\r\r\nNorthern Extensions, Industrial Area #4\r\r\r\r\r\r\r\r\r\r\n6th October City\r\r\r\r\r\r\r\r\r\r\n12573 Giza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -1665,7 +2209,7 @@
         }
       ],
       "details": {
-        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\r\r\r\r\r\r\r\r\r\n6th of October City\r\r\r\r\r\r\r\r\r\nGiza, Egypt",
+        "address": "Lot No. M17 – Engineering Square 3rd Industrial Zone\r\r\r\r\r\r\r\r\r\r\n6th of October City\r\r\r\r\r\r\r\r\r\r\nGiza, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -1721,7 +2265,7 @@
         }
       ],
       "details": {
-        "address": "101 El Amal Shourta Buildings\r\r\r\r\r\r\r\r\r\nAutostrad Road, New Maadi\r\r\r\r\r\r\r\r\r\nCairo, Egypt",
+        "address": "101 El Amal Shourta Buildings\r\r\r\r\r\r\r\r\r\r\nAutostrad Road, New Maadi\r\r\r\r\r\r\r\r\r\r\nCairo, Egypt",
         "notes": "",
         "notebook": ""
       }
@@ -1971,7 +2515,7 @@
         }
       ],
       "details": {
-        "address": "Uelzener Weg 36\r\r\r\r\r\r\n59425 Unna, Germany",
+        "address": "Uelzener Weg 36\r\r\r\r\r\r\r\n59425 Unna, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2064,7 +2608,7 @@
         }
       ],
       "details": {
-        "address": "Alusingen Platz 1\r\r\r\r\r\r\r\r\r\r\n78224 Singen, Germany",
+        "address": "Alusingen Platz 1\r\r\r\r\r\r\r\r\r\r\r\n78224 Singen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2270,7 +2814,7 @@
         }
       ],
       "details": {
-        "address": "Nürnberger Straße 57\r\r\r\r\r\r\r\r\r\r\n91781 Weißenburg i. Bay., Germany",
+        "address": "Nürnberger Straße 57\r\r\r\r\r\r\r\r\r\r\r\n91781 Weißenburg i. Bay., Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2308,7 +2852,7 @@
         }
       ],
       "details": {
-        "address": "Niederbergheimer Straße 181\r\r\r\r\r\r\r\r\r\r\n59494 Soest, Germany",
+        "address": "Niederbergheimer Straße 181\r\r\r\r\r\r\r\r\r\r\r\n59494 Soest, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2346,7 +2890,7 @@
         }
       ],
       "details": {
-        "address": "Am Mühlholz 1\r\r\r\r\r\r\r\r\r\r\n89287 Bellenberg, Germany",
+        "address": "Am Mühlholz 1\r\r\r\r\r\r\r\r\r\r\r\n89287 Bellenberg, Germany",
         "notes": 2200,
         "notebook": ""
       }
@@ -2365,7 +2909,7 @@
         }
       ],
       "details": {
-        "address": "Industriestraße 10\r\r\r\r\r\r\r\r\r\r\n77656 Offenburg, Germany",
+        "address": "Industriestraße 10\r\r\r\r\r\r\r\r\r\r\r\n77656 Offenburg, Germany",
         "notes": "1200, 2000",
         "notebook": ""
       }
@@ -2384,7 +2928,7 @@
         }
       ],
       "details": {
-        "address": "Am Wasserwerk 1\r\r\r\r\r\r\r\r\r\r\n04519 Rackwitz, Germany",
+        "address": "Am Wasserwerk 1\r\r\r\r\r\r\r\r\r\r\r\n04519 Rackwitz, Germany",
         "notes": 2200,
         "notebook": ""
       }
@@ -2403,7 +2947,7 @@
         }
       ],
       "details": {
-        "address": "Uphuser Heerstraße 7\r\r\r\r\r\r\r\r\r\r\n28832 Achim, Germany",
+        "address": "Uphuser Heerstraße 7\r\r\r\r\r\r\r\r\r\r\r\n28832 Achim, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2447,7 +2991,7 @@
         }
       ],
       "details": {
-        "address": "Bublitzer Straße 23\r\r\r\n40599 Düsseldorf\r\r\r\nGermany",
+        "address": "Bublitzer Straße 23\r\r\r\r\n40599 Düsseldorf\r\r\r\r\nGermany",
         "notes": "End User",
         "notebook": ""
       }
@@ -2528,7 +3072,7 @@
         }
       ],
       "details": {
-        "address": "Derschlager Straße 26\r\r\r\r\r\r\r\r\r\r\n58540 Meinerzhagen, Germany",
+        "address": "Derschlager Straße 26\r\r\r\r\r\r\r\r\r\r\r\n58540 Meinerzhagen, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2590,7 +3134,7 @@
         }
       ],
       "details": {
-        "address": "Devillestraße 2\r\r\r\r\r\r\r\r\r\r\n06749 Bitterfeld, Germany",
+        "address": "Devillestraße 2\r\r\r\r\r\r\r\r\r\r\r\n06749 Bitterfeld, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2609,7 +3153,7 @@
         }
       ],
       "details": {
-        "address": "Friedrich-Wöhler-Straße 2\r\r\r\r\r\r\r\r\r\r\n53117 Bonn, Germany",
+        "address": "Friedrich-Wöhler-Straße 2\r\r\r\r\r\r\r\r\r\r\r\n53117 Bonn, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2634,7 +3178,7 @@
         }
       ],
       "details": {
-        "address": "Lichtlöcherberg 40\r\r\r\r\r\r\r\r\r\r\n88267 Vogt, Germany",
+        "address": "Lichtlöcherberg 40\r\r\r\r\r\r\r\r\r\r\r\n88267 Vogt, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2703,7 +3247,7 @@
         }
       ],
       "details": {
-        "address": "Am Osthafen 5\r\r\r\r\r\r\r\r\r\r\n32423 Minden, Germany",
+        "address": "Am Osthafen 5\r\r\r\r\r\r\r\r\r\r\r\n32423 Minden, Germany",
         "notes": "",
         "notebook": ""
       }
@@ -2790,7 +3334,7 @@
         }
       ],
       "details": {
-        "address": "Thessi Megali Rachi\r\r\r\r\r\r\r\r\n32011 Inofita, Viotia\r\r\r\r\r\r\r\r\nGreece",
+        "address": "Thessi Megali Rachi\r\r\r\r\r\r\r\r\r\n32011 Inofita, Viotia\r\r\r\r\r\r\r\r\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -2815,7 +3359,7 @@
         }
       ],
       "details": {
-        "address": "8th km National Road Larissa-Athens, Nikea Intersection\r\r\r\r\r\r\r\r\r\nLarissa, 41110\r\r\r\r\r\r\r\r\r\nGreece",
+        "address": "8th km National Road Larissa-Athens, Nikea Intersection\r\r\r\r\r\r\r\r\r\r\nLarissa, 41110\r\r\r\r\r\r\r\r\r\r\nGreece",
         "notes": "",
         "notebook": ""
       }
@@ -2871,7 +3415,7 @@
         }
       ],
       "details": {
-        "address": "Iroon Polytechneiou 4\r\r\r\r\r\r\r\r\r\nMagoula, Greece",
+        "address": "Iroon Polytechneiou 4\r\r\r\r\r\r\r\r\r\r\nMagoula, Greece",
         "notes": "",
         "notebook": ""
       }
@@ -3229,8 +3773,8 @@
         }
       ],
       "details": {
-        "address": "Wallingstown,Little Island\r\r\r\nCo. Cork, T45 VP40\r\r\r\nIreland",
-        "notes": "15,000 tonnes\r\r\r\n\r\r\r\n3 aluminium extrusion presses\r\r\r\n3 powder coating lines\r\r\r\nFully automated anodising plant",
+        "address": "Wallingstown,Little Island\r\r\r\r\nCo. Cork, T45 VP40\r\r\r\r\nIreland",
+        "notes": "15,000 tonnes\r\r\r\r\n\r\r\r\r\n3 aluminium extrusion presses\r\r\r\r\n3 powder coating lines\r\r\r\r\nFully automated anodising plant",
         "notebook": ""
       }
     },
@@ -4573,7 +5117,7 @@
       "clientType": "Extruder",
       "contacts": [],
       "details": {
-        "address": "Avenida Europa #311, Parque Industrial Logistik II, \r\r\r\nLaguna de San Vicente",
+        "address": "Avenida Europa #311, Parque Industrial Logistik II, \r\r\r\r\nLaguna de San Vicente",
         "notes": "",
         "notebook": ""
       }
@@ -4735,7 +5279,7 @@
         }
       ],
       "details": {
-        "address": "Duizeldonksestraat 20\r\r\r\r\r\r\n5705 CA Helmond\r\r\r\r\r\r\nNetherlands",
+        "address": "Duizeldonksestraat 20\r\r\r\r\r\r\r\n5705 CA Helmond\r\r\r\r\r\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -4804,7 +5348,7 @@
         }
       ],
       "details": {
-        "address": "Hondert Margen 12\r\r\r\r\r\r\r\r\r\n2678 AC De Lier\r\r\r\r\r\r\r\r\r\nNetherlands",
+        "address": "Hondert Margen 12\r\r\r\r\r\r\r\r\r\r\n2678 AC De Lier\r\r\r\r\r\r\r\r\r\r\nNetherlands",
         "notes": "",
         "notebook": ""
       }
@@ -4823,7 +5367,7 @@
         }
       ],
       "details": {
-        "address": "De Trompet 1205\r\r\r\r\r\r\r\n1967 DA Heemskerk\r\r\r\r\r\r\r\nNetherlands",
+        "address": "De Trompet 1205\r\r\r\r\r\r\r\r\n1967 DA Heemskerk\r\r\r\r\r\r\r\r\nNetherlands",
         "notes": "End User",
         "notebook": ""
       }
@@ -4963,6 +5507,557 @@
       "details": {
         "address": "Groenewoudsedijk 1, 3528 BG, Utrecht, Netherlands",
         "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "829",
+      "name": "De Groot & Visser",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Jerry den Heijer",
+          "position": "Operationeel directeur",
+          "email": "info@gv.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Marconiweg 1, 4207 HH Gorinchem",
+        "notes": "https://degrootenvisser.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "830",
+      "name": "Intal",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / HR / Engineering",
+          "position": "Beslisser technische opleidingen",
+          "email": "info@intal.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "De Veken 103, 1716 KG Opmeer",
+        "notes": "https://www.intal.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "831",
+      "name": "Aluvo Geveltechniek",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Anne Siegel",
+          "position": "HR Manager",
+          "email": "infonieuwleusen@aluvo.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Rollecate 83, 7711 GG Nieuwleusen",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "832",
+      "name": "Frontlijn Geveltechnieken",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Productiemanager",
+          "position": "Beslisser techniek en productie",
+          "email": "info@frontlijn.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "De Trompet 30, 1601 MK Enkhuizen",
+        "notes": "https://www.frontlijn.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "833",
+      "name": "Alkondor Hengelo",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Jan Bergman",
+          "position": "Commercieel directeur / route naar techniek",
+          "email": "info@alkondor.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Wegtersweg 7-19, 7556 BP Hengelo",
+        "notes": "https://werkenbij.alkondor.nl/jorik-seinen",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "834",
+      "name": "Blitta Gevelsystemen",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Jacco van Dijk",
+          "position": "Algemeen directeur",
+          "email": "info@blitta.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Ambachtstraat 24, 5804 CD Venray",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "835",
+      "name": "Entropal",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Engineering / Productie",
+          "position": "Beslisser technische opleidingen",
+          "email": "info@entropal.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "De Chamotte 46, 4191 GT Geldermalsen",
+        "notes": "https://entropal.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "836",
+      "name": "Alrako",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Bedrijfsleiding",
+          "position": "Beslisser techniek en productie",
+          "email": "info@alrako.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "De Wending 15, 9865 VC Opende",
+        "notes": "https://www.alrako.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "837",
+      "name": "Metaglas",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Ingrid Mocking",
+          "position": "HR / route naar Engineering",
+          "email": "info@metaglas.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Het Eek 5, 4004 LM Tiel",
+        "notes": "https://metaglas.nl/werken-bij/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "838",
+      "name": "Aluberg Aluminium",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Project- en productieleiding",
+          "position": "Beslisser techniek en productie",
+          "email": "info@aluberg.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Oost-om 59, 5422 VX Gemert",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "839",
+      "name": "Verano Nederland BV",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Frank Pulles",
+          "position": "Eigenaar",
+          "email": "verkoop@verano.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Bedrijfsweg 8, 5683 CP Best",
+        "notes": "https://verano.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "840",
+      "name": "Deponti",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "HR Lead / Operations",
+          "position": "Beslisser opleidingen en productie",
+          "email": "vacature@deponti.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Rijnstraat 20A, 5347 KN Oss",
+        "notes": "https://www.deponti.com/nl",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "841",
+      "name": "ForaVida",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Stefan Wohlert",
+          "position": "Algemeen directeur",
+          "email": "info@foravida.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Nijmeegseweg 2D, 5916 PT Venlo",
+        "notes": "https://contentway.eu/nl/articles/optimaliseer-uw-werkruimte-met-fora-vida-overkappingen-en-glazen-schuifwanden-voor-uw-tuinkantoor",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "842",
+      "name": "Alupine Aluminium",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Productieleiding",
+          "position": "Beslisser techniek en productie",
+          "email": "info@alupine.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "De Run 4405, 5503 LS Veldhoven",
+        "notes": "https://www.alupine.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "843",
+      "name": "Metalura",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Albert van de Breevaart",
+          "position": "Algemeen directeur",
+          "email": "slimmeglassystemen@metalura.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Van Hennaertweg 2, 2952 CA Alblasserdam",
+        "notes": "https://www.metalura.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "844",
+      "name": "IMS Nederland",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Commercieel management / Aluminiumteam",
+          "position": "Beslisser productkennis en verkoop",
+          "email": "info@ims-nederland.biz",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Gildenweg 21, 3334 KC Zwijndrecht",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "845",
+      "name": "ODS",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Sandy Taskin / Leo Stolk / Daniel van der Zwan",
+          "position": "Non-ferro team",
+          "email": "sandy.taskin@odsbv.nl; leo.stolk@odsbv.nl; daniel.vanderzwan@odsbv.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Donk 6, 2991 LE Barendrecht",
+        "notes": "https://www.odsbv.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "846",
+      "name": "WIKO Gevelsystemen",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / Bedrijfsleiding",
+          "position": "Beslisser techniek en verkoop",
+          "email": "info@wikogevelsystemen.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Dr. Huub van Doorneweg 2A, 5753 PM Deurne",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "863",
+      "name": "Aldowa",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Remco Lammers",
+          "position": "HR Manager",
+          "email": "remcolammers@aldowa.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Spaarnestraat 49, 3044 CM Rotterdam",
+        "notes": "https://sa.linkedin.com/jobs/view/site-supervisor-at-aldowa-b-v-4314644079",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "864",
+      "name": "Heesen Yachts",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Isabel van der Ent",
+          "position": "Corporate Recruiter / route naar Heesen Academy",
+          "email": "careers@heesenyachts.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Rijnstraat 2, 5347 KL Oss",
+        "notes": "https://werkenbij.heesenyachts.com/contact/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "865",
+      "name": "Royal Huisman",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Arend Straatsma",
+          "position": "HR Manager",
+          "email": "vacatures@royalhuisman.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Flevoweg 1, 8325 PA Vollenhove",
+        "notes": "https://werkenbijroyalhuismangroep.com/contact",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "866",
+      "name": "Alumax Boats",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Remko Germeraad",
+          "position": "Directeur",
+          "email": "info@alumaxboats.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Setheweg 12, 7942 LB Meppel",
+        "notes": "https://alumaxboats.nl/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "867",
+      "name": "MCB Campus",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Marleen Streuper / Ilse van Rijsingen-Vogels / Jorg Eichhorn",
+          "position": "MCB Campus",
+          "email": "campus@mcb.eu",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "John F. Kennedylaan 59, 5555 XC Valkenswaard",
+        "notes": "https://www.mcb.eu/en/campus",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "872",
+      "name": "Rollecate",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "John de Vlieger",
+          "position": "CEO",
+          "email": "sollicitatie@rollecate.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Zwerusstraat 3, 7951 CZ Staphorst",
+        "notes": "https://www.mailbat.com/company/rollecate.nl",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "876",
+      "name": "Van der Valk Solar Systems",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Paul van der Meer",
+          "position": "Operations Manager",
+          "email": "hr@valksolarsystems.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Galgeweg 46, 2691 MG ’s-Gravenzande",
+        "notes": "https://blog.valksolarsystems.com/en/blog/in-conversation-with-paul-sustainable-steel",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "877",
+      "name": "Aluland",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Marieke Lucas",
+          "position": "Commerciële leiding / contact",
+          "email": "info@aluland.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Viltweg 2, 3295 KT ’s-Gravendeel",
+        "notes": "https://aluland.com/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "878",
+      "name": "Knapen Trailers",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "HRM / verantwoordelijke opleidingen",
+          "position": "HR / opleidingen",
+          "email": "hrm@knapen-trailers.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Theo van Doesburgstraat 8, 5753 DL Deurne",
+        "notes": "https://www.knapen-trailers.com/nl/werken-bij/open-sollicitatie",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "879",
+      "name": "Surface Treatment Nederland",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "HR / opleidingsverantwoordelijke",
+          "position": "HR / opleidingen",
+          "email": "hr@surfacetreatment.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Hazenspoor 16, 6051 AB Maasbracht",
+        "notes": "https://surfacetreatment.nl/nl/vacatures/",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "883",
+      "name": "Meulatech",
+      "country": "Netherlands",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Directie / bedrijfsleiding",
+          "position": "Directie",
+          "email": "contact@meulatech.nl",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Waldeck Pyrmontstraat 21A, 5652 AD Eindhoven",
+        "notes": "https://meulatech.nl/",
         "notebook": ""
       }
     },
@@ -5177,7 +6272,7 @@
         }
       ],
       "details": {
-        "address": "ul. Wacława Moritza 3\r\r\r\r\r\r\n20-276 Lublin\r\r\r\r\r\r\nPoland",
+        "address": "ul. Wacława Moritza 3\r\r\r\r\r\r\r\n20-276 Lublin\r\r\r\r\r\r\r\nPoland",
         "notes": "",
         "notebook": ""
       }
@@ -5355,7 +6450,7 @@
       "clientType": "Extruder",
       "contacts": [],
       "details": {
-        "address": "",
+        "address": "Kuchary 24F, 63-322 Gołuchów, Poland",
         "notes": "",
         "notebook": ""
       }
@@ -5404,7 +6499,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "UL. T. Kosciuszki 111, 32-650 Kety, Poland",
         "notes": "",
         "notebook": ""
       }
@@ -5486,7 +6581,7 @@
         }
       ],
       "details": {
-        "address": "Zona Industrial da Lameira\r\r\r\r\nLote 1/15, 4820-840 Rego\r\r\r\r\nCelorico de Basto, Portugal",
+        "address": "Zona Industrial da Lameira\r\r\r\r\r\nLote 1/15, 4820-840 Rego\r\r\r\r\r\nCelorico de Basto, Portugal",
         "notes": "2500, 2600",
         "notebook": ""
       }
@@ -5574,7 +6669,7 @@
         }
       ],
       "details": {
-        "address": "",
+        "address": "Lt. 82, Aptd.10 Quinchães, 4820-570 Fafe, Portugal",
         "notes": "",
         "notebook": ""
       }
@@ -6099,7 +7194,7 @@
         }
       ],
       "details": {
-        "address": "First Industrial City, Street 38, Building 7244\r\r\r\r\r\r\nDammam, Eastern Province 31451\r\r\r\r\r\r\nSaudi Arabia",
+        "address": "First Industrial City, Street 38, Building 7244\r\r\r\r\r\r\r\nDammam, Eastern Province 31451\r\r\r\r\r\r\r\nSaudi Arabia",
         "notes": "",
         "notebook": ""
       }
@@ -6393,7 +7488,7 @@
       "contacts": [
         {
           "contact": "Fernando González de la Flor",
-          "position": "Owner",
+          "position": "",
           "email": "ferNANDO@aglaluminio.com",
           "phone": ""
         }
@@ -6436,7 +7531,7 @@
         }
       ],
       "details": {
-        "address": "Av. de Laviana, s/n\r\r\r\r\r\r\n33900 Ciaño – Langreo\r\r\r\r\r\r\nAsturias, Spain",
+        "address": "Av. de Laviana, s/n\r\r\r\r\r\r\r\n33900 Ciaño – Langreo\r\r\r\r\r\r\r\nAsturias, Spain",
         "notes": "1800, 2500, 3500",
         "notebook": ""
       }
@@ -6455,7 +7550,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\r\r\n45007 Toledo, Spain",
+        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\r\r\r\n45007 Toledo, Spain",
         "notes": "1800 (2), 2200",
         "notebook": ""
       }
@@ -6474,7 +7569,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\r\r\r\n38509 Candelaria, Santa Cruz de Tenerife\r\r\r\r\nSpain",
+        "address": "P. I. Valle de Güímar – Parcs. 13/15\r\r\r\r\r\n38509 Candelaria, Santa Cruz de Tenerife\r\r\r\r\r\nSpain",
         "notes": "1800, 2200",
         "notebook": ""
       }
@@ -6493,7 +7588,7 @@
         }
       ],
       "details": {
-        "address": "Ctra. Viveros, km. 1\r\r\r\r\r\r\n02340 El Robledo\r\r\r\r\r\r\nAlbacete, Spain",
+        "address": "Ctra. Viveros, km. 1\r\r\r\r\r\r\r\n02340 El Robledo\r\r\r\r\r\r\r\nAlbacete, Spain",
         "notes": "1800, 2000",
         "notebook": ""
       }
@@ -6512,7 +7607,7 @@
         }
       ],
       "details": {
-        "address": "P.I. El Sequero, Parcels 169-176\r\r\r\r\r\r\n26151 Arrúbal, La Rioja\r\r\r\r\r\r\nSpain",
+        "address": "P.I. El Sequero, Parcels 169-176\r\r\r\r\r\r\r\n26151 Arrúbal, La Rioja\r\r\r\r\r\r\r\nSpain",
         "notes": "1800, 2000",
         "notebook": "Incorrect Email"
       }
@@ -6543,7 +7638,7 @@
         }
       ],
       "details": {
-        "address": "Carretera N-IV, S/N, Km 32.400\r\r\r\r\r\r\n28350 Ciempozuelos, Madrid\r\r\r\r\r\r\nSpain",
+        "address": "Carretera N-IV, S/N, Km 32.400\r\r\r\r\r\r\r\n28350 Ciempozuelos, Madrid\r\r\r\r\r\r\r\nSpain",
         "notes": "1600, 1800, 2200",
         "notebook": ""
       }
@@ -6568,7 +7663,7 @@
         }
       ],
       "details": {
-        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\r\r\r\r\r\n41700 Dos Hermanas, Sevilla\r\r\r\r\r\r\nSpain",
+        "address": "Ctra. Nacional IV (Madrid-Cádiz), km 552\r\r\r\r\r\r\r\n41700 Dos Hermanas, Sevilla\r\r\r\r\r\r\r\nSpain",
         "notes": "1800, 2500, 4800",
         "notebook": ""
       }
@@ -6587,7 +7682,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\r\r\r\r\r\n40400 El Espinar, Segovia\r\r\r\r\r\r\nSpain",
+        "address": "P. I. Llanos de San Pedro — Ctra. Ávila, s/n\r\r\r\r\r\r\r\n40400 El Espinar, Segovia\r\r\r\r\r\r\r\nSpain",
         "notes": "1800, 1800",
         "notebook": ""
       }
@@ -6606,7 +7701,7 @@
         }
       ],
       "details": {
-        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\r\r\r\r\r\n08403 Granollers, Barcelona\r\r\r\r\r\r\nSpain",
+        "address": "Crta. N-152, Km 25.6 – P.I. Coll de la Manya\r\r\r\r\r\r\r\n08403 Granollers, Barcelona\r\r\r\r\r\r\r\nSpain",
         "notes": 2500,
         "notebook": "Bankrupt"
       }
@@ -6800,7 +7895,7 @@
         }
       ],
       "details": {
-        "address": "Camino del Puente Viejo, 32\r\r\r\r\r\r\r\r\r\n28500 Arganda del Rey, Madrid\r\r\r\r\r\r\r\r\r\nSpain",
+        "address": "Camino del Puente Viejo, 32\r\r\r\r\r\r\r\r\r\r\n28500 Arganda del Rey, Madrid\r\r\r\r\r\r\r\r\r\r\nSpain",
         "notes": 1800,
         "notebook": ""
       }
@@ -6974,7 +8069,7 @@
         }
       ],
       "details": {
-        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\r\r\r\r\r\r\r\r\r\n30820 Alcantarilla, Murcia\r\r\r\r\r\r\r\r\r\nSpain",
+        "address": "P.I. Oeste — Av. del Descubrimiento, Parc. 8/21\r\r\r\r\r\r\r\r\r\r\n30820 Alcantarilla, Murcia\r\r\r\r\r\r\r\r\r\r\nSpain",
         "notes": "1800, 2800",
         "notebook": ""
       }
@@ -7030,7 +8125,7 @@
         }
       ],
       "details": {
-        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\r\r\r\r\n45007 Toledo, Spain",
+        "address": "P. I. Sta. Mª de Benquerencia – C/ Río Jarama, 150\r\r\r\r\r\r\r\n45007 Toledo, Spain",
         "notes": "1800 (2), 2200",
         "notebook": ""
       }
@@ -7925,7 +9020,7 @@
         }
       ],
       "details": {
-        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\r\r\r\r\r\r\r\nKırklareli, Turkey",
+        "address": "Organize Sanayi Bölgesi, 2. Cadde No:2\r\r\r\r\r\r\r\r\nKırklareli, Turkey",
         "notes": "",
         "notebook": ""
       }
@@ -8019,7 +9114,7 @@
         }
       ],
       "details": {
-        "address": "Büyükdere Caddesi No: 2\r\r\r\r\r\r\r\nSarıyer, Istanbul\r\r\r\r\r\r\r\nTurkey",
+        "address": "Büyükdere Caddesi No: 2\r\r\r\r\r\r\r\r\nSarıyer, Istanbul\r\r\r\r\r\r\r\r\nTurkey",
         "notes": "Die Manufacturer",
         "notebook": ""
       }
@@ -8461,7 +9556,7 @@
         }
       ],
       "details": {
-        "address": "Ashby Road East\r\r\r\r\r\r\r\r\r\nShepshed\r\r\r\r\r\r\r\r\r\nLoughborough\r\r\r\r\r\r\r\r\r\nLeicestershire LE12 9BS\r\r\r\r\r\r\r\r\r\nUnited Kingdom",
+        "address": "Ashby Road East\r\r\r\r\r\r\r\r\r\r\nShepshed\r\r\r\r\r\r\r\r\r\r\nLoughborough\r\r\r\r\r\r\r\r\r\r\nLeicestershire LE12 9BS\r\r\r\r\r\r\r\r\r\r\nUnited Kingdom",
         "notes": "",
         "notebook": ""
       }
@@ -10818,1102 +11913,7 @@
       ],
       "details": {
         "address": "Navoi region, Karmana district, territory Navoi Free Economic Zone, Uzbekistan",
-        "notes": "5-inch  - 1000TN - SKM\r\r\r\r\r\n5-inch  - 1000TN - SKM\r\r\r\r\r\n7-inch  - 2000TN - SKM\r\r\r\r\r\n7-inch  - 2000TN - SKM\r\r\r\r\r\n7-Inch  - 2000TN - Presezzi\r\r\r\r\r\n11-inch - 4000TN - Presezzi",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "829",
-      "name": "De Groot & Visser",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Jerry den Heijer",
-          "position": "Operationeel directeur",
-          "email": "info@gv.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://degrootenvisser.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "830",
-      "name": "Intal",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / HR / Engineering",
-          "position": "Beslisser technische opleidingen",
-          "email": "info@intal.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.intal.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "831",
-      "name": "Aluvo Geveltechniek",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Anne Siegel",
-          "position": "HR Manager",
-          "email": "infonieuwleusen@aluvo.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "832",
-      "name": "Frontlijn Geveltechnieken",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Productiemanager",
-          "position": "Beslisser techniek en productie",
-          "email": "info@frontlijn.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.frontlijn.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "833",
-      "name": "Alkondor Hengelo",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Jan Bergman",
-          "position": "Commercieel directeur / route naar techniek",
-          "email": "info@alkondor.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://werkenbij.alkondor.nl/jorik-seinen",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "834",
-      "name": "Blitta Gevelsystemen",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Jacco van Dijk",
-          "position": "Algemeen directeur",
-          "email": "info@blitta.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "835",
-      "name": "Entropal",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Engineering / Productie",
-          "position": "Beslisser technische opleidingen",
-          "email": "info@entropal.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://entropal.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "836",
-      "name": "Alrako",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Bedrijfsleiding",
-          "position": "Beslisser techniek en productie",
-          "email": "info@alrako.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.alrako.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "837",
-      "name": "Metaglas",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Ingrid Mocking",
-          "position": "HR / route naar Engineering",
-          "email": "info@metaglas.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://metaglas.nl/werken-bij/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "838",
-      "name": "Aluberg Aluminium",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Project- en productieleiding",
-          "position": "Beslisser techniek en productie",
-          "email": "info@aluberg.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "839",
-      "name": "Verano Nederland BV",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Frank Pulles",
-          "position": "Eigenaar",
-          "email": "verkoop@verano.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://verano.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "840",
-      "name": "Deponti",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "HR Lead / Operations",
-          "position": "Beslisser opleidingen en productie",
-          "email": "vacature@deponti.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.deponti.com/nl",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "841",
-      "name": "ForaVida",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Stefan Wohlert",
-          "position": "Algemeen directeur",
-          "email": "info@foravida.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://contentway.eu/nl/articles/optimaliseer-uw-werkruimte-met-fora-vida-overkappingen-en-glazen-schuifwanden-voor-uw-tuinkantoor",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "842",
-      "name": "Alupine Aluminium",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Productieleiding",
-          "position": "Beslisser techniek en productie",
-          "email": "info@alupine.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.alupine.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "843",
-      "name": "Metalura",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Albert van de Breevaart",
-          "position": "Algemeen directeur",
-          "email": "slimmeglassystemen@metalura.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.metalura.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "844",
-      "name": "IMS Nederland",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Commercieel management / Aluminiumteam",
-          "position": "Beslisser productkennis en verkoop",
-          "email": "info@ims-nederland.biz",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "845",
-      "name": "ODS",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Sandy Taskin / Leo Stolk / Daniel van der Zwan",
-          "position": "Non-ferro team",
-          "email": "sandy.taskin@odsbv.nl; leo.stolk@odsbv.nl; daniel.vanderzwan@odsbv.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.odsbv.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "846",
-      "name": "WIKO Gevelsystemen",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Bedrijfsleiding",
-          "position": "Beslisser techniek en verkoop",
-          "email": "info@wikogevelsystemen.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "847",
-      "name": "Group Ceyssens",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / HR / Operations",
-          "position": "Beslisser technische opleidingen",
-          "email": "info@groupceyssens.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.fac-belgium.eu/leden/leden-overzicht/fac-leden/cframe-bvba-2",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "848",
-      "name": "Beneens Alucon",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Productie / Engineering",
-          "position": "Beslisser technische opleidingen",
-          "email": "info@beneensalucon.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.fac-belgium.eu/leden/leden-overzicht",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "849",
-      "name": "Aluvano",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Eddy Vanoverschelde",
-          "position": "Zaakvoerder",
-          "email": "info@aluvano.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.aluvano.be/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "850",
-      "name": "Viewworks",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Verkoop / Productie",
-          "position": "Beslisser techniek en verkoop",
-          "email": "verkoop@viewworks.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://viewworks.be/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "851",
-      "name": "Building Windows",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Mathieu Suys",
-          "position": "Zaakvoerder",
-          "email": "info@buildingwindows.be",
-          "phone": ""
-        },
-        {
-          "contact": "Patrick Vermeersch",
-          "position": "",
-          "email": "patrick.vermeersch@buildingwindows.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://buildingwindows.be/over-ons/",
-        "notebook": "25/09/26\nBeste Hans,\n\nWe hebben geen nood aan dergelijke training gezien we ten eerste al jaren in de stiel zitten en al verschillende opleidingen/updates gekregen hebben van onze leveranciers.\n\nMet vriendelijke groeten,\n \nPatrick Vermeersch\n"
-      }
-    },
-    {
-      "id": "852",
-      "name": "Oben",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Productie / Engineering",
-          "position": "Beslisser technische opleidingen",
-          "email": "info@oben.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.oben.be/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "853",
-      "name": "Pauwels Glassprojects",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Project- en engineeringmanagement",
-          "position": "Beslisser technische opleidingen",
-          "email": "info@glassprojects.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.fac-belgium.eu/leden/leden-overzicht/fac-leden/Pauwels-Glassprojects",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "854",
-      "name": "Allaert Aluminium",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Catharina Allaert",
-          "position": "Zaakvoerder",
-          "email": "catharina.allaert@allaertaluminium.com'",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.fac-belgium.eu/leden/leden-overzicht/fac-leden/allaert-aluminium",
-        "notebook": "25/09/26\nBeste,  \n\nBedankt, maar ik heb geen interesse. U mag mijn email adres uit uw mailinglijst verwijderen. \n\nMvg\n"
-      }
-    },
-    {
-      "id": "855",
-      "name": "ALU2+",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Chris Lowies",
-          "position": "Zaakvoerder",
-          "email": "chris.lowies@alu2.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "856",
-      "name": "Brustor",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Lieven Brutsaert",
-          "position": "Zaakvoerder",
-          "email": "jobs@brustor.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.brustor.com/nl-be/contact",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "857",
-      "name": "Harol",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Personeelsdienst / Operations",
-          "position": "Beslisser opleidingen en productie",
-          "email": "jobs@harol.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.harol.com/nl/contact/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "858",
-      "name": "Wilms",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Erik Wilms",
-          "position": "Zaakvoerder",
-          "email": "wilms@wilms.be",
-          "phone": "+32 14 36 99 75"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.wilms.be/",
-        "notebook": "25/09/26\nDag Hans\n\nUw voorstel werd hier intern besproken. Momenteel is er echter geen ruimte in onze opleidingskalender.\nWe houden het wel in ons achterhoofd.\n\nGroeten\nWouter Douwen\n"
-      }
-    },
-    {
-      "id": "859",
-      "name": "DUCO Ventilation & Sun Control",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Marthe Depuydt",
-          "position": "HR Manager",
-          "email": "info@duco.eu",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://database.passivehouse.com/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "860",
-      "name": "IMS Belgium",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Commercieel management / Aluminiumteam",
-          "position": "Beslisser productkennis en verkoop",
-          "email": "info@ims-belgium.biz",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "861",
-      "name": "Cupro",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / Verkoop",
-          "position": "Beslisser productkennis en verkoop",
-          "email": "admin@cupro.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.cupro.be/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "862",
-      "name": "Dejond Metals",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Metals-team / Salesmanager",
-          "position": "Beslisser productkennis en verkoop",
-          "email": "metals@dejond.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.dejond.com/nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "863",
-      "name": "Aldowa",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Remco Lammers",
-          "position": "HR Manager",
-          "email": "remcolammers@aldowa.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://sa.linkedin.com/jobs/view/site-supervisor-at-aldowa-b-v-4314644079",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "864",
-      "name": "Heesen Yachts",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Isabel van der Ent",
-          "position": "Corporate Recruiter / route naar Heesen Academy",
-          "email": "careers@heesenyachts.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://werkenbij.heesenyachts.com/contact/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "865",
-      "name": "Royal Huisman",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Arend Straatsma",
-          "position": "HR Manager",
-          "email": "vacatures@royalhuisman.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://werkenbijroyalhuismangroep.com/contact",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "866",
-      "name": "Alumax Boats",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Remko Germeraad",
-          "position": "Directeur",
-          "email": "info@alumaxboats.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://alumaxboats.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "867",
-      "name": "MCB Campus",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Marleen Streuper / Ilse van Rijsingen-Vogels / Jorg Eichhorn",
-          "position": "MCB Campus",
-          "email": "campus@mcb.eu",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.mcb.eu/en/campus",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "868",
-      "name": "Lootens",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Sylvia Vercruysse",
-          "position": "HR en contact voor dienstverleners",
-          "email": "sylvia@lootens.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.lootens.com/jobs/spontane-sollicitatie",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "869",
-      "name": "Winsol",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Christel Waerie",
-          "position": "HR Manager",
-          "email": "hr@winsol.eu",
-          "phone": ""
-        },
-        {
-          "contact": "Jason Alleman",
-          "position": "",
-          "email": "jason.alleman@winsol.eu",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://winsol-group.talentlyft.com/",
-        "notebook": "25/09/26\nDag Hans!\n\nMomenteel niet direct aanvraag hiernaar, maar toch bedankt voor je opvolging.\n\nMet vriendelijke groeten, Cordialement, Kind regards\nJason Alleman \n"
-      }
-    },
-    {
-      "id": "870",
-      "name": "LAG Trailers",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Rob Ramaekers",
-          "position": "CEO",
-          "email": "rob.ramaekers@lag.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.lag.eu/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "871",
-      "name": "Hegge Toelevering / Aluwing",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Andy Coninx",
-          "position": "Eigenaar",
-          "email": "andy.coninx@hegge.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.hegge.be/en/contact/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "872",
-      "name": "Rollecate",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "John de Vlieger",
-          "position": "CEO",
-          "email": "sollicitatie@rollecate.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.mailbat.com/company/rollecate.nl",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "873",
-      "name": "Renson",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Evi Thielemans",
-          "position": "HR Manager Operations",
-          "email": "evi.thielemans@renson.be",
-          "phone": "+32 498 46 47 73"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://renson.net/en-us/contact",
-        "notebook": "25/09/26\nGoedemorgen, \n\nMomenteel geen interesse of noodzaak. \nWij houden wel jullie gegevens bij, wie weet voor in de toekomst. \n\nMVg, Evi \n"
-      }
-    },
-    {
-      "id": "874",
-      "name": "ASCO Industries",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Katrien Van Durme",
-          "position": "Group HR Director",
-          "email": "asco@ascoindustries.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.asco.be/about/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "875",
-      "name": "SABCA",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Vinciane Moies / Thierry Coune",
-          "position": "HR Director / Integrated Assemblies",
-          "email": "info@sabca.be / thierry.coune@sabca.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://sabca2.3lp.be/contact",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "876",
-      "name": "Van der Valk Solar Systems",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Paul van der Meer",
-          "position": "Operations Manager",
-          "email": "hr@valksolarsystems.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://blog.valksolarsystems.com/en/blog/in-conversation-with-paul-sustainable-steel",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "877",
-      "name": "Aluland",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Marieke Lucas",
-          "position": "Commerciële leiding / contact",
-          "email": "info@aluland.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://aluland.com/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "878",
-      "name": "Knapen Trailers",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "HRM / verantwoordelijke opleidingen",
-          "position": "HR / opleidingen",
-          "email": "hrm@knapen-trailers.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.knapen-trailers.com/nl/werken-bij/open-sollicitatie",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "879",
-      "name": "Surface Treatment Nederland",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "HR / opleidingsverantwoordelijke",
-          "position": "HR / opleidingen",
-          "email": "hr@surfacetreatment.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://surfacetreatment.nl/nl/vacatures/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "880",
-      "name": "Almec",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / verantwoordelijke productie en engineering",
-          "position": "Directie / productie / engineering",
-          "email": "info@almec.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.almec.be/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "881",
-      "name": "Alinco",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Productieverantwoordelijke / lasingenieur",
-          "position": "Productie / lassen",
-          "email": "info@alinco.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://alinco.be/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "882",
-      "name": "Vorsselmans",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "HR / verantwoordelijke productieatelier",
-          "position": "HR / productie",
-          "email": "info@vorsselmans.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://www.vorsselmans.be/en/about-us/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "883",
-      "name": "Meulatech",
-      "country": "Netherlands",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Directie / bedrijfsleiding",
-          "position": "Directie",
-          "email": "contact@meulatech.nl",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "https://meulatech.nl/",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "client-1790349042021",
-      "name": "Jonckheere subcontracting",
-      "country": "Belgium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Diederik Schodts",
-          "position": "CEO",
-          "email": "diederik.schodts@jonckheeresub.com",
-          "phone": "+32 51 23 28 04"
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "client-1790349129206",
-      "name": "Maarten Dutry BVBA",
-      "country": "Belgiium",
-      "clientType": "End User",
-      "contacts": [
-        {
-          "contact": "Maarten Dutry",
-          "position": "Zaakvoerder",
-          "email": "maarten@maartendutry.be",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
+        "notes": "5-inch  - 1000TN - SKM\r\r\r\r\r\r\n5-inch  - 1000TN - SKM\r\r\r\r\r\r\n7-inch  - 2000TN - SKM\r\r\r\r\r\r\n7-inch  - 2000TN - SKM\r\r\r\r\r\r\n7-Inch  - 2000TN - Presezzi\r\r\r\r\r\r\n11-inch - 4000TN - Presezzi",
         "notebook": ""
       }
     }
