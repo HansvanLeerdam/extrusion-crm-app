@@ -4,6 +4,7 @@
       "id": "369",
       "name": "Ferob Metal",
       "country": "Algeria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mohammed Belabed",
@@ -22,6 +23,7 @@
       "id": "729",
       "name": "Satal Extrusion / Algal Plus",
       "country": "Algeria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Hichem Dekar",
@@ -40,6 +42,7 @@
       "id": "52",
       "name": "All Clients",
       "country": "All",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -51,6 +54,7 @@
       "id": "28",
       "name": "Alcemar S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rogelio Ceresato",
@@ -69,6 +73,7 @@
       "id": "39",
       "name": "Alenex S.R.L.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -87,6 +92,7 @@
       "id": "66",
       "name": "Alpros S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -105,6 +111,7 @@
       "id": "67",
       "name": "Alsafex S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Enrique Barnaba",
@@ -123,6 +130,7 @@
       "id": "78",
       "name": "Aluar – División Elaborados",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Diego Marsicano",
@@ -141,6 +149,7 @@
       "id": "106",
       "name": "Aluminio Americano S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Christian Löbisch",
@@ -165,6 +174,7 @@
       "id": "137",
       "name": "Aluminiun S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -183,6 +193,7 @@
       "id": "153",
       "name": "AMEX S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Manuel Carbone",
@@ -201,6 +212,7 @@
       "id": "239",
       "name": "Comercial Americana S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Emiliano Bertazzo",
@@ -219,6 +231,7 @@
       "id": "364",
       "name": "Extrusora Argentina SRL",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Adolfo Isola",
@@ -237,6 +250,7 @@
       "id": "370",
       "name": "Fexa SRL",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Orestes Le Bas",
@@ -255,6 +269,7 @@
       "id": "376",
       "name": "Flamia S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Aníbal Micillo",
@@ -273,6 +288,7 @@
       "id": "451",
       "name": "Hydro Extrusions Argentina",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Eduardo Juliá",
@@ -291,6 +307,7 @@
       "id": "547",
       "name": "Metales del Talar",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jorge L. Fernández",
@@ -309,6 +326,7 @@
       "id": "554",
       "name": "Metrar Group S.R.L.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "José Ignacio Serrot",
@@ -327,6 +345,7 @@
       "id": "574",
       "name": "Moldumet / Metal-Pint",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Leila Hernández",
@@ -345,6 +364,7 @@
       "id": "670",
       "name": "RAESA Argentina S.A.",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jorge Fornt",
@@ -363,6 +383,7 @@
       "id": "689",
       "name": "Rossi Aluminio",
       "country": "Argentina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Adrián Rossi",
@@ -381,6 +402,7 @@
       "id": "363",
       "name": "Extrusions Australia",
       "country": "Australia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "John Villante",
@@ -399,6 +421,7 @@
       "id": "810",
       "name": "Vulcan Ullrich Aluminium Australia",
       "country": "Australia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Gavin Walton",
@@ -423,6 +446,7 @@
       "id": "419",
       "name": "HAI Extrusion Ranshofen",
       "country": "Austria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Andreas Schiffl",
@@ -447,6 +471,7 @@
       "id": "441",
       "name": "Hydro Extrusion Nenzing",
       "country": "Austria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Hubert Ronecker",
@@ -465,6 +490,7 @@
       "id": "597",
       "name": "Neuman Aluminium",
       "country": "Austria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Oliver Glitzner",
@@ -489,6 +515,7 @@
       "id": "788",
       "name": "Thöni Industriebetriebe GmbH",
       "country": "Austria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Herbert Leiter",
@@ -513,6 +540,7 @@
       "id": "191",
       "name": "Bahrain Aluminium Extrusion Company (Balexco)",
       "country": "Bahrain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Emam Jalal",
@@ -543,6 +571,7 @@
       "id": "101",
       "name": "Alumin Techno LLC",
       "country": "Belarus",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sergey Sovetnikov",
@@ -561,6 +590,7 @@
       "id": "47",
       "name": "Aliplast Aluminium Extrusion",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Christoph de Pauw",
@@ -591,6 +621,7 @@
       "id": "289",
       "name": "E-MAX Dilsen-Stokkum Nv",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Gerald Barth",
@@ -621,6 +652,7 @@
       "id": "292",
       "name": "E-MAX Group NV",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Johan van Putten",
@@ -639,6 +671,7 @@
       "id": "293",
       "name": "E-MAX Gullegem Nv",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dave Debosschere",
@@ -657,6 +690,7 @@
       "id": "296",
       "name": "E-MAX Moorsele Nv",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dave Debosschere",
@@ -675,6 +709,7 @@
       "id": "440",
       "name": "Hydro Extrusion Lichtervelde",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Pierre Mulnard",
@@ -693,6 +728,7 @@
       "id": "447",
       "name": "Hydro Extrusion Raeren",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Perrine Schmid",
@@ -711,6 +747,7 @@
       "id": "518",
       "name": "Leonardo Fix S.L.",
       "country": "Belgium",
+      "clientType": "End User",
       "contacts": [
         {
           "contact": "Bart Lips",
@@ -729,6 +766,7 @@
       "id": "649",
       "name": "Profalu N.V.",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Luc Jans",
@@ -765,6 +803,7 @@
       "id": "679",
       "name": "Reynaers Aluminium NV",
       "country": "Belgium",
+      "clientType": "End User",
       "contacts": [
         {
           "contact": "Filip Buts",
@@ -783,6 +822,7 @@
       "id": "762",
       "name": "STEP-G Duffel",
       "country": "Belgium",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Karel Van Trimpont",
@@ -801,6 +841,7 @@
       "id": "63",
       "name": "Alpro a.d. Vlasenica (Alumil)",
       "country": "Bosnia and Herzegovina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sarantis Vinios",
@@ -819,6 +860,7 @@
       "id": "297",
       "name": "Emerus d.o.o.",
       "country": "Bosnia and Herzegovina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Hrvoje Soldo",
@@ -843,6 +885,7 @@
       "id": "365",
       "name": "Feal d.o.o.",
       "country": "Bosnia and Herzegovina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Oliver Zovko",
@@ -873,6 +916,7 @@
       "id": "426",
       "name": "HEEZ Aluminium d.o.o.",
       "country": "Bosnia and Herzegovina",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Nedim Dedić",
@@ -897,6 +941,7 @@
       "id": "34",
       "name": "Alcomet AD",
       "country": "Bulgaria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Diyana Kishisheva",
@@ -939,6 +984,7 @@
       "id": "311",
       "name": "Etem Gestamp Aluminium Extrusions",
       "country": "Bulgaria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Plamen Kaloyanov",
@@ -963,6 +1009,7 @@
       "id": "516",
       "name": "Lenox Aluminium Systems",
       "country": "Bulgaria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mihail Samuilov Rakadzhiev",
@@ -987,6 +1034,7 @@
       "id": "523",
       "name": "Linkin",
       "country": "Bulgaria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Milko Ivanchev",
@@ -1017,6 +1065,7 @@
       "id": "690",
       "name": "Royal Profil",
       "country": "Bulgaria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Hayri Musa Kulov",
@@ -1047,6 +1096,7 @@
       "id": "693",
       "name": "R-Profile Ltd.",
       "country": "Bulgaria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ayhan Ismail Chaush",
@@ -1071,6 +1121,7 @@
       "id": "56",
       "name": "Almag Aluminum",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Darcy Charron",
@@ -1113,6 +1164,7 @@
       "id": "156",
       "name": "APEL Extrusions",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Stephon Johnson",
@@ -1149,6 +1201,7 @@
       "id": "162",
       "name": "Apex Aluminum Extrusions",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jayanth Athreya",
@@ -1185,6 +1238,7 @@
       "id": "219",
       "name": "Can Art Aluminum Extrusion",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mark Blackmore",
@@ -1215,6 +1269,7 @@
       "id": "255",
       "name": "Dajcor Aluminum",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Joy Kilby",
@@ -1245,6 +1300,7 @@
       "id": "343",
       "name": "Extrudex Aluminum",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "John Frey",
@@ -1281,6 +1337,7 @@
       "id": "452",
       "name": "Hydro Extrusions Canada",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jeff Lehman",
@@ -1299,6 +1356,7 @@
       "id": "489",
       "name": "Kaiser Aluminum Canada",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Renato Fernandes",
@@ -1317,6 +1375,7 @@
       "id": "498",
       "name": "Kawneer Canada",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jen Brown",
@@ -1335,6 +1394,7 @@
       "id": "507",
       "name": "Kromet International",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Chris Bretz",
@@ -1365,6 +1425,7 @@
       "id": "528",
       "name": "Magna Aluminum Profile",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Donovan Mills ",
@@ -1389,6 +1450,7 @@
       "id": "551",
       "name": "Metra North America",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Allan Bennett",
@@ -1407,6 +1469,7 @@
       "id": "741",
       "name": "Signature Aluminum Canada",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rick Dankmeyer",
@@ -1431,6 +1494,7 @@
       "id": "758",
       "name": "Spectra Aluminum Products",
       "country": "Canada",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "David Hudson",
@@ -1455,6 +1519,7 @@
       "id": "368",
       "name": "FEAL Hrvatska d.o.o.",
       "country": "Croatia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Goran Mitrović",
@@ -1473,6 +1538,7 @@
       "id": "580",
       "name": "Muskita Aluminium Industries Lt",
       "country": "Cyprus",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Demos Mouskis",
@@ -1497,6 +1563,7 @@
       "id": "240",
       "name": "Constellium Děčín",
       "country": "Czech Republic",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jiří Palma",
@@ -1515,6 +1582,7 @@
       "id": "449",
       "name": "Hydro Extrusion Tønder AS",
       "country": "Denmark",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -1526,6 +1594,7 @@
       "id": "222",
       "name": "Canex Aluminum",
       "country": "Egypt",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mohammed Alsawaf",
@@ -1568,6 +1637,7 @@
       "id": "259",
       "name": "Delemar Aluminium S.A.",
       "country": "Egypt",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Justin Gamage",
@@ -1592,6 +1662,7 @@
       "id": "274",
       "name": "Egyptalum",
       "country": "Egypt",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "na",
@@ -1622,6 +1693,7 @@
       "id": "277",
       "name": "El Gammal Group",
       "country": "Egypt",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Hanaa A. Mokhtar",
@@ -1646,6 +1718,7 @@
       "id": "423",
       "name": "Hakeem Group",
       "country": "Egypt",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mohamed Abdelhakim",
@@ -1670,6 +1743,7 @@
       "id": "739",
       "name": "Siescom Group S.L.",
       "country": "Egypt",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ahmed Moaz",
@@ -1694,6 +1768,7 @@
       "id": "533",
       "name": "Mäkelä Alu Oy",
       "country": "Finland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Marko Orpana",
@@ -1724,6 +1799,7 @@
       "id": "611",
       "name": "Nordic Aluminium Oy",
       "country": "Finland",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -1735,6 +1811,7 @@
       "id": "666",
       "name": "Purso Oy",
       "country": "Finland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Pekka Myllykangas",
@@ -1765,6 +1842,7 @@
       "id": "128",
       "name": "Aluminium Solutions Group (AFE) Ham",
       "country": "France",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jean-Serge Sallerani-Parruitte",
@@ -1783,6 +1861,7 @@
       "id": "129",
       "name": "Aluminium Solutions Group (AFE) St-Florentin",
       "country": "France",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Miguel Salvador",
@@ -1801,6 +1880,7 @@
       "id": "377",
       "name": "Flandria Aluminium S.A.",
       "country": "France",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Vincent Givry",
@@ -1819,6 +1899,7 @@
       "id": "573",
       "name": "Mitjavila",
       "country": "France",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Frédéric Renaillé",
@@ -1837,6 +1918,7 @@
       "id": "660",
       "name": "Profils Systèmes",
       "country": "France",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Benjamin Saint-Sulpice",
@@ -1855,6 +1937,7 @@
       "id": "130",
       "name": "Aluminiumwerk Unna AG",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dr. Gregor Kausträter",
@@ -1885,6 +1968,7 @@
       "id": "133",
       "name": "Aluminium-Werke Wutöschingen AG & Co.KG",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Paul Happle",
@@ -1921,6 +2005,7 @@
       "id": "169",
       "name": "apt Extrusions GmbH & Co. KG",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Michael Boche",
@@ -1945,6 +2030,7 @@
       "id": "175",
       "name": "Arconic Extrusions Hannover GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Goettinger Chaussee 12-14, 30453 Hannover, Germany",
@@ -1956,6 +2042,7 @@
       "id": "242",
       "name": "Constellium Singen",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jochen Chwalisz",
@@ -1974,6 +2061,7 @@
       "id": "285",
       "name": "E-MAX Burg GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Christian Hosse",
@@ -2004,6 +2092,7 @@
       "id": "288",
       "name": "E-MAX Crailsheim GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Attila Horvath",
@@ -2022,6 +2111,7 @@
       "id": "294",
       "name": "E-MAX Landau GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Fabio Barth",
@@ -2046,6 +2136,7 @@
       "id": "301",
       "name": "Erbslöh Aluminium / WKW.extrusion",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Norbert William Sucke",
@@ -2070,6 +2161,7 @@
       "id": "325",
       "name": "Exalpro GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Matthias Krause",
@@ -2094,6 +2186,7 @@
       "id": "394",
       "name": "Gartner Extrusion GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Gundelfingen",
@@ -2105,6 +2198,7 @@
       "id": "402",
       "name": "Gerhardi AluTechnik GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Johann Erich Wilms",
@@ -2129,6 +2223,7 @@
       "id": "407",
       "name": "Grupa Kety Germany",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Richard Kopetsch",
@@ -2147,6 +2242,7 @@
       "id": "416",
       "name": "Gutmann GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Bastian Fiegl",
@@ -2171,6 +2267,7 @@
       "id": "418",
       "name": "HAI Extrusion GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Markus Schober",
@@ -2189,6 +2286,7 @@
       "id": "422",
       "name": "HAI Extrusion Soest GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Manfred Steinhauser",
@@ -2207,6 +2305,7 @@
       "id": "429",
       "name": "HMT Höfer Metall Technik GmbH & Co. KG",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Christian Schwarz",
@@ -2225,6 +2324,7 @@
       "id": "432",
       "name": "Hydro Building Systems Extrusion Bellenberg GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Gøte Johannes Nordh",
@@ -2243,6 +2343,7 @@
       "id": "442",
       "name": "Hydro Extrusion Offenburg GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Hubert Ronecker",
@@ -2261,6 +2362,7 @@
       "id": "446",
       "name": "Hydro Extrusion Rackwitz GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Matthias Hellmann",
@@ -2279,6 +2381,7 @@
       "id": "450",
       "name": "Hydro Extrusion Uphusen GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ralf Liedtke",
@@ -2297,6 +2400,7 @@
       "id": "506",
       "name": "Knauf Interfer Aluminium GmbH (Brökelmann)",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Guido Rickfelder",
@@ -2315,6 +2419,7 @@
       "id": "541",
       "name": "Mejo Metall Josten GmbH & Co. KG",
       "country": "Germany",
+      "clientType": "End User",
       "contacts": [
         {
           "contact": "Stephan Josten",
@@ -2339,6 +2444,7 @@
       "id": "608",
       "name": "Nordalu GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Bernd Ehlers",
@@ -2369,6 +2475,7 @@
       "id": "613",
       "name": "Otto Fuchs Dülken GmbH & Co. KG",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sebastian Weber",
@@ -2387,6 +2494,7 @@
       "id": "614",
       "name": "Otto Fuchs KG",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Christian Hesse",
@@ -2417,6 +2525,7 @@
       "id": "682",
       "name": "Richter Aluminium GmbH",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Anna Kempf",
@@ -2459,6 +2568,7 @@
       "id": "760",
       "name": "STEP-G Bitterfeld",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Matthias Hellmann",
@@ -2477,6 +2587,7 @@
       "id": "761",
       "name": "STEP-G Bonn",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Stefan Knabben",
@@ -2495,6 +2606,7 @@
       "id": "763",
       "name": "STEP-G Vogt",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Alexander Mayer",
@@ -2519,6 +2631,7 @@
       "id": "802",
       "name": "Unterschütz GmbH & Co. KG",
       "country": "Germany",
+      "clientType": "Manufacturer",
       "contacts": [
         {
           "contact": "Andreas Plug",
@@ -2549,6 +2662,7 @@
       "id": "813",
       "name": "WEFA Singen GmbH",
       "country": "Germany",
+      "clientType": "Die Supplier",
       "contacts": [
         {
           "contact": "Joe Maier",
@@ -2567,6 +2681,7 @@
       "id": "816",
       "name": "Weseralu GmbH & Co. KG",
       "country": "Germany",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rainer Eifler",
@@ -2585,6 +2700,7 @@
       "id": "94",
       "name": "Alumil Greece",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Giannis (John) Theodoridis",
@@ -2609,6 +2725,7 @@
       "id": "96",
       "name": "Alumil S.A.",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Konstantinos Papakonstantinou",
@@ -2637,27 +2754,16 @@
     },
     {
       "id": "102",
-      "name": "Aluminco",
+      "name": "Aluminco SA",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Kostas Chatzipanigiris",
           "position": "",
           "email": "k.chatzipanigiris@aluminco.com",
           "phone": "+30 2262 047000"
-        }
-      ],
-      "details": {
-        "address": "Thessi Megali Rachi\r\r\r\r\r\r\r\n32011 Inofita, Viotia\r\r\r\r\r\r\r\nGreece",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
-      "id": "103",
-      "name": "Aluminco SA",
-      "country": "Greece",
-      "contacts": [
+        },
         {
           "contact": "Dimitris Karras",
           "position": "CEO",
@@ -2672,15 +2778,16 @@
         }
       ],
       "details": {
-        "address": "Thessi Megali Rachi\r\r\r\r\r\r\r\r\r\n32011 Inofita, Viotia\r\r\r\r\r\r\r\r\r\nGreece",
+        "address": "Thessi Megali Rachi\r\r\r\r\r\r\r\n32011 Inofita, Viotia\r\r\r\r\r\r\r\nGreece",
         "notes": "",
-        "notebook": "Invited"
+        "notebook": ""
       }
     },
     {
       "id": "245",
       "name": "Cosmos Aluminium S.A.",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Yannis Kantonias",
@@ -2705,6 +2812,7 @@
       "id": "281",
       "name": "Elvial S.A.",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Tania Tzika",
@@ -2741,6 +2849,7 @@
       "id": "313",
       "name": "Etem Greece (Cosmos Aluminium)",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Vardis Kounalakis",
@@ -2759,6 +2868,7 @@
       "id": "321",
       "name": "Europa Profil Aluminio S.A.",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Aris Kazanas",
@@ -2777,6 +2887,7 @@
       "id": "323",
       "name": "Exalco S.A.",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "George Kantonias",
@@ -2801,6 +2912,7 @@
       "id": "545",
       "name": "Metal S.A.",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sophia Skikou",
@@ -2819,6 +2931,7 @@
       "id": "548",
       "name": "Metaloumin S.A.",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Stelios Theodoropoulos",
@@ -2849,6 +2962,7 @@
       "id": "655",
       "name": "Profilco Aluminum Systems S.A",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Antonios Athanasopoulos",
@@ -2873,6 +2987,7 @@
       "id": "697",
       "name": "Sanlev S.A.",
       "country": "Greece",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "George Karoubas",
@@ -2891,6 +3006,7 @@
       "id": "62",
       "name": "Alom Extrusions",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ajay Prakash Jhunjhunwala",
@@ -2909,6 +3025,7 @@
       "id": "161",
       "name": "Apex Aluminium Extrusion",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Chinmay",
@@ -2927,6 +3044,7 @@
       "id": "194",
       "name": "Balaji Aluminium",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Vatan Gautam",
@@ -2945,6 +3063,7 @@
       "id": "198",
       "name": "Bhoruka Aluminium",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rajat Agarwal",
@@ -2963,6 +3082,7 @@
       "id": "236",
       "name": "Century Extrusions Limited",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Shivanshu Jhunjhunwala",
@@ -2987,6 +3107,7 @@
       "id": "248",
       "name": "Crystal Aluminium Products Pvt. Ltd.",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Shiji Thomas",
@@ -3005,6 +3126,7 @@
       "id": "428",
       "name": "Hindalco Industries Limited",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Akhilesh Gupta",
@@ -3023,6 +3145,7 @@
       "id": "484",
       "name": "Jindal Aluminium Limited",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Vinit Jha",
@@ -3047,6 +3170,7 @@
       "id": "527",
       "name": "Maan Aluminium",
       "country": "India",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Naveen Gupta",
@@ -3065,6 +3189,7 @@
       "id": "171",
       "name": "Architectural & Metal Systems (AMS)",
       "country": "Ireland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ronan Mc Grath",
@@ -3101,6 +3226,7 @@
       "id": "505",
       "name": "KLIL",
       "country": "Israel",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3112,6 +3238,7 @@
       "id": "40",
       "name": "Alex S.P.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3123,6 +3250,7 @@
       "id": "53",
       "name": "All.Co S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Marco Letari",
@@ -3141,6 +3269,7 @@
       "id": "54",
       "name": "Allit S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Administration",
@@ -3165,6 +3294,7 @@
       "id": "70",
       "name": "Al-tra Srl Estrusione Alluminio",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3176,6 +3306,7 @@
       "id": "92",
       "name": "Alumec S.r.l",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Nicola Tengattini",
@@ -3194,6 +3325,7 @@
       "id": "142",
       "name": "Alunova Sammarinese S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3205,6 +3337,7 @@
       "id": "155",
       "name": "Anodall Extrusion S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3216,6 +3349,7 @@
       "id": "166",
       "name": "APS Arosio Extrusion S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3227,6 +3361,7 @@
       "id": "204",
       "name": "Bodega G.& C. S.p.a.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3238,6 +3373,7 @@
       "id": "235",
       "name": "Casal Aluminium",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Via IV Novembre 36, 26010 Casale Cremasco-Vidolasco (LO), Italy",
@@ -3249,6 +3385,7 @@
       "id": "266",
       "name": "DFX S.r.l. – DFV Group",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3260,6 +3397,7 @@
       "id": "269",
       "name": "E.A. Estrusione Alluminio srl",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3271,6 +3409,7 @@
       "id": "270",
       "name": "E.T.A. S.p.A. – Estrusione Tecnologie Avanzate",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3282,6 +3421,7 @@
       "id": "306",
       "name": "Estral S.p.a.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mauro Favaretto",
@@ -3306,6 +3446,7 @@
       "id": "308",
       "name": "Estrusione Roccafranca Srl",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Emanuele Borghesi",
@@ -3336,6 +3477,7 @@
       "id": "314",
       "name": "Etnall S.r.l.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3347,6 +3489,7 @@
       "id": "315",
       "name": "Eural Gnutti S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Fabiano Mantovani",
@@ -3377,6 +3520,7 @@
       "id": "395",
       "name": "Gastaldello Sistemi S.p.A. – Ponzio Group",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Davide Bissaro",
@@ -3401,6 +3545,7 @@
       "id": "399",
       "name": "GEAL S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Alessandro Lenzi",
@@ -3419,6 +3564,7 @@
       "id": "405",
       "name": "Groppalli S.r.l.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Riccardo Groppalli",
@@ -3443,6 +3589,7 @@
       "id": "437",
       "name": "Hydro Extrusion Italy SLR - Atessa",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3454,6 +3601,7 @@
       "id": "438",
       "name": "Hydro Extrusion Italy SRL - Ornago",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3465,6 +3613,7 @@
       "id": "471",
       "name": "Indinvest LT S.r.l.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Roberto Palmaccio",
@@ -3489,6 +3638,7 @@
       "id": "546",
       "name": "Metalba Aluminium S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3500,6 +3650,7 @@
       "id": "552",
       "name": "METRA S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Andrea Mafezzoni",
@@ -3524,6 +3675,7 @@
       "id": "582",
       "name": "MV Extrusion S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3535,6 +3687,7 @@
       "id": "602",
       "name": "Next Extrusion",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3546,6 +3699,7 @@
       "id": "607",
       "name": "Nordall Estrusi S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3557,6 +3711,7 @@
       "id": "618",
       "name": "Pandolfo Alluminio Spa",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Paolo Vignaga",
@@ -3581,6 +3736,7 @@
       "id": "620",
       "name": "Pasturi S.r.l.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Stefano Pasturi",
@@ -3605,6 +3761,7 @@
       "id": "632",
       "name": "PFA s.r.l.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3616,6 +3773,7 @@
       "id": "653",
       "name": "Profilati S.p.A. (Profall)",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Roberto De Lorenzi",
@@ -3640,6 +3798,7 @@
       "id": "661",
       "name": "Pro-Lam Alluminio S.r.l.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3651,6 +3810,7 @@
       "id": "673",
       "name": "Ralox srl",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3662,6 +3822,7 @@
       "id": "674",
       "name": "Rama Specialized Extrusion",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3673,6 +3834,7 @@
       "id": "730",
       "name": "Sepal S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Marco Ramundo",
@@ -3691,6 +3853,7 @@
       "id": "784",
       "name": "Tecnoal S.r.l.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3702,6 +3865,7 @@
       "id": "790",
       "name": "TO.MA. S.P.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3713,6 +3877,7 @@
       "id": "794",
       "name": "Trafilerie Alluminio Alexia S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3724,6 +3889,7 @@
       "id": "795",
       "name": "Trafilerie Emiliane Sud S.p.A.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3735,6 +3901,7 @@
       "id": "805",
       "name": "Viba S.p.a.",
       "country": "Italy",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3746,6 +3913,7 @@
       "id": "415",
       "name": "Gulf Extrusion Kuwait",
       "country": "Kuwait",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3757,6 +3925,7 @@
       "id": "510",
       "name": "Kuwait Aluminium Extrusion (Kalexco)",
       "country": "Kuwait",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mahmoud Mokhtar",
@@ -3787,6 +3956,7 @@
       "id": "152",
       "name": "Aluxal",
       "country": "Lebanon",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -3798,6 +3968,7 @@
       "id": "734",
       "name": "SIDEM",
       "country": "Lebanon",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Info",
@@ -3816,6 +3987,7 @@
       "id": "88",
       "name": "Aluflam Extrusion",
       "country": "Lithuania",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rimas Martikaitis ",
@@ -3846,6 +4018,7 @@
       "id": "640",
       "name": "Press Metal",
       "country": "Malaysia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Kang Howe Chey",
@@ -3870,6 +4043,7 @@
       "id": "1",
       "name": "ABC Aluminium Solutions",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Wadih Kuri",
@@ -3900,6 +4074,7 @@
       "id": "5",
       "name": "Aceros Alva",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Fray Juan González No.209 Col. Roble Norte,",
@@ -3911,6 +4086,7 @@
       "id": "6",
       "name": "Aceros del pacifico",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -3929,6 +4105,7 @@
       "id": "14",
       "name": "Aipesa",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Andrea Paulina Sanchez Cueva",
@@ -3947,6 +4124,7 @@
       "id": "46",
       "name": "Alianza Metal",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Flor No 206, Col Agricola, Guadalajara, Jal, Mexico, CP 45130",
@@ -3958,6 +4136,7 @@
       "id": "69",
       "name": "Altos Hornos de Mexico",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -3976,6 +4155,7 @@
       "id": "108",
       "name": "Aluminio Conesa S.A. de C.V.",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Carretera a Chapala No. 3345 Col. Alamo Industrial, 44470 Guadalajara, Jal.",
@@ -3987,6 +4167,7 @@
       "id": "109",
       "name": "Aluminio Extruido Extral S.A de C.V.",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "España No. 409  San Nicolás Tolentino   Iztapalapa México DF  CP 09850",
@@ -3998,6 +4179,7 @@
       "id": "195",
       "name": "BALCOM",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4016,6 +4198,7 @@
       "id": "252",
       "name": "Cuprum Aluminio",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4034,6 +4217,7 @@
       "id": "253",
       "name": "Cuprum Extrusions",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Hector Sanchez",
@@ -4052,6 +4236,7 @@
       "id": "267",
       "name": "Dialuc",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Dialuc de Uruapan, Morelos 175, Col. Morelos",
@@ -4063,6 +4248,7 @@
       "id": "305",
       "name": "Escaleras y Perfiles",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4081,6 +4267,7 @@
       "id": "331",
       "name": "Extral",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "José Luis Martinez",
@@ -4099,6 +4286,7 @@
       "id": "383",
       "name": "Forte",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Lago Poniente No 16 Despacho 203-B, Col Americas unidas, Del Begacion Benito Juarez CP 03610 Mexico DF",
@@ -4110,6 +4298,7 @@
       "id": "404",
       "name": "GM Universal",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4128,6 +4317,7 @@
       "id": "470",
       "name": "Indalum",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4146,6 +4336,7 @@
       "id": "473",
       "name": "Industrias Nacobre",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Vía Guastavo Baz No. 4874,, SAN PEDRO BARRIENTOS,  Tlalnepantla,   MÉXICO",
@@ -4157,6 +4348,7 @@
       "id": "474",
       "name": "Industrias Vermont",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4175,6 +4367,7 @@
       "id": "476",
       "name": "Ingeniería en Herrajes",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "4ta. Vidriera 1204 Col. 1 de Mayo CP. 64550 Monterrey N.L",
@@ -4186,6 +4379,7 @@
       "id": "514",
       "name": "Latón, Cobre y Aluminio Internacional SA de CV",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Av. de las torres No. 256 Col. Valle de San Lorenzo, Iztapalapa - 09970, México, D.F",
@@ -4197,6 +4391,7 @@
       "id": "530",
       "name": "Magnialum",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Acceso 1, No. 203 Nave 4, Col. Fracc. Ind. La Montaña, Querétaro, Querétaro",
@@ -4208,6 +4403,7 @@
       "id": "536",
       "name": "Maquila Acero de San Pedro",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4219,6 +4415,7 @@
       "id": "589",
       "name": "NASA - Nacional de Acero",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4237,6 +4434,7 @@
       "id": "629",
       "name": "Perfiles Bosch S. de R.L. de CV",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Nancy Romero",
@@ -4255,6 +4453,7 @@
       "id": "630",
       "name": "Perfiles y Herrajes L.M., S.A. de C.V.",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4266,6 +4465,7 @@
       "id": "631",
       "name": "Perfilex",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Isaac Garza #2423 Ote., Monterrey, N.L. 64010",
@@ -4277,6 +4477,7 @@
       "id": "662",
       "name": "Prolamsa",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Carr A Colombia Km 5.75, Sc, General Escobedo, Nuevo Leon 222",
@@ -4288,6 +4489,7 @@
       "id": "678",
       "name": "Regiopytsa",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4306,6 +4508,7 @@
       "id": "706",
       "name": "Sapa Extrusions Guaymas Operations",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dave Armenta",
@@ -4324,6 +4527,7 @@
       "id": "727",
       "name": "Sapa H E Tubing Monterrey Operation",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ramón Silva",
@@ -4342,6 +4546,7 @@
       "id": "735",
       "name": "Siderurgica Tultitlan",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "PLANTA: CALLE 3 S/N COL. INDEPENDENCIA TULTITLAN EDO. DE MEXICO",
@@ -4353,6 +4558,7 @@
       "id": "745",
       "name": "Simax Aluminum",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Avenida Europa #311, Parque Industrial Logistik II, \r\r\nLaguna de San Vicente",
@@ -4364,6 +4570,7 @@
       "id": "787",
       "name": "Termotrol Industrial",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4382,6 +4589,7 @@
       "id": "798",
       "name": "Troquelados y perfiles de place y lamina",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Av Rio Churubusco No225, Col Pantitlan Delegacion Iztacalco CP 08100 Mexico DF",
@@ -4393,6 +4601,7 @@
       "id": "807",
       "name": "Vinilos y Mangueras SA de CV",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "KM 16.5 Car Monterrey - Laredo, Col. Moisés Sáenz,Apodaca, NL 66604,Mexico",
@@ -4404,6 +4613,7 @@
       "id": "815",
       "name": "Werner Juarez Division c/o Grupo Am. Ind.",
       "country": "Mexico",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -4422,6 +4632,7 @@
       "id": "119",
       "name": "Aluminium du Maroc",
       "country": "Morocco",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Said El Hilali",
@@ -4452,6 +4663,7 @@
       "id": "182",
       "name": "Asslasec (AlMaghribia Lil Asslak)",
       "country": "Morocco",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Tariq Malla",
@@ -4470,6 +4682,7 @@
       "id": "378",
       "name": "Fonex Aluminium",
       "country": "Morocco",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Radi Abderrahim",
@@ -4500,6 +4713,7 @@
       "id": "93",
       "name": "Alumero Finex Extrusions B.V.",
       "country": "Netherlands",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jeroen van Bussel",
@@ -4518,6 +4732,7 @@
       "id": "167",
       "name": "apt Extrusions B.V.",
       "country": "Netherlands",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Michel Minten",
@@ -4542,6 +4757,7 @@
       "id": "196",
       "name": "Benelux Clients",
       "country": "Netherlands",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "na",
@@ -4560,6 +4776,7 @@
       "id": "199",
       "name": "Boal De Lier B.V.",
       "country": "Netherlands",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Peter Koenen",
@@ -4584,6 +4801,7 @@
       "id": "265",
       "name": "Denting Flight Cases S.L.",
       "country": "Netherlands",
+      "clientType": "End User",
       "contacts": [
         {
           "contact": "Dennis Lieftink",
@@ -4602,6 +4820,7 @@
       "id": "435",
       "name": "Hydro Extrusion Harderwijk B.V.",
       "country": "Netherlands",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Thierry de Vos",
@@ -4620,6 +4839,7 @@
       "id": "436",
       "name": "Hydro Extrusion Hoogezand B.V.",
       "country": "Netherlands",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mark Pieter Alsem",
@@ -4638,6 +4858,7 @@
       "id": "526",
       "name": "Lo Minck B.V.",
       "country": "Netherlands",
+      "clientType": "End User",
       "contacts": [
         {
           "contact": "Arjan Minck",
@@ -4656,6 +4877,7 @@
       "id": "544",
       "name": "Metadecor B.V.",
       "country": "Netherlands",
+      "clientType": "End User",
       "contacts": [
         {
           "contact": "Nathan van der Toorn",
@@ -4674,6 +4896,7 @@
       "id": "567",
       "name": "Mifa Aluminium B.V.",
       "country": "Netherlands",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "John Hermans",
@@ -4710,6 +4933,7 @@
       "id": "595",
       "name": "Nedal Aluminium B.V.",
       "country": "Netherlands",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jan-Willem Vos",
@@ -4734,6 +4958,7 @@
       "id": "812",
       "name": "Vulcan Ullrich Aluminium New Zealand",
       "country": "New Zealand",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "New Zealand",
@@ -4745,6 +4970,7 @@
       "id": "603",
       "name": "Nigerian Aluminium Extrusions Limited (Nigalex)",
       "country": "Nigeria",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Eze Enelamah",
@@ -4769,6 +4995,7 @@
       "id": "455",
       "name": "Hydro Extrusions Magno",
       "country": "Norway",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4780,6 +5007,7 @@
       "id": "457",
       "name": "Hydro Group",
       "country": "Norway",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Drammensveien 264, NO-0283 Oslo, Norway",
@@ -4791,6 +5019,7 @@
       "id": "675",
       "name": "Raufoss Aluminium AS (Former Hydal)",
       "country": "Norway",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Tore Skoglund",
@@ -4809,6 +5038,7 @@
       "id": "458",
       "name": "Ibex aluminum",
       "country": "Oman",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mohammed Al-Fazari",
@@ -4833,6 +5063,7 @@
       "id": "587",
       "name": "NAPCO Oman",
       "country": "Oman",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sutanay Parida",
@@ -4851,6 +5082,7 @@
       "id": "238",
       "name": "Chawla Aluminium",
       "country": "Pakistan",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4862,6 +5094,7 @@
       "id": "617",
       "name": "Pakistan Cables",
       "country": "Pakistan",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4873,6 +5106,7 @@
       "id": "588",
       "name": "NAPCO West Bank",
       "country": "Palestine",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4884,6 +5118,7 @@
       "id": "218",
       "name": "Calco",
       "country": "Philippines",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4895,6 +5130,7 @@
       "id": "24",
       "name": "Albatros Aluminium",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Piotr Lopuszynski",
@@ -4913,6 +5149,7 @@
       "id": "50",
       "name": "Aliplast Extrusion Sp. Z O.O.",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Grzegorz Wojciechowski",
@@ -4937,6 +5174,7 @@
       "id": "91",
       "name": "Aluform (Grupa Kęty)",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4948,6 +5186,7 @@
       "id": "143",
       "name": "Aluron Extrusion",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Łukasz Kucharczyk",
@@ -4984,6 +5223,7 @@
       "id": "243",
       "name": "Cortizo Radomsko",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -4995,6 +5235,7 @@
       "id": "320",
       "name": "Eurometal S.A.",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rafał Czubski",
@@ -5013,6 +5254,7 @@
       "id": "328",
       "name": "Exlabesa Extrusion Opole Sp. z o.o.",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "ul. Porcelitowa 4, 49-130 Tułowice, Poland",
@@ -5024,6 +5266,7 @@
       "id": "332",
       "name": "Extral Sp. z o.o.",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Piotr Benisz",
@@ -5060,6 +5303,7 @@
       "id": "371",
       "name": "Final Dąbrowa Górnicza S.A.",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dawid Jakubowski",
@@ -5096,6 +5340,7 @@
       "id": "375",
       "name": "Final Kuchary S.A.",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -5107,6 +5352,7 @@
       "id": "408",
       "name": "Grupa Kęty SA",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jakub Zielinski",
@@ -5155,6 +5401,7 @@
       "id": "443",
       "name": "Hydro Extrusion Poland – Chrzanów",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -5173,6 +5420,7 @@
       "id": "444",
       "name": "Hydro Extrusion Poland – Trzcianka",
       "country": "Poland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -5191,6 +5439,7 @@
       "id": "4",
       "name": "Accelum Portugal",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Info",
@@ -5209,6 +5458,7 @@
       "id": "7",
       "name": "ADLA Aluminium",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Fernando Cardoso",
@@ -5233,6 +5483,7 @@
       "id": "154",
       "name": "Anicolor S.A.",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rodolfo Carvalho",
@@ -5251,6 +5502,7 @@
       "id": "327",
       "name": "Exlabesa Extrusion Coimbra",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ramón Vázquez",
@@ -5269,6 +5521,7 @@
       "id": "445",
       "name": "Hydro Extrusion Portugal (HAEP)",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Daniel Couto",
@@ -5287,6 +5540,7 @@
       "id": "520",
       "name": "Lingote Alumínios S.A.",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Antonio Palma",
@@ -5317,6 +5571,7 @@
       "id": "571",
       "name": "Mikraltek",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rafael Ferreira",
@@ -5341,6 +5596,7 @@
       "id": "590",
       "name": "Natural Aluminium (ex Fortalex)",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sergio Vinhais de Sá",
@@ -5359,6 +5615,7 @@
       "id": "591",
       "name": "Navarra Extrusión de Aluminio S.A.",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Paulo Rodrigues",
@@ -5395,6 +5652,7 @@
       "id": "633",
       "name": "Portalex Alumínio S.A.",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Carlos Cabral Filho",
@@ -5419,6 +5677,7 @@
       "id": "635",
       "name": "Portalex Alumínio S.A. (Extrusal)",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Pedro Viana",
@@ -5437,6 +5696,7 @@
       "id": "636",
       "name": "Portalum Portuguesa de Alumínio",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Antonio Rodríguez Melgar",
@@ -5455,6 +5715,7 @@
       "id": "676",
       "name": "Refal Aluminium",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Paulo Simões",
@@ -5479,6 +5740,7 @@
       "id": "777",
       "name": "Tafe – Alumínios, Lda.",
       "country": "Portugal",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Francisco Teixeira Lopes",
@@ -5503,6 +5765,7 @@
       "id": "141",
       "name": "Alunoor",
       "country": "Qatar",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sales & Marketing",
@@ -5521,6 +5784,7 @@
       "id": "669",
       "name": "Qatar Aluminium Extrusion / QALEX",
       "country": "Qatar",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Info",
@@ -5539,6 +5803,7 @@
       "id": "64",
       "name": "Alprof SA",
       "country": "Romania",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ismet Ibraim",
@@ -5563,6 +5828,7 @@
       "id": "74",
       "name": "Alu Menziken SRL",
       "country": "Romania",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Corneliu Sofronie",
@@ -5593,6 +5859,7 @@
       "id": "261",
       "name": "Delta Aluminium",
       "country": "Romania",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Florin Andrei ",
@@ -5629,6 +5896,7 @@
       "id": "421",
       "name": "HAI Extrusion Romania",
       "country": "Romania",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Claudius Thellmann",
@@ -5647,6 +5915,7 @@
       "id": "425",
       "name": "HammerTech",
       "country": "Romania",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Fabrizio Scarrone",
@@ -5665,6 +5934,7 @@
       "id": "687",
       "name": "Rolmis SRL",
       "country": "Romania",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sorin Iliuță Ghidanac",
@@ -5689,6 +5959,7 @@
       "id": "806",
       "name": "Vimetco Extrusion SRL",
       "country": "Romania",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Igor Higer",
@@ -5707,6 +5978,7 @@
       "id": "117",
       "name": "Aluminium Bozen S.r.l.",
       "country": "San Marino",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -5718,6 +5990,7 @@
       "id": "147",
       "name": "Alutitan S.p.A.",
       "country": "San Marino",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -5729,6 +6002,7 @@
       "id": "16",
       "name": "Al Andalus Aluminium Extrusion",
       "country": "Saudi Arabia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Abdulrahman Al Ibrahim",
@@ -5765,6 +6039,7 @@
       "id": "61",
       "name": "Alojaimi Industrial Group",
       "country": "Saudi Arabia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Moustafa Khadir",
@@ -5783,6 +6058,7 @@
       "id": "68",
       "name": "Altaiseer Aluminium",
       "country": "Saudi Arabia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sales",
@@ -5801,6 +6077,7 @@
       "id": "125",
       "name": "Aluminium Products Company (Alupco)",
       "country": "Saudi Arabia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Abdul Aziz AlGhamdi",
@@ -5819,6 +6096,7 @@
       "id": "139",
       "name": "Aluminum International Co. (Alinco)",
       "country": "Saudi Arabia",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -5830,6 +6108,7 @@
       "id": "271",
       "name": "Eastern Aluminium Extrusion",
       "country": "Saudi Arabia",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -5841,6 +6120,7 @@
       "id": "695",
       "name": "SALEX",
       "country": "Saudi Arabia",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -5852,6 +6132,7 @@
       "id": "791",
       "name": "Tower Extrusions Ltd.",
       "country": "Saudi Arabia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -5876,6 +6157,7 @@
       "id": "99",
       "name": "Alumil Yu Industry A.d",
       "country": "Serbia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dimitrios Delis",
@@ -5900,6 +6182,7 @@
       "id": "213",
       "name": "Brams d.o.o. Rabrovo",
       "country": "Serbia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Zoran Stanković",
@@ -5918,6 +6201,7 @@
       "id": "577",
       "name": "MTC Nissal d.o.o.",
       "country": "Serbia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Petar Stanković",
@@ -5948,6 +6232,7 @@
       "id": "785",
       "name": "Tehnomarket d.o.o.",
       "country": "Serbia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dejan Djuric",
@@ -5972,6 +6257,7 @@
       "id": "241",
       "name": "Constellium Extrusions Levice s.r.o.",
       "country": "Slovakia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Michal Foltin",
@@ -5990,6 +6276,7 @@
       "id": "244",
       "name": "Cortizo Slovakia a.s.",
       "country": "Slovakia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Juraj Nosko",
@@ -6008,6 +6295,7 @@
       "id": "322",
       "name": "EXAL s.r.o.",
       "country": "Slovakia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "István Füzes",
@@ -6026,6 +6314,7 @@
       "id": "448",
       "name": "Hydro Extrusion Slovakia a.s.",
       "country": "Slovakia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Viktor Fára",
@@ -6044,6 +6333,7 @@
       "id": "463",
       "name": "IMPOL d.o.o.",
       "country": "Slovenia",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Tadej Lozinšek",
@@ -6068,6 +6358,7 @@
       "id": "430",
       "name": "Hulamin Extrusions",
       "country": "South Africa",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Deveshnee Singh",
@@ -6086,6 +6377,7 @@
       "id": "13",
       "name": "AGL Aluminio",
       "country": "Spain",
+      "clientType": "End User",
       "contacts": [
         {
           "contact": "Fernando González de la Flor",
@@ -6104,6 +6396,7 @@
       "id": "20",
       "name": "Alas Iberia S.L.U.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "David Seoane",
@@ -6140,6 +6433,7 @@
       "id": "77",
       "name": "Alu Solutions Group (Extol)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Juan Manuel Aparicio Perez",
@@ -6158,6 +6452,7 @@
       "id": "79",
       "name": "Alucansa S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Nacho Lopez",
@@ -6176,6 +6471,7 @@
       "id": "80",
       "name": "Alucofer Internacional S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Juan Fernando Moreno Román",
@@ -6194,6 +6490,7 @@
       "id": "81",
       "name": "Alueuropa S.A. Arrubal",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ariel Ochoa",
@@ -6212,6 +6509,7 @@
       "id": "82",
       "name": "Alueuropa S.A. Ciempozuelos",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Clemente Sainz",
@@ -6242,6 +6540,7 @@
       "id": "85",
       "name": "Alueuropa S.A. Dos Hermanas",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Javier Barbero",
@@ -6266,6 +6565,7 @@
       "id": "87",
       "name": "Alueuropa S.A. El Espinar",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ángel Lorenzo",
@@ -6284,6 +6584,7 @@
       "id": "105",
       "name": "Aluminera Extrusion S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Pedro Jimenez",
@@ -6302,6 +6603,7 @@
       "id": "110",
       "name": "Aluminios Cándido S.A. (Alucansa)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Noemí Rodríguez",
@@ -6320,6 +6622,7 @@
       "id": "111",
       "name": "Aluminios Cortizo Canarias S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "José Carlos León Gallego",
@@ -6338,6 +6641,7 @@
       "id": "112",
       "name": "Aluminios Cortizo Manzanares S.L.U.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Fernando Bautista",
@@ -6356,6 +6660,7 @@
       "id": "113",
       "name": "Aluminios Cortizo S.A.U.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Raquel Cortizo Almeida",
@@ -6392,6 +6697,7 @@
       "id": "148",
       "name": "Aluval S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Manuel Ponce Marco",
@@ -6428,6 +6734,7 @@
       "id": "189",
       "name": "Av Alumitran S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "José Gomez",
@@ -6446,6 +6753,7 @@
       "id": "190",
       "name": "Avanzate Technology S.L.",
       "country": "Spain",
+      "clientType": "Software",
       "contacts": [
         {
           "contact": "Juan López",
@@ -6464,6 +6772,7 @@
       "id": "318",
       "name": "Euroal Extrusion S.L. (Simer)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "María Estela García López",
@@ -6488,6 +6797,7 @@
       "id": "329",
       "name": "Exlabesa Extrusion Padrón S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ramón Vázquez",
@@ -6512,6 +6822,7 @@
       "id": "336",
       "name": "Extrual - Extruidos Del Aluminio S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Javier Sanjosé",
@@ -6548,6 +6859,7 @@
       "id": "340",
       "name": "Extrucolor S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Paco Martinez",
@@ -6566,6 +6878,7 @@
       "id": "347",
       "name": "Extrugasa - Extrusionados Galicia S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "José Lorenzo Cabo",
@@ -6614,6 +6927,7 @@
       "id": "353",
       "name": "Extruiberica S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Paco Garcia",
@@ -6638,6 +6952,7 @@
       "id": "355",
       "name": "Extrusion De Sax S.L. (Murcia)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Nacho Gil Moreno",
@@ -6656,6 +6971,7 @@
       "id": "356",
       "name": "Extrusion De Sax S.L. (Sax)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jordi Gomez",
@@ -6692,6 +7008,7 @@
       "id": "360",
       "name": "Extrusiones de Toledo, S.A. (ASG)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Juan Manuel Aparicio Perez",
@@ -6710,6 +7027,7 @@
       "id": "361",
       "name": "Extrusiones Metalicas Europea S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Gustavo Rodríguez de Torre",
@@ -6734,6 +7052,7 @@
       "id": "384",
       "name": "Freelance",
       "country": "Spain",
+      "clientType": "Consultant",
       "contacts": [
         {
           "contact": "Agustin Vilaverde",
@@ -6764,6 +7083,7 @@
       "id": "389",
       "name": "Galimetal S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Agustin Vilaverde",
@@ -6788,6 +7108,7 @@
       "id": "433",
       "name": "Hydro Building Systems Miranda de Ebro S.L.U.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Idioa Gil",
@@ -6812,6 +7133,7 @@
       "id": "439",
       "name": "Hydro Extrusion La Roca S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ana M. Vázquez Avilés",
@@ -6830,6 +7152,7 @@
       "id": "454",
       "name": "Hydro Extrusions La Selva S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ana M. Vázquez Avilés",
@@ -6848,6 +7171,7 @@
       "id": "456",
       "name": "Hydro Extrusions Navarra S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ángel Iribarren",
@@ -6866,6 +7190,7 @@
       "id": "465",
       "name": "Inalsa – Industrias aragonesas del Aluminio S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Félix Ramírez Hernández",
@@ -6890,6 +7215,7 @@
       "id": "467",
       "name": "Indalsu S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Álvaro Chico Varela",
@@ -6920,6 +7246,7 @@
       "id": "475",
       "name": "Inexal S.A. (Industria Extruidora de Aluminio)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Julio Avila Sanchez",
@@ -6938,6 +7265,7 @@
       "id": "477",
       "name": "Installux Extrusion Services S.L. - Parets",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Albert Arnal",
@@ -6956,6 +7284,7 @@
       "id": "478",
       "name": "Installux Extrusion Services S.L. - Santa Oliva",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Oscar Serra",
@@ -6980,6 +7309,7 @@
       "id": "482",
       "name": "Itesal S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "David Gil",
@@ -7004,6 +7334,7 @@
       "id": "513",
       "name": "Latem Aluminium S.A.",
       "country": "Spain",
+      "clientType": "Casthouse",
       "contacts": [],
       "details": {
         "address": "Polígono Industrial de Villadangos del Páramo, Parcela M50, 24392 León, Spain",
@@ -7015,6 +7346,7 @@
       "id": "532",
       "name": "Maimbar S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Simón Barreiro",
@@ -7033,6 +7365,7 @@
       "id": "564",
       "name": "Miexal (Forta S.L.)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jaime Sánchez López",
@@ -7063,6 +7396,7 @@
       "id": "599",
       "name": "Nevaluz Sevilla S.L.U.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Pedro Fernández",
@@ -7072,9 +7406,9 @@
         },
         {
           "contact": "Manuel Rodríguez Melgar",
-          "position": "Owner / Managing Director",
-          "email": "manuel@nevaluz.com",
-          "phone": "+34667785663"
+          "position": "Owner",
+          "email": "",
+          "phone": ""
         },
         {
           "contact": "Miguel Fuentes Sanchez",
@@ -7093,6 +7427,7 @@
       "id": "645",
       "name": "Primalum S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Antonia Mari Garcia Olivares",
@@ -7123,6 +7458,7 @@
       "id": "663",
       "name": "Protecciones y Lacados S.L. (Proylac – Grupo Galisur)",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jesús López Conde",
@@ -7153,6 +7489,7 @@
       "id": "671",
       "name": "Raesa S.A.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jorge Enrique García León",
@@ -7177,6 +7514,7 @@
       "id": "696",
       "name": "San Antonio S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Juanjo González Turiel",
@@ -7195,6 +7533,7 @@
       "id": "750",
       "name": "Sopena Innovations S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Daniel Sarabia García",
@@ -7237,6 +7576,7 @@
       "id": "755",
       "name": "Soriano S.L.",
       "country": "Spain",
+      "clientType": "Manufacturer",
       "contacts": [
         {
           "contact": "Jose Soriano",
@@ -7261,6 +7601,7 @@
       "id": "757",
       "name": "Spanish Clients",
       "country": "Spain",
+      "clientType": "",
       "contacts": [
         {
           "contact": "na",
@@ -7279,6 +7620,7 @@
       "id": "765",
       "name": "Strugal 2 S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Alberto García Lijo",
@@ -7309,6 +7651,7 @@
       "id": "780",
       "name": "Tecalum S.L.",
       "country": "Spain",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Albert Gayola",
@@ -7345,6 +7688,7 @@
       "id": "431",
       "name": "Hydro Aluminium Profiler Vetlanda",
       "country": "Sweden",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Tomasbacken 6, SE-574 37 Vetlanda, Sweden",
@@ -7356,6 +7700,7 @@
       "id": "453",
       "name": "Hydro Extrusions Finspång",
       "country": "Sweden",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -7367,6 +7712,7 @@
       "id": "657",
       "name": "ProfilGruppen Extrusions AB",
       "country": "Sweden",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Per Thorsell",
@@ -7397,6 +7743,7 @@
       "id": "71",
       "name": "Alu Menziken Extrusion AG",
       "country": "Switzerland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Nando Carbonara",
@@ -7427,6 +7774,7 @@
       "id": "122",
       "name": "Aluminium Laufen",
       "country": "Switzerland",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sammie van Rens",
@@ -7457,6 +7805,7 @@
       "id": "639",
       "name": "PRAL",
       "country": "Tunisia",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -7468,6 +7817,7 @@
       "id": "15",
       "name": "Akpa Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Kargalı Hanbaba OSB Mah., Organize Sanayi 3. Sok. No:5, Hendek, Sakarya, Turkey",
@@ -7479,6 +7829,7 @@
       "id": "25",
       "name": "Alcas Metal Sanayi A.S",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Erdoğan Bengü",
@@ -7509,6 +7860,7 @@
       "id": "176",
       "name": "ASAŞ Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ramazan Erman",
@@ -7545,6 +7897,7 @@
       "id": "180",
       "name": "Asital Alüminyum San. ve Tic. A.Ş.",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Adnan Demirci",
@@ -7569,6 +7922,7 @@
       "id": "183",
       "name": "Astaş Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Aykut Can Yıldız",
@@ -7599,6 +7953,7 @@
       "id": "212",
       "name": "Bor Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Emirhan Emiroglu",
@@ -7617,6 +7972,7 @@
       "id": "227",
       "name": "Cansan Alüminyum / Yeşilova Ekstrüzyon",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Özgür Yıldız",
@@ -7641,6 +7997,7 @@
       "id": "268",
       "name": "Dogus",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Maryam Jafarli",
@@ -7659,6 +8016,7 @@
       "id": "272",
       "name": "Ege Endüstri",
       "country": "Turkey",
+      "clientType": "Manufacturer",
       "contacts": [
         {
           "contact": "Mehmet Fatih Topak",
@@ -7683,6 +8041,7 @@
       "id": "303",
       "name": "Erdoğanlar Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Atatürk Mah. Orhan Veli Cad. No:7-9, 34522 Kıraç, Esenyurt, Istanbul / KOSB Kızılcıkdere Mevkii, 8. Bulvar No:4, Kırklareli, Turkey",
@@ -7694,6 +8053,7 @@
       "id": "304",
       "name": "Ersaş Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Veliköy OSB, 4. Cadde No:21, 59500 Veliköy, Çerkezköy, Tekirdağ, Turkey",
@@ -7705,6 +8065,7 @@
       "id": "381",
       "name": "Forexdie",
       "country": "Turkey",
+      "clientType": "Die Supplier",
       "contacts": [
         {
           "contact": "Naile Cufalci",
@@ -7723,6 +8084,7 @@
       "id": "382",
       "name": "Formal Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "OSB 35. Cadde No:27, 38070 Kayseri, Turkey",
@@ -7734,6 +8096,7 @@
       "id": "499",
       "name": "Kenan Metal",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ali Şam",
@@ -7758,6 +8121,7 @@
       "id": "515",
       "name": "LBB Systems GmbH",
       "country": "Turkey",
+      "clientType": "Manufacturer",
       "contacts": [
         {
           "contact": "Evgenij Lymar",
@@ -7776,6 +8140,7 @@
       "id": "605",
       "name": "Nisal Aluminyum San. ve Tic. Ltd. Şti.",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ersin Bey",
@@ -7794,6 +8159,7 @@
       "id": "728",
       "name": "Saray Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Timur Ulucak",
@@ -7812,6 +8178,7 @@
       "id": "746",
       "name": "Sistem Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Ergene-1 OSB, Vakıflar OSB Mah. D100 Cad. No:13/1, 59930 Ergene, Tekirdağ, Turkey",
@@ -7823,6 +8190,7 @@
       "id": "801",
       "name": "Turkish Clients",
       "country": "Turkey",
+      "clientType": "",
       "contacts": [
         {
           "contact": "na",
@@ -7841,23 +8209,18 @@
       "id": "823",
       "name": "Yavuz Alüminyum San. ve Tic. A.Ş.",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Halit Yavuz",
           "position": "Owner",
           "email": "halit@yavuzaluminyum.com.tr",
           "phone": "+90 5303689161"
-        },
-        {
-          "contact": "Emre Yavuz",
-          "position": "Assistant General Manager",
-          "email": "emre@yavuzlaraluminyum.com.tr",
-          "phone": ""
         }
       ],
       "details": {
         "address": "Akçaburgaz Mah. 3108. Sokak No:6, 34522 Esenyurt, Istanbul, Turkey",
-        "notes": "1600, 2000 3000TN",
+        "notes": "",
         "notebook": "No"
       }
     },
@@ -7865,6 +8228,7 @@
       "id": "824",
       "name": "Yavuzlar Alüminyum A.Ş.",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Nusret Yavuz",
@@ -7883,6 +8247,7 @@
       "id": "828",
       "name": "Zahit Alüminyum",
       "country": "Turkey",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Hacı Sabancı OSB, Oğuz Kağan Köksal Cad. No:5, Sarıçam, Adana, Turkey",
@@ -7894,6 +8259,7 @@
       "id": "126",
       "name": "Aluminium Shapes Ltd",
       "country": "UK",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Alan Burns",
@@ -7918,6 +8284,7 @@
       "id": "391",
       "name": "Garnalex Ltd",
       "country": "UK",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ross Hartshorn",
@@ -7948,6 +8315,7 @@
       "id": "279",
       "name": "Elite Extrusion",
       "country": "United Arab Emirates",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Info",
@@ -7966,6 +8334,7 @@
       "id": "299",
       "name": "Emirates Extrusion",
       "country": "United Arab Emirates",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Info",
@@ -7984,6 +8353,7 @@
       "id": "414",
       "name": "Gulf Extrusion Dubai",
       "country": "United Arab Emirates",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Abdul Salam Khattal",
@@ -8002,6 +8372,7 @@
       "id": "583",
       "name": "Nalexco",
       "country": "United Arab Emirates",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -8013,6 +8384,7 @@
       "id": "612",
       "name": "OSE Industries",
       "country": "United Arab Emirates",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -8024,6 +8396,7 @@
       "id": "779",
       "name": "Taweelah Aluminium Extrusion Company (TALEX) LLC",
       "country": "United Arab Emirates",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -8035,6 +8408,7 @@
       "id": "821",
       "name": "White Aluminium Extrusion",
       "country": "United Arab Emirates",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Info",
@@ -8053,6 +8427,7 @@
       "id": "201",
       "name": "Boal UK Ltd.",
       "country": "United Kingdom",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jason Cook",
@@ -8083,6 +8458,7 @@
       "id": "229",
       "name": "Capalex Ltd",
       "country": "United Kingdom",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Colin Helliwell",
@@ -8113,6 +8489,7 @@
       "id": "748",
       "name": "Smart Systems Ltd.",
       "country": "United Kingdom",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Cory Davies",
@@ -8137,6 +8514,7 @@
       "id": "9",
       "name": "AFCO Industries",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mike Clausen",
@@ -8173,6 +8551,7 @@
       "id": "29",
       "name": "Alcoa Forgings and Extrusions Lafayette Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Eric Roegner",
@@ -8191,6 +8570,7 @@
       "id": "30",
       "name": "Alcoa Forgings and Extrusions Massena Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "Park Avenue East PO Box 150",
@@ -8202,6 +8582,7 @@
       "id": "31",
       "name": "Alcoa Forgings and Extrusions Pimalco Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -8220,6 +8601,7 @@
       "id": "33",
       "name": "Alcoa Three Rivers Division",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mark Gerginski",
@@ -8238,6 +8620,7 @@
       "id": "41",
       "name": "Alexandria Industries MidAmerica Extrusion Corp.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Joe Schabe",
@@ -8274,6 +8657,7 @@
       "id": "45",
       "name": "Alfiniti Precision Tube",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Steve James",
@@ -8292,6 +8676,7 @@
       "id": "138",
       "name": "Aluminum Insights",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Niles Graber Alvarez",
@@ -8310,6 +8695,7 @@
       "id": "140",
       "name": "Aluminum Shapes LLC",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "David Block",
@@ -8328,6 +8714,7 @@
       "id": "160",
       "name": "APEL Extrusions Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Tom VanSumeren",
@@ -8346,6 +8733,7 @@
       "id": "186",
       "name": "Astro Shapes Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Carol Jackson",
@@ -8370,6 +8758,7 @@
       "id": "188",
       "name": "Astro Shapes Inc. Plant 2",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dave Singleton",
@@ -8388,6 +8777,7 @@
       "id": "205",
       "name": "Bonnell Aluminum",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Carl Czarnik",
@@ -8430,6 +8820,7 @@
       "id": "210",
       "name": "Bonnell Aluminum – Niles",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Shawn Staples",
@@ -8454,6 +8845,7 @@
       "id": "214",
       "name": "Brazeway, LLC",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Chuck Force",
@@ -8478,6 +8870,7 @@
       "id": "216",
       "name": "Briteline Extrusions Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Kenneth Kabine",
@@ -8496,6 +8889,7 @@
       "id": "217",
       "name": "Briteline Extrusions, Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Edward Kabine",
@@ -8514,6 +8908,7 @@
       "id": "232",
       "name": "Cardinal Aluminum Co.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Frank Bock",
@@ -8544,6 +8939,7 @@
       "id": "247",
       "name": "Crown Extrusions Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Russ Schumer",
@@ -8562,6 +8958,7 @@
       "id": "249",
       "name": "Crystal Finishing Systems Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Joel Banks",
@@ -8592,6 +8989,7 @@
       "id": "254",
       "name": "Custom Aluminum Products Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Shane Tredup",
@@ -8610,6 +9008,7 @@
       "id": "258",
       "name": "Dajcor Aluminum Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Kevin Blades",
@@ -8628,6 +9027,7 @@
       "id": "280",
       "name": "Elixirext Aluminum",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Steve Jones",
@@ -8646,6 +9046,7 @@
       "id": "300",
       "name": "Erblsoeh Akuminum Solutions",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Brian Losey",
@@ -8664,6 +9065,7 @@
       "id": "341",
       "name": "Extruded Aluminum Corporation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rick Kloska",
@@ -8682,6 +9084,7 @@
       "id": "342",
       "name": "Extruders Division Atrium Companies Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Willie Summerville",
@@ -8700,6 +9103,7 @@
       "id": "387",
       "name": "Frontier Aluminum Corp.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mike Rapport",
@@ -8718,6 +9122,7 @@
       "id": "388",
       "name": "Futura Industries Corp.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jared Bringhurst",
@@ -8736,6 +9141,7 @@
       "id": "397",
       "name": "Gateway Extrusions Ltd.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Tom Ziegler",
@@ -8760,6 +9166,7 @@
       "id": "400",
       "name": "General Extrusions Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Frank Beato",
@@ -8784,6 +9191,7 @@
       "id": "460",
       "name": "Ilsco Extrusions Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Larry Stainbrook",
@@ -8814,6 +9222,7 @@
       "id": "480",
       "name": "International Extrusions",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jeff Kreger",
@@ -8838,6 +9247,7 @@
       "id": "486",
       "name": "Jordan Aluminum Company LLC",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Lewie F. Smith",
@@ -8856,6 +9266,7 @@
       "id": "487",
       "name": "Jupiter Aluminium",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -8874,6 +9285,7 @@
       "id": "488",
       "name": "Kaiser Aluminum",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Timothy Hettinga",
@@ -8892,6 +9304,7 @@
       "id": "490",
       "name": "Kaiser Aluminum US",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Keith Harvey",
@@ -8952,6 +9365,7 @@
       "id": "501",
       "name": "Keymark Aluminum Corporation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Gus Brotsis",
@@ -8982,6 +9396,7 @@
       "id": "504",
       "name": "Keymark of Florida Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Joe Crenna",
@@ -9000,6 +9415,7 @@
       "id": "519",
       "name": "Light Metals Corporation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "T. Jeffrey Boylan",
@@ -9018,6 +9434,7 @@
       "id": "531",
       "name": "Magnode Corporation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mark Butterfield",
@@ -9036,6 +9453,7 @@
       "id": "537",
       "name": "MD Building Products",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ryan Plotkin",
@@ -9054,6 +9472,7 @@
       "id": "538",
       "name": "M-D Building Products",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mike Wasson",
@@ -9078,6 +9497,7 @@
       "id": "540",
       "name": "M-D Building Products Loxcreen Company Inc. The",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Eric Rhodes",
@@ -9096,6 +9516,7 @@
       "id": "543",
       "name": "Merit Aluminum",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mike Rapport",
@@ -9114,6 +9535,7 @@
       "id": "555",
       "name": "MI Metals Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rod Baker",
@@ -9156,6 +9578,7 @@
       "id": "560",
       "name": "Michigan Extruded Aluminum",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sales",
@@ -9174,6 +9597,7 @@
       "id": "561",
       "name": "Mid-States Aluminum Corp.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mike Wahl",
@@ -9204,6 +9628,7 @@
       "id": "575",
       "name": "Momentum Mfg. Group",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Carl Meyerhoefer",
@@ -9222,6 +9647,7 @@
       "id": "576",
       "name": "Mountain Ridge Metals",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -9233,6 +9659,7 @@
       "id": "584",
       "name": "Nanshan America Co.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Tim Donnelly",
@@ -9257,6 +9684,7 @@
       "id": "606",
       "name": "Non Ferrous Extrusion & Scrap Metals, Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -9275,6 +9703,7 @@
       "id": "622",
       "name": "Peerless of America Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mike Warkin",
@@ -9293,6 +9722,7 @@
       "id": "623",
       "name": "Penn Aluminum International Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Richard Smith",
@@ -9317,6 +9747,7 @@
       "id": "626",
       "name": "Pennex Aluminum Company LLC",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Tom Zak",
@@ -9347,6 +9778,7 @@
       "id": "637",
       "name": "Postle Aluminum",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -9365,6 +9797,7 @@
       "id": "638",
       "name": "Postle Extrusion A Division of Postle Aluminum",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dennis Marcott",
@@ -9383,6 +9816,7 @@
       "id": "642",
       "name": "Pries Enterprises Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Matt McMahon",
@@ -9413,6 +9847,7 @@
       "id": "680",
       "name": "Richardson Metals",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dan Lovelace",
@@ -9431,6 +9866,7 @@
       "id": "681",
       "name": "Richardson Metals Inc",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -9449,6 +9885,7 @@
       "id": "698",
       "name": "Sapa",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rob Abfall",
@@ -9473,6 +9910,7 @@
       "id": "700",
       "name": "Sapa Automotive Precision Tubing Rockledge Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Scott Church",
@@ -9497,6 +9935,7 @@
       "id": "702",
       "name": "Sapa Extrusions",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -9515,6 +9954,7 @@
       "id": "703",
       "name": "Sapa Extrusions - Magnolia Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Doug McCrary",
@@ -9533,6 +9973,7 @@
       "id": "704",
       "name": "Sapa Extrusions Belton Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Doug Carlson",
@@ -9557,6 +9998,7 @@
       "id": "707",
       "name": "Sapa Extrusions Kalamazoo Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Joe Brown",
@@ -9581,6 +10023,7 @@
       "id": "709",
       "name": "Sapa Extrusions Monett Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Steve Davenport",
@@ -9599,6 +10042,7 @@
       "id": "710",
       "name": "Sapa Extrusions North America -",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sam Tingler",
@@ -9617,6 +10061,7 @@
       "id": "711",
       "name": "Sapa Extrusions North America - Burlington Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mike Faust",
@@ -9635,6 +10080,7 @@
       "id": "712",
       "name": "Sapa Extrusions North America - City of Industry Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Pat Meyer",
@@ -9653,6 +10099,7 @@
       "id": "713",
       "name": "Sapa Extrusions North America - Connersville Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Matt Mankin",
@@ -9671,6 +10118,7 @@
       "id": "714",
       "name": "Sapa Extrusions North America - Cressona Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Bill Degler",
@@ -9689,6 +10137,7 @@
       "id": "715",
       "name": "Sapa Extrusions North America - Delhi Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ron Ballman",
@@ -9707,6 +10156,7 @@
       "id": "716",
       "name": "Sapa Extrusions North America - Elkhart Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Randy Unrein",
@@ -9725,6 +10175,7 @@
       "id": "717",
       "name": "Sapa Extrusions North America - Gainesville Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Jerry Nies",
@@ -9743,6 +10194,7 @@
       "id": "718",
       "name": "Sapa Extrusions North America - Mountaintop Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Paul Zwolan",
@@ -9761,6 +10213,7 @@
       "id": "719",
       "name": "Sapa Extrusions North America - Portland Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Mats Johansson",
@@ -9779,6 +10232,7 @@
       "id": "720",
       "name": "Sapa Extrusions North America - Spanish Fork Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Seth Davis",
@@ -9797,6 +10251,7 @@
       "id": "721",
       "name": "Sapa Extrusions North America - Yankton Operation",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "John Clifton",
@@ -9815,6 +10270,7 @@
       "id": "722",
       "name": "Sapa Extrusions North America Headquarters",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Patrick Lawlor",
@@ -9833,6 +10289,7 @@
       "id": "723",
       "name": "Sapa Extrusions North Liberty Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ralph Westphal",
@@ -9851,6 +10308,7 @@
       "id": "724",
       "name": "Sapa Extrusions Phoenix Operations",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Richard Foote",
@@ -9875,6 +10333,7 @@
       "id": "726",
       "name": "Sapa H E Tubing",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Charles Carter",
@@ -9893,6 +10352,7 @@
       "id": "731",
       "name": "Service Center Metals",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Frank George",
@@ -9917,6 +10377,7 @@
       "id": "733",
       "name": "Shapecorp",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Rob DeBoer",
@@ -9935,6 +10396,7 @@
       "id": "736",
       "name": "Sierra Aluminum",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -9959,6 +10421,7 @@
       "id": "743",
       "name": "Silver City Aluminum Corp.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Ron Xavier",
@@ -9983,6 +10446,7 @@
       "id": "747",
       "name": "Sky BM S.A.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Zak Fardi",
@@ -10001,6 +10465,7 @@
       "id": "768",
       "name": "Superior Extrusion",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dan Richards",
@@ -10019,6 +10484,7 @@
       "id": "769",
       "name": "Superior Extrusion Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Randy DeBolt",
@@ -10043,6 +10509,7 @@
       "id": "771",
       "name": "Taber Extrusions",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Oscar I Quintero",
@@ -10073,6 +10540,7 @@
       "id": "774",
       "name": "Taber Extrusions LLC",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Steven Althardt",
@@ -10103,6 +10571,7 @@
       "id": "796",
       "name": "Tri City Extrusion Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Dustin Sims",
@@ -10127,6 +10596,7 @@
       "id": "799",
       "name": "Tubelite Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Glen B Argknecht",
@@ -10145,6 +10615,7 @@
       "id": "800",
       "name": "Tubelite USA",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "James Leadbetter",
@@ -10163,6 +10634,7 @@
       "id": "808",
       "name": "Vitex Extrusion",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Carl Meyerhoefer",
@@ -10187,6 +10659,7 @@
       "id": "814",
       "name": "Werner Co.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "93 Werner Road, Greenville, PA 16125",
@@ -10198,6 +10671,7 @@
       "id": "817",
       "name": "Western Extrusions",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Sales",
@@ -10216,6 +10690,7 @@
       "id": "818",
       "name": "Western Extrusions Corp.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "",
@@ -10246,6 +10721,7 @@
       "id": "822",
       "name": "Whitehall Industries",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "5175 W. Sixth Street, Ludington, MI 49431",
@@ -10257,6 +10733,7 @@
       "id": "825",
       "name": "YKK AP America Inc.",
       "country": "United States",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Greg Hultquist",
@@ -10287,6 +10764,7 @@
       "id": "118",
       "name": "Aluminium del Uruguay",
       "country": "Uruguay",
+      "clientType": "Extruder",
       "contacts": [],
       "details": {
         "address": "",
@@ -10298,6 +10776,7 @@
       "id": "648",
       "name": "PRL Aluminum",
       "country": "USA",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Nacho Lopez - Freelance",
@@ -10316,6 +10795,7 @@
       "id": "197",
       "name": "Benkam Aluminium LLC",
       "country": "Uzbekistan",
+      "clientType": "Extruder",
       "contacts": [
         {
           "contact": "Shahrizod Hosilov",
@@ -10328,30 +10808,6 @@
         "address": "Navoi region, Karmana district, territory Navoi Free Economic Zone, Uzbekistan",
         "notes": "5-inch  - 1000TN - SKM\r\r\r\r\n5-inch  - 1000TN - SKM\r\r\r\r\n7-inch  - 2000TN - SKM\r\r\r\r\n7-inch  - 2000TN - SKM\r\r\r\r\n7-Inch  - 2000TN - Presezzi\r\r\r\r\n11-inch - 4000TN - Presezzi",
         "notebook": "Invited"
-      }
-    },
-    {
-      "id": "client-1790077673712",
-      "name": "McKechnie Aluminium Solutions Ltd",
-      "country": "New Zealand",
-      "contacts": [
-        {
-          "contact": "Dave Slomp",
-          "position": "Managing Director",
-          "email": "dave.slomp@mckechnie.co.nz",
-          "phone": ""
-        },
-        {
-          "contact": "Tania Dubois",
-          "position": "Design/ Development Manager",
-          "email": "Tania.Dubois@mckechnie.co.nz",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "",
-        "notes": "",
-        "notebook": ""
       }
     }
   ],
