@@ -10954,5 +10954,13 @@
       "action": "Initial follow-up for new project"
     }
   ],
-  "projectComments": []
+  "projectComments": [
+    {
+      "id": "comment-0cd986c7-ceb1-4911-9146-c55bda831f4c",
+      "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
+      "type": "visit",
+      "text": "Visit on the 29/09/26",
+      "date": "2026-09-26"
+    }
+  ]
 }
