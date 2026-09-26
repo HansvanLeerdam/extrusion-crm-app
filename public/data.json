@@ -10923,6 +10923,15 @@
       "productId": "Software",
       "startDate": "2026-09-25",
       "status": "Follow up"
+    },
+    {
+      "id": "project-5a1c7ca2-901e-49a5-b436-0657b4ad1a90",
+      "name": "Training",
+      "clientId": "133",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-09-23",
+      "status": "Awating confirmation"
     }
   ],
   "followups": [
@@ -10952,6 +10961,15 @@
       "productId": "Software",
       "nextDate": "2026-10-02",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-a6ef544b-8ae9-4c3c-ad40-19a2e858a3fa",
+      "clientId": "133",
+      "projectId": "project-5a1c7ca2-901e-49a5-b436-0657b4ad1a90",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-10-03",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -10960,6 +10978,20 @@
       "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
       "type": "visit",
       "text": "Visit on the 29/09/26",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "comment-43ff635e-db55-4bf0-80bb-4db2f45e4788",
+      "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
+      "type": "note",
+      "text": "Meeting in Dusseldorf",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "comment-e103dcfa-e06f-47b2-81af-420f648b20f9",
+      "projectId": "project-c819c91a-7571-41a9-b981-5f546e748c8d",
+      "type": "note",
+      "text": "Meeting in Dusseldorf",
       "date": "2026-09-26"
     }
   ]
