@@ -3,13 +3,14 @@ import { User, Pencil, Trash2, Save, X, Plus, ChevronDown, ChevronUp } from "luc
 import SectionTitle from "../components/SectionTitle"
 
 export default function Clients({ data, setData }) {
-  const [form, setForm] = useState({ name: "", country: "", contact: "", email: "", phone: "" })
+  const [form, setForm] = useState({ name: "", country: "", clientType: "", contact: "", position: "", email: "", phone: "" })
   const [filterCountry, setFilterCountry] = useState("")
+  const [filterClientType, setFilterClientType] = useState("")
   const [filterSearch, setFilterSearch] = useState("")
   const [openClients, setOpenClients] = useState({})
   const [editKey, setEditKey] = useState(null)
-  const [editContact, setEditContact] = useState({ contact: "", email: "", phone: "" })
-  const [newContact, setNewContact] = useState({ contact: "", email: "", phone: "" })
+  const [editContact, setEditContact] = useState({ contact: "", position: "", email: "", phone: "" })
+  const [newContacts, setNewContacts] = useState({})
   const [detailsOpen, setDetailsOpen] = useState({})
 
   const BTN_STYLE = {
@@ -44,8 +45,19 @@ export default function Clients({ data, setData }) {
   const filteredClients = (data.clients || [])
     .filter(c => (!filterCountry || c.country === filterCountry))
     .filter(c =>
+      !filterClientType ||
+      (filterClientType === "__unspecified__"
+        ? !(c.clientType || "")
+        : (c.clientType || "") === filterClientType)
+    )
+    .filter(c =>
       c.name.toLowerCase().includes(filterSearch.toLowerCase()) ||
-      (c.country || "").toLowerCase().includes(filterSearch.toLowerCase())
+      (c.country || "").toLowerCase().includes(filterSearch.toLowerCase()) ||
+      (c.clientType || "").toLowerCase().includes(filterSearch.toLowerCase()) ||
+      (c.contacts || []).some(ct =>
+        [ct.contact, ct.position, ct.email, ct.phone]
+          .some(value => (value || "").toLowerCase().includes(filterSearch.toLowerCase()))
+      )
     )
     .sort((a, b) => a.name.localeCompare(b.name))
 
@@ -60,9 +72,11 @@ export default function Clients({ data, setData }) {
       id: "client-" + Date.now(),
       name: form.name.trim(),
       country: form.country.trim(),
+      clientType: form.clientType,
       contacts: [
         {
           contact: form.contact || "",
+          position: form.position || "",
           email: form.email || "",
           phone: form.phone || ""
         }
@@ -71,7 +85,7 @@ export default function Clients({ data, setData }) {
     }
 
     setData({ ...data, clients: [...(data.clients || []), newClient] })
-    setForm({ name: "", country: "", contact: "", email: "", phone: "" })
+    setForm({ name: "", country: "", clientType: "", contact: "", position: "", email: "", phone: "" })
   }
 
   const toggleClient = (id) => setOpenClients(prev => ({ ...prev, [id]: !prev[id] }))
@@ -82,6 +96,7 @@ export default function Clients({ data, setData }) {
     setEditKey(`${clientId}-${idx}`)
     setEditContact({
       contact: ct?.contact ?? "",
+      position: ct?.position ?? "",
       email: ct?.email ?? "",
       phone: ct?.phone ?? ""
     })
@@ -89,7 +104,7 @@ export default function Clients({ data, setData }) {
 
   const cancelEdit = () => {
     setEditKey(null)
-    setEditContact({ contact: "", email: "", phone: "" })
+    setEditContact({ contact: "", position: "", email: "", phone: "" })
   }
 
   const saveEdit = (clientId, idx) => {
@@ -98,6 +113,7 @@ export default function Clients({ data, setData }) {
       const contacts = [...(c.contacts || [])]
       contacts[idx] = {
         contact: (editContact.contact || "").trim(),
+        position: (editContact.position || "").trim(),
         email: (editContact.email || "").trim(),
         phone: (editContact.phone || "").trim()
       }
@@ -109,25 +125,48 @@ export default function Clients({ data, setData }) {
 
   const deleteContact = (clientId, idx) => {
     if (!confirm("Delete this contact?")) return
-    let updatedClients = (data.clients || []).map((c) => {
+    const updatedClients = (data.clients || []).map((c) => {
       if (c.id !== clientId) return c
       const contacts = [...(c.contacts || [])]
       contacts.splice(idx, 1)
       return { ...c, contacts }
     })
-    updatedClients = updatedClients.filter((c) => c.contacts && c.contacts.length > 0)
     setData({ ...data, clients: updatedClients })
     cancelEdit()
   }
 
   const addContact = (clientId) => {
-    if (!newContact.contact) return
+    const newContact = newContacts[clientId] || {}
+    if (!(newContact.contact || "").trim()) return alert("Contact name is required.")
+    const contactToAdd = {
+      contact: (newContact.contact || "").trim(),
+      position: (newContact.position || "").trim(),
+      email: (newContact.email || "").trim(),
+      phone: (newContact.phone || "").trim()
+    }
     const updated = (data.clients || []).map(c => {
       if (c.id !== clientId) return c
-      return { ...c, contacts: [...(c.contacts || []), newContact] }
+      return { ...c, contacts: [...(c.contacts || []), contactToAdd] }
     })
     setData({ ...data, clients: updated })
-    setNewContact({ contact: "", email: "", phone: "" })
+    setNewContacts(prev => ({
+      ...prev,
+      [clientId]: { contact: "", position: "", email: "", phone: "" }
+    }))
+  }
+
+  const updateNewContact = (clientId, field, value) => {
+    setNewContacts(prev => ({
+      ...prev,
+      [clientId]: {
+        contact: "",
+        position: "",
+        email: "",
+        phone: "",
+        ...(prev[clientId] || {}),
+        [field]: value
+      }
+    }))
   }
 
   const updateDetails = (clientId, field, value) => {
@@ -135,6 +174,13 @@ export default function Clients({ data, setData }) {
       if (c.id !== clientId) return c
       return { ...c, details: { ...c.details, [field]: value } }
     })
+    setData({ ...data, clients: updated })
+  }
+
+  const updateClientType = (clientId, clientType) => {
+    const updated = (data.clients || []).map(c =>
+      c.id === clientId ? { ...c, clientType } : c
+    )
     setData({ ...data, clients: updated })
   }
 
@@ -171,6 +217,22 @@ export default function Clients({ data, setData }) {
           ))}
         </select>
 
+        <select
+          value={filterClientType}
+          onChange={(e) => setFilterClientType(e.target.value)}
+          style={inputStyle}
+        >
+          <option value="">All Client Types</option>
+          <option value="Extruder">Extruder</option>
+          <option value="End User">End User</option>
+          <option value="Die Supplier">Die Supplier</option>
+          <option value="Manufacturer">Manufacturer</option>
+          <option value="Software">Software</option>
+          <option value="Casthouse">Casthouse</option>
+          <option value="Consultant">Consultant</option>
+          <option value="__unspecified__">Not Specified</option>
+        </select>
+
         <input
           type="text"
           placeholder="Search..."
@@ -179,11 +241,12 @@ export default function Clients({ data, setData }) {
           style={inputStyle}
         />
 
-        {(filterCountry || filterSearch) && (
+        {(filterCountry || filterClientType || filterSearch) && (
           <button
             className="btn-icon"
             onClick={() => {
               setFilterCountry("")
+              setFilterClientType("")
               setFilterSearch("")
             }}
             title="Clear filters"
@@ -207,14 +270,25 @@ export default function Clients({ data, setData }) {
         style={{
           display: "grid",
           width: "100%",
-          gridTemplateColumns: "15% 15% 15% 15% 15% 36px",
+          gridTemplateColumns: "repeat(7, minmax(0, 1fr)) 36px",
           gap: "0.5rem",
           marginBottom: "0.8rem"
         }}
       >
         <input placeholder="Client Name" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
         <input placeholder="Country" value={form.country} onChange={(e) => setForm({ ...form, country: e.target.value })} style={inputStyle} />
+        <select value={form.clientType} onChange={(e) => setForm({ ...form, clientType: e.target.value })} style={inputStyle}>
+          <option value="">Client Type</option>
+          <option value="Extruder">Extruder</option>
+          <option value="End User">End User</option>
+          <option value="Die Supplier">Die Supplier</option>
+          <option value="Manufacturer">Manufacturer</option>
+          <option value="Software">Software</option>
+          <option value="Casthouse">Casthouse</option>
+          <option value="Consultant">Consultant</option>
+        </select>
         <input placeholder="Contact" value={form.contact} onChange={(e) => setForm({ ...form, contact: e.target.value })} style={inputStyle} />
+        <input placeholder="Position" value={form.position} onChange={(e) => setForm({ ...form, position: e.target.value })} style={inputStyle} />
         <input placeholder="Email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} style={inputStyle} />
         <input placeholder="Phone" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} style={inputStyle} />
         <button className="btn-icon" onClick={addClient}>+</button>
@@ -238,10 +312,28 @@ export default function Clients({ data, setData }) {
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <div onClick={() => toggleClient(client.id)} style={{ flexGrow: 1, cursor: "pointer" }}>
                 <h3 style={{ color: "#fff", fontSize: "1.1rem", margin: 0 }}>{client.name}</h3>
-                <p style={{ color: "#aaa", margin: "0.2rem 0 0" }}>Country: {client.country || "—"}</p>
+                <p style={{ color: "#aaa", margin: "0.2rem 0 0" }}>
+                  Country: {client.country || "—"} · Type: {client.clientType || "Not specified"}
+                </p>
               </div>
 
               <div style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}>
+                <select
+                  value={client.clientType || ""}
+                  onClick={(e) => e.stopPropagation()}
+                  onChange={(e) => updateClientType(client.id, e.target.value)}
+                  title="Client type"
+                  style={{ ...inputStyle, height: 26 }}
+                >
+                  <option value="">Not specified</option>
+                  <option value="Extruder">Extruder</option>
+                  <option value="End User">End User</option>
+                  <option value="Die Supplier">Die Supplier</option>
+                  <option value="Manufacturer">Manufacturer</option>
+                  <option value="Software">Software</option>
+                  <option value="Casthouse">Casthouse</option>
+                  <option value="Consultant">Consultant</option>
+                </select>
                 <button title="Delete client" style={{ ...BTN_STYLE, width: 24, height: 24 }} onClick={(e) => { e.stopPropagation(); deleteClient(client.id) }}>
                   <Trash2 size={12} />
                 </button>
@@ -257,6 +349,7 @@ export default function Clients({ data, setData }) {
                   <thead>
                     <tr>
                       <th>Contact</th>
+                      <th>Position</th>
                       <th>Email</th>
                       <th>Phone</th>
                       <th style={{ width: 98, textAlign: "right" }}>Actions</th>
@@ -271,6 +364,7 @@ export default function Clients({ data, setData }) {
                           {editing ? (
                             <>
                               <td><input value={editContact.contact} onChange={(e) => setEditContact({ ...editContact, contact: e.target.value })} style={inputStyle} /></td>
+                              <td><input value={editContact.position} onChange={(e) => setEditContact({ ...editContact, position: e.target.value })} style={inputStyle} /></td>
                               <td><input value={editContact.email} onChange={(e) => setEditContact({ ...editContact, email: e.target.value })} style={inputStyle} /></td>
                               <td><input value={editContact.phone} onChange={(e) => setEditContact({ ...editContact, phone: e.target.value })} style={inputStyle} /></td>
                               <td style={{ textAlign: "right" }}>
@@ -283,6 +377,7 @@ export default function Clients({ data, setData }) {
                           ) : (
                             <>
                               <td>{ct.contact}</td>
+                              <td>{ct.position || "—"}</td>
                               <td>{ct.email}</td>
                               <td>{ct.phone}</td>
                               <td style={{ textAlign: "right" }}>
@@ -296,6 +391,46 @@ export default function Clients({ data, setData }) {
                         </tr>
                       )
                     })}
+                    <tr>
+                      <td>
+                        <input
+                          placeholder="New contact"
+                          value={newContacts[client.id]?.contact || ""}
+                          onChange={(e) => updateNewContact(client.id, "contact", e.target.value)}
+                          style={{ ...inputStyle, width: "100%" }}
+                        />
+                      </td>
+                      <td>
+                        <input
+                          placeholder="Position"
+                          value={newContacts[client.id]?.position || ""}
+                          onChange={(e) => updateNewContact(client.id, "position", e.target.value)}
+                          style={{ ...inputStyle, width: "100%" }}
+                        />
+                      </td>
+                      <td>
+                        <input
+                          placeholder="Email"
+                          value={newContacts[client.id]?.email || ""}
+                          onChange={(e) => updateNewContact(client.id, "email", e.target.value)}
+                          style={{ ...inputStyle, width: "100%" }}
+                        />
+                      </td>
+                      <td>
+                        <input
+                          placeholder="Phone"
+                          value={newContacts[client.id]?.phone || ""}
+                          onChange={(e) => updateNewContact(client.id, "phone", e.target.value)}
+                          onKeyDown={(e) => { if (e.key === "Enter") addContact(client.id) }}
+                          style={{ ...inputStyle, width: "100%" }}
+                        />
+                      </td>
+                      <td style={{ textAlign: "right" }}>
+                        <button title="Add contact" style={BTN_STYLE} onClick={() => addContact(client.id)}>
+                          <Plus size={ICON_SIZE} />
+                        </button>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
 
