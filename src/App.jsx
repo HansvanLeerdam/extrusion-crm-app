@@ -28,6 +28,8 @@ export default function App() {
         const json = await res.json()
         const fixedClients = (json.clients || []).map((c) => ({
           ...c,
+          clientType: c.clientType || "",
+          contacts: (c.contacts || []).map((ct) => ({ ...ct, position: ct.position || "" })),
           details: c.details || { address: "", notes: "", notebook: "" }
         }))
         setData({ ...json, clients: fixedClients })
@@ -39,6 +41,8 @@ export default function App() {
           .then((json) => {
             const fixedClients = (json.clients || []).map((c) => ({
               ...c,
+              clientType: c.clientType || "",
+              contacts: (c.contacts || []).map((ct) => ({ ...ct, position: ct.position || "" })),
               details: c.details || { address: "", notes: "", notebook: "" }
             }))
             setData({ ...json, clients: fixedClients })
@@ -99,6 +103,7 @@ export default function App() {
             id: String(r["Client ID"] || crypto.randomUUID()),
             name: clientName,
             country: r["Country"] || "",
+            clientType: r["Client Type"] || "",
             contacts: [],
             details: {
               address: r["Address"] || "",
@@ -108,16 +113,19 @@ export default function App() {
           }
           clients.push(client)
         }
-        if (r["Contact Person"] || r["Email"] || r["Phone"]) {
+        if (!client.clientType && r["Client Type"]) client.clientType = r["Client Type"]
+        if (r["Contact Person"] || r["Position"] || r["Email"] || r["Phone"]) {
           const exists = client.contacts.some(
             (ct) =>
               ct.contact === r["Contact Person"] &&
+              (ct.position || "") === (r["Position"] || "") &&
               ct.email === r["Email"] &&
               ct.phone === r["Phone"]
           )
           if (!exists)
             client.contacts.push({
               contact: r["Contact Person"] || "",
+              position: r["Position"] || "",
               email: r["Email"] || "",
               phone: r["Phone"] || ""
             })
@@ -199,6 +207,8 @@ export default function App() {
 
       const fixedClients = clients.map((c) => ({
         ...c,
+        clientType: c.clientType || "",
+        contacts: (c.contacts || []).map((ct) => ({ ...ct, position: ct.position || "" })),
         details: c.details || { address: "", notes: "", notebook: "" }
       }))
 
@@ -215,29 +225,35 @@ export default function App() {
         ? c.contacts.map((ct) => ({
             "Client ID": String(c.id),
             "Client Name": c.name,
+            "Contact Person": ct.contact,
+            Position: ct.position || "",
+            Email: ct.email,
+            Phone: ct.phone,
             Country: c.country,
+            "Client Type": c.clientType || "",
             Address: c.details?.address || "",
             Notes: c.details?.notes || "",
-            Notebook: c.details?.notebook || "",
-            "Contact Person": ct.contact,
-            Email: ct.email,
-            Phone: ct.phone
+            Notebook: c.details?.notebook || ""
           }))
         : [
             {
               "Client ID": String(c.id),
               "Client Name": c.name,
               Country: c.country,
+              "Client Type": c.clientType || "",
               Address: c.details?.address || "",
               Notes: c.details?.notes || "",
               Notebook: c.details?.notebook || "",
               "Contact Person": "",
+              Position: "",
               Email: "",
               Phone: ""
             }
           ]
     )
-    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(clientsFlat), "Clients")
+    const clientsSheet = XLSX.utils.json_to_sheet(clientsFlat)
+    if (clientsSheet["!ref"]) clientsSheet["!autofilter"] = { ref: clientsSheet["!ref"] }
+    XLSX.utils.book_append_sheet(wb, clientsSheet, "Clients")
 
     XLSX.utils.book_append_sheet(
       wb,
