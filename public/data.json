@@ -12842,6 +12842,44 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1790582392255",
+      "name": "Global Aluminium Pvt.",
+      "country": "India",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Valeria Koleva",
+          "position": "Partner",
+          "email": "valeria.koleva@globalaluminium.com",
+          "phone": "+359 88 341 0001"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1790583534888",
+      "name": "Almet Benelux",
+      "country": "Belgie",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Ron Sacré",
+          "position": "Managing Director",
+          "email": "Ron.Sacre@almetbenelux.eu",
+          "phone": "+31 6 22 64 35 63"
+        }
+      ],
+      "details": {
+        "address": "Tussendonk 22, 4878 AM Etten-Leur, Netherlands",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -13153,6 +13191,33 @@
       "productId": "Training",
       "startDate": "2026-09-23",
       "status": "Awating confirmation"
+    },
+    {
+      "id": "project-6bec3184-ae34-4bf5-8989-09a21b56611b",
+      "name": "Support",
+      "clientId": "client-1790582392255",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2026-10-07",
+      "status": "Meeting"
+    },
+    {
+      "id": "project-b7cbf77c-3dac-44b4-a6c7-21315bcf756a",
+      "name": "Training",
+      "clientId": "408",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-09-23",
+      "status": "For later"
+    },
+    {
+      "id": "project-7c9a50e0-354a-48d0-b35b-13411c2b59ce",
+      "name": "Training",
+      "clientId": "649",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-09-23",
+      "status": "For later"
     }
   ],
   "followups": [
@@ -13191,6 +13256,33 @@
       "productId": "Training",
       "nextDate": "2026-10-03",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-3e9afac4-9ac2-4b30-aa3b-3712942beff0",
+      "clientId": "client-1790582392255",
+      "projectId": "project-6bec3184-ae34-4bf5-8989-09a21b56611b",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "nextDate": "2026-10-05",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-9fa6e9b5-afa0-44c0-9456-f5abec85ba9e",
+      "clientId": "408",
+      "projectId": "project-b7cbf77c-3dac-44b4-a6c7-21315bcf756a",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-10-05",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-34e4575c-70d7-4b95-a3e6-b6f3db5f717d",
+      "clientId": "649",
+      "projectId": "project-7c9a50e0-354a-48d0-b35b-13411c2b59ce",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-10-05",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -13214,6 +13306,13 @@
       "type": "note",
       "text": "Meeting in Dusseldorf",
       "date": "2026-09-26"
+    },
+    {
+      "id": "comment-9bb31e72-a31a-455e-b21a-221ac08a045a",
+      "projectId": "project-5a1c7ca2-901e-49a5-b436-0657b4ad1a90",
+      "type": "email",
+      "text": "Sent email for confirmation to Markus and Paul - 28/09/26",
+      "date": "2026-09-28"
     }
   ]
 }
