@@ -12943,6 +12943,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1791713906438",
+      "name": "Extrucoat21",
+      "country": "Egypt",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "",
+          "position": "",
+          "email": "info@extrucoat.com ",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "Piece Z13 – T15 – Engineering Square – Northern Expansions of the Industrial Zones – 6th of October City",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
