@@ -13256,15 +13256,6 @@
       "status": "Awating confirmation"
     },
     {
-      "id": "project-6bec3184-ae34-4bf5-8989-09a21b56611b",
-      "name": "Support",
-      "clientId": "client-1790582392255",
-      "partnerId": "1",
-      "productId": "Consulting",
-      "startDate": "2026-10-07",
-      "status": "Meeting"
-    },
-    {
       "id": "project-b7cbf77c-3dac-44b4-a6c7-21315bcf756a",
       "name": "Training",
       "clientId": "408",
@@ -13297,8 +13288,8 @@
       "clientId": "client-1790582392255",
       "partnerId": "1",
       "productId": "Consulting",
-      "startDate": "2026-10-07",
-      "status": "To discuss"
+      "startDate": "2026-10-16",
+      "status": "Ask for info"
     },
     {
       "id": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
@@ -13501,15 +13492,6 @@
       "action": "Ask for feedback"
     },
     {
-      "id": "followup-3e9afac4-9ac2-4b30-aa3b-3712942beff0",
-      "clientId": "client-1790582392255",
-      "projectId": "project-6bec3184-ae34-4bf5-8989-09a21b56611b",
-      "partnerId": "1",
-      "productId": "Consulting",
-      "nextDate": "2026-10-05",
-      "action": "Initial follow-up for new project"
-    },
-    {
       "id": "followup-9fa6e9b5-afa0-44c0-9456-f5abec85ba9e",
       "clientId": "408",
       "projectId": "project-b7cbf77c-3dac-44b4-a6c7-21315bcf756a",
@@ -13533,8 +13515,8 @@
       "projectId": "project-66037746-3e18-4a5d-b9b8-24b1142d04d9",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-05",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2027-01-11",
+      "action": "Ask for interest"
     },
     {
       "id": "followup-8dadb721-f9ad-49c9-a00f-0d41d234d17a",
@@ -13542,8 +13524,8 @@
       "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2026-10-05",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-10-16",
+      "action": "Ask for feedback"
     },
     {
       "id": "followup-9bac0452-c9aa-4947-8ed5-b1b7520cc883",
