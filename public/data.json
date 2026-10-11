@@ -13236,6 +13236,132 @@
       "productId": "Consulting",
       "startDate": "2026-10-07",
       "status": "To discuss"
+    },
+    {
+      "id": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
+      "name": "APS",
+      "clientId": "25",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-08",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
+      "name": "APS",
+      "clientId": "93",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-07",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-b1cfade6-0343-472f-b1c2-ac860d3437b2",
+      "name": "APS",
+      "clientId": "663",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-08",
+      "status": "Visit"
+    },
+    {
+      "id": "project-fec614a7-9195-4506-acd1-f7e06bc00fb2",
+      "name": "APS",
+      "clientId": "780",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-06",
+      "status": "Visit"
+    },
+    {
+      "id": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
+      "name": "APS",
+      "clientId": "53",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-07",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-899aaee5-1446-4dcb-9da7-f9802517f3b5",
+      "name": "APS",
+      "clientId": "806",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-08",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-52159043-0624-4c30-8410-d45abdfd55f3",
+      "name": "APS",
+      "clientId": "94",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-07",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-4c00860f-7721-48b3-96d2-50b62a8d149a",
+      "name": "APS",
+      "clientId": "148",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-07",
+      "status": "Visit"
+    },
+    {
+      "id": "project-6ecfc9d9-5d43-4564-9357-dd76f5407a54",
+      "name": "APS",
+      "clientId": "162",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-07",
+      "status": "Set-up video call"
+    },
+    {
+      "id": "project-f5c11e07-f210-476e-acb6-3bd4992ebfdb",
+      "name": "MPC",
+      "clientId": "167",
+      "partnerId": "1",
+      "productId": "",
+      "startDate": "2026-10-06",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
+      "name": "APS",
+      "clientId": "281",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-06",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-d6e57097-1e0d-41db-80aa-369e2fdea8aa",
+      "name": "APS",
+      "clientId": "567",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-08",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-1c7a2b69-87c7-4a45-9d00-fbd5718218a7",
+      "name": "APS",
+      "clientId": "587",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-07",
+      "status": "Send offer - Fadi"
+    },
+    {
+      "id": "project-44749c08-0752-4ad4-af13-1831e1995e4b",
+      "name": "APS",
+      "clientId": "599",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-01",
+      "status": "Set-up video call"
     }
   ],
   "followups": [
@@ -13318,6 +13444,132 @@
       "partnerId": "1",
       "productId": "Consulting",
       "nextDate": "2026-10-05",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-9bac0452-c9aa-4947-8ed5-b1b7520cc883",
+      "clientId": "25",
+      "projectId": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-c0a4e14c-1225-4d91-9442-0981828921ff",
+      "clientId": "93",
+      "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-5902f80e-465c-4f88-82e1-1b497f8b8ec3",
+      "clientId": "663",
+      "projectId": "project-b1cfade6-0343-472f-b1c2-ac860d3437b2",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-a11969e3-0e15-43ed-8f27-8d20c6a052fd",
+      "clientId": "780",
+      "projectId": "project-fec614a7-9195-4506-acd1-f7e06bc00fb2",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-ced62f13-928e-474d-ab73-aac77d77e622",
+      "clientId": "53",
+      "projectId": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-e920d19f-f947-4c5b-b914-a1946dd56147",
+      "clientId": "806",
+      "projectId": "project-899aaee5-1446-4dcb-9da7-f9802517f3b5",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-5a700176-c3d8-47a8-9939-7afb2f1dfed2",
+      "clientId": "94",
+      "projectId": "project-52159043-0624-4c30-8410-d45abdfd55f3",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-5c34af26-7c7b-4720-8303-f54844c609b5",
+      "clientId": "148",
+      "projectId": "project-4c00860f-7721-48b3-96d2-50b62a8d149a",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-1543ba7d-d846-4f78-9980-55f4c9b443ef",
+      "clientId": "162",
+      "projectId": "project-6ecfc9d9-5d43-4564-9357-dd76f5407a54",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-3ec0c5cc-b860-4f54-a631-40f12425ef8b",
+      "clientId": "167",
+      "projectId": "project-f5c11e07-f210-476e-acb6-3bd4992ebfdb",
+      "partnerId": "1",
+      "productId": null,
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-7b99e2dc-d17b-4e68-ad2d-f05bc6cc8f28",
+      "clientId": "281",
+      "projectId": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-3529a563-017c-48c5-a8a2-039186ce3407",
+      "clientId": "567",
+      "projectId": "project-d6e57097-1e0d-41db-80aa-369e2fdea8aa",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-9d53a40d-c11f-42a5-8bf7-19109bfc15da",
+      "clientId": "587",
+      "projectId": "project-1c7a2b69-87c7-4a45-9d00-fbd5718218a7",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-310d61d1-911e-48d2-ac25-634889d75247",
+      "clientId": "599",
+      "projectId": "project-44749c08-0752-4ad4-af13-1831e1995e4b",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
       "action": "Initial follow-up for new project"
     }
   ],
