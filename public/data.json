@@ -8963,6 +8963,12 @@
           "position": "Operations Manager",
           "email": "fredrik.uhrbom@profilgruppen.se",
           "phone": ""
+        },
+        {
+          "contact": "Lars Anders Svensson",
+          "position": "Manager Extrusion Dies",
+          "email": "anders.svensson@profilgruppen.se",
+          "phone": "+46703495753"
         }
       ],
       "details": {
@@ -12880,6 +12886,63 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1791706537471",
+      "name": "PLG Aluminum",
+      "country": "Egypt",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Ahmed Moaz",
+          "position": "Group CEO",
+          "email": "moaz.schemas@gmail.com",
+          "phone": "+201003303402"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1791706633241",
+      "name": "Independent Extrusions Ltd",
+      "country": "Australia",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Scott Slater",
+          "position": "Plant Manager",
+          "email": "scott.slater@inexaus.com.au",
+          "phone": "+61400202815"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1791706863567",
+      "name": "Tunisie Profilés Aluminium",
+      "country": "Tunesia",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Karim Bayahi",
+          "position": "General Manager",
+          "email": "karim.bayahi@tpr.com.tn",
+          "phone": "+21620630000"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -13362,6 +13425,51 @@
       "productId": "Software",
       "startDate": "2026-10-01",
       "status": "Set-up video call"
+    },
+    {
+      "id": "project-a8d82668-275e-43f8-a630-4ab5f4161b0d",
+      "name": "APS",
+      "clientId": "client-1791706633241",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-06",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-eb68c1e0-c36e-4596-b96e-dc317a0973eb",
+      "name": "APS",
+      "clientId": "client-1791706537471",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-08",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-7b22a0f9-5946-46e4-81ed-5b091f79f893",
+      "name": "APS",
+      "clientId": "client-1791706863567",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-06",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-5b526927-b13e-4bd1-a782-2b88849aad7a",
+      "name": "APS",
+      "clientId": "728",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-08",
+      "status": "Send offer"
+    },
+    {
+      "id": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
+      "name": "APS",
+      "clientId": "657",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-07",
+      "status": "Send info"
     }
   ],
   "followups": [
@@ -13371,8 +13479,8 @@
       "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-02",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-10-16",
+      "action": "Ask for feedback"
     },
     {
       "id": "followup-4fb7ee96-00b8-4ee2-9be3-f6d1d25f0151",
@@ -13380,8 +13488,8 @@
       "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
       "partnerId": "3",
       "productId": "Die Oven",
-      "nextDate": "2026-10-02",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-10-13",
+      "action": "Ask for die dimensions"
     },
     {
       "id": "followup-ceb71e6a-aec1-406c-89e6-b0901149b9a0",
@@ -13389,17 +13497,8 @@
       "projectId": "project-c819c91a-7571-41a9-b981-5f546e748c8d",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-02",
-      "action": "Initial follow-up for new project"
-    },
-    {
-      "id": "followup-a6ef544b-8ae9-4c3c-ad40-19a2e858a3fa",
-      "clientId": "133",
-      "projectId": "project-5a1c7ca2-901e-49a5-b436-0657b4ad1a90",
-      "partnerId": "1",
-      "productId": "Training",
-      "nextDate": "2026-10-03",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-10-30",
+      "action": "Ask for feedback"
     },
     {
       "id": "followup-3e9afac4-9ac2-4b30-aa3b-3712942beff0",
@@ -13416,8 +13515,8 @@
       "projectId": "project-b7cbf77c-3dac-44b4-a6c7-21315bcf756a",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-05",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-12-07",
+      "action": "Ask for interest"
     },
     {
       "id": "followup-34e4575c-70d7-4b95-a3e6-b6f3db5f717d",
@@ -13425,8 +13524,8 @@
       "projectId": "project-7c9a50e0-354a-48d0-b35b-13411c2b59ce",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-05",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-10-16",
+      "action": "Ask for feedback"
     },
     {
       "id": "followup-99204c81-bcd9-495a-b564-5e705a6a5d9a",
@@ -13567,6 +13666,51 @@
       "id": "followup-310d61d1-911e-48d2-ac25-634889d75247",
       "clientId": "599",
       "projectId": "project-44749c08-0752-4ad4-af13-1831e1995e4b",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-9dc6ee13-f900-4bdf-86b4-bcd14de32f4f",
+      "clientId": "client-1791706633241",
+      "projectId": "project-a8d82668-275e-43f8-a630-4ab5f4161b0d",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-6bddc859-04b6-4b75-8a94-952827743db6",
+      "clientId": "client-1791706537471",
+      "projectId": "project-eb68c1e0-c36e-4596-b96e-dc317a0973eb",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-f350d76d-b3df-4535-8933-f593401044f6",
+      "clientId": "client-1791706863567",
+      "projectId": "project-7b22a0f9-5946-46e4-81ed-5b091f79f893",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-3b755b25-9987-4964-af77-fee7813c35e5",
+      "clientId": "728",
+      "projectId": "project-5b526927-b13e-4bd1-a782-2b88849aad7a",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-9b3e713b-1e0f-461b-a4a1-bb8913c82e05",
+      "clientId": "657",
+      "projectId": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
