@@ -13480,6 +13480,15 @@
       "productId": "Software",
       "startDate": "2026-10-07",
       "status": "Send info"
+    },
+    {
+      "id": "project-6cc91643-ecba-4ec9-9049-7c4216dcf58a",
+      "name": "Training",
+      "clientId": "816",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-10-06",
+      "status": "Send info"
     }
   ],
   "followups": [
@@ -13714,6 +13723,15 @@
       "projectId": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
       "partnerId": "2",
       "productId": "Software",
+      "nextDate": "2026-10-18",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-e34f3e4a-88e5-40ff-bce3-bedfdad81809",
+      "clientId": "816",
+      "projectId": "project-6cc91643-ecba-4ec9-9049-7c4216dcf58a",
+      "partnerId": "1",
+      "productId": "Training",
       "nextDate": "2026-10-18",
       "action": "Initial follow-up for new project"
     }
