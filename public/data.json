@@ -13489,6 +13489,15 @@
       "productId": "Training",
       "startDate": "2026-10-06",
       "status": "Send info"
+    },
+    {
+      "id": "project-c8c33666-0f4a-44a3-8b6e-9346b7e71972",
+      "name": "Personal training",
+      "clientId": "780",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-10-06",
+      "status": "Send offer"
     }
   ],
   "followups": [
@@ -13499,7 +13508,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-16",
-      "action": "Ask for feedback"
+      "action": "Ask to sign contract"
     },
     {
       "id": "followup-4fb7ee96-00b8-4ee2-9be3-f6d1d25f0151",
@@ -13562,7 +13571,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-c0a4e14c-1225-4d91-9442-0981828921ff",
@@ -13571,7 +13580,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-5902f80e-465c-4f88-82e1-1b497f8b8ec3",
@@ -13580,7 +13589,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Plan visit"
     },
     {
       "id": "followup-a11969e3-0e15-43ed-8f27-8d20c6a052fd",
@@ -13589,7 +13598,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Plan visit if interested"
     },
     {
       "id": "followup-ced62f13-928e-474d-ab73-aac77d77e622",
@@ -13598,7 +13607,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-e920d19f-f947-4c5b-b914-a1946dd56147",
@@ -13607,7 +13616,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-5a700176-c3d8-47a8-9939-7afb2f1dfed2",
@@ -13616,7 +13625,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-5c34af26-7c7b-4720-8303-f54844c609b5",
@@ -13625,7 +13634,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Plan visit if interested"
     },
     {
       "id": "followup-1543ba7d-d846-4f78-9980-55f4c9b443ef",
@@ -13634,7 +13643,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-3ec0c5cc-b860-4f54-a631-40f12425ef8b",
@@ -13643,7 +13652,7 @@
       "partnerId": "1",
       "productId": null,
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer MPC"
     },
     {
       "id": "followup-7b99e2dc-d17b-4e68-ad2d-f05bc6cc8f28",
@@ -13652,7 +13661,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-3529a563-017c-48c5-a8a2-039186ce3407",
@@ -13661,7 +13670,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-9d53a40d-c11f-42a5-8bf7-19109bfc15da",
@@ -13670,7 +13679,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer - Fadi"
     },
     {
       "id": "followup-310d61d1-911e-48d2-ac25-634889d75247",
@@ -13679,7 +13688,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Set-up video call"
     },
     {
       "id": "followup-9dc6ee13-f900-4bdf-86b4-bcd14de32f4f",
@@ -13688,7 +13697,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-6bddc859-04b6-4b75-8a94-952827743db6",
@@ -13697,7 +13706,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-f350d76d-b3df-4535-8933-f593401044f6",
@@ -13706,7 +13715,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-3b755b25-9987-4964-af77-fee7813c35e5",
@@ -13715,7 +13724,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-9b3e713b-1e0f-461b-a4a1-bb8913c82e05",
@@ -13724,7 +13733,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
     },
     {
       "id": "followup-e34f3e4a-88e5-40ff-bce3-bedfdad81809",
@@ -13733,7 +13742,16 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2026-10-18",
-      "action": "Initial follow-up for new project"
+      "action": "Send info"
+    },
+    {
+      "id": "followup-8fc250b5-8d65-47e8-8d74-84539af9ef01",
+      "clientId": "780",
+      "projectId": "project-c8c33666-0f4a-44a3-8b6e-9346b7e71972",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-10-19",
+      "action": "Send offer"
     }
   ],
   "projectComments": [
