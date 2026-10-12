@@ -13516,6 +13516,15 @@
       "productId": "Die Splitting Machine",
       "startDate": "2026-10-07",
       "status": "Send offer"
+    },
+    {
+      "id": "project-f067e844-ee10-4559-b695-04c0512d1ec8",
+      "name": "Training",
+      "clientId": "297",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-10-06",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -13788,6 +13797,15 @@
       "productId": "Die Splitting Machine",
       "nextDate": "2026-10-19",
       "action": "Send offer"
+    },
+    {
+      "id": "followup-6a90cf10-1cde-4e79-82c1-606f9b28fd73",
+      "clientId": "297",
+      "projectId": "project-f067e844-ee10-4559-b695-04c0512d1ec8",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-10-19",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
