@@ -13507,6 +13507,15 @@
       "productId": "Extrusion Press Line",
       "startDate": "2026-10-08",
       "status": "Send offer"
+    },
+    {
+      "id": "project-b0f74265-4b3c-4730-92e2-fc70f9f5ca08",
+      "name": "Die Splitter",
+      "clientId": "482",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "startDate": "2026-10-07",
+      "status": "Send offer"
     }
   ],
   "followups": [
@@ -13769,7 +13778,16 @@
       "partnerId": "3",
       "productId": "Extrusion Press Line",
       "nextDate": "2026-10-19",
-      "action": "Initial follow-up for new project"
+      "action": "Send offer"
+    },
+    {
+      "id": "followup-fac75f27-a2d4-4aa0-b1b0-5a311ec9ae04",
+      "clientId": "482",
+      "projectId": "project-b0f74265-4b3c-4730-92e2-fc70f9f5ca08",
+      "partnerId": "8",
+      "productId": "Die Splitting Machine",
+      "nextDate": "2026-10-19",
+      "action": "Send offer"
     }
   ],
   "projectComments": [
@@ -13932,6 +13950,20 @@
       "projectId": "project-899aaee5-1446-4dcb-9da7-f9802517f3b5",
       "type": "note",
       "text": "Very good meeting on the fair and real interest in APS",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-508a271a-1a3e-48c1-a447-31c89bfe878d",
+      "projectId": "project-b0f74265-4b3c-4730-92e2-fc70f9f5ca08",
+      "type": "note",
+      "text": "Ask Evgenij for offer to send to Ivan",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-18b7bd28-851a-40f9-bccd-ceaf22a1fc91",
+      "projectId": "project-eb304e1a-e9e1-4913-8d47-46409c6f2959",
+      "type": "note",
+      "text": "I have send info regarding new press and casthouse + info regarding smaller press than a 10-inch.",
       "date": "2026-10-12"
     }
   ]
