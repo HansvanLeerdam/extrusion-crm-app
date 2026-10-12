@@ -13280,7 +13280,7 @@
       "clientId": "408",
       "partnerId": "1",
       "productId": "Training",
-      "startDate": "2026-09-23",
+      "startDate": "2027-01-04",
       "status": "For later"
     },
     {
@@ -13298,7 +13298,7 @@
       "clientId": "client-1790583534888",
       "partnerId": "1",
       "productId": "Training",
-      "startDate": "2026-09-23",
+      "startDate": "2027-01-04",
       "status": "For later"
     },
     {
@@ -13543,8 +13543,8 @@
       "projectId": "project-7c9a50e0-354a-48d0-b35b-13411c2b59ce",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-16",
-      "action": "Ask for feedback"
+      "nextDate": "2027-01-04",
+      "action": "Ask for interest"
     },
     {
       "id": "followup-99204c81-bcd9-495a-b564-5e705a6a5d9a",
@@ -13763,13 +13763,6 @@
       "date": "2026-09-26"
     },
     {
-      "id": "comment-43ff635e-db55-4bf0-80bb-4db2f45e4788",
-      "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
-      "type": "note",
-      "text": "Meeting in Dusseldorf",
-      "date": "2026-09-26"
-    },
-    {
       "id": "comment-e103dcfa-e06f-47b2-81af-420f648b20f9",
       "projectId": "project-c819c91a-7571-41a9-b981-5f546e748c8d",
       "type": "note",
@@ -13782,6 +13775,146 @@
       "type": "email",
       "text": "Sent email for confirmation to Markus and Paul - 28/09/26",
       "date": "2026-09-28"
+    },
+    {
+      "id": "comment-e0fe2132-5cb2-4271-8849-7efcd2dbb850",
+      "projectId": "project-7c9a50e0-354a-48d0-b35b-13411c2b59ce",
+      "type": "email",
+      "text": "Received email from Rudi to plan the training in 2027 - 11/10/26",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-d9d38eb4-eacf-4f85-a3dc-b5c2cc9b0226",
+      "projectId": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
+      "type": "note",
+      "text": "Send lowest offer possible, so Alcas can introduce us in Turkey - 6 presses",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-012ab8be-2696-4aba-953d-0e676dbc1cc9",
+      "projectId": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
+      "type": "note",
+      "text": "They are interested in training and maybe also APS",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-6b7083e0-6e74-412d-bfb6-0a8c79932116",
+      "projectId": "project-66037746-3e18-4a5d-b9b8-24b1142d04d9",
+      "type": "note",
+      "text": "Training will probably be in 2027",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-3d1bff24-28de-4e0c-9d52-8661532cf7e8",
+      "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
+      "type": "note",
+      "text": "MD very interested in APS and also still in training, especially for Twan (new in Finex)",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-3501db54-46ee-4860-9e2f-ac860ebf3224",
+      "projectId": "project-5a1c7ca2-901e-49a5-b436-0657b4ad1a90",
+      "type": "note",
+      "text": "Training is set for 27 and 28 November",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-2656b467-ff40-43f9-a295-33a2830c0ae4",
+      "projectId": "project-4c00860f-7721-48b3-96d2-50b62a8d149a",
+      "type": "note",
+      "text": "Juab spoke with them at the fair. They don´t like spending money.",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-9fb5a3ff-4537-43bc-a954-e499899bf407",
+      "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
+      "type": "note",
+      "text": "Meeting was canceled by Rodolfo. Try to get him to sign the offer.",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-a7c27cf0-3fb4-4e2c-8028-ac133ae25110",
+      "projectId": "project-f5c11e07-f210-476e-acb6-3bd4992ebfdb",
+      "type": "note",
+      "text": "Send offer for MPC - They already have EMS from Ati-UNO",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-d46f11e6-b6d2-443a-9117-c19a75005548",
+      "projectId": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
+      "type": "note",
+      "text": "Important extruder in Greece",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-4266c27e-58fe-4503-9707-44b5c80f91a7",
+      "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
+      "type": "note",
+      "text": "Ask for the dimensions for the second oven and also for the third to make the offer for the next die oven",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-e0f694b4-287e-449b-9aca-509e54f74108",
+      "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
+      "type": "note",
+      "text": "They want training. Ask them to send me details on what they need.",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-dd646b82-8fee-4a13-9a6c-cffa4d1afb2d",
+      "projectId": "project-b7cbf77c-3dac-44b4-a6c7-21315bcf756a",
+      "type": "note",
+      "text": "Training probably in 2027, as they are busy reorganizing",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-1d284884-9fa1-4cee-8e10-c2d80b1067f4",
+      "projectId": "project-c819c91a-7571-41a9-b981-5f546e748c8d",
+      "type": "note",
+      "text": "They need licences to be able to get new funds to pay Avanzate. Will take a couple of weeks.",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-8949d08e-d7d1-4370-9438-cd51ffc12806",
+      "projectId": "project-44749c08-0752-4ad4-af13-1831e1995e4b",
+      "type": "note",
+      "text": "Set-up video call to introduce us to Manuel, the owner",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-433a2850-bf04-4295-8bf1-5a96572de0f1",
+      "projectId": "project-eb68c1e0-c36e-4596-b96e-dc317a0973eb",
+      "type": "note",
+      "text": "New extruder in Egypt with two new presses (5 and 7-inch). They want to buy a 10-inch and 3 more in the future. Very interested in collaborating with me.",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-e44f1772-bc6c-46d2-974c-fa63b8624ff4",
+      "projectId": "project-b1cfade6-0343-472f-b1c2-ac860d3437b2",
+      "type": "note",
+      "text": "Spoke with Jesus on the fair. There might be interest in APS",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-316a3e6e-4ca6-4ccb-803c-a946aee320db",
+      "projectId": "project-5b526927-b13e-4bd1-a782-2b88849aad7a",
+      "type": "note",
+      "text": "Send offer regarding APS and my services",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-e65c3b94-19ef-4f2a-9eb2-892643bea072",
+      "projectId": "project-c8c33666-0f4a-44a3-8b6e-9346b7e71972",
+      "type": "note",
+      "text": "New plant manager started with no background on extrusion.",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "comment-f6f88165-d661-4836-9644-fd53c76d53e7",
+      "projectId": "project-899aaee5-1446-4dcb-9da7-f9802517f3b5",
+      "type": "note",
+      "text": "Very good meeting on the fair and real interest in APS",
+      "date": "2026-10-12"
     }
   ]
 }
