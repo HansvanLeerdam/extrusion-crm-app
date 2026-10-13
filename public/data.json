@@ -5431,6 +5431,18 @@
           "position": "Managing Director",
           "email": "j.vanbussel@alumero.nl",
           "phone": "+31 614367164"
+        },
+        {
+          "contact": "Twan",
+          "position": "Onderhoud",
+          "email": "onderhoud@alumero.nl",
+          "phone": ""
+        },
+        {
+          "contact": "Gé Jansen",
+          "position": "Dieshop Manager",
+          "email": "g.jansen@alumero.nl",
+          "phone": ""
         }
       ],
       "details": {
@@ -13883,8 +13895,8 @@
       "projectId": "project-176de3ca-7c98-4a37-b1cd-89e3961bc016",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-20",
-      "action": "Initial follow-up for new project"
+      "nextDate": "2026-11-26",
+      "action": "Trial Webinar"
     }
   ],
   "projectComments": [
