@@ -13598,6 +13598,15 @@
       "productId": "Training",
       "startDate": "2026-12-03",
       "status": "Confirmed"
+    },
+    {
+      "id": "project-ba6a1453-da3a-4e33-ae21-ac008f7f4f97",
+      "name": "Profiles",
+      "clientId": "518",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "startDate": "2026-09-29",
+      "status": "Follow up"
     }
   ],
   "followups": [
@@ -13897,6 +13906,15 @@
       "productId": "Training",
       "nextDate": "2026-11-26",
       "action": "Trial Webinar"
+    },
+    {
+      "id": "followup-965cb24c-cd05-4ecb-a6e7-7469946909a8",
+      "clientId": "518",
+      "projectId": "project-ba6a1453-da3a-4e33-ae21-ac008f7f4f97",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "nextDate": "2026-10-20",
+      "action": "Ask for feedback"
     }
   ],
   "projectComments": [
@@ -14094,6 +14112,41 @@
       "projectId": "project-f5c11e07-f210-476e-acb6-3bd4992ebfdb",
       "type": "offer",
       "text": "Have send the offer on the 13/10/2026",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "comment-6ea6d69e-60d1-49bb-bb0e-832db619924c",
+      "projectId": "project-b2dddc3f-e353-45ef-a738-1ecbc4d92673",
+      "type": "email",
+      "text": "I have send an email to Marc, asking for further interest 13/10/26",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "comment-2e16e53f-c2bd-49ed-916e-6a920a8bba3c",
+      "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
+      "type": "note",
+      "text": "Received the dimensions for the third die oven 13/10/26",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "comment-0f12abbe-d286-4488-8c4c-384fc0b301b9",
+      "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
+      "type": "note",
+      "text": "Need to send offer for electrical hot saw for 8-inch billet oven",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "comment-f09d43d8-5391-43c2-9854-c6a53556dcf5",
+      "projectId": "project-b0f74265-4b3c-4730-92e2-fc70f9f5ca08",
+      "type": "offer",
+      "text": "I have send the offer to Ivan 13/10/26",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "comment-2d438af1-af84-41e9-9669-417e1016f45c",
+      "projectId": "project-ba6a1453-da3a-4e33-ae21-ac008f7f4f97",
+      "type": "email",
+      "text": "Ask for feedback to Wim 13/10/26",
       "date": "2026-10-13"
     }
   ]
