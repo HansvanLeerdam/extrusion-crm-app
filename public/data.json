@@ -14179,6 +14179,13 @@
       "type": "email",
       "text": "Ask for feedback to Wim 13/10/26",
       "date": "2026-10-13"
+    },
+    {
+      "id": "comment-1748a158-4986-485a-b574-5a91418ea60b",
+      "projectId": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
+      "type": "email",
+      "text": "I have send an email to Anders regarding AL Solutions and APS 13/10/26",
+      "date": "2026-10-13"
     }
   ]
 }
