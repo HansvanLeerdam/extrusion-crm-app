@@ -1789,6 +1789,12 @@
           "position": "President & CEO",
           "email": "tmartini@apexextrusions.ca",
           "phone": ""
+        },
+        {
+          "contact": "Greg Baker",
+          "position": "Engineer",
+          "email": "gbaker@apexextrusions.ca",
+          "phone": "+16043095651"
         }
       ],
       "details": {
@@ -12965,6 +12971,31 @@
       ],
       "details": {
         "address": "Piece Z13 – T15 – Engineering Square – Northern Expansions of the Industrial Zones – 6th of October City",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1791888950311",
+      "name": "ICB-WE",
+      "country": "Netherlands",
+      "clientType": "Consultant",
+      "contacts": [
+        {
+          "contact": "Christele Bouyer",
+          "position": "Co-CEO",
+          "email": "Christele.Bouyer@icbwe.com",
+          "phone": "+31615140240"
+        },
+        {
+          "contact": "Johan van Putten",
+          "position": "Co-CEO",
+          "email": "johan.van.putten@icbwe.com",
+          "phone": "+31615668257"
+        }
+      ],
+      "details": {
+        "address": "",
         "notes": "",
         "notebook": ""
       }
