@@ -5625,13 +5625,19 @@
           "contact": "Roel Kersten",
           "position": "Extrusion technology consultant",
           "email": "roel.kersten@mifa.nl",
-          "phone": ""
+          "phone": "+31654045262"
         },
         {
           "contact": "Theo Jansen",
           "position": "Dieshop Manager",
           "email": "theo.jansen@mifa.nl",
           "phone": ""
+        },
+        {
+          "contact": "Erno Schouten",
+          "position": "Assistant Manager Extrusion",
+          "email": "erno.schouren@mifa.nl",
+          "phone": "+31651434174"
         }
       ],
       "details": {
@@ -13571,6 +13577,15 @@
       "productId": "Software",
       "startDate": "2026-10-06",
       "status": "Send offer"
+    },
+    {
+      "id": "project-176de3ca-7c98-4a37-b1cd-89e3961bc016",
+      "name": "Webinar",
+      "clientId": "477",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-12-03",
+      "status": "Confirmed"
     }
   ],
   "followups": [
@@ -13861,6 +13876,15 @@
       "productId": "Software",
       "nextDate": "2026-10-19",
       "action": "Send info"
+    },
+    {
+      "id": "followup-39a9bafb-64c9-4981-8cbc-7978f3fc1d03",
+      "clientId": "477",
+      "projectId": "project-176de3ca-7c98-4a37-b1cd-89e3961bc016",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-10-20",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -14038,6 +14062,27 @@
       "type": "note",
       "text": "I have send info regarding new press and casthouse + info regarding smaller press than a 10-inch.",
       "date": "2026-10-12"
+    },
+    {
+      "id": "comment-b986f7c1-36ef-4731-a91f-fec782e313fe",
+      "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
+      "type": "offer",
+      "text": "I have send the offer on the 13/10/2026",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "comment-606fc21e-3a5e-47b4-8338-f145ea5917c4",
+      "projectId": "project-d6e57097-1e0d-41db-80aa-369e2fdea8aa",
+      "type": "offer",
+      "text": "I have send the offer on the 13/10/2026",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "comment-1f295919-16b1-4b4a-88af-d0d5035340c1",
+      "projectId": "project-f5c11e07-f210-476e-acb6-3bd4992ebfdb",
+      "type": "offer",
+      "text": "Have send the offer on the 13/10/2026",
+      "date": "2026-10-13"
     }
   ]
 }
