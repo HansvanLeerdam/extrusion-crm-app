@@ -7001,13 +7001,19 @@
           "contact": "Paulo Simões",
           "position": "Owner",
           "email": "paulo.simoes@refal.pt",
-          "phone": ""
+          "phone": "+351936147397"
         },
         {
           "contact": "Dinis Antunes",
           "position": "Production Engineer",
           "email": "",
           "phone": ""
+        },
+        {
+          "contact": "Maribel Simões",
+          "position": "Finance Director",
+          "email": "maribel.simoes@refal.pt",
+          "phone": "+351914510813"
         }
       ],
       "details": {
@@ -13010,6 +13016,25 @@
           "position": "Co-CEO",
           "email": "johan.van.putten@icbwe.com",
           "phone": "+31615668257"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
+    },
+    {
+      "id": "client-1791910287830",
+      "name": "Kautec Solutions S.L.",
+      "country": "Spain",
+      "clientType": "Manufacturer",
+      "contacts": [
+        {
+          "contact": "Mario Crocamo",
+          "position": "Area Sales Manager",
+          "email": "mariocrocamo@kautec.net",
+          "phone": "+34683386295"
         }
       ],
       "details": {
