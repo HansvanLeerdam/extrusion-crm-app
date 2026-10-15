@@ -13648,7 +13648,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-16",
-      "action": "Ask to sign contract"
+      "action": "Sendn new offer"
     },
     {
       "id": "followup-ceb71e6a-aec1-406c-89e6-b0901149b9a0",
@@ -14177,6 +14177,13 @@
       "type": "email",
       "text": "I have send an email to Anders regarding AL Solutions and APS 13/10/26",
       "date": "2026-10-13"
+    },
+    {
+      "id": "comment-2b7fc815-9794-4887-b37d-8e6087c6b8ae",
+      "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
+      "type": "note",
+      "text": "Juan will send new updated offer 15/10",
+      "date": "2026-10-15"
     }
   ]
 }
