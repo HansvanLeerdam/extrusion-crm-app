@@ -7976,7 +7976,7 @@
         {
           "contact": "Manuel Ponce Marco",
           "position": "Owner",
-          "email": "central@aluval.es",
+          "email": "mp11@aluval.es",
           "phone": ""
         },
         {
@@ -13649,15 +13649,6 @@
       "productId": "Software",
       "nextDate": "2026-10-16",
       "action": "Ask to sign contract"
-    },
-    {
-      "id": "followup-4fb7ee96-00b8-4ee2-9be3-f6d1d25f0151",
-      "clientId": "347",
-      "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
-      "partnerId": "3",
-      "productId": "Die Oven",
-      "nextDate": "2026-10-13",
-      "action": "Ask for die dimensions"
     },
     {
       "id": "followup-ceb71e6a-aec1-406c-89e6-b0901149b9a0",
