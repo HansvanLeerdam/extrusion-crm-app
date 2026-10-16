@@ -13654,7 +13654,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-16",
-      "action": "Sendn new offer"
+      "action": "Send new offer"
     },
     {
       "id": "followup-ceb71e6a-aec1-406c-89e6-b0901149b9a0",
@@ -13707,8 +13707,8 @@
       "projectId": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
-      "action": "Send offer"
+      "nextDate": "2026-10-23",
+      "action": "Waiting for reply"
     },
     {
       "id": "followup-c0a4e14c-1225-4d91-9442-0981828921ff",
@@ -13743,8 +13743,8 @@
       "projectId": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
-      "action": "Send offer"
+      "nextDate": "2026-10-23",
+      "action": "Waiting for reply"
     },
     {
       "id": "followup-e920d19f-f947-4c5b-b914-a1946dd56147",
@@ -13753,7 +13753,7 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-18",
-      "action": "Send offer"
+      "action": "Waiting for reply"
     },
     {
       "id": "followup-5a700176-c3d8-47a8-9939-7afb2f1dfed2",
@@ -13789,7 +13789,7 @@
       "partnerId": "1",
       "productId": null,
       "nextDate": "2026-10-18",
-      "action": "Send offer MPC"
+      "action": "Waiting for reply"
     },
     {
       "id": "followup-7b99e2dc-d17b-4e68-ad2d-f05bc6cc8f28",
@@ -13833,8 +13833,8 @@
       "projectId": "project-a8d82668-275e-43f8-a630-4ab5f4161b0d",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
-      "action": "Send offer"
+      "nextDate": "2026-10-23",
+      "action": "Waiting for reply"
     },
     {
       "id": "followup-6bddc859-04b6-4b75-8a94-952827743db6",
@@ -13869,8 +13869,8 @@
       "projectId": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
-      "action": "Send offer"
+      "nextDate": "2026-10-23",
+      "action": "Waiting for reply"
     },
     {
       "id": "followup-e34f3e4a-88e5-40ff-bce3-bedfdad81809",
@@ -13934,15 +13934,6 @@
       "productId": "Training",
       "nextDate": "2026-11-26",
       "action": "Trial Webinar"
-    },
-    {
-      "id": "followup-965cb24c-cd05-4ecb-a6e7-7469946909a8",
-      "clientId": "518",
-      "projectId": "project-ba6a1453-da3a-4e33-ae21-ac008f7f4f97",
-      "partnerId": "11",
-      "productId": "Extrusion",
-      "nextDate": "2026-10-20",
-      "action": "Ask for feedback"
     }
   ],
   "projectComments": [
@@ -14203,6 +14194,27 @@
       "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
       "type": "email",
       "text": "I have send the email promoting AL Solutions and APS 16/10/26",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "comment-635cda32-527a-4c2b-9993-2459b4897d3c",
+      "projectId": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
+      "type": "email",
+      "text": "I have send the questionnaire on 15/10/26",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "comment-eadc5805-6a2f-465d-a9d4-a70563eac35f",
+      "projectId": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
+      "type": "email",
+      "text": "I have send an email providing info regarding APS and my workshops 16/10",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "comment-ffcd761b-792e-4a38-a8b8-1ff5d4a170e9",
+      "projectId": "project-a8d82668-275e-43f8-a630-4ab5f4161b0d",
+      "type": "email",
+      "text": "Email was send regarding APS and AL Solutions 16/10",
       "date": "2026-10-16"
     }
   ]
