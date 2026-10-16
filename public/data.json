@@ -13698,8 +13698,8 @@
       "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2026-10-16",
-      "action": "Ask for feedback"
+      "nextDate": "2026-10-23",
+      "action": "Waiting for reply"
     },
     {
       "id": "followup-9bac0452-c9aa-4947-8ed5-b1b7520cc883",
@@ -14190,6 +14190,20 @@
       "type": "note",
       "text": "Juan will send new updated offer 15/10",
       "date": "2026-10-15"
+    },
+    {
+      "id": "comment-2a81f4b6-c176-44b7-84e0-51d93d4572e8",
+      "projectId": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
+      "type": "email",
+      "text": "I have send another email to Andreas Front regarding the training 16/10/26",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "comment-7cc88bd3-053b-4add-a531-85cd76104445",
+      "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
+      "type": "email",
+      "text": "I have send the email promoting AL Solutions and APS 16/10/26",
+      "date": "2026-10-16"
     }
   ]
 }
