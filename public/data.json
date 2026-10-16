@@ -13463,7 +13463,7 @@
       "partnerId": "2",
       "productId": "Software",
       "startDate": "2026-10-07",
-      "status": "Send offer"
+      "status": "Wating for reply"
     },
     {
       "id": "project-4c00860f-7721-48b3-96d2-50b62a8d149a",
@@ -14215,6 +14215,13 @@
       "projectId": "project-a8d82668-275e-43f8-a630-4ab5f4161b0d",
       "type": "email",
       "text": "Email was send regarding APS and AL Solutions 16/10",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "comment-62d492db-0900-40f2-a6f4-d5fca3d2929a",
+      "projectId": "project-52159043-0624-4c30-8410-d45abdfd55f3",
+      "type": "email",
+      "text": "I have send an email with asking for real interest 16/10/26",
       "date": "2026-10-16"
     }
   ]
