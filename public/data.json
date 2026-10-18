@@ -13644,6 +13644,33 @@
       "productId": "Extrusion",
       "startDate": "2026-09-29",
       "status": "Follow up"
+    },
+    {
+      "id": "project-24923286-6387-4123-898f-d2e9db53850c",
+      "name": "APS",
+      "clientId": "199",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-18",
+      "status": "Email was send"
+    },
+    {
+      "id": "project-8aa54ceb-bb95-472a-b34a-c80e8935d097",
+      "name": "APS",
+      "clientId": "595",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-18",
+      "status": "Email was send"
+    },
+    {
+      "id": "project-7e5ec289-45e1-446b-a221-0b9b30f23a3c",
+      "name": "APS",
+      "clientId": "47",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-18",
+      "status": "Email was send"
     }
   ],
   "followups": [
@@ -13934,6 +13961,33 @@
       "productId": "Training",
       "nextDate": "2026-11-26",
       "action": "Trial Webinar"
+    },
+    {
+      "id": "followup-085c5fe9-8fd2-4a52-80c0-a14c48e0ca1e",
+      "clientId": "199",
+      "projectId": "project-24923286-6387-4123-898f-d2e9db53850c",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-25",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-19c46232-90ff-4083-ab8a-916e752dd6b0",
+      "clientId": "595",
+      "projectId": "project-8aa54ceb-bb95-472a-b34a-c80e8935d097",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-25",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-bd6d308a-7a19-4676-9b0b-00569dfb38ee",
+      "clientId": "47",
+      "projectId": "project-7e5ec289-45e1-446b-a221-0b9b30f23a3c",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-25",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -14230,6 +14284,13 @@
       "type": "email",
       "text": "I have send the email with APS and my services 16/10/26",
       "date": "2026-10-16"
+    },
+    {
+      "id": "comment-81519968-154e-4bcb-aada-d1ca032b27d9",
+      "projectId": "project-1c7a2b69-87c7-4a45-9d00-fbd5718218a7",
+      "type": "email",
+      "text": "Email has been send to Jalila 18/10/26",
+      "date": "2026-10-18"
     }
   ]
 }
