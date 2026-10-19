@@ -1367,6 +1367,12 @@
           "position": "CEO",
           "email": "diederik.schodts@jonckheeresub.com",
           "phone": "+32 51 23 28 04"
+        },
+        {
+          "contact": "Stefaan Eggermont",
+          "position": "Responsible Engineering & Process",
+          "email": "stefaan.eggermont@jonckheeresub.com",
+          "phone": "+3251232816"
         }
       ],
       "details": {
@@ -13545,7 +13551,7 @@
       "partnerId": "2",
       "productId": "Software",
       "startDate": "2026-10-01",
-      "status": "Set-up video call"
+      "status": "Email was send"
     },
     {
       "id": "project-a8d82668-275e-43f8-a630-4ab5f4161b0d",
