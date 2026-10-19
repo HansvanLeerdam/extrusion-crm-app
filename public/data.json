@@ -13054,6 +13054,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1792423037119",
+      "name": "McKechnie Aluminium",
+      "country": "New Zealand",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Dave Slomp",
+          "position": "Managing Director ",
+          "email": "Dave.Slomp@mckechnie.co.nz",
+          "phone": "+64 27 240 0511 "
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
@@ -13671,6 +13690,15 @@
       "productId": "Software",
       "startDate": "2026-10-18",
       "status": "Email was send"
+    },
+    {
+      "id": "project-95537bd4-2d10-4a4a-a2a2-0dc3aa58caf1",
+      "name": "APS",
+      "clientId": "325",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-19",
+      "status": "Waiting reply"
     }
   ],
   "followups": [
@@ -13987,6 +14015,15 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-25",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-04e7af49-f86b-4608-b6a2-99017309cb77",
+      "clientId": "325",
+      "projectId": "project-95537bd4-2d10-4a4a-a2a2-0dc3aa58caf1",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-26",
       "action": "Initial follow-up for new project"
     }
   ],
