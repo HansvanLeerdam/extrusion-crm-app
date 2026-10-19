@@ -7255,7 +7255,7 @@
       ],
       "details": {
         "address": "Milcov nr. 1, DJ546, 230077 Slatina, Romania",
-        "notes": "",
+        "notes": "3 Presses - today ALRO Extrusion SLR",
         "notebook": ""
       }
     },
@@ -13714,6 +13714,15 @@
       "productId": "Software",
       "startDate": "2026-10-19",
       "status": "Waiting for reply"
+    },
+    {
+      "id": "project-33b4b09f-297c-4d88-aeff-2f45a9af819b",
+      "name": "New profiles",
+      "clientId": "client-1790349042021",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "startDate": "2026-10-19",
+      "status": "Follw up"
     }
   ],
   "followups": [
@@ -13723,7 +13732,7 @@
       "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-20",
+      "nextDate": "2026-10-26",
       "action": "Send new offer"
     },
     {
@@ -13786,7 +13795,7 @@
       "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
+      "nextDate": "2026-10-23",
       "action": "Send offer"
     },
     {
@@ -13795,7 +13804,7 @@
       "projectId": "project-b1cfade6-0343-472f-b1c2-ac860d3437b2",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
+      "nextDate": "2026-10-21",
       "action": "Plan visit"
     },
     {
@@ -13804,7 +13813,7 @@
       "projectId": "project-fec614a7-9195-4506-acd1-f7e06bc00fb2",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
+      "nextDate": "2026-10-21",
       "action": "Plan visit if interested"
     },
     {
@@ -14045,6 +14054,24 @@
       "id": "followup-a1c2ee0c-7b48-4432-ab8c-832f4fd3658c",
       "clientId": "client-1792423037119",
       "projectId": "project-d1ec1386-0d70-4efc-a0e6-eb6df095eee8",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-26",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-23d848d4-5484-475b-9daf-0a72358882e6",
+      "clientId": "client-1790349042021",
+      "projectId": "project-33b4b09f-297c-4d88-aeff-2f45a9af819b",
+      "partnerId": "11",
+      "productId": "Extrusion",
+      "nextDate": "2026-10-26",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-e825fda5-2eb8-4d11-b110-e28cc80a3df1",
+      "clientId": "client-1791706537471",
+      "projectId": "project-a5905fc7-eba5-472a-b444-7b7cc198d475",
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-10-26",
