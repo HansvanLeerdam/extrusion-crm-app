@@ -14386,6 +14386,13 @@
       "type": "offer",
       "text": "I have send the offer for my workshop 20/10/26",
       "date": "2026-10-20"
+    },
+    {
+      "id": "comment-3c86cc70-ed7a-490e-b9a8-c07574babf2a",
+      "projectId": "project-c8c33666-0f4a-44a3-8b6e-9346b7e71972",
+      "type": "email",
+      "text": "Email has been send with questions 20/10/26",
+      "date": "2026-10-20"
     }
   ]
 }
