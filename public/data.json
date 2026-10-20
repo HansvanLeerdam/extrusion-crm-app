@@ -14379,6 +14379,13 @@
       "type": "email",
       "text": "Email has been send to Jalila 18/10/26",
       "date": "2026-10-18"
+    },
+    {
+      "id": "comment-1fa7745e-3a27-4862-afc1-39e626aa3922",
+      "projectId": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
+      "type": "offer",
+      "text": "I have send the offer for my workshop 20/10/26",
+      "date": "2026-10-20"
     }
   ]
 }
