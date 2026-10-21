@@ -13915,7 +13915,7 @@
       "projectId": "project-44749c08-0752-4ad4-af13-1831e1995e4b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
+      "nextDate": "2026-10-26",
       "action": "Set-up video call"
     },
     {
@@ -13942,8 +13942,8 @@
       "projectId": "project-7b22a0f9-5946-46e4-81ed-5b091f79f893",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-18",
-      "action": "Send offer"
+      "nextDate": "2026-10-30",
+      "action": "Offer was sent"
     },
     {
       "id": "followup-3b755b25-9987-4964-af77-fee7813c35e5",
@@ -13978,8 +13978,8 @@
       "projectId": "project-c8c33666-0f4a-44a3-8b6e-9346b7e71972",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-19",
-      "action": "Send offer"
+      "nextDate": "2026-12-14",
+      "action": "Training at later stage"
     },
     {
       "id": "followup-5d872db2-2f2a-464f-9b01-14a364722665",
@@ -13987,7 +13987,7 @@
       "projectId": "project-eb304e1a-e9e1-4913-8d47-46409c6f2959",
       "partnerId": "3",
       "productId": "Extrusion Press Line",
-      "nextDate": "2026-10-19",
+      "nextDate": "2026-10-26",
       "action": "Send offer"
     },
     {
@@ -13996,8 +13996,8 @@
       "projectId": "project-b0f74265-4b3c-4730-92e2-fc70f9f5ca08",
       "partnerId": "8",
       "productId": "Die Splitting Machine",
-      "nextDate": "2026-10-19",
-      "action": "Send offer"
+      "nextDate": "2026-10-23",
+      "action": "Waiting for reply"
     },
     {
       "id": "followup-6a90cf10-1cde-4e79-82c1-606f9b28fd73",
@@ -14005,7 +14005,7 @@
       "projectId": "project-f067e844-ee10-4559-b695-04c0512d1ec8",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-19",
+      "nextDate": "2026-10-23",
       "action": "Send info"
     },
     {
@@ -14014,7 +14014,7 @@
       "projectId": "project-b2dddc3f-e353-45ef-a738-1ecbc4d92673",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-19",
+      "nextDate": "2026-10-28",
       "action": "Send info"
     },
     {
@@ -14405,6 +14405,13 @@
       "type": "email",
       "text": "Email has been send with questions 20/10/26",
       "date": "2026-10-20"
+    },
+    {
+      "id": "comment-39abcca4-0dd9-4edf-ae2f-c295fc641904",
+      "projectId": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
+      "type": "note",
+      "text": "I have send access to demo on 21/10/26",
+      "date": "2026-10-21"
     }
   ]
 }
