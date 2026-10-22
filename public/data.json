@@ -13735,6 +13735,15 @@
       "productId": "Extrusion",
       "startDate": "2026-10-19",
       "status": "Follw up"
+    },
+    {
+      "id": "project-54b3c2f2-7e58-49ea-8cee-5740041d937f",
+      "name": "APS",
+      "clientId": "client-1791888950311",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-10-20",
+      "status": "Collaboration"
     }
   ],
   "followups": [
@@ -14088,6 +14097,15 @@
       "productId": "Software",
       "nextDate": "2026-10-26",
       "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-43f038e6-5141-4637-b22e-17ebbc4618e0",
+      "clientId": "client-1791888950311",
+      "projectId": "project-54b3c2f2-7e58-49ea-8cee-5740041d937f",
+      "partnerId": "2",
+      "productId": "Software",
+      "nextDate": "2026-10-29",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
@@ -14412,6 +14430,62 @@
       "type": "note",
       "text": "I have send access to demo on 21/10/26",
       "date": "2026-10-21"
+    },
+    {
+      "id": "comment-03d6a8a2-781a-44fd-8c61-44ba659c076d",
+      "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
+      "type": "note",
+      "text": "I have send access to demo on 14/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-bb9d4f95-c2a6-44bd-b1b0-e3e721d16ef7",
+      "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
+      "type": "offer",
+      "text": "Offer was send on 19/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-9ab89179-9f36-46df-9f0a-fa24f0684c0c",
+      "projectId": "project-d6e57097-1e0d-41db-80aa-369e2fdea8aa",
+      "type": "note",
+      "text": "I have send access to demo on 21/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-177ea1ef-ccaa-43cb-8b41-b0630ae71bd6",
+      "projectId": "project-b1cfade6-0343-472f-b1c2-ac860d3437b2",
+      "type": "email",
+      "text": "Sent him an email for video call on 21/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-9bda49eb-dc41-404f-ad9c-b3259e7600ea",
+      "projectId": "project-5b526927-b13e-4bd1-a782-2b88849aad7a",
+      "type": "note",
+      "text": "I have send access to demo on 22/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-f5a6fd25-c9dd-41a0-81fe-f8ac11096eb0",
+      "projectId": "project-7b22a0f9-5946-46e4-81ed-5b091f79f893",
+      "type": "offer",
+      "text": "Offer was send on 19/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-8e27c9ed-9a90-4777-b00d-4fbfeecd0e97",
+      "projectId": "project-54b3c2f2-7e58-49ea-8cee-5740041d937f",
+      "type": "note",
+      "text": "We had a meeting on 20/10/26 discussing collaboration",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-fc8d4a7b-f788-42f1-bd55-28401f4f29d9",
+      "projectId": "project-54b3c2f2-7e58-49ea-8cee-5740041d937f",
+      "type": "note",
+      "text": "I have send access to demo on 20/10/26",
+      "date": "2026-10-22"
     }
   ]
 }
