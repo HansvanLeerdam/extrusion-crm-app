@@ -13759,6 +13759,15 @@
       "productId": "Software",
       "startDate": "2026-10-20",
       "status": "Collaboration"
+    },
+    {
+      "id": "project-abe8ec09-3e3b-45b7-b1b2-ef929452db44",
+      "name": "Training",
+      "clientId": "347",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-10-22",
+      "status": "Send email"
     }
   ],
   "followups": [
@@ -14119,6 +14128,15 @@
       "projectId": "project-54b3c2f2-7e58-49ea-8cee-5740041d937f",
       "partnerId": "2",
       "productId": "Software",
+      "nextDate": "2026-10-29",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-4899a8fd-094a-4da7-acae-8f01d25ab838",
+      "clientId": "347",
+      "projectId": "project-abe8ec09-3e3b-45b7-b1b2-ef929452db44",
+      "partnerId": "1",
+      "productId": "Training",
       "nextDate": "2026-10-29",
       "action": "Initial follow-up for new project"
     }
@@ -14507,6 +14525,13 @@
       "projectId": "project-eb304e1a-e9e1-4913-8d47-46409c6f2959",
       "type": "email",
       "text": "Email sent with info regarding APS on 22/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-41a07401-09ce-4f0a-99a1-da20a3185d4a",
+      "projectId": "project-abe8ec09-3e3b-45b7-b1b2-ef929452db44",
+      "type": "email",
+      "text": "Email was send to Paco on 22/10/26",
       "date": "2026-10-22"
     }
   ]
