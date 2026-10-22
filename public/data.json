@@ -13698,15 +13698,6 @@
       "status": "Confirmed"
     },
     {
-      "id": "project-ba6a1453-da3a-4e33-ae21-ac008f7f4f97",
-      "name": "Profiles",
-      "clientId": "518",
-      "partnerId": "11",
-      "productId": "Extrusion",
-      "startDate": "2026-09-29",
-      "status": "Follow up"
-    },
-    {
       "id": "project-24923286-6387-4123-898f-d2e9db53850c",
       "name": "APS",
       "clientId": "199",
@@ -14351,13 +14342,6 @@
       "date": "2026-10-13"
     },
     {
-      "id": "comment-2d438af1-af84-41e9-9669-417e1016f45c",
-      "projectId": "project-ba6a1453-da3a-4e33-ae21-ac008f7f4f97",
-      "type": "email",
-      "text": "Ask for feedback to Wim 13/10/26",
-      "date": "2026-10-13"
-    },
-    {
       "id": "comment-1748a158-4986-485a-b574-5a91418ea60b",
       "projectId": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
       "type": "email",
@@ -14463,13 +14447,6 @@
       "date": "2026-10-22"
     },
     {
-      "id": "comment-9ab89179-9f36-46df-9f0a-fa24f0684c0c",
-      "projectId": "project-d6e57097-1e0d-41db-80aa-369e2fdea8aa",
-      "type": "note",
-      "text": "I have send access to demo on 21/10/26",
-      "date": "2026-10-22"
-    },
-    {
       "id": "comment-177ea1ef-ccaa-43cb-8b41-b0630ae71bd6",
       "projectId": "project-b1cfade6-0343-472f-b1c2-ac860d3437b2",
       "type": "email",
@@ -14509,6 +14486,20 @@
       "projectId": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
       "type": "email",
       "text": "Email was send with info on 16/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-d1685ea7-b6cf-406c-a374-ee473dbbc467",
+      "projectId": "project-899aaee5-1446-4dcb-9da7-f9802517f3b5",
+      "type": "email",
+      "text": "I have send access to DEMO on 22/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-6b0d9d55-485a-4871-9936-9fe94de22b3d",
+      "projectId": "project-d6e57097-1e0d-41db-80aa-369e2fdea8aa",
+      "type": "email",
+      "text": "I have send access to DEMO on 22/10/26",
       "date": "2026-10-22"
     }
   ]
