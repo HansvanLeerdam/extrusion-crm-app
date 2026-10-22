@@ -3449,6 +3449,12 @@
           "position": "Quality Manager",
           "email": "p.plakotaris@elvial.gr",
           "phone": ""
+        },
+        {
+          "contact": "Yiannis Mertzios",
+          "position": "Export Manager",
+          "email": "y.mertzios@elvial.gr",
+          "phone": "+306976444239"
         }
       ],
       "details": {
@@ -14212,13 +14218,6 @@
       "date": "2026-10-12"
     },
     {
-      "id": "comment-d46f11e6-b6d2-443a-9117-c19a75005548",
-      "projectId": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
-      "type": "note",
-      "text": "Important extruder in Greece",
-      "date": "2026-10-12"
-    },
-    {
       "id": "comment-4266c27e-58fe-4503-9707-44b5c80f91a7",
       "projectId": "project-ac38b517-c212-41f0-9ec3-122fd167afcd",
       "type": "note",
@@ -14503,6 +14502,13 @@
       "projectId": "project-54b3c2f2-7e58-49ea-8cee-5740041d937f",
       "type": "note",
       "text": "I have send access to demo on 20/10/26",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "comment-7a765815-5dd3-4f55-b182-4b02c5b48b8a",
+      "projectId": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
+      "type": "email",
+      "text": "Email was send with info on 16/10/26",
       "date": "2026-10-22"
     }
   ]
