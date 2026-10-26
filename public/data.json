@@ -14588,6 +14588,13 @@
       "type": "email",
       "text": "Follow up email was send on 26/10/26",
       "date": "2026-10-26"
+    },
+    {
+      "id": "comment-f5de42b6-b4d3-4565-9b5f-8c3864a04616",
+      "projectId": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
+      "type": "email",
+      "text": "I have send a follow up email to Anders and Andreas on 26/10/26",
+      "date": "2026-10-26"
     }
   ]
 }
