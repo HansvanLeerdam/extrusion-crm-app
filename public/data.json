@@ -13920,7 +13920,7 @@
       "projectId": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-23",
+      "nextDate": "2026-11-02",
       "action": "Send offer"
     },
     {
@@ -14580,6 +14580,13 @@
       "projectId": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
       "type": "email",
       "text": "Follow up email was send regarding APS on 26/10/26",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "comment-7cde00fe-5da9-422f-9ff0-94c51645f10d",
+      "projectId": "project-a8d82668-275e-43f8-a630-4ab5f4161b0d",
+      "type": "email",
+      "text": "Follow up email was send on 26/10/26",
       "date": "2026-10-26"
     }
   ]
