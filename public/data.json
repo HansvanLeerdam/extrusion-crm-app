@@ -14568,6 +14568,13 @@
       "type": "email",
       "text": "I have send follow up email regarding APS and training on 26/10/26",
       "date": "2026-10-26"
+    },
+    {
+      "id": "comment-63dc14dc-96fd-48e4-a4e6-93ed38db02d0",
+      "projectId": "project-eb304e1a-e9e1-4913-8d47-46409c6f2959",
+      "type": "email",
+      "text": "Follow up email sent regarding questionnaire and demo on 26/10/26",
+      "date": "2026-10-26"
     }
   ]
 }
