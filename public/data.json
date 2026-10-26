@@ -13831,7 +13831,7 @@
       "projectId": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-23",
+      "nextDate": "2026-11-02",
       "action": "Waiting for reply"
     },
     {
@@ -14546,6 +14546,20 @@
       "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
       "type": "email",
       "text": "Follow up email was send on 26/10/26",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "comment-f9188367-43b0-4234-aaf6-d394dc31db2d",
+      "projectId": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
+      "type": "email",
+      "text": "Send follow up email asking for feedback on demo and questionnaire on 26/10/26",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "comment-e1b78cf4-8c5c-4a85-be8e-3d9dd8c6aba3",
+      "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
+      "type": "email",
+      "text": "I have send the follow up email asking for the questionnaire and their findings on 26/10/26",
       "date": "2026-10-26"
     }
   ]
