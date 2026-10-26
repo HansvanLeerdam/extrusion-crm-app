@@ -13840,7 +13840,7 @@
       "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-23",
+      "nextDate": "2026-11-02",
       "action": "Send offer"
     },
     {
@@ -13867,7 +13867,7 @@
       "projectId": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-23",
+      "nextDate": "2026-11-02",
       "action": "Waiting for reply"
     },
     {
@@ -14560,6 +14560,13 @@
       "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
       "type": "email",
       "text": "I have send the follow up email asking for the questionnaire and their findings on 26/10/26",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "comment-1930f582-c5f0-49a1-9cc2-76678b36e2c7",
+      "projectId": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
+      "type": "email",
+      "text": "I have send follow up email regarding APS and training on 26/10/26",
       "date": "2026-10-26"
     }
   ]
