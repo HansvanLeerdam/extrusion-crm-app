@@ -3309,31 +3309,6 @@
       }
     },
     {
-      "id": "94",
-      "name": "Alumil Greece",
-      "country": "Greece",
-      "clientType": "Extruder",
-      "contacts": [
-        {
-          "contact": "Giannis (John) Theodoridis",
-          "position": "Dieshop Manager",
-          "email": "i.theodoridis@alumil.com",
-          "phone": "+30 2341079323"
-        },
-        {
-          "contact": "Sotirios Voulgarakis",
-          "position": "General Manager",
-          "email": "s.voulgarakis@alumil.com",
-          "phone": ""
-        }
-      ],
-      "details": {
-        "address": "Gogousi 8, 56429, Greece",
-        "notes": "",
-        "notebook": ""
-      }
-    },
-    {
       "id": "96",
       "name": "Alumil S.A.",
       "country": "Greece",
@@ -3368,6 +3343,12 @@
           "position": "General Manager",
           "email": "s.voulgarakis@alumil.com",
           "phone": ""
+        },
+        {
+          "contact": "Vaggelis Giarmas",
+          "position": "Production Director",
+          "email": "v.giarmas@alumil.com",
+          "phone": "+30 6951000073"
         }
       ],
       "details": {
