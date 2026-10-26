@@ -3354,13 +3354,19 @@
         {
           "contact": "Giannis Theodoridis",
           "position": "Dieshop Manager",
-          "email": "g.theodoridis@alumil.com",
-          "phone": ""
+          "email": "i.theodoridis@alumil.com",
+          "phone": "+30 2341079323"
         },
         {
           "contact": "Stavros Arvanitis",
           "position": "Extrusion Manager",
           "email": "s.arvanitis@alumil.com",
+          "phone": ""
+        },
+        {
+          "contact": "Sotirios Voulgarakis",
+          "position": "General Manager",
+          "email": "s.voulgarakis@alumil.com",
           "phone": ""
         }
       ],
