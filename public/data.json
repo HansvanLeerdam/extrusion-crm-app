@@ -13822,7 +13822,7 @@
       "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2026-10-23",
+      "nextDate": "2026-11-02",
       "action": "Waiting for reply"
     },
     {
@@ -13885,7 +13885,7 @@
       "projectId": "project-52159043-0624-4c30-8410-d45abdfd55f3",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-22",
+      "nextDate": "2026-11-02",
       "action": "Waiting for reply"
     },
     {
@@ -14533,6 +14533,20 @@
       "type": "email",
       "text": "Email was send to Paco on 22/10/26",
       "date": "2026-10-22"
+    },
+    {
+      "id": "comment-c790f814-364d-4404-a2ef-a61672dd31be",
+      "projectId": "project-52159043-0624-4c30-8410-d45abdfd55f3",
+      "type": "email",
+      "text": "Fllow up email was send on 26/10/26",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "comment-9867fa30-d0f3-4f56-8cee-cb0a3eabb02c",
+      "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
+      "type": "email",
+      "text": "Follow up email was send on 26/10/26",
+      "date": "2026-10-26"
     }
   ]
 }
