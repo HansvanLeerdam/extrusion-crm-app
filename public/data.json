@@ -14621,6 +14621,13 @@
       "type": "email",
       "text": "Have send them >15 analyses to compare with their data on 30/10/26",
       "date": "2026-10-30"
+    },
+    {
+      "id": "comment-a89b44c9-d51f-4ca1-a3be-3f4e5e74e029",
+      "projectId": "project-33b4b09f-297c-4d88-aeff-2f45a9af819b",
+      "type": "offer",
+      "text": "Prices of the dies were send on the 26/10/26",
+      "date": "2026-10-30"
     }
   ]
 }
