@@ -13798,6 +13798,15 @@
       "productId": "Training",
       "startDate": "2026-10-22",
       "status": "Send email"
+    },
+    {
+      "id": "project-564be180-44b6-47fb-a030-ccf9926185c0",
+      "name": "Collaboration",
+      "clientId": "client-1793627755253",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "startDate": "2026-11-11",
+      "status": "Meeting"
     }
   ],
   "followups": [
@@ -14169,6 +14178,15 @@
       "productId": "Training",
       "nextDate": "2026-10-29",
       "action": "Waiting for reply"
+    },
+    {
+      "id": "followup-7be2cb2b-d03f-400f-93f4-a102acadd632",
+      "clientId": "client-1793627755253",
+      "projectId": "project-564be180-44b6-47fb-a030-ccf9926185c0",
+      "partnerId": "1",
+      "productId": "Consulting",
+      "nextDate": "2026-11-09",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
