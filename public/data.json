@@ -13114,6 +13114,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1793627755253",
+      "name": "Interpro",
+      "country": "Spain",
+      "clientType": "Consultant",
+      "contacts": [
+        {
+          "contact": "Pedro Pratdesaba",
+          "position": "Owner",
+          "email": "pp@uxpo.pro",
+          "phone": "663834661"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
