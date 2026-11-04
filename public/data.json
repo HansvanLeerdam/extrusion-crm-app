@@ -2736,7 +2736,7 @@
       "id": "325",
       "name": "Exalpro GmbH",
       "country": "Germany",
-      "clientType": "Extruder",
+      "clientType": "End User",
       "contacts": [
         {
           "contact": "Matthias Krause",
@@ -13758,8 +13758,8 @@
       "id": "project-95537bd4-2d10-4a4a-a2a2-0dc3aa58caf1",
       "name": "APS",
       "clientId": "325",
-      "partnerId": "2",
-      "productId": "Software",
+      "partnerId": "1",
+      "productId": "Training",
       "startDate": "2026-10-19",
       "status": "Waiting reply"
     },
@@ -14129,8 +14129,8 @@
       "id": "followup-04e7af49-f86b-4608-b6a2-99017309cb77",
       "clientId": "325",
       "projectId": "project-95537bd4-2d10-4a4a-a2a2-0dc3aa58caf1",
-      "partnerId": "2",
-      "productId": "Software",
+      "partnerId": "1",
+      "productId": "Training",
       "nextDate": "2026-11-11",
       "action": "Waiting for reply"
     },
