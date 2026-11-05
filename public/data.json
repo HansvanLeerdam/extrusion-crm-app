@@ -13787,7 +13787,7 @@
       "clientId": "client-1791888950311",
       "partnerId": "2",
       "productId": "Software",
-      "startDate": "2026-10-20",
+      "startDate": "2026-11-13",
       "status": "Collaboration"
     },
     {
@@ -13951,7 +13951,7 @@
       "projectId": "project-f5c11e07-f210-476e-acb6-3bd4992ebfdb",
       "partnerId": "1",
       "productId": "Software",
-      "nextDate": "2026-11-04",
+      "nextDate": "2026-11-09",
       "action": "Waiting for reply"
     },
     {
@@ -13987,7 +13987,7 @@
       "projectId": "project-44749c08-0752-4ad4-af13-1831e1995e4b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-26",
+      "nextDate": "2026-11-02",
       "action": "Set-up video call"
     },
     {
@@ -14665,6 +14665,13 @@
       "type": "offer",
       "text": "Prices of the dies were send on the 26/10/26",
       "date": "2026-10-30"
+    },
+    {
+      "id": "comment-71e47e3f-2543-4189-9496-03fa8999f7a4",
+      "projectId": "project-54b3c2f2-7e58-49ea-8cee-5740041d937f",
+      "type": "note",
+      "text": "Video call on 4/11 - Make presentation and send Johan a collaborating contract",
+      "date": "2026-11-05"
     }
   ]
 }
