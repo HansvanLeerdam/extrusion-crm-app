@@ -13321,7 +13321,6 @@
   ],
   "products": [
     {
-      "partnerId": "",
       "partner": "Al Solutions",
       "items": [
         "Audit",
@@ -13333,14 +13332,12 @@
       ]
     },
     {
-      "partnerId": "",
       "partner": "Avanzate",
       "items": [
         "Software"
       ]
     },
     {
-      "partnerId": "",
       "partner": "EGE+Endustri",
       "items": [
         "Ageing Oven",
@@ -13358,21 +13355,18 @@
       ]
     },
     {
-      "partnerId": "",
       "partner": "Eroga Die",
       "items": [
         "Dies"
       ]
     },
     {
-      "partnerId": "",
       "partner": "Extrugasa",
       "items": [
         "Extrusion"
       ]
     },
     {
-      "partnerId": "",
       "partner": "LBB Systems",
       "items": [
         "Container Relining",
@@ -13380,28 +13374,24 @@
       ]
     },
     {
-      "partnerId": "",
       "partner": "Pafer",
       "items": [
         "Consumables"
       ]
     },
     {
-      "partnerId": "",
       "partner": "PX Automation",
       "items": [
         "Press Optimization"
       ]
     },
     {
-      "partnerId": "",
       "partner": "Saylan Teknik",
       "items": [
         "Die Cleaning Machine"
       ]
     },
     {
-      "partnerId": "",
       "partner": "Unterschütz",
       "items": [
         "Air Cooling Installation",
@@ -13413,7 +13403,6 @@
       ]
     },
     {
-      "partnerId": "",
       "partner": "WEFA",
       "items": [
         "CVD Coated Dies"
@@ -13816,7 +13805,7 @@
       "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-11",
       "action": "Send new offer"
     },
     {
@@ -13825,7 +13814,7 @@
       "projectId": "project-c819c91a-7571-41a9-b981-5f546e748c8d",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-30",
+      "nextDate": "2026-11-06",
       "action": "Ask for feedback"
     },
     {
@@ -13861,7 +13850,7 @@
       "projectId": "project-ade72ed4-5b35-4521-a305-fbd3df29d681",
       "partnerId": "1",
       "productId": "Consulting",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-09",
       "action": "Waiting for reply"
     },
     {
@@ -13870,7 +13859,7 @@
       "projectId": "project-58ffb798-60b1-4af8-b1ce-7bc37500e057",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-09",
       "action": "Waiting for reply"
     },
     {
@@ -13879,7 +13868,7 @@
       "projectId": "project-6ddbedea-b011-4bcd-b4ae-8a5e59f01857",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-09",
       "action": "Send offer"
     },
     {
@@ -13888,7 +13877,7 @@
       "projectId": "project-b1cfade6-0343-472f-b1c2-ac860d3437b2",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-28",
+      "nextDate": "2026-11-11",
       "action": "Plan visit"
     },
     {
@@ -13906,7 +13895,7 @@
       "projectId": "project-7334f9cb-4738-4f7e-8e5d-da94ff57e675",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-09",
       "action": "Waiting for reply"
     },
     {
@@ -13916,15 +13905,6 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-11-09",
-      "action": "Waiting for reply"
-    },
-    {
-      "id": "followup-5a700176-c3d8-47a8-9939-7afb2f1dfed2",
-      "clientId": "94",
-      "projectId": "project-52159043-0624-4c30-8410-d45abdfd55f3",
-      "partnerId": "2",
-      "productId": "Software",
-      "nextDate": "2026-11-02",
       "action": "Waiting for reply"
     },
     {
@@ -13942,7 +13922,7 @@
       "projectId": "project-6ecfc9d9-5d43-4564-9357-dd76f5407a54",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-23",
+      "nextDate": "2026-11-11",
       "action": "Send offer"
     },
     {
@@ -13960,7 +13940,7 @@
       "projectId": "project-d6f626e3-d12c-48c7-8192-fa69854e3e2e",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-09",
       "action": "Send offer"
     },
     {
@@ -13978,7 +13958,7 @@
       "projectId": "project-1c7a2b69-87c7-4a45-9d00-fbd5718218a7",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-23",
+      "nextDate": "2026-11-06",
       "action": "Send offer - Fadi"
     },
     {
@@ -13987,7 +13967,7 @@
       "projectId": "project-44749c08-0752-4ad4-af13-1831e1995e4b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-11",
       "action": "Set-up video call"
     },
     {
@@ -13996,7 +13976,7 @@
       "projectId": "project-a8d82668-275e-43f8-a630-4ab5f4161b0d",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-11",
       "action": "Waiting for reply"
     },
     {
@@ -14014,7 +13994,7 @@
       "projectId": "project-7b22a0f9-5946-46e4-81ed-5b091f79f893",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-10-30",
+      "nextDate": "2026-11-11",
       "action": "Offer was sent"
     },
     {
@@ -14032,7 +14012,7 @@
       "projectId": "project-01d566d9-6a43-4034-865e-4fd55cd6c408",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-04",
+      "nextDate": "2026-11-12",
       "action": "Waiting for reply"
     },
     {
@@ -14041,7 +14021,7 @@
       "projectId": "project-6cc91643-ecba-4ec9-9049-7c4216dcf58a",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-26",
+      "nextDate": "2026-11-13",
       "action": "Send info"
     },
     {
@@ -14086,7 +14066,7 @@
       "projectId": "project-b2dddc3f-e353-45ef-a738-1ecbc4d92673",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-04",
+      "nextDate": "2026-11-30",
       "action": "Send access to demo?"
     },
     {
@@ -14158,7 +14138,7 @@
       "projectId": "project-4f60ae19-9363-427d-a5f2-cbf09f810b1b",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-02",
+      "nextDate": "2026-11-13",
       "action": "Waiting for reply"
     },
     {
@@ -14167,7 +14147,7 @@
       "projectId": "project-54b3c2f2-7e58-49ea-8cee-5740041d937f",
       "partnerId": "2",
       "productId": "Software",
-      "nextDate": "2026-11-04",
+      "nextDate": "2026-11-13",
       "action": "Waiting for reply"
     },
     {
@@ -14176,7 +14156,7 @@
       "projectId": "project-abe8ec09-3e3b-45b7-b1b2-ef929452db44",
       "partnerId": "1",
       "productId": "Training",
-      "nextDate": "2026-10-29",
+      "nextDate": "2026-11-06",
       "action": "Waiting for reply"
     },
     {
