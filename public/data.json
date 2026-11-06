@@ -14665,6 +14665,13 @@
       "type": "email",
       "text": "Follow up email has been send to Jalila 06/11/26",
       "date": "2026-11-06"
+    },
+    {
+      "id": "comment-180018f6-d90d-4f25-a442-b8f781c33c11",
+      "projectId": "project-d1ec1386-0d70-4efc-a0e6-eb6df095eee8",
+      "type": "email",
+      "text": "Received email from Martin telling me they do not require any help. Asked him regarding APS 06/11/26",
+      "date": "2026-11-06"
     }
   ]
 }
