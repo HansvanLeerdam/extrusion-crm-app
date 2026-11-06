@@ -14672,6 +14672,13 @@
       "type": "email",
       "text": "Received email from Martin telling me they do not require any help. Asked him regarding APS 06/11/26",
       "date": "2026-11-06"
+    },
+    {
+      "id": "comment-f094550b-6b52-4df3-b9fb-8911ca59f0bb",
+      "projectId": "project-abe8ec09-3e3b-45b7-b1b2-ef929452db44",
+      "type": "email",
+      "text": "Follow up email was send to Paco on 06/11/26",
+      "date": "2026-11-06"
     }
   ]
 }
