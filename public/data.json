@@ -14712,6 +14712,13 @@
       "type": "email",
       "text": "Follow up email was send to Paco on 06/11/26",
       "date": "2026-11-06"
+    },
+    {
+      "id": "comment-90a208f0-770c-4a0f-bde3-a78e177fb07d",
+      "projectId": "project-9dd006ca-c371-488e-80d6-a219d1b2083e",
+      "type": "email",
+      "text": "Sent email regarding training on 08/11/26",
+      "date": "2026-11-09"
     }
   ]
 }
