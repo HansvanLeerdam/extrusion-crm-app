@@ -13808,6 +13808,15 @@
       "productId": "Consulting",
       "startDate": "2026-11-11",
       "status": "Meeting"
+    },
+    {
+      "id": "project-9dd006ca-c371-488e-80d6-a219d1b2083e",
+      "name": "Training & APS",
+      "clientId": "823",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-11-08",
+      "status": "Waiting for reply"
     }
   ],
   "followups": [
@@ -14188,6 +14197,15 @@
       "nextDate": "2026-11-18",
       "action": "Waiting on reply on email 06/11",
       "id": "followup-cb11ffaa-a7a2-482d-ac02-6a263cd2e497"
+    },
+    {
+      "id": "followup-0e1d8505-1009-4598-9a67-0390faed7f73",
+      "clientId": "823",
+      "projectId": "project-9dd006ca-c371-488e-80d6-a219d1b2083e",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-11-16",
+      "action": "Initial follow-up for new project"
     }
   ],
   "projectComments": [
