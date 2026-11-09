@@ -14726,6 +14726,13 @@
       "type": "offer",
       "text": "Sent offer regarding training on 08/11/26",
       "date": "2026-11-09"
+    },
+    {
+      "id": "comment-2b37b94a-9090-4525-b06d-f07d70ae4780",
+      "projectId": "project-9dd006ca-c371-488e-80d6-a219d1b2083e",
+      "type": "email",
+      "text": "Sent email regarding APS on 09/11/26",
+      "date": "2026-11-09"
     }
   ]
 }
