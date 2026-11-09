@@ -14740,6 +14740,13 @@
       "type": "email",
       "text": "Send follow up email asking for feedback on demo and questionnaire on 09/11/26",
       "date": "2026-11-09"
+    },
+    {
+      "id": "comment-f13ea327-80e9-4593-a42f-7185e4e7d7fa",
+      "projectId": "project-fec614a7-9195-4506-acd1-f7e06bc00fb2",
+      "type": "email",
+      "text": "Email has been send askijg for interest in APS 09/11/26",
+      "date": "2026-11-09"
     }
   ]
 }
