@@ -14765,6 +14765,13 @@
       "type": "email",
       "text": "Email has been send askijg for interest in APS 09/11/26",
       "date": "2026-11-09"
+    },
+    {
+      "id": "comment-2f16f0f4-bfa5-44f5-a32c-d61d9e4736fa",
+      "projectId": "project-2f62f19d-6457-4805-80d7-709043368f14",
+      "type": "email",
+      "text": "Send an email to Alén on 10/11/2026",
+      "date": "2026-11-10"
     }
   ]
 }
