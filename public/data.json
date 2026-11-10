@@ -13817,6 +13817,15 @@
       "productId": "Training",
       "startDate": "2026-11-08",
       "status": "Waiting for reply"
+    },
+    {
+      "id": "project-2f62f19d-6457-4805-80d7-709043368f14",
+      "name": "Press lines",
+      "clientId": "113",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "startDate": "2026-11-10",
+      "status": "Waiting for reply on email 10/11"
     }
   ],
   "followups": [
@@ -14205,6 +14214,15 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2026-11-16",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-b33a734c-4796-4c09-a740-3a4bac170450",
+      "clientId": "113",
+      "projectId": "project-2f62f19d-6457-4805-80d7-709043368f14",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "nextDate": "2026-11-17",
       "action": "Initial follow-up for new project"
     }
   ],
