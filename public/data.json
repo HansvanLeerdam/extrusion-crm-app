@@ -14772,6 +14772,13 @@
       "type": "email",
       "text": "I have send an email asking for interest in offer to Alén on 10/11/26",
       "date": "2026-11-10"
+    },
+    {
+      "id": "comment-3eb5682f-6815-41fb-81e5-0f8d6292a6c1",
+      "projectId": "project-7b22a0f9-5946-46e4-81ed-5b091f79f893",
+      "type": "note",
+      "text": "We had a meeting with Karim on the 12/11 and there is still a lot of interest. Next meeting is on the 23/11",
+      "date": "2026-11-12"
     }
   ]
 }
