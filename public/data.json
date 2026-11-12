@@ -13860,6 +13860,15 @@
       "productId": "Training",
       "startDate": "2026-11-12",
       "status": "Send info to Carlos"
+    },
+    {
+      "id": "project-722df07f-f05f-4533-814d-df9a66e502d7",
+      "name": "APS",
+      "clientId": "113",
+      "partnerId": "2",
+      "productId": "Software",
+      "startDate": "2026-11-12",
+      "status": "Send an email to Raquel"
     }
   ],
   "followups": [
@@ -14265,6 +14274,15 @@
       "projectId": "project-504a844f-6689-400b-9eb8-8404fce18087",
       "partnerId": "1",
       "productId": "Training",
+      "nextDate": "2026-11-19",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-3c7c552f-795b-4d55-a043-1742aa20536d",
+      "clientId": "113",
+      "projectId": "project-722df07f-f05f-4533-814d-df9a66e502d7",
+      "partnerId": "2",
+      "productId": "Software",
       "nextDate": "2026-11-19",
       "action": "Initial follow-up for new project"
     }
