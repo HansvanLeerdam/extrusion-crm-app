@@ -13826,6 +13826,15 @@
       "productId": "Extrusion Equipment",
       "startDate": "2026-11-10",
       "status": "Waiting for reply on email 10/11"
+    },
+    {
+      "id": "project-504a844f-6689-400b-9eb8-8404fce18087",
+      "name": "Training",
+      "clientId": "189",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-11-12",
+      "status": "Send info to Carlos"
     }
   ],
   "followups": [
@@ -14223,6 +14232,15 @@
       "partnerId": "3",
       "productId": "Extrusion Equipment",
       "nextDate": "2026-11-17",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-bc9c0562-f2b9-4b64-827b-976caf6c4093",
+      "clientId": "189",
+      "projectId": "project-504a844f-6689-400b-9eb8-8404fce18087",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-11-19",
       "action": "Initial follow-up for new project"
     }
   ],
