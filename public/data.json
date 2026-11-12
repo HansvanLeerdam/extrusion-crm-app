@@ -13151,6 +13151,25 @@
         "notes": "www.interpro-global.com",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1794505628361",
+      "name": "HPS Hashnaqui Profile Systems",
+      "country": "Algeria",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Kheir Eddine Younes",
+          "position": "Managing irector",
+          "email": "kheireddine.younes@hps-dz.com",
+          "phone": "+213561694154"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
