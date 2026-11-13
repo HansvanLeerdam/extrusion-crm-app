@@ -13170,6 +13170,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1794561568354",
+      "name": "Giménez Ganga",
+      "country": "Spain",
+      "clientType": "End User",
+      "contacts": [
+        {
+          "contact": "Alberto Giménez Cascales",
+          "position": "Purchasing Manager",
+          "email": "alberto.gimenez@saxun.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
