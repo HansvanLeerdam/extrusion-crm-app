@@ -13189,6 +13189,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1794562067794",
+      "name": "Swisstek Aluminium",
+      "country": "India",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Ragavan Manoranjan",
+          "position": "",
+          "email": "Manoranjan@swisstekaluminium.com",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
