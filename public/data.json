@@ -13214,6 +13214,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1794828676739",
+      "name": "AllStores",
+      "country": "Algeria",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Fazil Boukhezar ",
+          "position": "Extrusion Manager",
+          "email": "fazil@allstoresalgerie.com",
+          "phone": "+21305 60 17 5000   "
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
