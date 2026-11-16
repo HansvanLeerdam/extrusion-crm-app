@@ -13932,6 +13932,15 @@
       "productId": "Software",
       "startDate": "2026-11-12",
       "status": "Send an email to Raquel"
+    },
+    {
+      "id": "project-178f9ab2-a0be-4bf8-9ff7-62994bc78132",
+      "name": "Training",
+      "clientId": "client-1794828676739",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-11-16",
+      "status": "Waiting for reply to proposal"
     }
   ],
   "followups": [
@@ -14347,6 +14356,15 @@
       "partnerId": "2",
       "productId": "Software",
       "nextDate": "2026-11-19",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-a041b522-27df-4da0-a7a2-0c943294c7a4",
+      "clientId": "client-1794828676739",
+      "projectId": "project-178f9ab2-a0be-4bf8-9ff7-62994bc78132",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-11-23",
       "action": "Initial follow-up for new project"
     }
   ],
