@@ -13233,6 +13233,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1795012900133",
+      "name": "Alio Aluminum",
+      "country": "Greece",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Kostas Athymaritis",
+          "position": "CEO",
+          "email": "kostas@alio.gr",
+          "phone": "+30 2262089813"
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
