@@ -13252,6 +13252,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1795015108082",
+      "name": "Hindalco Renukoot",
+      "country": "India",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "",
+          "position": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
