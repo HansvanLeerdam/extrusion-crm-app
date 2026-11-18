@@ -13271,6 +13271,25 @@
         "notes": "",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1795015127813",
+      "name": "Hindalco Alupuram Extrusions",
+      "country": "India",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "",
+          "position": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
