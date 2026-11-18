@@ -13960,6 +13960,15 @@
       "productId": "Training",
       "startDate": "2026-11-16",
       "status": "Waiting for reply to proposal"
+    },
+    {
+      "id": "project-25b93ae1-0db8-4545-87d7-6a7be1e030d0",
+      "name": "Press Equioment",
+      "clientId": "client-1795012900133",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "startDate": "2026-11-18",
+      "status": "Waiting to send offer"
     }
   ],
   "followups": [
@@ -14384,6 +14393,15 @@
       "partnerId": "1",
       "productId": "Training",
       "nextDate": "2026-11-23",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-3760a60b-857f-4f64-981e-92ff9d413a1c",
+      "clientId": "client-1795012900133",
+      "projectId": "project-25b93ae1-0db8-4545-87d7-6a7be1e030d0",
+      "partnerId": "3",
+      "productId": "Extrusion Equipment",
+      "nextDate": "2026-11-25",
       "action": "Initial follow-up for new project"
     }
   ],
