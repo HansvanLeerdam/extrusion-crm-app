@@ -13328,6 +13328,25 @@
         "notes": "Three presses: 7-inch, 8-inch and 10-inch.",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1795015265503",
+      "name": "Salco Extrusions",
+      "country": "India",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "",
+          "position": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
