@@ -15011,6 +15011,13 @@
       "type": "offer",
       "text": "Offer has been send on 18/11/26",
       "date": "2026-11-18"
+    },
+    {
+      "id": "comment-b2b36c9b-38be-407d-a78c-d57106889287",
+      "projectId": "project-5c77ebfd-070f-4dd2-a86c-b3322b14657a",
+      "type": "offer",
+      "text": "Offer was send on 16/11/26",
+      "date": "2026-11-18"
     }
   ]
 }
