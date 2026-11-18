@@ -14979,6 +14979,13 @@
       "type": "offer",
       "text": "Offer has been send on 16/11/26",
       "date": "2026-11-16"
+    },
+    {
+      "id": "comment-bb213354-7471-4d0f-95ac-e7a2571fdaaa",
+      "projectId": "project-b0f74265-4b3c-4730-92e2-fc70f9f5ca08",
+      "type": "email",
+      "text": "Information regarding EGE has been send on 18/11/26",
+      "date": "2026-11-18"
     }
   ]
 }
