@@ -13969,6 +13969,15 @@
       "productId": "Extrusion Equipment",
       "startDate": "2026-11-18",
       "status": "Waiting to send offer"
+    },
+    {
+      "id": "project-5c77ebfd-070f-4dd2-a86c-b3322b14657a",
+      "name": "Press line",
+      "clientId": "client-1794505628361",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
+      "startDate": "2026-11-13",
+      "status": "Offer was send"
     }
   ],
   "followups": [
@@ -14401,6 +14410,15 @@
       "projectId": "project-25b93ae1-0db8-4545-87d7-6a7be1e030d0",
       "partnerId": "3",
       "productId": "Extrusion Equipment",
+      "nextDate": "2026-11-25",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-436e395c-d792-4a85-98d4-91ca4a95120a",
+      "clientId": "client-1794505628361",
+      "projectId": "project-5c77ebfd-070f-4dd2-a86c-b3322b14657a",
+      "partnerId": "3",
+      "productId": "Extrusion Press Line",
       "nextDate": "2026-11-25",
       "action": "Initial follow-up for new project"
     }
