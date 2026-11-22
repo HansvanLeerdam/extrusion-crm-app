@@ -13347,6 +13347,25 @@
         "notes": "Three presses: 700T, 1,100T and 1,250T",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1795384775423",
+      "name": "Extrum S.A.",
+      "country": "Honduras",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "Miguel Angel Larach",
+          "position": "CEO & President",
+          "email": "Mlarach@extrum.com ",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
