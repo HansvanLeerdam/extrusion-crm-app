@@ -13391,6 +13391,25 @@
         "notes": "An 8-inch press in the last quarter of 2024,\nA 6-inch press in the first quarter of 2025,\nAn anodizing facility in the first half of 2025",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1795441385909",
+      "name": "Alufile",
+      "country": "Turkey",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "",
+          "position": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
