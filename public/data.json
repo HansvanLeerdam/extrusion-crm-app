@@ -14089,6 +14089,15 @@
       "productId": "Extrusion Press Line",
       "startDate": "2026-11-13",
       "status": "Offer was send"
+    },
+    {
+      "id": "project-9e44085f-332a-4d99-b286-8651c383a372",
+      "name": "Training",
+      "clientId": "671",
+      "partnerId": "1",
+      "productId": "Training",
+      "startDate": "2026-11-17",
+      "status": "Send proposal"
     }
   ],
   "followups": [
@@ -14522,6 +14531,15 @@
       "partnerId": "3",
       "productId": "Extrusion Press Line",
       "nextDate": "2026-11-25",
+      "action": "Initial follow-up for new project"
+    },
+    {
+      "id": "followup-f66c7255-b8bb-4925-b51a-b19bbb428515",
+      "clientId": "671",
+      "projectId": "project-9e44085f-332a-4d99-b286-8651c383a372",
+      "partnerId": "1",
+      "productId": "Training",
+      "nextDate": "2026-11-30",
       "action": "Initial follow-up for new project"
     }
   ],
