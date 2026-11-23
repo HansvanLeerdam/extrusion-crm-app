@@ -13410,6 +13410,25 @@
         "notes": "7-inch",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1795441494037",
+      "name": "Mesan Alüminyum",
+      "country": "Turkey",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "",
+          "position": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
