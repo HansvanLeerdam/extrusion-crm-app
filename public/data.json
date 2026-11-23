@@ -13372,6 +13372,25 @@
         "notes": "4 Extrusion lines",
         "notebook": ""
       }
+    },
+    {
+      "id": "client-1795440568765",
+      "name": "CMG Profil Alüminyum",
+      "country": "Turkey",
+      "clientType": "Extruder",
+      "contacts": [
+        {
+          "contact": "",
+          "position": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "details": {
+        "address": "",
+        "notes": "",
+        "notebook": ""
+      }
     }
   ],
   "partners": [
